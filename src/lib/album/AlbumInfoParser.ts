@@ -137,15 +137,19 @@ export default class AlbumInfoParser {
           trackItem.position = track.track_num;
         }
         const trackUrl = normalizeUrl(track.title_link, album.url);
+        const trackFromBasic = tracksFromBasicInfo.find((el: any) => el?.position === trackItem.position);
         if (trackUrl) {
           trackItem.url = trackUrl;
         }
         else if (trackItem.position !== undefined) {
-          const trackFromBasic = tracksFromBasicInfo.find((el: any) => el?.position === trackItem.position);
           const trackUrlFromBasic = trackFromBasic?.item?.['@id'];
           if (trackUrlFromBasic) {
             trackItem.url = trackUrlFromBasic;
           }
+        }
+        const lyrics = trackFromBasic?.item?.recordingOf?.lyrics?.text;
+        if (lyrics !== undefined) {
+          trackItem.lyrics = lyrics;
         }
         return trackItem;
       }) as Track[];

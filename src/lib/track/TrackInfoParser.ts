@@ -132,6 +132,10 @@ export default class TrackInfoParser {
       track.releaseDate = extra.album_release_date;
     }
 
+    if (basic.recordingOf?.lyrics?.text !== undefined) {
+      track.lyrics = basic.recordingOf?.lyrics?.text;
+    }
+
     if (opts.includeRawData) {
       track.raw = { basic, extra };
     }

@@ -9,6 +9,7 @@ interface Track extends MediaKind {
   streamUrlHQ?: string;
   album?: Omit<Album, 'type'>;
   position?: number;
+  lyrics?: string;
 }
 
 export default Track;
