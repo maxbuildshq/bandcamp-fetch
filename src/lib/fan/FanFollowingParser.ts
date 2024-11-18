@@ -64,8 +64,7 @@ export default class FanFollowingParser extends FanItemsBaseParser {
     const genre: Tag = {
       type: 'tag',
       name: data.display_name,
-      value: data.token,
-      url: data.tag_page_url
+      value: data.token
     };
     if (Array.isArray(data.art_ids) && opts.imageFormat?.id) {
       genre.imageUrls = data.art_ids.map((artId: number) => `${opts.imageBaseUrl}/img/a${artId}_${opts.imageFormat?.id}.jpg`);
