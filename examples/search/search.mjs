@@ -1,11 +1,10 @@
-import bcfetch from '../../';
-import util from 'util';
+import bcfetch from '../../dist/mjs/index.js';
 
-function printResults(results: any, query: string, itemType: string ) {
+function printResults(results, query, itemType) {
   const title = `Search query: ${query}. Item type: ${itemType}. ${results.items.length} results.`;
   console.log(title);
   console.log('-'.repeat(title.length));
-  console.log(util.inspect(results, false, null, false));
+  console.log(JSON.stringify(results, null, 2));
   console.log('');
 }
 

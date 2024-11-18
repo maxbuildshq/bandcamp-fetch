@@ -1,52 +1,24 @@
 {
-  type: 'track',
-  name: "T'es belle",
-  url: 'https://musique.coeurdepirate.com/track/tes-belle',
-  imageUrl: 'https://f4.bcbits.com/img/a0774650359_16.jpg',
-  releaseDate: '01 Oct 2020 00:00:00 GMT',
-  duration: 176.373,
-  streamUrl: 'https://t4.bcbits.com/stream/63315678db5ea41d2f0417ac7d4f5ca3/mp3-128/3387079907?p=0&ts=1719931043&t=fafeafac4ffaf6873a397fd9c65ff49008c7d6dd&token=1719931043_70eeffcf1a18944389b703e682d5b849f2225ac1',
-  artist: { name: 'Cœur de pirate', url: 'https://musique.coeurdepirate.com' },
-  publisher: {
-    name: 'Cœur de pirate',
-    url: 'https://musique.coeurdepirate.com',
-    description: 'Plus d’une décennie s’est écoulée depuis que Béatrice Martin s’est incrustée dans le paysage sous le pseudonyme désormais coutumier de Cœur de pirate.  Armée d’un talent digne de l’orfèvrerie, d’une poésie tantôt raffinée, tantôt subversive, et d’une aura insaisissable, elle séduit comme elle surprend, jaillissant là où on ne l’attend pas.',
-    imageUrl: 'https://f4.bcbits.com/img/0034241766_28.jpg'
+  "type": "track",
+  "name": "T'es belle",
+  "url": "https://musique.coeurdepirate.com/track/tes-belle",
+  "imageUrl": "https://f4.bcbits.com/img/a0774650359_16.jpg",
+  "releaseDate": "01 Oct 2020 00:00:00 GMT",
+  "duration": 176.373,
+  "streamUrl": "https://t4.bcbits.com/stream/63315678db5ea41d2f0417ac7d4f5ca3/mp3-128/3387079907?p=0&ts=1732042853&t=0e1185708fbe119f600a542489628443bef501b7&token=1732042853_0934706a02068632529d532c6e3543fe96aad570",
+  "artist": {
+    "name": "Cœur de pirate",
+    "url": "https://musique.coeurdepirate.com"
   },
-  label: { name: 'Bravo musique', url: 'https://bravomusique.bandcamp.com' },
-  lyrics: "C'est bien connu on dit\r\n" +
-    'que pour leur plaire faut être jolie\r\n' +
-    "Comprendre qu'il faut se taire\r\n" +
-    'Quand on n’est pas du même avis\r\n' +
-    "Et j'ai porté quelques jugements\r\n" +
-    'sur des bribes et quelques moments\r\n' +
-    'Pour finalement comprendre\r\n' +
-    'que je ne peux en faire autant\r\n' +
-    '\r\n' +
-    "T'es belle c'est ce qu'on m'a toujours dit\r\n" +
-    'mais juste quand tu souris\r\n' +
-    "Pourquoi c'est toujours un non-dit\r\n" +
-    'que pour être aimée faut être soumise\r\n' +
-    "T'es conne si tu restes en silence\r\n" +
-    "T'es folle si tu prends la parole\r\n" +
-    'Mais moi je sais ce que je veux devenir\r\n' +
-    "C'est sur mes termes que je veux sourire\r\n" +
-    '\r\n' +
-    "Depuis qu'on est enfant\r\n" +
-    'au fil des films ou des romans\r\n' +
-    'On doit se faire emmener\r\n' +
-    'par un prince pour être délivrée\r\n' +
-    "Mais j'ai porté quelques jugements\r\n" +
-    'sur ces contes sur ces moments\r\n' +
-    "Notre histoire n'est pas en jeu\r\n" +
-    "quand on est libre d'aimer qui on veut\r\n" +
-    '\r\n' +
-    "T'es belle c'est ce qu'on m'a toujours dit\r\n" +
-    'mais juste quand tu souris\r\n' +
-    "Pourquoi c'est toujours un non-dit\r\n" +
-    'que pour être aimée faut être soumise\r\n' +
-    "T'es conne si tu restes en silence\r\n" +
-    "T'es folle si tu prends la parole\r\n" +
-    'Mais moi je sais ce que je veux devenir\r\n' +
-    "C'est sur mes termes que je veux sourire"
+  "publisher": {
+    "name": "Cœur de pirate",
+    "url": "https://musique.coeurdepirate.com",
+    "description": "Plus d’une décennie s’est écoulée depuis que Béatrice Martin s’est incrustée dans le paysage sous le pseudonyme désormais coutumier de Cœur de pirate.  Armée d’un talent digne de l’orfèvrerie, d’une poésie tantôt raffinée, tantôt subversive, et d’une aura insaisissable, elle séduit comme elle surprend, jaillissant là où on ne l’attend pas.",
+    "imageUrl": "https://f4.bcbits.com/img/0034241766_28.jpg"
+  },
+  "label": {
+    "name": "Bravo musique",
+    "url": "https://bravomusique.bandcamp.com"
+  },
+  "lyrics": "C'est bien connu on dit\r\nque pour leur plaire faut être jolie\r\nComprendre qu'il faut se taire\r\nQuand on n’est pas du même avis\r\nEt j'ai porté quelques jugements\r\nsur des bribes et quelques moments\r\nPour finalement comprendre\r\nque je ne peux en faire autant\r\n\r\nT'es belle c'est ce qu'on m'a toujours dit\r\nmais juste quand tu souris\r\nPourquoi c'est toujours un non-dit\r\nque pour être aimée faut être soumise\r\nT'es conne si tu restes en silence\r\nT'es folle si tu prends la parole\r\nMais moi je sais ce que je veux devenir\r\nC'est sur mes termes que je veux sourire\r\n\r\nDepuis qu'on est enfant\r\nau fil des films ou des romans\r\nOn doit se faire emmener\r\npar un prince pour être délivrée\r\nMais j'ai porté quelques jugements\r\nsur ces contes sur ces moments\r\nNotre histoire n'est pas en jeu\r\nquand on est libre d'aimer qui on veut\r\n\r\nT'es belle c'est ce qu'on m'a toujours dit\r\nmais juste quand tu souris\r\nPourquoi c'est toujours un non-dit\r\nque pour être aimée faut être soumise\r\nT'es conne si tu restes en silence\r\nT'es folle si tu prends la parole\r\nMais moi je sais ce que je veux devenir\r\nC'est sur mes termes que je veux sourire"
 }

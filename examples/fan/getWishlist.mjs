@@ -1,5 +1,4 @@
-import bcfetch from '../../';
-import util from 'util';
+import bcfetch from '../../dist/mjs/index.js';
 
 const username = 'patrickkfkan';
 
@@ -9,7 +8,7 @@ const params = {
 };
 
 bcfetch.fan.getWishlist(params).then(async (results) => {
-  console.log(util.inspect(results, false, null, false));
+  console.log(JSON.stringify(results, null, 2));
 
   if (results.continuation) {
     console.log('Fetching more by continuation...');
@@ -18,6 +17,6 @@ bcfetch.fan.getWishlist(params).then(async (results) => {
       ...params,
       target: results.continuation
     });
-    console.log(util.inspect(moreResults, false, null, false));
+    console.log(JSON.stringify(moreResults, null, 2));
   }
 });

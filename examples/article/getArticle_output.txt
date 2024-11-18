@@ -1,531 +1,531 @@
 {
-  title: 'The Best New Ambient Music on Bandcamp, March 2018',
-  description: 'Music for snow days, reissued ‘80s Japanese ambient, and themes of loss and emptiness in this month’s roundup.',
-  url: 'https://daily.bandcamp.com/best-ambient/best-new-ambient-march-2018',
-  imageUrl: 'https://f4.bcbits.com/img/0017912164_0',
-  date: '2018-03-27T11:03:30Z',
-  category: {
-    name: 'Best Ambient',
-    url: 'https://daily.bandcamp.com/best-ambient'
+  "title": "The Best New Ambient Music on Bandcamp, March 2018",
+  "description": "Music for snow days, reissued ‘80s Japanese ambient, and themes of loss and emptiness in this month’s roundup.",
+  "url": "https://daily.bandcamp.com/best-ambient/best-new-ambient-march-2018",
+  "imageUrl": "https://f4.bcbits.com/img/0017912164_0",
+  "date": "2018-03-27T11:03:30Z",
+  "category": {
+    "name": "Best Ambient",
+    "url": "https://daily.bandcamp.com/best-ambient"
   },
-  author: {
-    name: 'Aurora Mitchell',
-    url: 'https://daily.bandcamp.com/contributors/aurora-mitchell'
+  "author": {
+    "name": "Aurora Mitchell",
+    "url": "https://daily.bandcamp.com/contributors/aurora-mitchell"
   },
-  mediaItems: [
+  "mediaItems": [
     {
-      type: 'album',
-      name: 'Aarde',
-      url: 'https://somta.bandcamp.com/album/aarde',
-      imageUrl: 'https://f4.bcbits.com/img/a2731445950_9.jpg',
-      featuredTrackPosition: 3,
-      artist: {
-        name: 'somta',
-        url: 'https://somta.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/8414332_21.jpg',
-        location: 'Leeds, UK'
+      "type": "album",
+      "name": "Aarde",
+      "url": "https://somta.bandcamp.com/album/aarde",
+      "imageUrl": "https://f4.bcbits.com/img/a2731445950_9.jpg",
+      "featuredTrackPosition": 3,
+      "artist": {
+        "name": "somta",
+        "url": "https://somta.bandcamp.com",
+        "imageUrl": "https://f4.bcbits.com/img/8414332_21.jpg",
+        "location": "Leeds, UK"
       },
-      tracks: [
+      "tracks": [
         {
-          position: 1,
-          name: 'Aiolus',
-          duration: 42,
-          streamUrl: 'https://t4.bcbits.com/stream/bba2dc752e4f02070f3b40b72abfdfda/mp3-128/3588455251?p=0&ts=1698599999&t=320cc4fceaeeeee6d89534d07dd93872fc4b8c76&token=1698599999_ecde76b0225351203c666fd882cb0ce2cad421ed'
+          "position": 1,
+          "name": "Aiolus",
+          "duration": 42,
+          "streamUrl": "https://t4.bcbits.com/stream/bba2dc752e4f02070f3b40b72abfdfda/mp3-128/3588455251?p=0&ts=1732040942&t=7eae2f83a8dbcd832e1d5a88fbddfe1aeec752f5&token=1732040942_cfef5fe28c43ebdfe5e3832b4355794d03b38a5b"
         },
         {
-          position: 2,
-          name: 'Sophia',
-          duration: 343.521,
-          streamUrl: 'https://t4.bcbits.com/stream/5e904efaf5962cc83f8ed35cc49b6850/mp3-128/2347995441?p=0&ts=1698599999&t=047f590d56935b889c95c14f7d40666b3ef53ab5&token=1698599999_4aa8eda191dedb9ff2c3df4d210d378c920c9162'
+          "position": 2,
+          "name": "Sophia",
+          "duration": 343.521,
+          "streamUrl": "https://t4.bcbits.com/stream/5e904efaf5962cc83f8ed35cc49b6850/mp3-128/2347995441?p=0&ts=1732040942&t=a2d63141b8405bd2b1253dd846e789a532334996&token=1732040942_1c62be47a9bb0587659dda951e0f642d6acf86da"
         },
         {
-          position: 3,
-          name: 'Khiōn',
-          duration: 226.396,
-          streamUrl: 'https://t4.bcbits.com/stream/4dcfdbfcecdccde6260a12fe37bb4277/mp3-128/2272710569?p=0&ts=1698599999&t=542dca0ff4323eedfec9462785b27df2d4498311&token=1698599999_51aafd3f76b54485f046fafd7d3b7ceb769cfc3a'
+          "position": 3,
+          "name": "Khiōn",
+          "duration": 226.396,
+          "streamUrl": "https://t4.bcbits.com/stream/4dcfdbfcecdccde6260a12fe37bb4277/mp3-128/2272710569?p=0&ts=1732040942&t=e6f83bc1691bf06d8acb16f5b7545642b30f9de8&token=1732040942_f5f55c24bb579f8741097d71fba9fd09bad23d25"
         },
         {
-          position: 4,
-          name: 'Noos',
-          duration: 388.5,
-          streamUrl: 'https://t4.bcbits.com/stream/503e4b6e9d762fd172e36c33a0a5de57/mp3-128/3685166023?p=0&ts=1698599999&t=36679b3be5834cb5188cbe1bef28cfbeff0e52b0&token=1698599999_dbc0480d753b29796aff93a25921589bce3276ab'
+          "position": 4,
+          "name": "Noos",
+          "duration": 388.5,
+          "streamUrl": "https://t4.bcbits.com/stream/503e4b6e9d762fd172e36c33a0a5de57/mp3-128/3685166023?p=0&ts=1732040942&t=7d726355e3bf2cc8c931d924d8d3d6ca6c7935b9&token=1732040942_82dedd38afa4fc702e0bddc63f431839483715c0"
         },
         {
-          position: 5,
-          name: 'Trogo',
-          duration: 410.083,
-          streamUrl: 'https://t4.bcbits.com/stream/599b32fbe8b66002676cdaf77d3b6b06/mp3-128/717296085?p=0&ts=1698599999&t=c8a319700341053acb44d02021a0e13e73a99bc5&token=1698599999_1eac86803b7d1e4c4b24415425a731c68d687a68'
+          "position": 5,
+          "name": "Trogo",
+          "duration": 410.083,
+          "streamUrl": "https://t4.bcbits.com/stream/599b32fbe8b66002676cdaf77d3b6b06/mp3-128/717296085?p=0&ts=1732040942&t=e23ed3b2b571a2a4970b954cc18f95787094c53a&token=1732040942_7277092c3c72fe14047bcbc474630018cc33d655"
         },
         {
-          position: 6,
-          name: 'Tuptō',
-          duration: 254.029,
-          streamUrl: 'https://t4.bcbits.com/stream/507d08c0c8edb321660d6305d1b13c5f/mp3-128/3228890418?p=0&ts=1698599999&t=b049a270f80f74959e94a7111d458d7c071aadbf&token=1698599999_b0a88e3f4360052cac8f27527e0c58b7a1e6c6bc'
+          "position": 6,
+          "name": "Tuptō",
+          "duration": 254.029,
+          "streamUrl": "https://t4.bcbits.com/stream/507d08c0c8edb321660d6305d1b13c5f/mp3-128/3228890418?p=0&ts=1732040942&t=6f593c7b2241592a9eb070a7a0e348ec81e13c0b&token=1732040942_edc50deca8832e6fc718954a8118051732a601a7"
         },
         {
-          position: 7,
-          name: 'Onos',
-          duration: 98.2833,
-          streamUrl: 'https://t4.bcbits.com/stream/a0b6e9b5d2434bbcd74d6e99ddc2965e/mp3-128/3097234822?p=0&ts=1698599999&t=3789ce7ac1dc0b410db6e9a611f5a08ddf337afa&token=1698599999_7a547480e5078adf88d024a0548dc9710e40413d'
+          "position": 7,
+          "name": "Onos",
+          "duration": 98.2833,
+          "streamUrl": "https://t4.bcbits.com/stream/a0b6e9b5d2434bbcd74d6e99ddc2965e/mp3-128/3097234822?p=0&ts=1732040942&t=7e7eda29c7d39372ab41f4de95dd0c71d98077ec&token=1732040942_d1c50e4f55021666b98717e6f93ce9af33679543"
         },
         {
-          position: 8,
-          name: 'Skia',
-          duration: 140.104,
-          streamUrl: 'https://t4.bcbits.com/stream/f5c6320bf16ef3fb8ed3a54121898866/mp3-128/2952107736?p=0&ts=1698599999&t=cc1a40ed08c1de570510f9da69fcd2e4c410053a&token=1698599999_4afaf9d8d6b08f71522eff891097e5bced7be2db'
+          "position": 8,
+          "name": "Skia",
+          "duration": 140.104,
+          "streamUrl": "https://t4.bcbits.com/stream/f5c6320bf16ef3fb8ed3a54121898866/mp3-128/2952107736?p=0&ts=1732040942&t=b8b960df165a90dd8a2b257b6f091503785a4f94&token=1732040942_9a9597e1b5befe68d748b03a349853639f8803b5"
         },
         {
-          position: 9,
-          name: 'Hulē',
-          duration: 183.999,
-          streamUrl: 'https://t4.bcbits.com/stream/a61bb342e975ab95117826eb15dbea76/mp3-128/743360394?p=0&ts=1698599999&t=4441a6df369d8feea1883b41b6ede0ff798eeb67&token=1698599999_d23eb75914daf712cc87d297a968b224eecc630a'
+          "position": 9,
+          "name": "Hulē",
+          "duration": 183.999,
+          "streamUrl": "https://t4.bcbits.com/stream/a61bb342e975ab95117826eb15dbea76/mp3-128/743360394?p=0&ts=1732040942&t=b59170522760365a88440c381474913e51a95bf2&token=1732040942_e8de60522be540cb738f57fb9fd07f2aed132fe7"
         },
         {
-          position: 10,
-          name: 'Ganos',
-          duration: 423,
-          streamUrl: 'https://t4.bcbits.com/stream/2a200eed7fd2b130b64dcf0bdc6783c5/mp3-128/3511494308?p=0&ts=1698599999&t=1799568d4b7379b61f012b61ee803dc011e5ea04&token=1698599999_08f7b29317fda3bd1bae0ef75a5ae937efed0553'
+          "position": 10,
+          "name": "Ganos",
+          "duration": 423,
+          "streamUrl": "https://t4.bcbits.com/stream/2a200eed7fd2b130b64dcf0bdc6783c5/mp3-128/3511494308?p=0&ts=1732040942&t=fe8d152b6aa7cc8a8b4157b9ece573a05c0bfcee&token=1732040942_4882e028cc4218d3c85fdd62cd9631d79c68e70b"
         },
         {
-          position: 11,
-          name: 'Polos',
-          duration: 414,
-          streamUrl: 'https://t4.bcbits.com/stream/87ba803b563488675ee32fd7f281a70a/mp3-128/3723435045?p=0&ts=1698599999&t=d142f46c9d60b464c5f4d6ddcf8a70dc475db8f6&token=1698599999_1706443a452804db1a12f249b2afac57cd498cbf'
+          "position": 11,
+          "name": "Polos",
+          "duration": 414,
+          "streamUrl": "https://t4.bcbits.com/stream/87ba803b563488675ee32fd7f281a70a/mp3-128/3723435045?p=0&ts=1732040942&t=2a78ee73422acd7066f1550be8009b845014aeeb&token=1732040942_aeca4be797a2a0d70e1345e7469930697667dafe"
         },
         {
-          position: 12,
-          name: 'Zophos',
-          duration: 91.0833,
-          streamUrl: 'https://t4.bcbits.com/stream/9ae9dc4469ca3b328ef96b7775589eaa/mp3-128/1373210950?p=0&ts=1698599999&t=f9401c28f0fc43071a86510b03aa7034efc4ec64&token=1698599999_d04e0700f644a8d1d9d59fe9ba319b9e264f5e29'
+          "position": 12,
+          "name": "Zophos",
+          "duration": 91.0833,
+          "streamUrl": "https://t4.bcbits.com/stream/9ae9dc4469ca3b328ef96b7775589eaa/mp3-128/1373210950?p=0&ts=1732040942&t=8a727772ffbbae51235bbc31d20bd8cf92ed847a&token=1732040942_06d9748e1edfd14d0a6bb51ba5896d1d9fcfb181"
         },
         {
-          position: 13,
-          name: 'Kruos',
-          duration: 308.729,
-          streamUrl: 'https://t4.bcbits.com/stream/85ac0ff689dcd7112a431d096d9d11c0/mp3-128/3200879908?p=0&ts=1698599999&t=c7f28b4e66f84826e69b61909be113e95af720db&token=1698599999_274a23895775bbffc18e4ba7798b935ae1fa7a79'
+          "position": 13,
+          "name": "Kruos",
+          "duration": 308.729,
+          "streamUrl": "https://t4.bcbits.com/stream/85ac0ff689dcd7112a431d096d9d11c0/mp3-128/3200879908?p=0&ts=1732040942&t=0c5c8f34b5f8cadbe81ed55fecfb9d99ad14611b&token=1732040942_453f979c9d6f9d5c19da487dc1f715e6de3a49d2"
         },
         {
-          position: 14,
-          name: 'Phōs',
-          duration: 188.271,
-          streamUrl: 'https://t4.bcbits.com/stream/bcdde2e8a7d8adb0d140804b9fbef632/mp3-128/575691204?p=0&ts=1698599999&t=4974b3f97d91d598d10d04e7b7282324e1d6028f&token=1698599999_1af891477063b0f11686616eecad21f6a15049ae'
+          "position": 14,
+          "name": "Phōs",
+          "duration": 188.271,
+          "streamUrl": "https://t4.bcbits.com/stream/bcdde2e8a7d8adb0d140804b9fbef632/mp3-128/575691204?p=0&ts=1732040942&t=3e98245a95e33f3f2dd68b783b5f5f0162368be0&token=1732040942_0f13735d3d5b659a096874d7087a183fb3ba9953"
         },
         {
-          position: 15,
-          name: 'Arktos',
-          duration: 188,
-          streamUrl: 'https://t4.bcbits.com/stream/d0016651f3368112bed9367294db5c45/mp3-128/2863705519?p=0&ts=1698599999&t=64d7087a7f8b3fe3ab32c5cc02c60430bda8a298&token=1698599999_c510cdb98f819eca14cefc450f3b61a9ab8d1c35'
+          "position": 15,
+          "name": "Arktos",
+          "duration": 188,
+          "streamUrl": "https://t4.bcbits.com/stream/d0016651f3368112bed9367294db5c45/mp3-128/2863705519?p=0&ts=1732040942&t=0b9a7b1f332257f0072c3800f4efbf25f7b7f1cf&token=1732040942_ebd96f3d0a23a970213a55c347b68c32d95ec162"
         }
       ],
-      mediaItemRef: 't2272710569'
+      "mediaItemRef": "t2272710569"
     },
     {
-      type: 'album',
-      name: 'music for snow days',
-      url: 'https://damecook.bandcamp.com/album/music-for-snow-days',
-      imageUrl: 'https://f4.bcbits.com/img/a2627798194_9.jpg',
-      featuredTrackPosition: 1,
-      artist: {
-        name: 'Dame Cook',
-        url: 'https://damecook.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/13825272_21.jpg',
-        location: 'Toronto, Ontario'
+      "type": "album",
+      "name": "music for snow days",
+      "url": "https://damecook.bandcamp.com/album/music-for-snow-days",
+      "imageUrl": "https://f4.bcbits.com/img/a2627798194_9.jpg",
+      "featuredTrackPosition": 1,
+      "artist": {
+        "name": "Dame Cook",
+        "url": "https://damecook.bandcamp.com",
+        "imageUrl": "https://f4.bcbits.com/img/13825272_21.jpg",
+        "location": "Toronto, Ontario"
       },
-      tracks: [
+      "tracks": [
         {
-          position: 1,
-          name: 'glacial drift',
-          duration: 165.517,
-          streamUrl: 'https://t4.bcbits.com/stream/8fe55af7408165869c29c1dacd3438ef/mp3-128/1986717137?p=0&ts=1698599999&t=cda6ca22e1431fff290f74bc438af7287fe0bd46&token=1698599999_292bd5b80ae12816499065fd782f47458edff07a'
+          "position": 1,
+          "name": "glacial drift",
+          "duration": 165.517,
+          "streamUrl": "https://t4.bcbits.com/stream/8fe55af7408165869c29c1dacd3438ef/mp3-128/1986717137?p=0&ts=1732040942&t=8c98ad6d766ef67d4db83995f9f400f9564bb5ba&token=1732040942_3c79769f7ed5d30ae274c6c8c9d5bed3d68aa3db"
         },
         {
-          position: 2,
-          name: 'frosted panes',
-          duration: 128,
-          streamUrl: 'https://t4.bcbits.com/stream/0c79a983698347a100b5927208b7de6b/mp3-128/1139371646?p=0&ts=1698599999&t=c40213d2b843ef4c890b5622b2c2f09e7952d584&token=1698599999_36fad65bd1dfbca12ae8fa1a8c29740704f11a2b'
+          "position": 2,
+          "name": "frosted panes",
+          "duration": 128,
+          "streamUrl": "https://t4.bcbits.com/stream/0c79a983698347a100b5927208b7de6b/mp3-128/1139371646?p=0&ts=1732040942&t=32a966c2ca557f55ee3c2e31713079fa19107894&token=1732040942_19b991c6e9b0b3d8d03a8651a44f8e30b7a32eda"
         },
         {
-          position: 3,
-          name: 'under the glass',
-          duration: 180,
-          streamUrl: 'https://t4.bcbits.com/stream/8fbcc9f3bdf66b067fa92f479840289f/mp3-128/2086342140?p=0&ts=1698599999&t=3d880fbed0ce87c6fd46fc34ea5875f3bf61868f&token=1698599999_4f6f905c8ebe38836c8710416e113c35bd95e9f3'
+          "position": 3,
+          "name": "under the glass",
+          "duration": 180,
+          "streamUrl": "https://t4.bcbits.com/stream/8fbcc9f3bdf66b067fa92f479840289f/mp3-128/2086342140?p=0&ts=1732040942&t=1bd4264830e8efdea8d8cdcf43d1f5450ae3ecfa&token=1732040942_9857ec30de7ac426ff1d5d60568d6254a8ca26a3"
         },
         {
-          position: 4,
-          name: 'alpine train track',
-          duration: 188.723,
-          streamUrl: 'https://t4.bcbits.com/stream/c3fe330ef0d7081bcfdb1861746ce799/mp3-128/3789770489?p=0&ts=1698599999&t=c200873c8d07c4e57017ec100e1afb53f811a0b3&token=1698599999_228ed04fa12ff5c565ad1d0ad636d0fea061f507'
+          "position": 4,
+          "name": "alpine train track",
+          "duration": 188.723,
+          "streamUrl": "https://t4.bcbits.com/stream/c3fe330ef0d7081bcfdb1861746ce799/mp3-128/3789770489?p=0&ts=1732040942&t=3329944b24a67e1e0ca195d623084ab729ac2247&token=1732040942_72cd0c83df7cd2afa348ea2a09981f50f169cf15"
         }
       ],
-      mediaItemRef: 'a454040844'
+      "mediaItemRef": "a454040844"
     },
     {
-      type: 'album',
-      name: 'Music for Nine Post Cards',
-      url: 'https://hiroshiyoshimura.bandcamp.com/album/music-for-nine-post-cards',
-      imageUrl: 'https://f4.bcbits.com/img/a1329705853_9.jpg',
-      featuredTrackPosition: 1,
-      artist: {
-        name: 'Hiroshi Yoshimura',
-        url: 'https://hiroshiyoshimura.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/19000214_21.jpg',
-        location: 'Japan'
+      "type": "album",
+      "name": "Music for Nine Post Cards",
+      "url": "https://hiroshiyoshimura.bandcamp.com/album/music-for-nine-post-cards",
+      "imageUrl": "https://f4.bcbits.com/img/a1329705853_9.jpg",
+      "featuredTrackPosition": 1,
+      "artist": {
+        "name": "Hiroshi Yoshimura",
+        "url": "https://hiroshiyoshimura.bandcamp.com",
+        "imageUrl": "https://f4.bcbits.com/img/19000214_21.jpg",
+        "location": "Japan"
       },
-      tracks: [
+      "tracks": [
         {
-          position: 1,
-          name: 'Water Copy',
-          duration: 371.867,
-          streamUrl: 'https://t4.bcbits.com/stream/9ccc3a98463b14603e64163f367e40c5/mp3-128/2862079336?p=0&ts=1698599999&t=e449ed6d016ef9af757ce946bcf63a11e0dde237&token=1698599999_f76c69846a53ec0d30ce81cee96d665accea0c16'
+          "position": 1,
+          "name": "Water Copy",
+          "duration": 371.867,
+          "streamUrl": "https://t4.bcbits.com/stream/9ccc3a98463b14603e64163f367e40c5/mp3-128/2862079336?p=0&ts=1732040942&t=185e18289c98f1e18fdd29fa5f6ad443e83039fd&token=1732040942_0c02fb5393fb3aee1dd98e2e563415f5d12b630a"
         },
         {
-          position: 2,
-          name: 'Clouds',
-          duration: 354.693,
-          streamUrl: 'https://t4.bcbits.com/stream/0479a3b6fb0905034221425f3bcada0a/mp3-128/1445700587?p=0&ts=1698599999&t=659ee368d23d1f4cd28fafde0d831699c0fb065b&token=1698599999_ae7cb1622ef8f1a3f2a8d6c4f8fbb08fd2f17ca0'
+          "position": 2,
+          "name": "Clouds",
+          "duration": 354.693,
+          "streamUrl": "https://t4.bcbits.com/stream/0479a3b6fb0905034221425f3bcada0a/mp3-128/1445700587?p=0&ts=1732040942&t=a40c372e55ae14d2b2652a9247d33f0928932d2d&token=1732040942_f9a35b9c95610e29a99c8fd79b08cc41d20be0de"
         },
         {
-          position: 3,
-          name: 'Blink',
-          duration: 282.013,
-          streamUrl: 'https://t4.bcbits.com/stream/0dbe234ebedd6ddd469b09a05ef317c0/mp3-128/3323651202?p=0&ts=1698599999&t=21791ea36952f90a46f7e2f7fca4ff9e978b7ad3&token=1698599999_94a7db64822bad26cce7a30c659d9a08d6a82c07'
+          "position": 3,
+          "name": "Blink",
+          "duration": 282.013,
+          "streamUrl": "https://t4.bcbits.com/stream/0dbe234ebedd6ddd469b09a05ef317c0/mp3-128/3323651202?p=0&ts=1732040942&t=7cb0e5bc2aed03598b227165a91eb8c6950a79b8&token=1732040942_013c5b707ff603fe530f296c16815338cde97aa7"
         },
         {
-          position: 4,
-          name: 'Dance PM',
-          duration: 392.32,
-          streamUrl: 'https://t4.bcbits.com/stream/07aae56284ad785d1bd1a5b8373dae6a/mp3-128/1063072521?p=0&ts=1698599999&t=0621d20d3ca613d55d5efc93d8dfd3776d94f151&token=1698599999_0b87ce3c3a6f3d178ac984b016a759c405e4a4e0'
+          "position": 4,
+          "name": "Dance PM",
+          "duration": 392.32,
+          "streamUrl": "https://t4.bcbits.com/stream/07aae56284ad785d1bd1a5b8373dae6a/mp3-128/1063072521?p=0&ts=1732040942&t=772c092163fcd9ce9da30a37aaf897af7c1cda9f&token=1732040942_c4dfe0ba0266be5c10d765851877c0477c1e560d"
         },
         {
-          position: 5,
-          name: 'Ice Copy',
-          duration: 175.773,
-          streamUrl: 'https://t4.bcbits.com/stream/f496d40c5475e90e3ddd5fb07373211c/mp3-128/2066333379?p=0&ts=1698599999&t=4a4dbda9689a13cd3603dd34c95d3aa80ed78514&token=1698599999_db8fa05e229e58b85d2c18b2ae6f5a49c116ef08'
+          "position": 5,
+          "name": "Ice Copy",
+          "duration": 175.773,
+          "streamUrl": "https://t4.bcbits.com/stream/f496d40c5475e90e3ddd5fb07373211c/mp3-128/2066333379?p=0&ts=1732040942&t=2c9d2ebb5faaccbba93fa784bf0f756067b697db&token=1732040942_ca2279c108c4f813ed9e824f502d8036760b3681"
         },
         {
-          position: 6,
-          name: 'Soto Wa Ame - Rain Out Of Window',
-          duration: 276.707,
-          streamUrl: 'https://t4.bcbits.com/stream/7279637e86f60e8f24815a41908cfe7b/mp3-128/3414351773?p=0&ts=1698599999&t=dbc6f6b3ed8f8337c6a6ea75b5ddb12855ad6623&token=1698599999_76cac51172d4fafbedd3ad8b9461033d4b530624'
+          "position": 6,
+          "name": "Soto Wa Ame - Rain Out Of Window",
+          "duration": 276.707,
+          "streamUrl": "https://t4.bcbits.com/stream/7279637e86f60e8f24815a41908cfe7b/mp3-128/3414351773?p=0&ts=1732040942&t=e8a1d717638f4382c65b2eee0acd5619b86f5838&token=1732040942_1dd51a81b36adfd4c5077e6a65bbd8946d6764c4"
         },
         {
-          position: 7,
-          name: 'View From My Window',
-          duration: 375.6,
-          streamUrl: 'https://t4.bcbits.com/stream/2caffd8268ef49a7d174ee3f8ce67ae9/mp3-128/546874861?p=0&ts=1698599999&t=d1e089cf8134b7e94b5371330c4834daa0205fce&token=1698599999_5fee1f4ca591a4b35b703bba967e36ec5a98da58'
+          "position": 7,
+          "name": "View From My Window",
+          "duration": 375.6,
+          "streamUrl": "https://t4.bcbits.com/stream/2caffd8268ef49a7d174ee3f8ce67ae9/mp3-128/546874861?p=0&ts=1732040942&t=257fd596b32b51e33f0ee9c4c708fee8b8035c6e&token=1732040942_9604e79b9a60305b5bec5e76fa4e8e0ffbc8901f"
         },
         {
-          position: 8,
-          name: 'Urban Snow',
-          duration: 285.773,
-          streamUrl: 'https://t4.bcbits.com/stream/9c2fa2599479ac941b7a2cd2a646c458/mp3-128/2047145341?p=0&ts=1698599999&t=5b9bab5b5c98ba972f3f58a5eb24a41bbbd90a5f&token=1698599999_e018bc26aaafbb6ab64a465aa56e1f8a7713524f'
+          "position": 8,
+          "name": "Urban Snow",
+          "duration": 285.773,
+          "streamUrl": "https://t4.bcbits.com/stream/9c2fa2599479ac941b7a2cd2a646c458/mp3-128/2047145341?p=0&ts=1732040942&t=f8f4fe0be3305f25913b3eb11b4b5d65efb4329b&token=1732040942_c39e0a1dacfd2648917dc141061a43040f1f2b00"
         },
         {
-          position: 9,
-          name: 'Dream',
-          duration: 334.96,
-          streamUrl: 'https://t4.bcbits.com/stream/59654dbc1a3856016056ecb713de2279/mp3-128/1844238301?p=0&ts=1698599999&t=b506aed4c45f9f6cc8f3bb6d78fb3ce082436117&token=1698599999_196ccc2cffef4fd1828f39562d2e84877972645c'
+          "position": 9,
+          "name": "Dream",
+          "duration": 334.96,
+          "streamUrl": "https://t4.bcbits.com/stream/59654dbc1a3856016056ecb713de2279/mp3-128/1844238301?p=0&ts=1732040942&t=10a3698c5e7cc3d701b2f9376f26bd9079db11c8&token=1732040942_0ee95d5b6ec2ef81a13291706dfe738420096c69"
         }
       ],
-      mediaItemRef: 'a3834281211'
+      "mediaItemRef": "a3834281211"
     },
     {
-      type: 'album',
-      name: 'The Greys',
-      url: 'https://ilurecords.bandcamp.com/album/the-greys',
-      imageUrl: 'https://f4.bcbits.com/img/a2451461387_9.jpg',
-      featuredTrackPosition: 1,
-      artist: {
-        name: 'I Low You Records',
-        url: 'https://ilurecords.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/27921075_21.jpg',
-        location: 'Tokyo, Japan'
+      "type": "album",
+      "name": "The Greys",
+      "url": "https://ilurecords.bandcamp.com/album/the-greys",
+      "imageUrl": "https://f4.bcbits.com/img/a2451461387_9.jpg",
+      "featuredTrackPosition": 1,
+      "artist": {
+        "name": "I Low You Records",
+        "url": "https://ilurecords.bandcamp.com",
+        "imageUrl": "https://f4.bcbits.com/img/27921075_21.jpg",
+        "location": "Tokyo, Japan"
       },
-      tracks: [
+      "tracks": [
         {
-          position: 1,
-          name: "Don't Remember a Thing",
-          duration: 71.1318,
-          streamUrl: 'https://t4.bcbits.com/stream/9a1d8da36f4c48850e47ad5766fad27c/mp3-128/1849746451?p=0&ts=1698599999&t=c5469a6957b27f12d91ce8c73b997f9030b11078&token=1698599999_51ceda1757bafe196bd46a45e0bfb211accc525a'
+          "position": 1,
+          "name": "Don't Remember a Thing",
+          "duration": 71.1318,
+          "streamUrl": "https://t4.bcbits.com/stream/9a1d8da36f4c48850e47ad5766fad27c/mp3-128/1849746451?p=0&ts=1732040942&t=f2477693e0ee062696cf7076eca403c743ef2f40&token=1732040942_465b74284735d359c3e6a0b57637178c182479d9"
         },
         {
-          position: 2,
-          name: 'Analog Man',
-          duration: 45.2042,
-          streamUrl: 'https://t4.bcbits.com/stream/57c460c29443951cd10cd0d908b0a394/mp3-128/1737948375?p=0&ts=1698599999&t=da18e95036a1d61fc268e3ab6a5e4f54925c6650&token=1698599999_6419fbfc216c9b4c04a435f8b8ef42cbc68ba606'
+          "position": 2,
+          "name": "Analog Man",
+          "duration": 45.2042,
+          "streamUrl": "https://t4.bcbits.com/stream/57c460c29443951cd10cd0d908b0a394/mp3-128/1737948375?p=0&ts=1732040942&t=24a5c3d54dee5e74fac6918b6bc5abb8b9452b72&token=1732040942_3503fda119e3ee15feb615b859dae9d358d3638a"
         },
         {
-          position: 3,
-          name: 'Coughing Death',
-          duration: 136.558,
-          streamUrl: 'https://t4.bcbits.com/stream/054ff3c71138117e95d9d2f442c7ba2f/mp3-128/3268827724?p=0&ts=1698599999&t=6ad13fed1455b27d9e8a9a027ed0a7de194de83e&token=1698599999_f8e1e51db6e4dcc5a9c988c9cfb76d65ab7f8f62'
+          "position": 3,
+          "name": "Coughing Death",
+          "duration": 136.558,
+          "streamUrl": "https://t4.bcbits.com/stream/054ff3c71138117e95d9d2f442c7ba2f/mp3-128/3268827724?p=0&ts=1732040942&t=7334050314e55c94d6837a7fc579fc02e370c91a&token=1732040942_ea2002e2866a5979b74b6a1755b43d2bd659eae2"
         },
         {
-          position: 4,
-          name: "Don't Go in the Woods Alone",
-          duration: 48.7698,
-          streamUrl: 'https://t4.bcbits.com/stream/b67e617c74892efde0bd9579d364e473/mp3-128/3557485835?p=0&ts=1698599999&t=134668349de2bd2125fd2c8986dbc56f08bba6ef&token=1698599999_d999c1016cce40609308db96eceaaf010fa8785b'
+          "position": 4,
+          "name": "Don't Go in the Woods Alone",
+          "duration": 48.7698,
+          "streamUrl": "https://t4.bcbits.com/stream/b67e617c74892efde0bd9579d364e473/mp3-128/3557485835?p=0&ts=1732040942&t=5442fff0bf95111aff222b6a746ad80efefbf2c2&token=1732040942_1917429a937063ed16ddc992eedd9beb59404452"
         },
         {
-          position: 5,
-          name: 'Fairy_Fungi',
-          duration: 148.588,
-          streamUrl: 'https://t4.bcbits.com/stream/bb6759be8fe535515d3d1e8a92cd8bcf/mp3-128/1079329015?p=0&ts=1698599999&t=0560b522c7adc450d31fb8e08596b344e2898237&token=1698599999_3620e52a3a62258de4bc6824dd0bfa966447116b'
+          "position": 5,
+          "name": "Fairy_Fungi",
+          "duration": 148.588,
+          "streamUrl": "https://t4.bcbits.com/stream/bb6759be8fe535515d3d1e8a92cd8bcf/mp3-128/1079329015?p=0&ts=1732040942&t=4cdc31d95fd05ace3bc0bb7754bfd58cb91dc81e&token=1732040942_4344bc737f2b304869f555e8b7ebedfcb189fec5"
         },
         {
-          position: 6,
-          name: 'Gray Ghosts',
-          duration: 56.1875,
-          streamUrl: 'https://t4.bcbits.com/stream/f949c20042a6d42671f587f761095503/mp3-128/2836999478?p=0&ts=1698599999&t=c747ebf623d58ea43127c36c82eb8f9753329a4d&token=1698599999_2c66d6ea4a43122dc9d28f75489e73c28e173c6d'
+          "position": 6,
+          "name": "Gray Ghosts",
+          "duration": 56.1875,
+          "streamUrl": "https://t4.bcbits.com/stream/f949c20042a6d42671f587f761095503/mp3-128/2836999478?p=0&ts=1732040942&t=d206d7e1a8be8486781ada396b02a98c3afad46b&token=1732040942_e827a39062d2add51b374a59e5c50b915b53e552"
         },
         {
-          position: 7,
-          name: 'Lost',
-          duration: 31.1641,
-          streamUrl: 'https://t4.bcbits.com/stream/4f2bbf6289460c0d1108f79b9dc49c11/mp3-128/1187225203?p=0&ts=1698599999&t=c9d2201033d4d875ee5fb626aad0654772b608d5&token=1698599999_6f1a1850dea64b1d49d9652fefed587b8c5aa353'
+          "position": 7,
+          "name": "Lost",
+          "duration": 31.1641,
+          "streamUrl": "https://t4.bcbits.com/stream/4f2bbf6289460c0d1108f79b9dc49c11/mp3-128/1187225203?p=0&ts=1732040942&t=756e0e371b0f5f3a1c75d3314047af1e7b908b99&token=1732040942_f74d19006520f051de27d7d14d56dd5cc520c238"
         },
         {
-          position: 8,
-          name: 'Melted Snow',
-          duration: 116.221,
-          streamUrl: 'https://t4.bcbits.com/stream/4ec3e010ad2a46e6b8b29f1f3b66f545/mp3-128/2296333718?p=0&ts=1698599999&t=30432679860127409a99b97b5060c788e8eb8df6&token=1698599999_5dbc93d4682333a48f2126d4cecc0d463e235e63'
+          "position": 8,
+          "name": "Melted Snow",
+          "duration": 116.221,
+          "streamUrl": "https://t4.bcbits.com/stream/4ec3e010ad2a46e6b8b29f1f3b66f545/mp3-128/2296333718?p=0&ts=1732040942&t=ff0fd004c28211bd0ad7020cae772947006ca3a4&token=1732040942_cbe203f47c3b74e31e5d5b231692a83ab2b6c125"
         },
         {
-          position: 9,
-          name: 'UUmox (vers. II)',
-          duration: 106.548,
-          streamUrl: 'https://t4.bcbits.com/stream/41d8070603d9957a54c47aac4b5efdf2/mp3-128/1800262023?p=0&ts=1698599999&t=a2bfe8859d2609cd7ee975fb4aec66ee178338f8&token=1698599999_2f39361f6577cbb8bc030bdf4b085a5503f316eb'
+          "position": 9,
+          "name": "UUmox (vers. II)",
+          "duration": 106.548,
+          "streamUrl": "https://t4.bcbits.com/stream/41d8070603d9957a54c47aac4b5efdf2/mp3-128/1800262023?p=0&ts=1732040942&t=329880d072b64373b53b71e372bc29e07959c3ec&token=1732040942_b69c31724dc506421d6e478197ac221f23b1743c"
         },
         {
-          position: 10,
-          name: 'White Ghosts',
-          duration: 93.9719,
-          streamUrl: 'https://t4.bcbits.com/stream/b2ae77e2ff74d6bac0873c0acf3622a7/mp3-128/1335292332?p=0&ts=1698599999&t=e5b0d86329d57a9505a27cba79b65337b8eaba68&token=1698599999_86c5f38c713fad8e401b83744ef50523eba7232d'
+          "position": 10,
+          "name": "White Ghosts",
+          "duration": 93.9719,
+          "streamUrl": "https://t4.bcbits.com/stream/b2ae77e2ff74d6bac0873c0acf3622a7/mp3-128/1335292332?p=0&ts=1732040942&t=17c2f0948c8efdcb6ea65e97539427cab0920238&token=1732040942_559bf3e3572549b3179b197999e1851c4bb6cc41"
         },
         {
-          position: 11,
-          name: 'Warp Day',
-          duration: 33.8125,
-          streamUrl: 'https://t4.bcbits.com/stream/7d70e3b721d731c859ad39461a8d6351/mp3-128/180645096?p=0&ts=1698599999&t=e60854652003bf53b6ce0e346129daec40492728&token=1698599999_3854b159a7a3b5ed04ea5628d0dd02a311490c38'
+          "position": 11,
+          "name": "Warp Day",
+          "duration": 33.8125,
+          "streamUrl": "https://t4.bcbits.com/stream/7d70e3b721d731c859ad39461a8d6351/mp3-128/180645096?p=0&ts=1732040942&t=45374ff8c18747aa6566c06c175a2716012b848b&token=1732040942_b09fd5f2aa2bef583815c78124ed5c7f019af794"
         },
         {
-          position: 12,
-          name: 'Old M.m.',
-          duration: 152.208,
-          streamUrl: 'https://t4.bcbits.com/stream/61015621f32f12a4afe23f2619c6d9b0/mp3-128/2286068125?p=0&ts=1698599999&t=eda0f4ca4f341b1d9d86d902c98448f61fa3e0c7&token=1698599999_af62912bf931f2fc828a662d3231dd758e693289'
+          "position": 12,
+          "name": "Old M.m.",
+          "duration": 152.208,
+          "streamUrl": "https://t4.bcbits.com/stream/61015621f32f12a4afe23f2619c6d9b0/mp3-128/2286068125?p=0&ts=1732040942&t=2d710b102baaa21b02e7ad0e291f81ad6861a170&token=1732040942_39ec8cb9d8d5d80794986c17b3ab942722c5849a"
         },
         {
-          position: 13,
-          name: 'You Can be Lonely',
-          duration: 101.327,
-          streamUrl: 'https://t4.bcbits.com/stream/d9d5dd4f031f0a48f97bac056f405253/mp3-128/2325111113?p=0&ts=1698599999&t=89f6661fd1b38503b02fdb52790bd8b3a9389f4c&token=1698599999_7d229de60b74064e454c6c3f5d570a7c5054f77f'
+          "position": 13,
+          "name": "You Can be Lonely",
+          "duration": 101.327,
+          "streamUrl": "https://t4.bcbits.com/stream/d9d5dd4f031f0a48f97bac056f405253/mp3-128/2325111113?p=0&ts=1732040942&t=73a93afbde5673f7951aec49de9320d816630b91&token=1732040942_55751175b10f320d8605872d631e356cb9c0dc58"
         },
         {
-          position: 14,
-          name: 'Eyelid Smiles',
-          duration: 57.1423,
-          streamUrl: 'https://t4.bcbits.com/stream/2268e0c0f289573fb4d9741543f6245f/mp3-128/2054627365?p=0&ts=1698599999&t=4928fc36de1cabbacb98c067e99369a211d3a907&token=1698599999_c8e78ced8f91932a7e15c420b2b7d179c8bef1f3'
+          "position": 14,
+          "name": "Eyelid Smiles",
+          "duration": 57.1423,
+          "streamUrl": "https://t4.bcbits.com/stream/2268e0c0f289573fb4d9741543f6245f/mp3-128/2054627365?p=0&ts=1732040942&t=75e88aed25f13099eb1e8dd390bc685b3954a9c1&token=1732040942_c15bb0fb5c847d60cc21d4c71a195b1759569c6d"
         },
         {
-          position: 15,
-          name: 'Saying Goodbye',
-          duration: 70.6005,
-          streamUrl: 'https://t4.bcbits.com/stream/088e77b99529ab2048218c3da8bf842b/mp3-128/82283410?p=0&ts=1698599999&t=9d321abd58efbc70cc50a76268f5fef6373ab4c6&token=1698599999_9e36ddc9ea5094a4dfcf04f5837e63712dd171f0'
+          "position": 15,
+          "name": "Saying Goodbye",
+          "duration": 70.6005,
+          "streamUrl": "https://t4.bcbits.com/stream/088e77b99529ab2048218c3da8bf842b/mp3-128/82283410?p=0&ts=1732040942&t=63ceb1eb06b02f2d93d6366f3ce9fbda88347e46&token=1732040942_52e049ce82bf2e5a0218783ab9b862b2e976eaec"
         },
         {
-          position: 16,
-          name: 'How is Your Day Going',
-          duration: 49.0354,
-          streamUrl: 'https://t4.bcbits.com/stream/18d8fc3015352bd76b5478f36dc9d23b/mp3-128/3760493673?p=0&ts=1698599999&t=764b0f7957311f2886ec5c7861efe7a71cae61fd&token=1698599999_6830fc07efdd1b1a29e678d53aea0e5961ed72de'
+          "position": 16,
+          "name": "How is Your Day Going",
+          "duration": 49.0354,
+          "streamUrl": "https://t4.bcbits.com/stream/18d8fc3015352bd76b5478f36dc9d23b/mp3-128/3760493673?p=0&ts=1732040942&t=7ab435ea0dd594b598e9f9d4bdbec746b6f0364d&token=1732040942_6f9dc9bcab912e9834d924f2ffebe7cfc7c89a77"
         },
         {
-          position: 17,
-          name: 'Granular Loop',
-          duration: 66.7917,
-          streamUrl: 'https://t4.bcbits.com/stream/53db5fe0b0f85c17afb2d730c8ad993f/mp3-128/1780688429?p=0&ts=1698599999&t=c713ef907fd26ee9514303155e906c813a998d4e&token=1698599999_1cf3710f8233a2a052ed59dc2202b62618d0f02f'
+          "position": 17,
+          "name": "Granular Loop",
+          "duration": 66.7917,
+          "streamUrl": "https://t4.bcbits.com/stream/53db5fe0b0f85c17afb2d730c8ad993f/mp3-128/1780688429?p=0&ts=1732040942&t=bcb14fdf4b1e6eba609502a4f03415b2417f7475&token=1732040942_85e4ab9087f009f9af6b825e991336be53a8986e"
         },
         {
-          position: 18,
-          name: 'Shadow Faces',
-          duration: 90.4234,
-          streamUrl: 'https://t4.bcbits.com/stream/4fcd1b502498b33194683f099565e754/mp3-128/4275310931?p=0&ts=1698599999&t=cfaefd5a842fae774958db34a6cfb91010f2fd91&token=1698599999_e38a1137cba0a50417b6483528db25272a616c1f'
+          "position": 18,
+          "name": "Shadow Faces",
+          "duration": 90.4234,
+          "streamUrl": "https://t4.bcbits.com/stream/4fcd1b502498b33194683f099565e754/mp3-128/4275310931?p=0&ts=1732040942&t=4dfb82d9e40936c14903089c9a142a5b7f956faa&token=1732040942_a2290c7e942b896c09675c7c344a4e5f19413115"
         },
         {
-          position: 19,
-          name: 'The Greys',
-          duration: 67.9607,
-          streamUrl: 'https://t4.bcbits.com/stream/199e8a672421d7429b2fb1673917c0b1/mp3-128/3364736689?p=0&ts=1698599999&t=5ce952575ac8123e410c37931cdc059ab287af0f&token=1698599999_aa2cf5df00b31aa376309a5874aff700b02bac10'
+          "position": 19,
+          "name": "The Greys",
+          "duration": 67.9607,
+          "streamUrl": "https://t4.bcbits.com/stream/199e8a672421d7429b2fb1673917c0b1/mp3-128/3364736689?p=0&ts=1732040942&t=81cf90e2fca38a9ab2f1c84a90fc538c582d04cf&token=1732040942_b39487acaab23cfae5927bda3ddb5c3203404ead"
         },
         {
-          position: 20,
-          name: 'Fragmented Loop',
-          duration: 24.0135,
-          streamUrl: 'https://t4.bcbits.com/stream/d0345a94b9fc6ceb4f895fd5fc6fc1b6/mp3-128/3121980470?p=0&ts=1698599999&t=99acab08cf899a98069da4587a2bdfe1bedc0304&token=1698599999_626c2197d6838c6c6b114053328d603fdf12e248'
+          "position": 20,
+          "name": "Fragmented Loop",
+          "duration": 24.0135,
+          "streamUrl": "https://t4.bcbits.com/stream/d0345a94b9fc6ceb4f895fd5fc6fc1b6/mp3-128/3121980470?p=0&ts=1732040942&t=613abd82a37ad2aed835493fb41a31d8140dc02f&token=1732040942_7617897d3c4c3cf0067ba7de8e423f4608c3d84e"
         },
         {
-          position: 21,
-          name: 'Who Goes There',
-          duration: 33.0828,
-          streamUrl: 'https://t4.bcbits.com/stream/e65fbe773c8a05cce5fe657dc28b76c8/mp3-128/411868333?p=0&ts=1698599999&t=9d1d9fd32ae33b687b6a816479e2e1302d57d81c&token=1698599999_0e9fd1542d1a2e20a857f15a4758c820a0e6c1c7'
+          "position": 21,
+          "name": "Who Goes There",
+          "duration": 33.0828,
+          "streamUrl": "https://t4.bcbits.com/stream/e65fbe773c8a05cce5fe657dc28b76c8/mp3-128/411868333?p=0&ts=1732040942&t=9acca74fba811ba64277825fbdc53ad4e7ed9ee7&token=1732040942_59bcecd46cf242135e5d081b5a451eb35446c727"
         },
         {
-          position: 22,
-          name: 'Two Lost Years',
-          duration: 568.698,
-          streamUrl: 'https://t4.bcbits.com/stream/7467ea7fd5fb544c20b50a561928f9da/mp3-128/2821042097?p=0&ts=1698599999&t=e24be2e5629725c1ebb28b9e814f400355834a92&token=1698599999_8f4517acb0930955e1c064b86ebd9bec1330eccb'
+          "position": 22,
+          "name": "Two Lost Years",
+          "duration": 568.698,
+          "streamUrl": "https://t4.bcbits.com/stream/7467ea7fd5fb544c20b50a561928f9da/mp3-128/2821042097?p=0&ts=1732040942&t=d9791bb1efa2e94f4cfad545258f6b375d6b9340&token=1732040942_366659b30c1445583540407c31ec5b82fe342c9f"
         },
         {
-          position: 23,
-          name: 'What is Song',
-          duration: 21.6526,
-          streamUrl: 'https://t4.bcbits.com/stream/4772122bb7d1c83daf16300738af3553/mp3-128/617262569?p=0&ts=1698599999&t=fc2681aedf0ba26e6c7312d42681f5bdd43f5b3f&token=1698599999_4cdbcf2d9a3034a25393e7237d748abbec728216'
+          "position": 23,
+          "name": "What is Song",
+          "duration": 21.6526,
+          "streamUrl": "https://t4.bcbits.com/stream/4772122bb7d1c83daf16300738af3553/mp3-128/617262569?p=0&ts=1732040942&t=bb5cf8f196f53c21665a827bd27eadfd120171ef&token=1732040942_031a37ee7da62fb2f4203ec01bf338017545c3c9"
         }
       ],
-      mediaItemRef: 'a612750820'
+      "mediaItemRef": "a612750820"
     },
     {
-      type: 'album',
-      name: 'Cold Ubiquity',
-      url: 'https://lahautdanslocean.bandcamp.com/album/cold-ubiquity',
-      imageUrl: 'https://f4.bcbits.com/img/a837598593_9.jpg',
-      featuredTrackPosition: 1,
-      artist: {
-        name: "Là-haut Dans L'Océan",
-        url: 'https://lahautdanslocean.bandcamp.com',
-        imageUrl: 'https://f4.bcbits.com/img/12384834_21.jpg',
-        location: 'Grenoble, France'
+      "type": "album",
+      "name": "Cold Ubiquity",
+      "url": "https://lahautdanslocean.bandcamp.com/album/cold-ubiquity",
+      "imageUrl": "https://f4.bcbits.com/img/a837598593_9.jpg",
+      "featuredTrackPosition": 1,
+      "artist": {
+        "name": "Là-haut Dans L'Océan",
+        "url": "https://lahautdanslocean.bandcamp.com",
+        "imageUrl": "https://f4.bcbits.com/img/12384834_21.jpg",
+        "location": "Grenoble, France"
       },
-      tracks: [
+      "tracks": [
         {
-          position: 1,
-          name: "Tentation d'Ubiquité",
-          duration: 523.234,
-          streamUrl: 'https://t4.bcbits.com/stream/dd36a520ba2cb3a40b9e8e8abe85503a/mp3-128/130351574?p=0&ts=1698599999&t=94e622428748c7f86955f63ba3e45bf3643f578f&token=1698599999_daad2e2d5348527e0523f02f248b5912efe7f79d'
+          "position": 1,
+          "name": "Tentation d'Ubiquité",
+          "duration": 523.234,
+          "streamUrl": "https://t4.bcbits.com/stream/dd36a520ba2cb3a40b9e8e8abe85503a/mp3-128/130351574?p=0&ts=1732040942&t=a3eea4b6aa7984bbbf7d7750d096ee5828249f14&token=1732040942_542c0b69f044294cefe34a96fbf207ce6159b848"
         },
         {
-          position: 2,
-          name: 'Ambifidus',
-          duration: 243.438,
-          streamUrl: 'https://t4.bcbits.com/stream/86de9fd0403b65068f193ef61188472b/mp3-128/1707109576?p=0&ts=1698599999&t=855ef4b7e39fe924c385257ba3a615ff274bce73&token=1698599999_0ad487da99117f359f165d7bc4b79436f22fda46'
+          "position": 2,
+          "name": "Ambifidus",
+          "duration": 243.438,
+          "streamUrl": "https://t4.bcbits.com/stream/86de9fd0403b65068f193ef61188472b/mp3-128/1707109576?p=0&ts=1732040942&t=35f17cfed01cdb460eb3906807849fcbf53eb2d4&token=1732040942_97c32bc19425b5a44fe1cda0c558ed81972db05f"
         },
         {
-          position: 3,
-          name: 'Snow Bird',
-          duration: 248.527,
-          streamUrl: 'https://t4.bcbits.com/stream/e2af6f01452e374ddf48e7c46bb41489/mp3-128/136062705?p=0&ts=1698599999&t=73492bf89717203f061e95f8e5c50bbb9c311768&token=1698599999_db623b6eec82f28c67076267b66c01b4ea1b2764'
+          "position": 3,
+          "name": "Snow Bird",
+          "duration": 248.527,
+          "streamUrl": "https://t4.bcbits.com/stream/e2af6f01452e374ddf48e7c46bb41489/mp3-128/136062705?p=0&ts=1732040942&t=204b732fe9c757469396ca1adf328f9a467778db&token=1732040942_cd5190580164e371259ee7b1169f6ba6ba0623af"
         },
         {
-          position: 4,
-          name: 'Fake Seagulls and Fulfillment',
-          duration: 292.912,
-          streamUrl: 'https://t4.bcbits.com/stream/3ed2e54d7285d00da313befb72ed4c7d/mp3-128/573634003?p=0&ts=1698599999&t=d13e112a442272370f3b6ba9b68841970c9e6713&token=1698599999_5163eefda844fda81cbbbb7ba88e9d992d618703'
+          "position": 4,
+          "name": "Fake Seagulls and Fulfillment",
+          "duration": 292.912,
+          "streamUrl": "https://t4.bcbits.com/stream/3ed2e54d7285d00da313befb72ed4c7d/mp3-128/573634003?p=0&ts=1732040942&t=e8a07f76cd1ac992658ec35f8771ab44dd861c64&token=1732040942_ef83673c0fbb7e6bb195edcaf659cfa7688e924a"
         },
         {
-          position: 5,
-          name: 'Birds Coalition For My Apartment Cat',
-          duration: 340,
-          streamUrl: 'https://t4.bcbits.com/stream/6508dd8760542d30418021b7802ecb9c/mp3-128/1466403206?p=0&ts=1698599999&t=22dc3a3417353b1cba6e59bc05e5ecc6448bfa62&token=1698599999_5e1e970752d062a761e8260cb503098c5c1c5489'
+          "position": 5,
+          "name": "Birds Coalition For My Apartment Cat",
+          "duration": 340,
+          "streamUrl": "https://t4.bcbits.com/stream/6508dd8760542d30418021b7802ecb9c/mp3-128/1466403206?p=0&ts=1732040942&t=fd260d2d7f14d45eb57062379a58154d0d00864c&token=1732040942_d7b18c6cc27ca34b5c97a981475da8dcb41eb487"
         },
         {
-          position: 6,
-          name: 'My Heart Play On The Lake',
-          duration: 429.978,
-          streamUrl: 'https://t4.bcbits.com/stream/6e3eb7b756bdf444930ffa576717fe5f/mp3-128/2764710200?p=0&ts=1698599999&t=461018c6707a19f2aa363997bcf9bb99d1b39a3e&token=1698599999_3f8583640eef8078e441f7ca8d636c7be5f89389'
+          "position": 6,
+          "name": "My Heart Play On The Lake",
+          "duration": 429.978,
+          "streamUrl": "https://t4.bcbits.com/stream/6e3eb7b756bdf444930ffa576717fe5f/mp3-128/2764710200?p=0&ts=1732040942&t=38268d06f7e53ea7b5c13c85c948364fc57b8b86&token=1732040942_7cb966e2127eb1baefe345abeb74ca57f3b18cb1"
         },
         {
-          position: 7,
-          name: 'Riley Net Data',
-          duration: 232.441,
-          streamUrl: 'https://t4.bcbits.com/stream/ae9892a7be6390f426f787cf5ef0140b/mp3-128/3158881070?p=0&ts=1698599999&t=8d343b649c343d9ab038d09fe981de89ff6175e8&token=1698599999_e1621bd286640b53d37abe071c017144ef61bf89'
+          "position": 7,
+          "name": "Riley Net Data",
+          "duration": 232.441,
+          "streamUrl": "https://t4.bcbits.com/stream/ae9892a7be6390f426f787cf5ef0140b/mp3-128/3158881070?p=0&ts=1732040942&t=6633f68525ab441631e744c9bd7188f8b51284fa&token=1732040942_2fc276a64265480cfe3c7dd736992b9403ca633e"
         },
         {
-          position: 8,
-          name: 'Deepor Radiator Swamp',
-          duration: 327.733,
-          streamUrl: 'https://t4.bcbits.com/stream/c3a49f2d6b0c8d6bff69367956f0c5f6/mp3-128/3414841372?p=0&ts=1698599999&t=e71e0ffe135ac2151af966288908a71ec80367a3&token=1698599999_d5412188ad0a87ae3173e7626bfe4f3fd7571ff6'
+          "position": 8,
+          "name": "Deepor Radiator Swamp",
+          "duration": 327.733,
+          "streamUrl": "https://t4.bcbits.com/stream/c3a49f2d6b0c8d6bff69367956f0c5f6/mp3-128/3414841372?p=0&ts=1732040942&t=c7c2a6b8ee5e788447ad817614995a0b287702c1&token=1732040942_5c947f894ab9367044ac7837ee292491e15e1348"
         },
         {
-          position: 9,
-          name: 'Far Cold Away',
-          duration: 98.5972,
-          streamUrl: 'https://t4.bcbits.com/stream/57d74642b683fcd05ba062fc908045b9/mp3-128/1563033969?p=0&ts=1698599999&t=4262ed511224eae6ef8ef8379ce0e74a96a17ec5&token=1698599999_8a017a7a5c02db752a5c1cddbdd22c5e6d68ab75'
+          "position": 9,
+          "name": "Far Cold Away",
+          "duration": 98.5972,
+          "streamUrl": "https://t4.bcbits.com/stream/57d74642b683fcd05ba062fc908045b9/mp3-128/1563033969?p=0&ts=1732040942&t=128c7aff7b9957393c664a62a1a43aa020010d9a&token=1732040942_ac3dab64ea4aec19ba098c1c7ba1c16649205223"
         },
         {
-          position: 10,
-          name: 'Muages',
-          duration: 304.83,
-          streamUrl: 'https://t4.bcbits.com/stream/5108a71efc1eb4aeecbad4a18ea595e4/mp3-128/2851363235?p=0&ts=1698599999&t=399362c3c89acdadaac7a7f9b5bb45b18ea003c3&token=1698599999_bd2c71634146dfa7f59230e2184eb219f284d8d8'
+          "position": 10,
+          "name": "Muages",
+          "duration": 304.83,
+          "streamUrl": "https://t4.bcbits.com/stream/5108a71efc1eb4aeecbad4a18ea595e4/mp3-128/2851363235?p=0&ts=1732040942&t=091cc7ac1b6a2fa482aa0d32b079f1493bd32aef&token=1732040942_55fab012beaf6561b822f9ce95a277b90f2acb6e"
         },
         {
-          position: 11,
-          name: 'Thunder The Ocean',
-          duration: 436.336,
-          streamUrl: 'https://t4.bcbits.com/stream/aa7c27bf7f052098de0535adf3604aba/mp3-128/1650176642?p=0&ts=1698599999&t=5a396adadf3687b164e1f22559f3b9886b89fc54&token=1698599999_e30adb523afee15a1724c40bb7bc59d20fa35fee'
+          "position": 11,
+          "name": "Thunder The Ocean",
+          "duration": 436.336,
+          "streamUrl": "https://t4.bcbits.com/stream/aa7c27bf7f052098de0535adf3604aba/mp3-128/1650176642?p=0&ts=1732040942&t=2f4cdcbfa64ead78a5bf57a5cc23c3ecf80c40b2&token=1732040942_5f26bc192833cf30bf4e254315307218404b2297"
         },
         {
-          position: 12,
-          name: 'Mermaids',
-          duration: 352.662,
-          streamUrl: 'https://t4.bcbits.com/stream/c4b8764c805124986b4f97e49f96af13/mp3-128/104707931?p=0&ts=1698599999&t=75981cfedc0f41dc33217b9cabc3ebd6562121eb&token=1698599999_cd392db3f07b483cd7e86f2d74d8465e26e58f97'
+          "position": 12,
+          "name": "Mermaids",
+          "duration": 352.662,
+          "streamUrl": "https://t4.bcbits.com/stream/c4b8764c805124986b4f97e49f96af13/mp3-128/104707931?p=0&ts=1732040942&t=9f9123c8d2a7987e37ee0a5e14455f9e159ca130&token=1732040942_8431430115d03970f81af9ee999d51e7b60d2f6e"
         }
       ],
-      mediaItemRef: 'a42342034'
+      "mediaItemRef": "a42342034"
     }
   ],
-  sections: [
+  "sections": [
     {
-      html: 'There are infinite atmospheric worlds available on Bandcamp. From the dreamy to the nightmarish, and the meditative to the deeply unsettling, these compositions often fall under the ambient umbrella. Albums without words that are deeply thoughtful and thought-provoking in their own way—these releases come from all corners of the globe. Every month, Aurora Mitchell will take you through the best ambient releases. In this edition, there’s music for snow days, reissued ‘80s Japanese ambient, and themes of loss and emptiness.',
-      text: 'There are infinite atmospheric worlds available on Bandcamp. From the dreamy to the nightmarish, and the meditative to the deeply unsettling, these compositions often fall under the ambient umbrella. Albums without words that are deeply thoughtful and thought-provoking in their own way—these releases come from all corners of the globe. Every month, Aurora Mitchell will take you through the best ambient releases. In this edition, there’s music for snow days, reissued ‘80s Japanese ambient, and themes of loss and emptiness.'
+      "html": "There are infinite atmospheric worlds available on Bandcamp. From the dreamy to the nightmarish, and the meditative to the deeply unsettling, these compositions often fall under the ambient umbrella. Albums without words that are deeply thoughtful and thought-provoking in their own way—these releases come from all corners of the globe. Every month, Aurora Mitchell will take you through the best ambient releases. In this edition, there’s music for snow days, reissued ‘80s Japanese ambient, and themes of loss and emptiness.",
+      "text": "There are infinite atmospheric worlds available on Bandcamp. From the dreamy to the nightmarish, and the meditative to the deeply unsettling, these compositions often fall under the ambient umbrella. Albums without words that are deeply thoughtful and thought-provoking in their own way—these releases come from all corners of the globe. Every month, Aurora Mitchell will take you through the best ambient releases. In this edition, there’s music for snow days, reissued ‘80s Japanese ambient, and themes of loss and emptiness."
     },
     {
-      html: 'Last year, Leeds-based producer Somta released their first album,&nbsp;<em><a href="https://somta.bandcamp.com/album/surface-to-air" target="_blank" rel="noopener noreferrer" data-clickthrough="true">Surface to air</a></em>, a dark and introspective offering. Exactly one year later, they return with their follow-up, <i>Aarde</i>. It starts off in blistering fashion, with bizarre voices echoing through a whipped-up wind: <i>“</i>Every star is just a sail in the brain of the universe,<i>” </i>they whisper. “Khiōn” is one of the album’s highlights, boasting intergalactic melodies and sliding pads. The gust of noise that blew through <i>Surface to air</i> is present here, but there are more moments of soft elegance, like the pleasant drift of “Ganos” and the shiny, high-pitched waves of “Zophos.” But the album really reaches an apex with “Phōs,” which makes excellent use of space (and cosmic bleeps).',
-      text: 'Last year, Leeds-based producer Somta released their first album, Surface to air, a dark and introspective offering. Exactly one year later, they return with their follow-up, Aarde. It starts off in blistering fashion, with bizarre voices echoing through a whipped-up wind: “Every star is just a sail in the brain of the universe,” they whisper. “Khiōn” is one of the album’s highlights, boasting intergalactic melodies and sliding pads. The gust of noise that blew through Surface to air is present here, but there are more moments of soft elegance, like the pleasant drift of “Ganos” and the shiny, high-pitched waves of “Zophos.” But the album really reaches an apex with “Phōs,” which makes excellent use of space (and cosmic bleeps).',
-      heading: {
-        html: 'Somta<br><em><a href="https://somta.bandcamp.com/album/aarde" target="_blank" rel="noopener noreferrer" data-clickthrough="true">Aarde</a></em>\n',
-        text: 'Somta\nAarde'
+      "html": "Last year, Leeds-based producer Somta released their first album,&nbsp;<em><a href=\"https://somta.bandcamp.com/album/surface-to-air\" target=\"_blank\" rel=\"noopener noreferrer\" data-clickthrough=\"true\">Surface to air</a></em>, a dark and introspective offering. Exactly one year later, they return with their follow-up, <i>Aarde</i>. It starts off in blistering fashion, with bizarre voices echoing through a whipped-up wind: <i>“</i>Every star is just a sail in the brain of the universe,<i>” </i>they whisper. “Khiōn” is one of the album’s highlights, boasting intergalactic melodies and sliding pads. The gust of noise that blew through <i>Surface to air</i> is present here, but there are more moments of soft elegance, like the pleasant drift of “Ganos” and the shiny, high-pitched waves of “Zophos.” But the album really reaches an apex with “Phōs,” which makes excellent use of space (and cosmic bleeps).",
+      "text": "Last year, Leeds-based producer Somta released their first album, Surface to air, a dark and introspective offering. Exactly one year later, they return with their follow-up, Aarde. It starts off in blistering fashion, with bizarre voices echoing through a whipped-up wind: “Every star is just a sail in the brain of the universe,” they whisper. “Khiōn” is one of the album’s highlights, boasting intergalactic melodies and sliding pads. The gust of noise that blew through Surface to air is present here, but there are more moments of soft elegance, like the pleasant drift of “Ganos” and the shiny, high-pitched waves of “Zophos.” But the album really reaches an apex with “Phōs,” which makes excellent use of space (and cosmic bleeps).",
+      "heading": {
+        "html": "Somta<br><em><a href=\"https://somta.bandcamp.com/album/aarde\" target=\"_blank\" rel=\"noopener noreferrer\" data-clickthrough=\"true\">Aarde</a></em>\n",
+        "text": "Somta\nAarde"
       },
-      mediaItemRef: 't2272710569'
+      "mediaItemRef": "t2272710569"
     },
     {
-      html: 'We may be in early spring, but snow is still wreaking wintry havoc around the world, leaving people housebound while the ground is covered and transport is halted. Ontario’s Dame Cook’s four-track release is designed to soundtrack these days, titled, appropriately enough,&nbsp;<i>music for snow days</i>. While the track titles reference ice and freezing temperatures, the music is neither frosty nor cold; it has the sparkling, dewy atmosphere of a world slowly thawing. Flutes flutter dreamily across the bare bones of the first track, “glacial drift.” The record alternates between the twinkling instrumentation of that song and “under the glass” to the sluggish, meandering charm of “frosted panes” and “alpine train track.”',
-      text: 'We may be in early spring, but snow is still wreaking wintry havoc around the world, leaving people housebound while the ground is covered and transport is halted. Ontario’s Dame Cook’s four-track release is designed to soundtrack these days, titled, appropriately enough, music for snow days. While the track titles reference ice and freezing temperatures, the music is neither frosty nor cold; it has the sparkling, dewy atmosphere of a world slowly thawing. Flutes flutter dreamily across the bare bones of the first track, “glacial drift.” The record alternates between the twinkling instrumentation of that song and “under the glass” to the sluggish, meandering charm of “frosted panes” and “alpine train track.”',
-      heading: {
-        html: 'Dame Cook<br><em><a href="https://damecook.bandcamp.com/album/music-for-snow-days" target="_blank" rel="noopener noreferrer" data-clickthrough="true">music for snow days</a></em>\n',
-        text: 'Dame Cook\nmusic for snow days'
+      "html": "We may be in early spring, but snow is still wreaking wintry havoc around the world, leaving people housebound while the ground is covered and transport is halted. Ontario’s Dame Cook’s four-track release is designed to soundtrack these days, titled, appropriately enough,&nbsp;<i>music for snow days</i>. While the track titles reference ice and freezing temperatures, the music is neither frosty nor cold; it has the sparkling, dewy atmosphere of a world slowly thawing. Flutes flutter dreamily across the bare bones of the first track, “glacial drift.” The record alternates between the twinkling instrumentation of that song and “under the glass” to the sluggish, meandering charm of “frosted panes” and “alpine train track.”",
+      "text": "We may be in early spring, but snow is still wreaking wintry havoc around the world, leaving people housebound while the ground is covered and transport is halted. Ontario’s Dame Cook’s four-track release is designed to soundtrack these days, titled, appropriately enough, music for snow days. While the track titles reference ice and freezing temperatures, the music is neither frosty nor cold; it has the sparkling, dewy atmosphere of a world slowly thawing. Flutes flutter dreamily across the bare bones of the first track, “glacial drift.” The record alternates between the twinkling instrumentation of that song and “under the glass” to the sluggish, meandering charm of “frosted panes” and “alpine train track.”",
+      "heading": {
+        "html": "Dame Cook<br><em><a href=\"https://damecook.bandcamp.com/album/music-for-snow-days\" target=\"_blank\" rel=\"noopener noreferrer\" data-clickthrough=\"true\">music for snow days</a></em>\n",
+        "text": "Dame Cook\nmusic for snow days"
       },
-      mediaItemRef: 'a454040844'
+      "mediaItemRef": "a454040844"
     },
     {
-      html: 'A few years after&nbsp;Hiroshi Yoshimura’s death in 2003, his music started slowly finding its way onto popular mixes and playlists, and the demand for his music grew so much that many titles were repressed. His first album, <i>Music For Nine Post Cards</i>, was finally reissued last year, and it proves that few composers capture the elegance of space, the balance of hope and sadness, and the healing power of ambient music quite like Yoshimura does. It’s the perfect soundtrack to drift slowly to sleep to, the silence between each note more poignant in the darkness.',
-      text: 'A few years after Hiroshi Yoshimura’s death in 2003, his music started slowly finding its way onto popular mixes and playlists, and the demand for his music grew so much that many titles were repressed. His first album, Music For Nine Post Cards, was finally reissued last year, and it proves that few composers capture the elegance of space, the balance of hope and sadness, and the healing power of ambient music quite like Yoshimura does. It’s the perfect soundtrack to drift slowly to sleep to, the silence between each note more poignant in the darkness.',
-      heading: {
-        html: 'Hiroshi Yoshimura<br><em><a href="https://hiroshiyoshimura.bandcamp.com/album/music-for-nine-post-cards" target="_blank" rel="noopener noreferrer" data-clickthrough="true">Music For Nine Post Cards</a></em>\n',
-        text: 'Hiroshi Yoshimura\nMusic For Nine Post Cards'
+      "html": "A few years after&nbsp;Hiroshi Yoshimura’s death in 2003, his music started slowly finding its way onto popular mixes and playlists, and the demand for his music grew so much that many titles were repressed. His first album, <i>Music For Nine Post Cards</i>, was finally reissued last year, and it proves that few composers capture the elegance of space, the balance of hope and sadness, and the healing power of ambient music quite like Yoshimura does. It’s the perfect soundtrack to drift slowly to sleep to, the silence between each note more poignant in the darkness.",
+      "text": "A few years after Hiroshi Yoshimura’s death in 2003, his music started slowly finding its way onto popular mixes and playlists, and the demand for his music grew so much that many titles were repressed. His first album, Music For Nine Post Cards, was finally reissued last year, and it proves that few composers capture the elegance of space, the balance of hope and sadness, and the healing power of ambient music quite like Yoshimura does. It’s the perfect soundtrack to drift slowly to sleep to, the silence between each note more poignant in the darkness.",
+      "heading": {
+        "html": "Hiroshi Yoshimura<br><em><a href=\"https://hiroshiyoshimura.bandcamp.com/album/music-for-nine-post-cards\" target=\"_blank\" rel=\"noopener noreferrer\" data-clickthrough=\"true\">Music For Nine Post Cards</a></em>\n",
+        "text": "Hiroshi Yoshimura\nMusic For Nine Post Cards"
       },
-      mediaItemRef: 'a3834281211'
+      "mediaItemRef": "a3834281211"
     },
     {
-      html: 'This album by Tape Sounds, on Tokyo-based label <a href="https://ilurecords.bandcamp.com/" target="_blank" rel="noopener noreferrer" data-clickthrough="true">I Low You Records</a>, has a despondent tone; <i>The Greys</i> is a collection of loops that center around feelings of loss, emptiness, and blankness. Each loop is two minutes or less, giving only brief snapshots of ideas or sequences before swiftly moving on. Despite the theme, there are a lot of magical, bright sounds on <i>The Greys</i>. It’s a largely guitar-based record, taking simple chords and notes and stretching them with the charm of delay.',
-      text: 'This album by Tape Sounds, on Tokyo-based label I Low You Records, has a despondent tone; The Greys is a collection of loops that center around feelings of loss, emptiness, and blankness. Each loop is two minutes or less, giving only brief snapshots of ideas or sequences before swiftly moving on. Despite the theme, there are a lot of magical, bright sounds on The Greys. It’s a largely guitar-based record, taking simple chords and notes and stretching them with the charm of delay.',
-      heading: {
-        html: 'Tape Sounds<br><em><a href="https://ilurecords.bandcamp.com/album/the-greys" target="_blank" rel="noopener noreferrer" data-clickthrough="true">The Greys</a></em>\n',
-        text: 'Tape Sounds\nThe Greys'
+      "html": "This album by Tape Sounds, on Tokyo-based label <a href=\"https://ilurecords.bandcamp.com/\" target=\"_blank\" rel=\"noopener noreferrer\" data-clickthrough=\"true\">I Low You Records</a>, has a despondent tone; <i>The Greys</i> is a collection of loops that center around feelings of loss, emptiness, and blankness. Each loop is two minutes or less, giving only brief snapshots of ideas or sequences before swiftly moving on. Despite the theme, there are a lot of magical, bright sounds on <i>The Greys</i>. It’s a largely guitar-based record, taking simple chords and notes and stretching them with the charm of delay.",
+      "text": "This album by Tape Sounds, on Tokyo-based label I Low You Records, has a despondent tone; The Greys is a collection of loops that center around feelings of loss, emptiness, and blankness. Each loop is two minutes or less, giving only brief snapshots of ideas or sequences before swiftly moving on. Despite the theme, there are a lot of magical, bright sounds on The Greys. It’s a largely guitar-based record, taking simple chords and notes and stretching them with the charm of delay.",
+      "heading": {
+        "html": "Tape Sounds<br><em><a href=\"https://ilurecords.bandcamp.com/album/the-greys\" target=\"_blank\" rel=\"noopener noreferrer\" data-clickthrough=\"true\">The Greys</a></em>\n",
+        "text": "Tape Sounds\nThe Greys"
       },
-      mediaItemRef: 'a612750820'
+      "mediaItemRef": "a612750820"
     },
     {
-      html: 'Denis Morin’s newest offering for French label <a href="https://lahautdanslocean.bandcamp.com/" target="_blank" rel="noopener noreferrer" data-clickthrough="true">Là-haut Dans L’Océan</a> is a lush exploration of birds chirping in echoing circles, watery samples, and shimmering pads. <i>Cold Ubiquity</i> plays with the tones and pitches of a large variety of bird calls. The second half of the record is more synth-based, with pixelated melodies fluttering throughout. Some of the tracks were recorded in a 1400m altitude environment, and the whole record was made to be listened at that altitude “while snow melts in a little stream on the path.”',
-      text: 'Denis Morin’s newest offering for French label Là-haut Dans L’Océan is a lush exploration of birds chirping in echoing circles, watery samples, and shimmering pads. Cold Ubiquity plays with the tones and pitches of a large variety of bird calls. The second half of the record is more synth-based, with pixelated melodies fluttering throughout. Some of the tracks were recorded in a 1400m altitude environment, and the whole record was made to be listened at that altitude “while snow melts in a little stream on the path.”',
-      heading: {
-        html: 'Denis Morin<br><em><a href="https://lahautdanslocean.bandcamp.com/album/cold-ubiquity" target="_blank" rel="noopener noreferrer" data-clickthrough="true">Cold Ubiquity</a></em>\n',
-        text: 'Denis Morin\nCold Ubiquity'
+      "html": "Denis Morin’s newest offering for French label <a href=\"https://lahautdanslocean.bandcamp.com/\" target=\"_blank\" rel=\"noopener noreferrer\" data-clickthrough=\"true\">Là-haut Dans L’Océan</a> is a lush exploration of birds chirping in echoing circles, watery samples, and shimmering pads. <i>Cold Ubiquity</i> plays with the tones and pitches of a large variety of bird calls. The second half of the record is more synth-based, with pixelated melodies fluttering throughout. Some of the tracks were recorded in a 1400m altitude environment, and the whole record was made to be listened at that altitude “while snow melts in a little stream on the path.”",
+      "text": "Denis Morin’s newest offering for French label Là-haut Dans L’Océan is a lush exploration of birds chirping in echoing circles, watery samples, and shimmering pads. Cold Ubiquity plays with the tones and pitches of a large variety of bird calls. The second half of the record is more synth-based, with pixelated melodies fluttering throughout. Some of the tracks were recorded in a 1400m altitude environment, and the whole record was made to be listened at that altitude “while snow melts in a little stream on the path.”",
+      "heading": {
+        "html": "Denis Morin<br><em><a href=\"https://lahautdanslocean.bandcamp.com/album/cold-ubiquity\" target=\"_blank\" rel=\"noopener noreferrer\" data-clickthrough=\"true\">Cold Ubiquity</a></em>\n",
+        "text": "Denis Morin\nCold Ubiquity"
       },
-      mediaItemRef: 'a42342034'
+      "mediaItemRef": "a42342034"
     }
   ],
-  genre: {
-    name: 'Ambient',
-    url: 'https://bandcamp.com/tag/ambient',
-    readMoreUrl: 'https://daily.bandcamp.com/genres/ambient'
+  "genre": {
+    "name": "Ambient",
+    "url": "https://bandcamp.com/discover/ambient",
+    "readMoreUrl": "https://daily.bandcamp.com/genres/ambient"
   }
 }

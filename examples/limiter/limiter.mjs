@@ -1,4 +1,4 @@
-import bcfetch from '../../';
+import bcfetch from '../../dist/mjs/index.js';
 
 bcfetch.limiter.updateSettings({
   maxConcurrent: 10,

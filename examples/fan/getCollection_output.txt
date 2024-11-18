@@ -1,545 +1,583 @@
 {
-  items: [
+  "items": [
     {
-      type: 'album',
-      name: 'The TOMS (2023 Reissue)',
-      url: 'https://thetomspowerpop.bandcamp.com/album/the-toms-2023-reissue',
-      imageUrl: 'https://f4.bcbits.com/img/a2158170419_16.jpg',
-      artist: { name: 'The TOMS', url: 'https://thetomspowerpop.bandcamp.com' },
-      featuredTrack: {
-        position: 1,
-        name: "Let's Be Friends Again",
-        artist: 'The TOMS',
-        duration: 184.6,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=533589248&ts=1698521375&t=552b91f8d34239470cf7f7a0db4f0345f947162e'
+      "type": "album",
+      "name": "Please Go Wild",
+      "url": "https://politecompany.bandcamp.com/album/please-go-wild-3",
+      "imageUrl": "https://f4.bcbits.com/img/a2178358380_16.jpg",
+      "artist": {
+        "name": "Polite Company",
+        "url": "https://politecompany.bandcamp.com"
+      },
+      "featuredTrack": {
+        "position": 7,
+        "name": "Second Chance Charity Store",
+        "artist": "Polite Company",
+        "duration": 184.421,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2838310385&ts=1731955268&t=53534f01914b673edbc4bb261c8b821bb3898ad8"
       }
     },
     {
-      type: 'track',
-      name: 'The Other Side Of Christmas',
-      url: 'https://theboyleastlikelyto.bandcamp.com/track/the-other-side-of-christmas',
-      imageUrl: 'https://f4.bcbits.com/img/a3164529493_16.jpg',
-      artist: {
-        name: 'the boy least likely to',
-        url: 'https://theboyleastlikelyto.bandcamp.com'
+      "type": "album",
+      "name": "Televangelist",
+      "url": "https://shanetutmarc.bandcamp.com/album/televangelist",
+      "imageUrl": "https://f4.bcbits.com/img/a3346831527_16.jpg",
+      "artist": {
+        "name": "Dolour",
+        "url": "https://shanetutmarc.bandcamp.com"
       },
-      duration: 182.087,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3770463584&ts=1698521375&t=6ebdeb70afc9102087a55820713c488e050bb7b4'
-    },
-    {
-      type: 'album',
-      name: 'Anything But Country',
-      url: 'https://legendsofcountry.bandcamp.com/album/anything-but-country',
-      imageUrl: 'https://f4.bcbits.com/img/a1262555298_16.jpg',
-      artist: {
-        name: 'Legends Of Country',
-        url: 'https://legendsofcountry.bandcamp.com'
-      },
-      featuredTrack: {
-        position: 4,
-        name: "Everything's Going South",
-        artist: 'Legends Of Country',
-        duration: 180.156,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1698521375&t=328725b10a9e2656e36c32221f79c1b1f4777c9b'
+      "featuredTrack": {
+        "position": 6,
+        "name": "Baby You're A Faker",
+        "artist": "Dolour",
+        "duration": 212.37,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2133303526&ts=1731955268&t=1c55af482c27b085604697d5af33b3baba1a4b4b"
       }
     },
     {
-      type: 'album',
-      name: 'Anything But Country',
-      url: 'https://legendsofcountry.bandcamp.com/album/anything-but-country',
-      imageUrl: 'https://f4.bcbits.com/img/a1262555298_16.jpg',
-      artist: {
-        name: 'Legends Of Country',
-        url: 'https://legendsofcountry.bandcamp.com'
+      "type": "album",
+      "name": "The Royal We",
+      "url": "https://shanetutmarc.bandcamp.com/album/the-royal-we",
+      "imageUrl": "https://f4.bcbits.com/img/a832394591_16.jpg",
+      "artist": {
+        "name": "Dolour",
+        "url": "https://shanetutmarc.bandcamp.com"
       },
-      featuredTrack: {
-        position: 4,
-        name: "Everything's Going South",
-        artist: 'Legends Of Country',
-        duration: 180.156,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1698521375&t=328725b10a9e2656e36c32221f79c1b1f4777c9b'
+      "featuredTrack": {
+        "position": 1,
+        "name": "Yes and No",
+        "artist": "Dolour",
+        "duration": 206.268,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=486257215&ts=1731955268&t=2700a401a20d8561b30f190560fb5944475c62a7"
       }
     },
     {
-      type: 'album',
-      name: 'Get Into The Summer',
-      url: 'https://theboyleastlikelyto.bandcamp.com/album/get-into-the-summer',
-      imageUrl: 'https://f4.bcbits.com/img/a561441958_16.jpg',
-      artist: {
-        name: 'the boy least likely to',
-        url: 'https://theboyleastlikelyto.bandcamp.com'
+      "type": "album",
+      "name": "Daylight Upon Magic",
+      "url": "https://shanetutmarc.bandcamp.com/album/daylight-upon-magic",
+      "imageUrl": "https://f4.bcbits.com/img/a1345164967_16.jpg",
+      "artist": {
+        "name": "Dolour",
+        "url": "https://shanetutmarc.bandcamp.com"
       },
-      featuredTrack: {
-        position: 1,
-        name: 'Get Into The Summer',
-        artist: 'the boy least likely to',
-        duration: 205.822,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2482647781&ts=1698521375&t=8c98e16bfe13e6cccf49c648858a6523fca45fff'
+      "featuredTrack": {
+        "position": 3,
+        "name": "Moves Like Miyagi",
+        "artist": "Dolour",
+        "duration": 156.719,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3040950569&ts=1731955268&t=1c0a8b15a7962940ff02cb50ba44d18194bdf6bc"
       }
     },
     {
-      type: 'album',
-      name: 'Anything But Country',
-      url: 'https://legendsofcountry.bandcamp.com/album/anything-but-country',
-      imageUrl: 'https://f4.bcbits.com/img/a1262555298_16.jpg',
-      artist: {
-        name: 'Legends Of Country',
-        url: 'https://legendsofcountry.bandcamp.com'
+      "type": "album",
+      "name": "The TOMS (2023 Reissue)",
+      "url": "https://thetomspowerpop.bandcamp.com/album/the-toms-2023-reissue",
+      "imageUrl": "https://f4.bcbits.com/img/a2158170419_16.jpg",
+      "artist": {
+        "name": "The TOMS",
+        "url": "https://thetomspowerpop.bandcamp.com"
       },
-      featuredTrack: {
-        position: 4,
-        name: "Everything's Going South",
-        artist: 'Legends Of Country',
-        duration: 180.156,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1698521375&t=328725b10a9e2656e36c32221f79c1b1f4777c9b'
+      "featuredTrack": {
+        "position": 1,
+        "name": "Let's Be Friends Again",
+        "artist": "The TOMS",
+        "duration": 184.6,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=533589248&ts=1731955268&t=c6fb665d3ad527d2f8e81bae2116336dce73bf81"
       }
     },
     {
-      type: 'track',
-      name: 'Honey, Honey',
-      url: 'https://acidhousekings.bandcamp.com/track/honey-honey',
-      imageUrl: 'https://f4.bcbits.com/img/a3415987109_16.jpg',
-      artist: {
-        name: 'Acid House Kings',
-        url: 'https://acidhousekings.bandcamp.com'
+      "type": "track",
+      "name": "The Other Side Of Christmas",
+      "url": "https://theboyleastlikelyto.bandcamp.com/track/the-other-side-of-christmas",
+      "imageUrl": "https://f4.bcbits.com/img/a3164529493_16.jpg",
+      "artist": {
+        "name": "the boy least likely to",
+        "url": "https://theboyleastlikelyto.bandcamp.com"
       },
-      duration: 164.278,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3351443466&ts=1698521375&t=fc911534f91eb5d57b438ff7b95f7e05415fbd72'
+      "duration": 182.087,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3770463584&ts=1731955268&t=d4181258ea78155163d456bea8596ad708e03149"
     },
     {
-      type: 'track',
-      name: "If That's What It Takes",
-      url: 'https://legendsofcountry.bandcamp.com/track/if-thats-what-it-takes',
-      imageUrl: 'https://f4.bcbits.com/img/a2690853067_16.jpg',
-      artist: {
-        name: 'Legends Of Country',
-        url: 'https://legendsofcountry.bandcamp.com'
+      "type": "album",
+      "name": "Anything But Country",
+      "url": "https://legendsofcountry.bandcamp.com/album/anything-but-country",
+      "imageUrl": "https://f4.bcbits.com/img/a1262555298_16.jpg",
+      "artist": {
+        "name": "Legends Of Country",
+        "url": "https://legendsofcountry.bandcamp.com"
       },
-      duration: 181.5,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3804298008&ts=1698521375&t=c9776d667064dcf0e3f820eefcbf630d9a1980eb'
-    },
-    {
-      type: 'album',
-      name: 'SiX TAPE',
-      url: 'https://bleu.bandcamp.com/album/six-tape',
-      imageUrl: 'https://f4.bcbits.com/img/a8347264_16.jpg',
-      artist: { name: 'Bleu', url: 'https://bleu.bandcamp.com' },
-      featuredTrack: {
-        position: 2,
-        name: 'A Crazy Life! (Explicit)',
-        artist: 'Bleu',
-        duration: 193.24,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3999943811&ts=1698521375&t=6c3d21d811333df40ea7c75eb3830699ffdee5bd'
+      "featuredTrack": {
+        "position": 4,
+        "name": "Everything's Going South",
+        "artist": "Legends Of Country",
+        "duration": 180.156,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1731955268&t=689206aef4f04523e0f1c88b68db35ba45634a8c"
       }
     },
     {
-      type: 'track',
-      name: 'The Late Great Cassiopia',
-      url: 'https://theessexgreen.bandcamp.com/track/the-late-great-cassiopia-2',
-      imageUrl: 'https://f4.bcbits.com/img/a3732518472_16.jpg',
-      artist: {
-        name: 'The Essex Green',
-        url: 'https://theessexgreen.bandcamp.com'
+      "type": "album",
+      "name": "Anything But Country",
+      "url": "https://legendsofcountry.bandcamp.com/album/anything-but-country",
+      "imageUrl": "https://f4.bcbits.com/img/a1262555298_16.jpg",
+      "artist": {
+        "name": "Legends Of Country",
+        "url": "https://legendsofcountry.bandcamp.com"
       },
-      duration: 211.36,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3916949617&ts=1698521375&t=e94473d22847f5c04ce243cb0fa59704f08954fa'
-    },
-    {
-      type: 'album',
-      name: 'Lucky Day',
-      url: 'https://powerpopacademy.bandcamp.com/album/lucky-day',
-      imageUrl: 'https://f4.bcbits.com/img/a1906864882_16.jpg',
-      artist: {
-        name: 'David Myhr',
-        url: 'https://powerpopacademy.bandcamp.com'
-      },
-      featuredTrack: {
-        position: 4,
-        name: 'The Perfect Place',
-        artist: 'David Myhr',
-        duration: 236.107,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1044351484&ts=1698521375&t=e02e2c14b1d237d75dc6ed16aafc253a7af4e20b'
+      "featuredTrack": {
+        "position": 4,
+        "name": "Everything's Going South",
+        "artist": "Legends Of Country",
+        "duration": 180.156,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1731955268&t=689206aef4f04523e0f1c88b68db35ba45634a8c"
       }
     },
     {
-      type: 'track',
-      name: 'Do Unto Others',
-      url: 'https://curation-records.bandcamp.com/track/do-unto-others',
-      imageUrl: 'https://f4.bcbits.com/img/a1527699362_16.jpg',
-      artist: {
-        name: 'GospelbeacH',
-        url: 'https://curation-records.bandcamp.com'
+      "type": "album",
+      "name": "Get Into The Summer",
+      "url": "https://theboyleastlikelyto.bandcamp.com/album/get-into-the-summer",
+      "imageUrl": "https://f4.bcbits.com/img/a561441958_16.jpg",
+      "artist": {
+        "name": "the boy least likely to",
+        "url": "https://theboyleastlikelyto.bandcamp.com"
       },
-      duration: 194.8,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2401340477&ts=1698521375&t=977f1f8088e36efd0b759c90f1c4083abf0d729b'
-    },
-    {
-      type: 'album',
-      name: "Let's Have Fun (In The Summer Sun)",
-      url: 'https://tommyandtherockets.bandcamp.com/album/lets-have-fun-in-the-summer-sun',
-      imageUrl: 'https://f4.bcbits.com/img/a798199646_16.jpg',
-      artist: {
-        name: 'Tommy And The Rockets',
-        url: 'https://tommyandtherockets.bandcamp.com'
-      },
-      featuredTrack: {
-        position: 1,
-        name: "Let's Have Fun (In The Summer Sun)",
-        artist: 'Tommy And The Rockets',
-        duration: 118.813,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3166475516&ts=1698521375&t=4d8b238d0d5c91a38ec4f0f1b02515687080dc88'
+      "featuredTrack": {
+        "position": 1,
+        "name": "Get Into The Summer",
+        "artist": "the boy least likely to",
+        "duration": 205.822,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2482647781&ts=1731955268&t=0b1d669233fed7f5c4482fd8b0e704b23fd5d964"
       }
     },
     {
-      type: 'track',
-      name: 'Some Kinda Fun',
-      url: 'https://tommyandtherockets.bandcamp.com/track/some-kinda-fun',
-      imageUrl: 'https://f4.bcbits.com/img/a1431546323_16.jpg',
-      artist: {
-        name: 'Psychotic Youth / Tommy And The Rockets',
-        url: 'https://tommyandtherockets.bandcamp.com'
+      "type": "album",
+      "name": "Anything But Country",
+      "url": "https://legendsofcountry.bandcamp.com/album/anything-but-country",
+      "imageUrl": "https://f4.bcbits.com/img/a1262555298_16.jpg",
+      "artist": {
+        "name": "Legends Of Country",
+        "url": "https://legendsofcountry.bandcamp.com"
       },
-      duration: 140.701,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1766763879&ts=1698521375&t=89ce2aaa541656bdd77df24609f21dc27166343c'
-    },
-    {
-      type: 'track',
-      name: 'The Perfect Place',
-      url: 'https://powerpopacademy.bandcamp.com/track/the-perfect-place',
-      imageUrl: 'https://f4.bcbits.com/img/a1906864882_16.jpg',
-      artist: {
-        name: 'David Myhr',
-        url: 'https://powerpopacademy.bandcamp.com'
-      },
-      duration: 236.107,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1044351484&ts=1698521375&t=e02e2c14b1d237d75dc6ed16aafc253a7af4e20b'
-    },
-    {
-      type: 'album',
-      name: 'Myrtle Soup',
-      url: 'https://johnmyrtle.bandcamp.com/album/myrtle-soup',
-      imageUrl: 'https://f4.bcbits.com/img/a1273718232_16.jpg',
-      artist: { name: 'John Myrtle', url: 'https://johnmyrtle.bandcamp.com' },
-      featuredTrack: {
-        position: 1,
-        name: 'Get Her Off My Mind',
-        artist: 'John Myrtle',
-        duration: 188.11,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1491901815&ts=1698521375&t=7e8d1c652bfe0eb7d983ae700ef6a73e38ffded4'
+      "featuredTrack": {
+        "position": 4,
+        "name": "Everything's Going South",
+        "artist": "Legends Of Country",
+        "duration": 180.156,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2932389502&ts=1731955268&t=689206aef4f04523e0f1c88b68db35ba45634a8c"
       }
     },
     {
-      type: 'track',
-      name: 'Things Are Looking Up',
-      url: 'https://theboyleastlikelyto.bandcamp.com/track/things-are-looking-up',
-      imageUrl: 'https://f4.bcbits.com/img/a2168435596_16.jpg',
-      artist: {
-        name: 'the boy least likely to',
-        url: 'https://theboyleastlikelyto.bandcamp.com'
+      "type": "track",
+      "name": "Honey, Honey",
+      "url": "https://acidhousekings.bandcamp.com/track/honey-honey",
+      "imageUrl": "https://f4.bcbits.com/img/a3415987109_16.jpg",
+      "artist": {
+        "name": "Acid House Kings",
+        "url": "https://acidhousekings.bandcamp.com"
       },
-      duration: 198.229,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=37417908&ts=1698521375&t=4eeed8afdb605e9bd3dc605e428f065fec40b287'
+      "duration": 164.278,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3351443466&ts=1731955268&t=fbe737d615a7d09bdbfa38a6a00aabd238dc4f97"
     },
     {
-      type: 'album',
-      name: 'A Little Dancing',
-      url: 'https://acidhousekings.bandcamp.com/album/a-little-dancing',
-      imageUrl: 'https://f4.bcbits.com/img/a3532826210_16.jpg',
-      artist: {
-        name: 'Acid House Kings',
-        url: 'https://acidhousekings.bandcamp.com'
+      "type": "track",
+      "name": "If That's What It Takes",
+      "url": "https://legendsofcountry.bandcamp.com/track/if-thats-what-it-takes",
+      "imageUrl": "https://f4.bcbits.com/img/a2690853067_16.jpg",
+      "artist": {
+        "name": "Legends Of Country",
+        "url": "https://legendsofcountry.bandcamp.com"
       },
-      featuredTrack: {
-        position: 1,
-        name: 'A Little Dancing',
-        artist: 'Acid House Kings',
-        duration: 167.6,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3861218995&ts=1698521375&t=92abcc996f5a6e5542dc532ce1358dcb48c66bc5'
+      "duration": 181.5,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3804298008&ts=1731955268&t=8c5ca2542a47173ded9f4ffa285a1466f1d7c549"
+    },
+    {
+      "type": "album",
+      "name": "SiX TAPE",
+      "url": "https://bleu.bandcamp.com/album/six-tape",
+      "imageUrl": "https://f4.bcbits.com/img/a8347264_16.jpg",
+      "artist": {
+        "name": "Bleu",
+        "url": "https://bleu.bandcamp.com"
+      },
+      "featuredTrack": {
+        "position": 2,
+        "name": "A Crazy Life! (Explicit)",
+        "artist": "Bleu",
+        "duration": 193.24,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3999943811&ts=1731955268&t=68e5d144b136d2ea920e1a15b3fadb5470b3cc5d"
       }
     },
     {
-      type: 'track',
-      name: 'Even When It Rains',
-      url: 'https://jeremyfisher.bandcamp.com/track/even-when-it-rains',
-      imageUrl: 'https://f4.bcbits.com/img/a3003167714_16.jpg',
-      artist: {
-        name: 'Jeremy Fisher',
-        url: 'https://jeremyfisher.bandcamp.com'
+      "type": "track",
+      "name": "The Late Great Cassiopia",
+      "url": "https://theessexgreen.bandcamp.com/track/the-late-great-cassiopia-2",
+      "imageUrl": "https://f4.bcbits.com/img/a3732518472_16.jpg",
+      "artist": {
+        "name": "The Essex Green",
+        "url": "https://theessexgreen.bandcamp.com"
       },
-      duration: 179.148,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3553064828&ts=1698521375&t=5761459aee355def7f88de56c51d56e17bd8f187'
+      "duration": 211.36,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3916949617&ts=1731955268&t=601898ea639ccb11bac48d84fa8695e01df40141"
     },
     {
-      type: 'track',
-      name: 'Beauty School Dropout',
-      url: 'https://kidgulliver1.bandcamp.com/track/beauty-school-dropout',
-      imageUrl: 'https://f4.bcbits.com/img/a1665930893_16.jpg',
-      artist: {
-        name: 'Kid Gulliver',
-        url: 'https://kidgulliver1.bandcamp.com'
+      "type": "album",
+      "name": "Lucky Day",
+      "url": "https://powerpopacademy.bandcamp.com/album/lucky-day",
+      "imageUrl": "https://f4.bcbits.com/img/a1906864882_16.jpg",
+      "artist": {
+        "name": "David Myhr",
+        "url": "https://powerpopacademy.bandcamp.com"
       },
-      duration: 203.089,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=519089851&ts=1698521375&t=5c3058e0d60f8eaf79a14fc65eedc3dff65a910e'
+      "featuredTrack": {
+        "position": 4,
+        "name": "The Perfect Place",
+        "artist": "David Myhr",
+        "duration": 236.107,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1044351484&ts=1731955268&t=2272db526655a7664a7b05262c000c3373049bcc"
+      }
+    },
+    {
+      "type": "track",
+      "name": "Do Unto Others",
+      "url": "https://curation-records.bandcamp.com/track/do-unto-others",
+      "imageUrl": "https://f4.bcbits.com/img/a1527699362_16.jpg",
+      "artist": {
+        "name": "GospelbeacH",
+        "url": "https://curation-records.bandcamp.com"
+      },
+      "duration": 194.8,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2401340477&ts=1731955268&t=45d80a5d32fc8886c8c10a377a7f3e027842f096"
+    },
+    {
+      "type": "album",
+      "name": "Let's Have Fun (In The Summer Sun)",
+      "url": "https://tommyandtherockets.bandcamp.com/album/lets-have-fun-in-the-summer-sun",
+      "imageUrl": "https://f4.bcbits.com/img/a798199646_16.jpg",
+      "artist": {
+        "name": "Tommy And The Rockets",
+        "url": "https://tommyandtherockets.bandcamp.com"
+      },
+      "featuredTrack": {
+        "position": 1,
+        "name": "Let's Have Fun (In The Summer Sun)",
+        "artist": "Tommy And The Rockets",
+        "duration": 118.813,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3166475516&ts=1731955268&t=37e66e0fcf53afea6a96f9c02aef2488689a5dd7"
+      }
+    },
+    {
+      "type": "track",
+      "name": "Some Kinda Fun",
+      "url": "https://tommyandtherockets.bandcamp.com/track/some-kinda-fun",
+      "imageUrl": "https://f4.bcbits.com/img/a1431546323_16.jpg",
+      "artist": {
+        "name": "Psychotic Youth / Tommy And The Rockets",
+        "url": "https://tommyandtherockets.bandcamp.com"
+      },
+      "duration": 140.701,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1766763879&ts=1731955268&t=7035b72c5477350234c4ac7ed84637a8cb5c8237"
+    },
+    {
+      "type": "track",
+      "name": "The Perfect Place",
+      "url": "https://powerpopacademy.bandcamp.com/track/the-perfect-place",
+      "imageUrl": "https://f4.bcbits.com/img/a1906864882_16.jpg",
+      "artist": {
+        "name": "David Myhr",
+        "url": "https://powerpopacademy.bandcamp.com"
+      },
+      "duration": 236.107,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1044351484&ts=1731955268&t=2272db526655a7664a7b05262c000c3373049bcc"
+    },
+    {
+      "type": "album",
+      "name": "Myrtle Soup",
+      "url": "https://johnmyrtle.bandcamp.com/album/myrtle-soup",
+      "imageUrl": "https://f4.bcbits.com/img/a1273718232_16.jpg",
+      "artist": {
+        "name": "John Myrtle",
+        "url": "https://johnmyrtle.bandcamp.com"
+      },
+      "featuredTrack": {
+        "position": 1,
+        "name": "Get Her Off My Mind",
+        "artist": "John Myrtle",
+        "duration": 188.11,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1491901815&ts=1731955268&t=16040fa8b16e84ed71ea8d5b069dbbbeeb70a707"
+      }
     }
   ],
-  total: 110,
-  continuation: { fanId: 2723895, token: '1618850795:519089851:t::' }
+  "total": 113,
+  "continuation": {
+    "fanId": 2723895,
+    "token": "1626210449:1009874401:a::"
+  }
 }
 Fetching more by continuation...
 {
-  items: [
+  "items": [
     {
-      type: 'track',
-      name: 'Heaven Beats Iowa',
-      url: 'https://guidedbyvoices.bandcamp.com/track/heaven-beats-iowa',
-      imageUrl: 'https://f4.bcbits.com/img/a1601812993_16.jpg',
-      artist: {
-        name: 'Guided By Voices',
-        url: 'https://guidedbyvoices.bandcamp.com'
+      "type": "track",
+      "name": "Things Are Looking Up",
+      "url": "https://theboyleastlikelyto.bandcamp.com/track/things-are-looking-up",
+      "imageUrl": "https://f4.bcbits.com/img/a2168435596_16.jpg",
+      "artist": {
+        "name": "the boy least likely to",
+        "url": "https://theboyleastlikelyto.bandcamp.com"
       },
-      duration: 169.227,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=4087641480&ts=1698521376&t=6c6d239db6de204fd1fd38d3c8a448cce07a4076'
+      "duration": 198.229,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=37417908&ts=1731955270&t=8a8e3fe6cb062e9a3c02d5d647819f12385858ad"
     },
     {
-      type: 'track',
-      name: 'Song in my Heart',
-      url: 'https://jeremyfisher.bandcamp.com/track/song-in-my-heart',
-      imageUrl: 'https://f4.bcbits.com/img/a1532985069_16.jpg',
-      artist: {
-        name: 'Jeremy Fisher',
-        url: 'https://jeremyfisher.bandcamp.com'
+      "type": "album",
+      "name": "A Little Dancing",
+      "url": "https://acidhousekings.bandcamp.com/album/a-little-dancing",
+      "imageUrl": "https://f4.bcbits.com/img/a3532826210_16.jpg",
+      "artist": {
+        "name": "Acid House Kings",
+        "url": "https://acidhousekings.bandcamp.com"
       },
-      duration: 211.014,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3192698356&ts=1698521376&t=69fec001a85bb90dd6a64aac1734f7198b79b994'
-    },
-    {
-      type: 'track',
-      name: 'Summer Means Fun',
-      url: 'https://tommyandtherockets.bandcamp.com/track/summer-means-fun',
-      imageUrl: 'https://f4.bcbits.com/img/a2565411884_16.jpg',
-      artist: {
-        name: 'Tommy And The Rockets',
-        url: 'https://tommyandtherockets.bandcamp.com'
-      },
-      duration: 110.339,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1452549487&ts=1698521376&t=a748974d423f6d321d6d4818caf67ca64550c39b'
-    },
-    {
-      type: 'track',
-      name: "We're Going Surfin'",
-      url: 'https://tommyandtherockets.bandcamp.com/track/were-going-surfin',
-      imageUrl: 'https://f4.bcbits.com/img/a2565411884_16.jpg',
-      artist: {
-        name: 'Tommy And The Rockets',
-        url: 'https://tommyandtherockets.bandcamp.com'
-      },
-      duration: 147.697,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2085625917&ts=1698521376&t=9d865d5e6ee93cfedad728455539192e51f38433'
-    },
-    {
-      type: 'track',
-      name: 'Keep Your Hands Off My Baby',
-      url: 'https://tommyandtherockets.bandcamp.com/track/keep-your-hands-off-my-baby',
-      imageUrl: 'https://f4.bcbits.com/img/a2809841177_16.jpg',
-      artist: {
-        name: 'Tommy And The Rockets',
-        url: 'https://tommyandtherockets.bandcamp.com'
-      },
-      duration: 145.692,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3811139469&ts=1698521376&t=007c5628d426dc6ed71267ef6c0a140d068b722f'
-    },
-    {
-      type: 'track',
-      name: "They Don't Know",
-      url: 'https://peteyorn.bandcamp.com/track/they-dont-know',
-      imageUrl: 'https://f4.bcbits.com/img/a627759544_16.jpg',
-      artist: { name: 'Pete Yorn', url: 'https://peteyorn.bandcamp.com' },
-      duration: 179.624,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3978220126&ts=1698521376&t=b740c5bf8528660a7166c175d1641214a6b282f4'
-    },
-    {
-      type: 'track',
-      name: 'Drip a Drop',
-      url: 'https://theflatfivechicago.bandcamp.com/track/drip-a-drop-2',
-      imageUrl: 'https://f4.bcbits.com/img/a2005340941_16.jpg',
-      artist: {
-        name: 'The Flat Five Chicago',
-        url: 'https://theflatfivechicago.bandcamp.com'
-      },
-      duration: 159.427,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1688632191&ts=1698521376&t=2d6ab3247adf0297c8e1361ace7fbe6b097e6b7e'
-    },
-    {
-      type: 'track',
-      name: 'It Will Still Be Christmas',
-      url: 'https://theboyleastlikelyto.bandcamp.com/track/it-will-still-be-christmas',
-      imageUrl: 'https://f4.bcbits.com/img/a1721156636_16.jpg',
-      artist: {
-        name: 'the boy least likely to',
-        url: 'https://theboyleastlikelyto.bandcamp.com'
-      },
-      duration: 207.461,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=425690647&ts=1698521376&t=5991533d217b9e66bb8639da696b8b4032ae2443'
-    },
-    {
-      type: 'album',
-      name: 'Marelle',
-      url: 'https://julieetjoe.bandcamp.com/album/marelle-2',
-      imageUrl: 'https://f4.bcbits.com/img/a3131911262_16.jpg',
-      artist: { name: 'JULIE ET JOE', url: 'https://julieetjoe.bandcamp.com' },
-      featuredTrack: {
-        position: 2,
-        name: 'Le Midi',
-        artist: 'JULIE ET JOE',
-        duration: 178.229,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3172712588&ts=1698521376&t=352050cbf9516f9e04928cafdea3066955f4a3c9'
+      "featuredTrack": {
+        "position": 1,
+        "name": "A Little Dancing",
+        "artist": "Acid House Kings",
+        "duration": 167.6,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3861218995&ts=1731955270&t=f80a1838ae08daa84b109f19155ea4343b1326d5"
       }
     },
     {
-      type: 'track',
-      name: 'Take A Little Look (Feat. Luci Ashbourne)',
-      url: 'https://theyearning.bandcamp.com/track/take-a-little-look-feat-luci-ashbourne',
-      imageUrl: 'https://f4.bcbits.com/img/a3015684477_16.jpg',
-      artist: { name: 'THE YEARNING', url: 'https://theyearning.bandcamp.com' },
-      duration: 152.565,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3049073401&ts=1698521376&t=7c64e8d8f6aefcf575f938b4dd5f36605bbc05d1'
-    },
-    {
-      type: 'track',
-      name: '¿Donde estás, Carmen Sandiego?',
-      url: 'https://elgenioequivocado.bandcamp.com/track/donde-est-s-carmen-sandiego',
-      imageUrl: 'https://f4.bcbits.com/img/a1328393092_16.jpg',
-      artist: { name: 'Cosmen', url: 'https://elgenioequivocado.bandcamp.com' },
-      duration: 206.996,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2312708988&ts=1698521376&t=dc189fd2cb3b336e53579cc81fc2ad08fcdbdd7f'
-    },
-    {
-      type: 'track',
-      name: 'Wrong Wrong Wrong',
-      url: 'https://mrossperkins.bandcamp.com/track/wrong-wrong-wrong',
-      imageUrl: 'https://f4.bcbits.com/img/a2873664564_16.jpg',
-      artist: {
-        name: 'M Ross Perkins',
-        url: 'https://mrossperkins.bandcamp.com'
+      "type": "track",
+      "name": "Even When It Rains",
+      "url": "https://jeremyfisher.bandcamp.com/track/even-when-it-rains",
+      "imageUrl": "https://f4.bcbits.com/img/a3003167714_16.jpg",
+      "artist": {
+        "name": "Jeremy Fisher",
+        "url": "https://jeremyfisher.bandcamp.com"
       },
-      duration: 175.964,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=232494249&ts=1698521376&t=f271bb4a814abc84b177f3b4e94f0e7bf71e99fa'
+      "duration": 179.148,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3553064828&ts=1731955270&t=28d748f8fd7e9789f58451fb4c30b41ba1dd8bc2"
     },
     {
-      type: 'album',
-      name: 'Himalaya',
-      url: 'https://summerfiction.bandcamp.com/album/himalaya',
-      imageUrl: 'https://f4.bcbits.com/img/a2161060600_16.jpg',
-      artist: {
-        name: 'Summer Fiction',
-        url: 'https://summerfiction.bandcamp.com'
+      "type": "track",
+      "name": "Beauty School Dropout",
+      "url": "https://kidgulliver1.bandcamp.com/track/beauty-school-dropout",
+      "imageUrl": "https://f4.bcbits.com/img/a1665930893_16.jpg",
+      "artist": {
+        "name": "Kid Gulliver",
+        "url": "https://kidgulliver1.bandcamp.com"
       },
-      featuredTrack: {
-        position: 3,
-        name: 'Perfume Paper',
-        artist: 'Summer Fiction',
-        duration: 185.92,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3181539157&ts=1698521376&t=5cbd208d312d1d0367f8fc34d783b9a58825600b'
+      "duration": 203.089,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=519089851&ts=1731955270&t=66dbdeac1ad215588882a9672d3d68b45262302f"
+    },
+    {
+      "type": "track",
+      "name": "Heaven Beats Iowa",
+      "url": "https://guidedbyvoices.bandcamp.com/track/heaven-beats-iowa",
+      "imageUrl": "https://f4.bcbits.com/img/a1601812993_16.jpg",
+      "artist": {
+        "name": "Guided By Voices",
+        "url": "https://guidedbyvoices.bandcamp.com"
+      },
+      "duration": 169.227,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=4087641480&ts=1731955270&t=a6f1e06bb1c542b1c991b98e4142ebc5073b9f58"
+    },
+    {
+      "type": "track",
+      "name": "Song in my Heart",
+      "url": "https://jeremyfisher.bandcamp.com/track/song-in-my-heart",
+      "imageUrl": "https://f4.bcbits.com/img/a1532985069_16.jpg",
+      "artist": {
+        "name": "Jeremy Fisher",
+        "url": "https://jeremyfisher.bandcamp.com"
+      },
+      "duration": 211.014,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3192698356&ts=1731955270&t=f67160a3a3857d37520fd54dcce073b6cf2c6326"
+    },
+    {
+      "type": "track",
+      "name": "Summer Means Fun",
+      "url": "https://tommyandtherockets.bandcamp.com/track/summer-means-fun",
+      "imageUrl": "https://f4.bcbits.com/img/a2565411884_16.jpg",
+      "artist": {
+        "name": "Tommy And The Rockets",
+        "url": "https://tommyandtherockets.bandcamp.com"
+      },
+      "duration": 110.339,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1452549487&ts=1731955270&t=74cc84d183979615a907e817dc26143b3fb3ab48"
+    },
+    {
+      "type": "track",
+      "name": "We're Going Surfin'",
+      "url": "https://tommyandtherockets.bandcamp.com/track/were-going-surfin",
+      "imageUrl": "https://f4.bcbits.com/img/a2565411884_16.jpg",
+      "artist": {
+        "name": "Tommy And The Rockets",
+        "url": "https://tommyandtherockets.bandcamp.com"
+      },
+      "duration": 147.697,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2085625917&ts=1731955270&t=fc4e7cf315fced9daee0c80a927325ee7d5c2410"
+    },
+    {
+      "type": "track",
+      "name": "Keep Your Hands Off My Baby",
+      "url": "https://tommyandtherockets.bandcamp.com/track/keep-your-hands-off-my-baby",
+      "imageUrl": "https://f4.bcbits.com/img/a2809841177_16.jpg",
+      "artist": {
+        "name": "Tommy And The Rockets",
+        "url": "https://tommyandtherockets.bandcamp.com"
+      },
+      "duration": 145.692,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3811139469&ts=1731955270&t=87b77f9dae1be105ddb831a84f13b0523b2c56a3"
+    },
+    {
+      "type": "track",
+      "name": "They Don't Know",
+      "url": "https://peteyorn.bandcamp.com/track/they-dont-know",
+      "imageUrl": "https://f4.bcbits.com/img/a627759544_16.jpg",
+      "artist": {
+        "name": "Pete Yorn",
+        "url": "https://peteyorn.bandcamp.com"
+      },
+      "duration": 179.624,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3978220126&ts=1731955270&t=8ff2e97cd9e8244336a54d94dfe11aa332c579fa"
+    },
+    {
+      "type": "track",
+      "name": "Drip a Drop",
+      "url": "https://theflatfivechicago.bandcamp.com/track/drip-a-drop-2",
+      "imageUrl": "https://f4.bcbits.com/img/a2005340941_16.jpg",
+      "artist": {
+        "name": "The Flat Five Chicago",
+        "url": "https://theflatfivechicago.bandcamp.com"
+      },
+      "duration": 159.427,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1688632191&ts=1731955270&t=4deeed962b443e7aae4edb62633d8155d9a810f9"
+    },
+    {
+      "type": "track",
+      "name": "It Will Still Be Christmas",
+      "url": "https://theboyleastlikelyto.bandcamp.com/track/it-will-still-be-christmas",
+      "imageUrl": "https://f4.bcbits.com/img/a1721156636_16.jpg",
+      "artist": {
+        "name": "the boy least likely to",
+        "url": "https://theboyleastlikelyto.bandcamp.com"
+      },
+      "duration": 207.461,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=425690647&ts=1731955270&t=fb70458cc3fc1639cf8acab81a63abeb0bc6d7ef"
+    },
+    {
+      "type": "album",
+      "name": "Marelle",
+      "url": "https://julieetjoe.bandcamp.com/album/marelle-2",
+      "imageUrl": "https://f4.bcbits.com/img/a3131911262_16.jpg",
+      "artist": {
+        "name": "JULIE ET JOE",
+        "url": "https://julieetjoe.bandcamp.com"
+      },
+      "featuredTrack": {
+        "position": 2,
+        "name": "Le Midi",
+        "artist": "JULIE ET JOE",
+        "duration": 178.229,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3172712588&ts=1731955270&t=162ee74fce5ef46cb0b4c8b11426142f22a60bea"
       }
     },
     {
-      type: 'track',
-      name: 'Anywhere You Run',
-      url: 'https://sixtonnesdechairrecords.bandcamp.com/track/anywhere-you-run',
-      imageUrl: 'https://f4.bcbits.com/img/a3547034463_16.jpg',
-      artist: {
-        name: 'Doug Tuttle',
-        url: 'https://sixtonnesdechairrecords.bandcamp.com'
+      "type": "track",
+      "name": "Take A Little Look (Feat. Luci Ashbourne)",
+      "url": "https://theyearning.bandcamp.com/track/take-a-little-look-feat-luci-ashbourne",
+      "imageUrl": "https://f4.bcbits.com/img/a3015684477_16.jpg",
+      "artist": {
+        "name": "THE YEARNING",
+        "url": "https://theyearning.bandcamp.com"
       },
-      duration: 222.177,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3703166127&ts=1698521376&t=e05d4f355cfa379454ffe7d52b1b6a8b9145e56e'
+      "duration": 152.565,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3049073401&ts=1731955270&t=427b08d21a4b141b54b43abbc395d61c6fa7658e"
     },
     {
-      type: 'album',
-      name: 'Le Midi',
-      url: 'https://julieetjoe.bandcamp.com/album/le-midi',
-      imageUrl: 'https://f4.bcbits.com/img/a2213370402_16.jpg',
-      artist: { name: 'JULIE ET JOE', url: 'https://julieetjoe.bandcamp.com' },
-      featuredTrack: {
-        position: 1,
-        name: 'Le Midi',
-        artist: 'JULIE ET JOE',
-        duration: 178.229,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=935467930&ts=1698521376&t=454c740705cbca15d51f9a30ab0925b33088b61d'
+      "type": "track",
+      "name": "¿Donde estás, Carmen Sandiego?",
+      "url": "https://elgenioequivocado.bandcamp.com/track/donde-est-s-carmen-sandiego",
+      "imageUrl": "https://f4.bcbits.com/img/a1328393092_16.jpg",
+      "artist": {
+        "name": "Cosmen",
+        "url": "https://elgenioequivocado.bandcamp.com"
+      },
+      "duration": 206.996,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=2312708988&ts=1731955270&t=f233fb9100c9245fc4039c13be9edac303afa1b2"
+    },
+    {
+      "type": "track",
+      "name": "Wrong Wrong Wrong",
+      "url": "https://mrossperkins.bandcamp.com/track/wrong-wrong-wrong",
+      "imageUrl": "https://f4.bcbits.com/img/a2873664564_16.jpg",
+      "artist": {
+        "name": "M Ross Perkins",
+        "url": "https://mrossperkins.bandcamp.com"
+      },
+      "duration": 175.964,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=232494249&ts=1731955270&t=2b740db907392aa32eca16cc1ed97b5afa14c69a"
+    },
+    {
+      "type": "album",
+      "name": "Himalaya",
+      "url": "https://summerfiction.bandcamp.com/album/himalaya",
+      "imageUrl": "https://f4.bcbits.com/img/a2161060600_16.jpg",
+      "artist": {
+        "name": "Summer Fiction",
+        "url": "https://summerfiction.bandcamp.com"
+      },
+      "featuredTrack": {
+        "position": 3,
+        "name": "Perfume Paper",
+        "artist": "Summer Fiction",
+        "duration": 185.92,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3181539157&ts=1731955270&t=dd1cd7497cdfa1655a5ba245cb08283fcbacf951"
       }
     },
     {
-      type: 'track',
-      name: "Only When I'm Dancing (Feat. Luci Ashbourne)",
-      url: 'https://theyearning.bandcamp.com/track/only-when-im-dancing-feat-luci-ashbourne',
-      imageUrl: 'https://f4.bcbits.com/img/a2550854079_16.jpg',
-      artist: { name: 'THE YEARNING', url: 'https://theyearning.bandcamp.com' },
-      duration: 279.458,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1844772819&ts=1698521376&t=dc69684581ae28ddb32f19920521f58d7bf464a0'
+      "type": "track",
+      "name": "Anywhere You Run",
+      "url": "https://sixtonnesdechairrecords.bandcamp.com/track/anywhere-you-run",
+      "imageUrl": "https://f4.bcbits.com/img/a3547034463_16.jpg",
+      "artist": {
+        "name": "Doug Tuttle",
+        "url": "https://sixtonnesdechairrecords.bandcamp.com"
+      },
+      "duration": 222.177,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3703166127&ts=1731955270&t=59a72aaff625e13a2ae5ba176cc13f6688949e8a"
     },
     {
-      type: 'album',
-      name: 'The Wrong End Of A Rainbow',
-      url: 'https://theboyleastlikelyto.bandcamp.com/album/the-wrong-end-of-a-rainbow',
-      imageUrl: 'https://f4.bcbits.com/img/a1981491866_16.jpg',
-      artist: {
-        name: 'the boy least likely to',
-        url: 'https://theboyleastlikelyto.bandcamp.com'
+      "type": "album",
+      "name": "Le Midi",
+      "url": "https://julieetjoe.bandcamp.com/album/le-midi",
+      "imageUrl": "https://f4.bcbits.com/img/a2213370402_16.jpg",
+      "artist": {
+        "name": "JULIE ET JOE",
+        "url": "https://julieetjoe.bandcamp.com"
       },
-      featuredTrack: {
-        position: 1,
-        name: "It Could've Been Me - Pop Strings version (featuring Gwenno)",
-        artist: 'the boy least likely to',
-        duration: 229.747,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1993649907&ts=1698521376&t=4e9d1a84b39fd13e2c338cff1f65b2932cfb16ff'
+      "featuredTrack": {
+        "position": 1,
+        "name": "Le Midi",
+        "artist": "JULIE ET JOE",
+        "duration": 178.229,
+        "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=935467930&ts=1731955270&t=3ab8bb6e86aa37debbf24aa2b698a7e30f04430e"
       }
     },
     {
-      type: 'album',
-      name: "It's A Long Way Back From A Dream",
-      url: 'https://legendsofcountry.bandcamp.com/album/its-a-long-way-back-from-a-dream',
-      imageUrl: 'https://f4.bcbits.com/img/a188771935_16.jpg',
-      artist: {
-        name: 'Legends Of Country',
-        url: 'https://legendsofcountry.bandcamp.com'
+      "type": "track",
+      "name": "Only When I'm Dancing (Feat. Luci Ashbourne)",
+      "url": "https://theyearning.bandcamp.com/track/only-when-im-dancing-feat-luci-ashbourne",
+      "imageUrl": "https://f4.bcbits.com/img/a2550854079_16.jpg",
+      "artist": {
+        "name": "THE YEARNING",
+        "url": "https://theyearning.bandcamp.com"
       },
-      featuredTrack: {
-        position: 2,
-        name: 'From St George To Snowflake',
-        artist: 'Legends Of Country',
-        duration: 176.226,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=3662968907&ts=1698521376&t=1835f34a8b0b2334a6024ef0a48feae98d4f1e69'
-      }
-    },
-    {
-      type: 'track',
-      name: 'Jelly And Jam',
-      url: 'https://legendsofcountry.bandcamp.com/track/jelly-and-jam-2',
-      imageUrl: 'https://f4.bcbits.com/img/a3471635391_16.jpg',
-      artist: {
-        name: 'Legends Of Country',
-        url: 'https://legendsofcountry.bandcamp.com'
-      },
-      duration: 207.547,
-      streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=893906699&ts=1698521376&t=1889d53a2e0a683e3464b311226ba631f414a275'
-    },
-    {
-      type: 'album',
-      name: "That's What We Talk About When We Talk About Country",
-      url: 'https://legendsofcountry.bandcamp.com/album/thats-what-we-talk-about-when-we-talk-about-country',
-      imageUrl: 'https://f4.bcbits.com/img/a2267413619_16.jpg',
-      artist: {
-        name: 'Legends Of Country',
-        url: 'https://legendsofcountry.bandcamp.com'
-      },
-      featuredTrack: {
-        position: 1,
-        name: "That's What We Talk About When We Talk About Country",
-        artist: 'Legends Of Country',
-        duration: 223.487,
-        streamUrl: 'https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=316972935&ts=1698521376&t=04c663712d1400f5d2767cc401da162f00ecd194'
-      }
+      "duration": 279.458,
+      "streamUrl": "https://bandcamp.com/stream_redirect?enc=mp3-128&track_id=1844772819&ts=1731955270&t=e66e9e19192c8bc2be89ffb1374be15739492860"
     }
   ],
-  continuation: { fanId: 2723895, token: '1588615844:1758940940:a::' }
+  "continuation": {
+    "fanId": 2723895,
+    "token": "1597011007:1844772819:t::"
+  }
 }

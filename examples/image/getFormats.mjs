@@ -1,4 +1,4 @@
-import bcfetch, { ImageFormatFilter } from '../../';
+import bcfetch, { ImageFormatFilter } from '../../dist/mjs/index.js';
 
 bcfetch.image.getFormats(ImageFormatFilter.Album).then((results) => {
   console.log('Album image formats:');

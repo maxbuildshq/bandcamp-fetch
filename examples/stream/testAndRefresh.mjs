@@ -1,4 +1,4 @@
-import bcfetch from '../../';
+import bcfetch from '../../dist/mjs/index.js';
 
 const streamUrl = 'https://t4.bcbits.com/stream/a9fab205c6d82ffc4ca4f377d86bd8dd/mp3-128/3535427082?p=0&ts=1698526235&t=3c987d3b75dc4151c931288780eca682ae1d70ac&token=1698526235_35d7ab2f75c60cdb31c68df15cc5d5024368a535';
 

@@ -1,492 +1,458 @@
 {
-  items: [
+  "items": [
     {
-      type: 'tag',
-      name: 'alt-country',
-      value: 'alt-country',
-      url: 'http://bandcamp.com/tag/alt-country',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a3041724604_9.jpg',
-        'https://f4.bcbits.com/img/a3920364060_9.jpg',
-        'https://f4.bcbits.com/img/a3509329641_9.jpg',
-        'https://f4.bcbits.com/img/a2818068510_9.jpg'
+      "type": "tag",
+      "name": "alt-country",
+      "value": "alt-country",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a4244241473_9.jpg",
+        "https://f4.bcbits.com/img/a4021760960_9.jpg",
+        "https://f4.bcbits.com/img/a2153367828_9.jpg",
+        "https://f4.bcbits.com/img/a3821775210_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'alternative',
-      value: 'alternative',
-      url: 'http://bandcamp.com/tag/alternative',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a2799935459_9.jpg',
-        'https://f4.bcbits.com/img/a297097933_9.jpg',
-        'https://f4.bcbits.com/img/a1092145638_9.jpg',
-        'https://f4.bcbits.com/img/a2639101840_9.jpg'
+      "type": "tag",
+      "name": "alternative",
+      "value": "alternative",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a907022816_9.jpg",
+        "https://f4.bcbits.com/img/a3192727650_9.jpg",
+        "https://f4.bcbits.com/img/a2603313414_9.jpg",
+        "https://f4.bcbits.com/img/a1496486255_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'americana',
-      value: 'americana',
-      url: 'http://bandcamp.com/tag/americana',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a2130235088_9.jpg',
-        'https://f4.bcbits.com/img/a2019933940_9.jpg',
-        'https://f4.bcbits.com/img/a2836522522_9.jpg',
-        'https://f4.bcbits.com/img/a1308676429_9.jpg'
+      "type": "tag",
+      "name": "americana",
+      "value": "americana",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a580270882_9.jpg",
+        "https://f4.bcbits.com/img/a1507710496_9.jpg",
+        "https://f4.bcbits.com/img/a1092922574_9.jpg",
+        "https://f4.bcbits.com/img/a3020909364_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'bluegrass',
-      value: 'bluegrass',
-      url: 'http://bandcamp.com/tag/bluegrass',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a1456413388_9.jpg',
-        'https://f4.bcbits.com/img/a1413307392_9.jpg',
-        'https://f4.bcbits.com/img/a3162850058_9.jpg',
-        'https://f4.bcbits.com/img/a2245727668_9.jpg'
+      "type": "tag",
+      "name": "bluegrass",
+      "value": "bluegrass",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a3715096849_9.jpg",
+        "https://f4.bcbits.com/img/a3911591205_9.jpg",
+        "https://f4.bcbits.com/img/a4233142602_9.jpg",
+        "https://f4.bcbits.com/img/a1662778070_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'blues',
-      value: 'blues',
-      url: 'http://bandcamp.com/tag/blues',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a3655650180_9.jpg',
-        'https://f4.bcbits.com/img/a3840349413_9.jpg',
-        'https://f4.bcbits.com/img/a3261738963_9.jpg',
-        'https://f4.bcbits.com/img/a3801772315_9.jpg'
+      "type": "tag",
+      "name": "blues",
+      "value": "blues",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a48461680_9.jpg",
+        "https://f4.bcbits.com/img/a1035862543_9.jpg",
+        "https://f4.bcbits.com/img/a3855019402_9.jpg",
+        "https://f4.bcbits.com/img/a3998502299_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'blues rock',
-      value: 'blues-rock',
-      url: 'http://bandcamp.com/tag/blues-rock',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a595269153_9.jpg',
-        'https://f4.bcbits.com/img/a1405173987_9.jpg',
-        'https://f4.bcbits.com/img/a483719968_9.jpg',
-        'https://f4.bcbits.com/img/a744601639_9.jpg'
+      "type": "tag",
+      "name": "blues rock",
+      "value": "blues-rock",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a1778668324_9.jpg",
+        "https://f4.bcbits.com/img/a2580789656_9.jpg",
+        "https://f4.bcbits.com/img/a1730428924_9.jpg",
+        "https://f4.bcbits.com/img/a477173175_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'britpop',
-      value: 'britpop',
-      url: 'http://bandcamp.com/tag/britpop',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a2874958430_9.jpg',
-        'https://f4.bcbits.com/img/a1269632559_9.jpg',
-        'https://f4.bcbits.com/img/a2163909102_9.jpg',
-        'https://f4.bcbits.com/img/a356677532_9.jpg'
+      "type": "tag",
+      "name": "britpop",
+      "value": "britpop",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a514858141_9.jpg",
+        "https://f4.bcbits.com/img/a1146417398_9.jpg",
+        "https://f4.bcbits.com/img/a2361407096_9.jpg",
+        "https://f4.bcbits.com/img/a2874958430_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'comedy',
-      value: 'comedy',
-      url: 'http://bandcamp.com/tag/comedy',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a1192161283_9.jpg',
-        'https://f4.bcbits.com/img/a327809869_9.jpg',
-        'https://f4.bcbits.com/img/a2610571176_9.jpg',
-        'https://f4.bcbits.com/img/a2745579147_9.jpg'
+      "type": "tag",
+      "name": "comedy",
+      "value": "comedy",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a2745579147_9.jpg",
+        "https://f4.bcbits.com/img/a4243134244_9.jpg",
+        "https://f4.bcbits.com/img/a114565283_9.jpg",
+        "https://f4.bcbits.com/img/a337697032_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'country',
-      value: 'country',
-      url: 'http://bandcamp.com/tag/country',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a3133980833_9.jpg',
-        'https://f4.bcbits.com/img/a4003505989_9.jpg',
-        'https://f4.bcbits.com/img/a2272057093_9.jpg',
-        'https://f4.bcbits.com/img/a177284234_9.jpg'
+      "type": "tag",
+      "name": "country",
+      "value": "country",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a1888800323_9.jpg",
+        "https://f4.bcbits.com/img/a2245756587_9.jpg",
+        "https://f4.bcbits.com/img/a504883839_9.jpg",
+        "https://f4.bcbits.com/img/a4115189289_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'country blues',
-      value: 'country-blues',
-      url: 'http://bandcamp.com/tag/country-blues',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a2581882426_9.jpg',
-        'https://f4.bcbits.com/img/a976206506_9.jpg',
-        'https://f4.bcbits.com/img/a906500200_9.jpg',
-        'https://f4.bcbits.com/img/a2087201666_9.jpg'
+      "type": "tag",
+      "name": "country blues",
+      "value": "country-blues",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a2147246148_9.jpg",
+        "https://f4.bcbits.com/img/a109273263_9.jpg",
+        "https://f4.bcbits.com/img/a3049246693_9.jpg",
+        "https://f4.bcbits.com/img/a2687222144_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'country folk',
-      value: 'country-folk',
-      url: 'http://bandcamp.com/tag/country-folk',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a3046853986_9.jpg',
-        'https://f4.bcbits.com/img/a1835379381_9.jpg',
-        'https://f4.bcbits.com/img/a1929640100_9.jpg',
-        'https://f4.bcbits.com/img/a1711303920_9.jpg'
+      "type": "tag",
+      "name": "country folk",
+      "value": "country-folk",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a2659118515_9.jpg",
+        "https://f4.bcbits.com/img/a275439653_9.jpg",
+        "https://f4.bcbits.com/img/a2556154458_9.jpg",
+        "https://f4.bcbits.com/img/a1477036750_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'country rock',
-      value: 'country-rock',
-      url: 'http://bandcamp.com/tag/country-rock',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a2019933940_9.jpg',
-        'https://f4.bcbits.com/img/a1682448932_9.jpg',
-        'https://f4.bcbits.com/img/a2702106649_9.jpg',
-        'https://f4.bcbits.com/img/a2677029463_9.jpg'
+      "type": "tag",
+      "name": "country rock",
+      "value": "country-rock",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a2245756587_9.jpg",
+        "https://f4.bcbits.com/img/a2124158027_9.jpg",
+        "https://f4.bcbits.com/img/a1556233371_9.jpg",
+        "https://f4.bcbits.com/img/a1761864886_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'crust punk',
-      value: 'crust-punk',
-      url: 'http://bandcamp.com/tag/crust-punk',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a3788576062_9.jpg',
-        'https://f4.bcbits.com/img/a4275416738_9.jpg',
-        'https://f4.bcbits.com/img/a299621495_9.jpg',
-        'https://f4.bcbits.com/img/a1933583671_9.jpg'
+      "type": "tag",
+      "name": "crust punk",
+      "value": "crust-punk",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a561663696_9.jpg",
+        "https://f4.bcbits.com/img/a1654218290_9.jpg",
+        "https://f4.bcbits.com/img/a305389456_9.jpg",
+        "https://f4.bcbits.com/img/a3274881907_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'dream pop',
-      value: 'dream-pop',
-      url: 'http://bandcamp.com/tag/dream-pop',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a642103635_9.jpg',
-        'https://f4.bcbits.com/img/a268072801_9.jpg',
-        'https://f4.bcbits.com/img/a789204647_9.jpg',
-        'https://f4.bcbits.com/img/a159862491_9.jpg'
+      "type": "tag",
+      "name": "dream pop",
+      "value": "dream-pop",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a2019002829_9.jpg",
+        "https://f4.bcbits.com/img/a2128496179_9.jpg",
+        "https://f4.bcbits.com/img/a2262796637_9.jpg",
+        "https://f4.bcbits.com/img/a1015681947_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'electric blues',
-      value: 'electric-blues',
-      url: 'http://bandcamp.com/tag/electric-blues',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a4103902869_9.jpg',
-        'https://f4.bcbits.com/img/a2944610144_9.jpg',
-        'https://f4.bcbits.com/img/a1073003144_9.jpg',
-        'https://f4.bcbits.com/img/a3629627491_9.jpg'
+      "type": "tag",
+      "name": "electric blues",
+      "value": "electric-blues",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a4270910212_9.jpg",
+        "https://f4.bcbits.com/img/a2736971752_9.jpg",
+        "https://f4.bcbits.com/img/a1121688584_9.jpg",
+        "https://f4.bcbits.com/img/a3924783513_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'electronic',
-      value: 'electronic',
-      url: 'http://bandcamp.com/tag/electronic',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a2369098502_9.jpg',
-        'https://f4.bcbits.com/img/a471535600_9.jpg',
-        'https://f4.bcbits.com/img/a3743299424_9.jpg',
-        'https://f4.bcbits.com/img/a3719386750_9.jpg'
+      "type": "tag",
+      "name": "electronic",
+      "value": "electronic",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a2104449065_9.jpg",
+        "https://f4.bcbits.com/img/a383387720_9.jpg",
+        "https://f4.bcbits.com/img/a862794224_9.jpg",
+        "https://f4.bcbits.com/img/a732724686_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'emo',
-      value: 'emo',
-      url: 'http://bandcamp.com/tag/emo',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a3530917811_9.jpg',
-        'https://f4.bcbits.com/img/a4203457413_9.jpg',
-        'https://f4.bcbits.com/img/a3379496406_9.jpg',
-        'https://f4.bcbits.com/img/a2600426755_9.jpg'
+      "type": "tag",
+      "name": "emo",
+      "value": "emo",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a281607091_9.jpg",
+        "https://f4.bcbits.com/img/a239836364_9.jpg",
+        "https://f4.bcbits.com/img/a3670297222_9.jpg",
+        "https://f4.bcbits.com/img/a1937666906_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'film music',
-      value: 'film-music',
-      url: 'http://bandcamp.com/tag/film-music',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a3685440003_9.jpg',
-        'https://f4.bcbits.com/img/a569041754_9.jpg',
-        'https://f4.bcbits.com/img/a3147499550_9.jpg',
-        'https://f4.bcbits.com/img/a3659201531_9.jpg'
+      "type": "tag",
+      "name": "film music",
+      "value": "film-music",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a1955327755_9.jpg",
+        "https://f4.bcbits.com/img/a3769714197_9.jpg",
+        "https://f4.bcbits.com/img/a962633134_9.jpg",
+        "https://f4.bcbits.com/img/a1884790981_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'flamenco',
-      value: 'flamenco',
-      url: 'http://bandcamp.com/tag/flamenco',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a1932751800_9.jpg',
-        'https://f4.bcbits.com/img/a856528737_9.jpg',
-        'https://f4.bcbits.com/img/a700793423_9.jpg',
-        'https://f4.bcbits.com/img/a1933787146_9.jpg'
+      "type": "tag",
+      "name": "flamenco",
+      "value": "flamenco",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a3570537531_9.jpg",
+        "https://f4.bcbits.com/img/a3043037301_9.jpg",
+        "https://f4.bcbits.com/img/a3350827090_9.jpg",
+        "https://f4.bcbits.com/img/a634675924_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'folk punk',
-      value: 'folk-punk',
-      url: 'http://bandcamp.com/tag/folk-punk',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a451092672_9.jpg',
-        'https://f4.bcbits.com/img/a2307897111_9.jpg',
-        'https://f4.bcbits.com/img/a2802770119_9.jpg',
-        'https://f4.bcbits.com/img/a595269153_9.jpg'
+      "type": "tag",
+      "name": "folk punk",
+      "value": "folk-punk",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a1711801097_9.jpg",
+        "https://f4.bcbits.com/img/a4199075226_9.jpg",
+        "https://f4.bcbits.com/img/a1760380718_9.jpg",
+        "https://f4.bcbits.com/img/a1764093502_9.jpg"
       ]
     }
   ],
-  total: 45,
-  continuation: { fanId: 8563805, token: 'folk-punk' }
+  "total": 45,
+  "continuation": {
+    "fanId": 8563805,
+    "token": "folk-punk"
+  }
 }
 Fetching more by continuation...
 {
-  items: [
+  "items": [
     {
-      type: 'tag',
-      name: 'grunge',
-      value: 'grunge',
-      url: 'http://bandcamp.com/tag/grunge',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a3838850450_9.jpg',
-        'https://f4.bcbits.com/img/a1722783975_9.jpg',
-        'https://f4.bcbits.com/img/a3344109012_9.jpg',
-        'https://f4.bcbits.com/img/a1519448378_9.jpg'
+      "type": "tag",
+      "name": "grunge",
+      "value": "grunge",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a477173175_9.jpg",
+        "https://f4.bcbits.com/img/a281607091_9.jpg",
+        "https://f4.bcbits.com/img/a522861910_9.jpg",
+        "https://f4.bcbits.com/img/a1210724214_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'hardcore punk',
-      value: 'hardcore-punk',
-      url: 'http://bandcamp.com/tag/hardcore-punk',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a2690447093_9.jpg',
-        'https://f4.bcbits.com/img/a3277675890_9.jpg',
-        'https://f4.bcbits.com/img/a219505810_9.jpg',
-        'https://f4.bcbits.com/img/a26969621_9.jpg'
+      "type": "tag",
+      "name": "hardcore punk",
+      "value": "hardcore-punk",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a240845568_9.jpg",
+        "https://f4.bcbits.com/img/a180759035_9.jpg",
+        "https://f4.bcbits.com/img/a459559353_9.jpg",
+        "https://f4.bcbits.com/img/a2180357681_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'hillbilly',
-      value: 'hillbilly',
-      url: 'http://bandcamp.com/tag/hillbilly',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a2337448128_9.jpg',
-        'https://f4.bcbits.com/img/a2141247752_9.jpg',
-        'https://f4.bcbits.com/img/a194276516_9.jpg',
-        'https://f4.bcbits.com/img/a1591951065_9.jpg'
+      "type": "tag",
+      "name": "hillbilly",
+      "value": "hillbilly",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a3370182917_9.jpg",
+        "https://f4.bcbits.com/img/a1132979418_9.jpg",
+        "https://f4.bcbits.com/img/a854495842_9.jpg",
+        "https://f4.bcbits.com/img/a1978469535_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'hip-hop/rap',
-      value: 'hip-hop-rap',
-      url: 'http://bandcamp.com/tag/hip-hop-rap',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a1440024314_9.jpg',
-        'https://f4.bcbits.com/img/a618965896_9.jpg',
-        'https://f4.bcbits.com/img/a3559786259_9.jpg',
-        'https://f4.bcbits.com/img/a2382337335_9.jpg'
+      "type": "tag",
+      "name": "hip-hop/rap",
+      "value": "hip-hop-rap",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a3304729223_9.jpg",
+        "https://f4.bcbits.com/img/a63496290_9.jpg",
+        "https://f4.bcbits.com/img/a1661688294_9.jpg",
+        "https://f4.bcbits.com/img/a4249477005_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'honky tonk',
-      value: 'honky-tonk',
-      url: 'http://bandcamp.com/tag/honky-tonk',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a3666263131_9.jpg',
-        'https://f4.bcbits.com/img/a1265619275_9.jpg',
-        'https://f4.bcbits.com/img/a4090544611_9.jpg',
-        'https://f4.bcbits.com/img/a2189099069_9.jpg'
+      "type": "tag",
+      "name": "honky tonk",
+      "value": "honky-tonk",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a2985087837_9.jpg",
+        "https://f4.bcbits.com/img/a3448331746_9.jpg",
+        "https://f4.bcbits.com/img/a3715096849_9.jpg",
+        "https://f4.bcbits.com/img/a1073250815_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'jangle pop',
-      value: 'jangle-pop',
-      url: 'http://bandcamp.com/tag/jangle-pop',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a1347857119_9.jpg',
-        'https://f4.bcbits.com/img/a2687263679_9.jpg',
-        'https://f4.bcbits.com/img/a2463301200_9.jpg',
-        'https://f4.bcbits.com/img/a2430152321_9.jpg'
+      "type": "tag",
+      "name": "jangle pop",
+      "value": "jangle-pop",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a1825547906_9.jpg",
+        "https://f4.bcbits.com/img/a2500181996_9.jpg",
+        "https://f4.bcbits.com/img/a2080450375_9.jpg",
+        "https://f4.bcbits.com/img/a736922991_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'jazz',
-      value: 'jazz',
-      url: 'http://bandcamp.com/tag/jazz',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a3522223634_9.jpg',
-        'https://f4.bcbits.com/img/a2795881460_9.jpg',
-        'https://f4.bcbits.com/img/a878219583_9.jpg',
-        'https://f4.bcbits.com/img/a615333572_9.jpg'
+      "type": "tag",
+      "name": "jazz",
+      "value": "jazz",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a448011701_9.jpg",
+        "https://f4.bcbits.com/img/a84031610_9.jpg",
+        "https://f4.bcbits.com/img/a3151418964_9.jpg",
+        "https://f4.bcbits.com/img/a3850528551_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'latin',
-      value: 'latin',
-      url: 'http://bandcamp.com/tag/latin',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a1436460325_9.jpg',
-        'https://f4.bcbits.com/img/a3595157548_9.jpg',
-        'https://f4.bcbits.com/img/a2186362651_9.jpg',
-        'https://f4.bcbits.com/img/a1802647310_9.jpg'
+      "type": "tag",
+      "name": "latin",
+      "value": "latin",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a860463739_9.jpg",
+        "https://f4.bcbits.com/img/a2437640307_9.jpg",
+        "https://f4.bcbits.com/img/a3470334484_9.jpg",
+        "https://f4.bcbits.com/img/a1432254423_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'math rock',
-      value: 'math-rock',
-      url: 'http://bandcamp.com/tag/math-rock',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a3843630885_9.jpg',
-        'https://f4.bcbits.com/img/a284170925_9.jpg',
-        'https://f4.bcbits.com/img/a241365419_9.jpg',
-        'https://f4.bcbits.com/img/a2093082419_9.jpg'
+      "type": "tag",
+      "name": "math rock",
+      "value": "math-rock",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a571830204_9.jpg",
+        "https://f4.bcbits.com/img/a3662870209_9.jpg",
+        "https://f4.bcbits.com/img/a2553752682_9.jpg",
+        "https://f4.bcbits.com/img/a3658750944_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'no wave',
-      value: 'no-wave',
-      url: 'http://bandcamp.com/tag/no-wave',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a1141035398_9.jpg',
-        'https://f4.bcbits.com/img/a1556435604_9.jpg',
-        'https://f4.bcbits.com/img/a3619638339_9.jpg',
-        'https://f4.bcbits.com/img/a974366469_9.jpg'
+      "type": "tag",
+      "name": "no wave",
+      "value": "no-wave",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a2640289836_9.jpg",
+        "https://f4.bcbits.com/img/a2467829156_9.jpg",
+        "https://f4.bcbits.com/img/a3296120029_9.jpg",
+        "https://f4.bcbits.com/img/a1413588375_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'outlaw',
-      value: 'outlaw',
-      url: 'http://bandcamp.com/tag/outlaw',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a1946794541_9.jpg',
-        'https://f4.bcbits.com/img/a334947024_9.jpg',
-        'https://f4.bcbits.com/img/a4117346728_9.jpg',
-        'https://f4.bcbits.com/img/a3126488190_9.jpg'
+      "type": "tag",
+      "name": "outlaw",
+      "value": "outlaw",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a1073250815_9.jpg",
+        "https://f4.bcbits.com/img/a3580958468_9.jpg",
+        "https://f4.bcbits.com/img/a1276877164_9.jpg",
+        "https://f4.bcbits.com/img/a4227917477_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'pop',
-      value: 'pop',
-      url: 'http://bandcamp.com/tag/pop',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a3827978931_9.jpg',
-        'https://f4.bcbits.com/img/a3947019626_9.jpg',
-        'https://f4.bcbits.com/img/a4133899070_9.jpg',
-        'https://f4.bcbits.com/img/a2771459915_9.jpg'
+      "type": "tag",
+      "name": "pop",
+      "value": "pop",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a3262203040_9.jpg",
+        "https://f4.bcbits.com/img/a3493306931_9.jpg",
+        "https://f4.bcbits.com/img/a2616105897_9.jpg",
+        "https://f4.bcbits.com/img/a3108453833_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'pop punk',
-      value: 'pop-punk',
-      url: 'http://bandcamp.com/tag/pop-punk',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a696307499_9.jpg',
-        'https://f4.bcbits.com/img/a1500994479_9.jpg',
-        'https://f4.bcbits.com/img/a1169246423_9.jpg',
-        'https://f4.bcbits.com/img/a2546161307_9.jpg'
+      "type": "tag",
+      "name": "pop punk",
+      "value": "pop-punk",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a3685984251_9.jpg",
+        "https://f4.bcbits.com/img/a2766839339_9.jpg",
+        "https://f4.bcbits.com/img/a2456227092_9.jpg",
+        "https://f4.bcbits.com/img/a1284023839_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'punk',
-      value: 'punk',
-      url: 'http://bandcamp.com/tag/punk',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a3266787559_9.jpg',
-        'https://f4.bcbits.com/img/a685126288_9.jpg',
-        'https://f4.bcbits.com/img/a2081661525_9.jpg',
-        'https://f4.bcbits.com/img/a1712786920_9.jpg'
+      "type": "tag",
+      "name": "punk",
+      "value": "punk",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a180759035_9.jpg",
+        "https://f4.bcbits.com/img/a2674974162_9.jpg",
+        "https://f4.bcbits.com/img/a269072802_9.jpg",
+        "https://f4.bcbits.com/img/a2877136995_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'punk rock',
-      value: 'punk-rock',
-      url: 'http://bandcamp.com/tag/punk-rock',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a1431778546_9.jpg',
-        'https://f4.bcbits.com/img/a3752216242_9.jpg',
-        'https://f4.bcbits.com/img/a3266787559_9.jpg',
-        'https://f4.bcbits.com/img/a2043110117_9.jpg'
+      "type": "tag",
+      "name": "punk rock",
+      "value": "punk-rock",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a459559353_9.jpg",
+        "https://f4.bcbits.com/img/a1910862508_9.jpg",
+        "https://f4.bcbits.com/img/a1837449749_9.jpg",
+        "https://f4.bcbits.com/img/a686200489_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'reggaeton',
-      value: 'reggaeton',
-      url: 'http://bandcamp.com/tag/reggaeton',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a3027739623_9.jpg',
-        'https://f4.bcbits.com/img/a2803601909_9.jpg',
-        'https://f4.bcbits.com/img/a1988172569_9.jpg',
-        'https://f4.bcbits.com/img/a3793553707_9.jpg'
+      "type": "tag",
+      "name": "reggaeton",
+      "value": "reggaeton",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a1430666770_9.jpg",
+        "https://f4.bcbits.com/img/a2540311488_9.jpg",
+        "https://f4.bcbits.com/img/a1922633405_9.jpg",
+        "https://f4.bcbits.com/img/a3590904011_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'roots',
-      value: 'roots',
-      url: 'http://bandcamp.com/tag/roots',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a108647286_9.jpg',
-        'https://f4.bcbits.com/img/a40609592_9.jpg',
-        'https://f4.bcbits.com/img/a3603565158_9.jpg',
-        'https://f4.bcbits.com/img/a265090438_9.jpg'
+      "type": "tag",
+      "name": "roots",
+      "value": "roots",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a1055442624_9.jpg",
+        "https://f4.bcbits.com/img/a3759817713_9.jpg",
+        "https://f4.bcbits.com/img/a3911591205_9.jpg",
+        "https://f4.bcbits.com/img/a2819192993_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'salsa',
-      value: 'salsa',
-      url: 'http://bandcamp.com/tag/salsa',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a2398600228_9.jpg',
-        'https://f4.bcbits.com/img/a1436460325_9.jpg',
-        'https://f4.bcbits.com/img/a3575647188_9.jpg',
-        'https://f4.bcbits.com/img/a1123428843_9.jpg'
+      "type": "tag",
+      "name": "salsa",
+      "value": "salsa",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a311618447_9.jpg",
+        "https://f4.bcbits.com/img/a3892361278_9.jpg",
+        "https://f4.bcbits.com/img/a69204478_9.jpg",
+        "https://f4.bcbits.com/img/a2484062156_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'singer-songwriter',
-      value: 'singer-songwriter',
-      url: 'http://bandcamp.com/tag/singer-songwriter',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a2234597342_9.jpg',
-        'https://f4.bcbits.com/img/a3542987419_9.jpg',
-        'https://f4.bcbits.com/img/a2641412512_9.jpg',
-        'https://f4.bcbits.com/img/a1308676429_9.jpg'
+      "type": "tag",
+      "name": "singer-songwriter",
+      "value": "singer-songwriter",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a3565109622_9.jpg",
+        "https://f4.bcbits.com/img/a3031987811_9.jpg",
+        "https://f4.bcbits.com/img/a3645003832_9.jpg",
+        "https://f4.bcbits.com/img/a272605646_9.jpg"
       ]
     },
     {
-      type: 'tag',
-      name: 'soundtrack',
-      value: 'soundtrack',
-      url: 'http://bandcamp.com/tag/soundtrack',
-      imageUrls: [
-        'https://f4.bcbits.com/img/a1507019037_9.jpg',
-        'https://f4.bcbits.com/img/a936749446_9.jpg',
-        'https://f4.bcbits.com/img/a2237012774_9.jpg',
-        'https://f4.bcbits.com/img/a2931800830_9.jpg'
+      "type": "tag",
+      "name": "soundtrack",
+      "value": "soundtrack",
+      "imageUrls": [
+        "https://f4.bcbits.com/img/a510125997_9.jpg",
+        "https://f4.bcbits.com/img/a3298026448_9.jpg",
+        "https://f4.bcbits.com/img/a2002083581_9.jpg",
+        "https://f4.bcbits.com/img/a3796215652_9.jpg"
       ]
     }
   ],
-  continuation: { fanId: 8563805, token: 'soundtrack' }
+  "continuation": {
+    "fanId": 8563805,
+    "token": "soundtrack"
+  }
 }

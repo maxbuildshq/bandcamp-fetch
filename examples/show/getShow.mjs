@@ -1,5 +1,4 @@
-import bcfetch from '../../';
-import util from 'util';
+import bcfetch from '../../dist/mjs/index.js';
 
 const showUrl = 'https://bandcamp.com/?show=421';
 
@@ -8,5 +7,5 @@ const params = {
 };
 
 bcfetch.show.getShow(params).then((results) => {
-  console.log(util.inspect(results, false, null, false));
+  console.log(JSON.stringify(results, null, 2));
 });

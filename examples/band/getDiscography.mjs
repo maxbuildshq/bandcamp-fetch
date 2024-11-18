@@ -1,5 +1,4 @@
-import bcfetch from '../../';
-import util from 'util';
+import bcfetch from '../../dist/mjs/index.js';
 
 const artistUrl = 'https://musique.coeurdepirate.com';
 const labelUrl = 'https://randsrecords.bandcamp.com';
@@ -16,12 +15,12 @@ const labelDiscogParams = {
 
 bcfetch.band.getDiscography(artistDiscogParams).then((results) => {
   console.log(`Artist URL: ${artistUrl}`);
-  console.log(util.inspect(results, false, null, false));
+  console.log(JSON.stringify(results, null, 2));
   console.log();
 });
 
 bcfetch.band.getDiscography(labelDiscogParams).then((results) => {
   console.log(`Label URL: ${labelUrl}`);
-  console.log(util.inspect(results, false, null, false));
+  console.log(JSON.stringify(results, null, 2));
   console.log();
 });

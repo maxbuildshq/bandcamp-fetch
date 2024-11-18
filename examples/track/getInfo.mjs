@@ -1,5 +1,4 @@
-import bcfetch from '../../';
-import util from 'util';
+import bcfetch from '../../dist/mjs/index.js';
 
 const trackUrl = 'https://musique.coeurdepirate.com/track/tes-belle';
 
@@ -11,5 +10,5 @@ const params = {
 };
 
 bcfetch.track.getInfo(params).then((results) => {
-  console.log(util.inspect(results, false, null, false));
+  console.log(JSON.stringify(results, null, 2));
 });
