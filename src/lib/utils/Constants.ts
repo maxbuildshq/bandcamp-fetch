@@ -19,7 +19,7 @@ export const URLS = {
   },
   SEARCH: `${SITE_URL}/search`,
   AUTOCOMPLETE: {
-    TAG: `${API_URL}/fansignup/1/search_tag`,
+    TAG: `${API_URL}/bcsearch_public_api/1/tag_search`,
     LOCATION: `${API_URL}/location/1/geoname_search`
   },
   REFRESH_STREAM: `${API_URL}/stream/1/refresh`

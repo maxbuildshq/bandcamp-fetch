@@ -1,101 +1,256 @@
-Autocomplete location suggestions: Fin, Limit: 10
+Autocomplete location suggestions: Fin, Limit: 20
 -------------------------------------------------
 [
   {
-    type: 'location',
-    value: 2186224,
-    name: 'New Zealand',
-    fullName: 'New Zealand'
+    "type": "location",
+    "value": 660013,
+    "name": "Finland",
+    "fullName": "Finland"
   },
   {
-    type: 'location',
-    value: 660013,
-    name: 'Finland',
-    fullName: 'Finland'
+    "type": "location",
+    "value": 2186224,
+    "name": "New Zealand",
+    "fullName": "New Zealand"
   },
   {
-    type: 'location',
-    value: 5308655,
-    name: 'Phoenix',
-    fullName: 'Phoenix, Arizona'
+    "type": "location",
+    "value": 5308655,
+    "name": "Phoenix",
+    "fullName": "Phoenix, Arizona"
   },
   {
-    type: 'location',
-    value: 830685,
-    name: 'Keski-Suomi',
-    fullName: 'Keski-Suomi, Republic of Finland'
+    "type": "location",
+    "value": 830685,
+    "name": "Keski-Suomi",
+    "fullName": "Keski-Suomi, Republic of Finland"
   },
   {
-    type: 'location',
-    value: 2139685,
-    name: 'New Caledonia',
-    fullName: 'New Caledonia'
+    "type": "location",
+    "value": 2139685,
+    "name": "New Caledonia",
+    "fullName": "New Caledonia"
   },
   {
-    type: 'location',
-    value: 5153924,
-    name: 'Findlay',
-    fullName: 'Findlay, Ohio'
+    "type": "location",
+    "value": 5153924,
+    "name": "Findlay",
+    "fullName": "Findlay, Ohio"
   },
   {
-    type: 'location',
-    value: 830708,
-    name: 'Finland Proper',
-    fullName: 'Finland Proper, Republic of Finland'
+    "type": "location",
+    "value": 830708,
+    "name": "Finland Proper",
+    "fullName": "Finland Proper, Republic of Finland"
   },
   {
-    type: 'location',
-    value: 780166,
-    name: 'Finnmark Fylke',
-    fullName: 'Finnmark Fylke, Kingdom of Norway'
+    "type": "location",
+    "value": 780166,
+    "name": "Finnmark Fylke",
+    "fullName": "Finnmark Fylke, Kingdom of Norway"
   },
   {
-    type: 'location',
-    value: 2714903,
-    name: 'Finspång',
-    fullName: 'Finspång, Östergötland'
+    "type": "location",
+    "value": 2714903,
+    "name": "Finspång",
+    "fullName": "Finspång, Östergötland"
   },
   {
-    type: 'location',
-    value: 3176983,
-    name: 'Finale Emilia',
-    fullName: 'Finale Emilia, Emilia-Romagna'
+    "type": "location",
+    "value": 3176983,
+    "name": "Finale Emilia",
+    "fullName": "Finale Emilia, Emilia-Romagna"
+  },
+  {
+    "type": "location",
+    "value": 5026506,
+    "name": "Finland",
+    "fullName": "Finland, Minnesota"
+  },
+  {
+    "type": "location",
+    "value": 4758750,
+    "name": "Fincastle",
+    "fullName": "Fincastle, Virginia"
+  },
+  {
+    "type": "location",
+    "value": 2926670,
+    "name": "Finsterwalde",
+    "fullName": "Finsterwalde, Brandenburg"
+  },
+  {
+    "type": "location",
+    "value": 2926716,
+    "name": "Finnentrop",
+    "fullName": "Finnentrop, North Rhine-Westphalia"
+  },
+  {
+    "type": "location",
+    "value": 3176982,
+    "name": "Finale Ligure",
+    "fullName": "Finale Ligure, Liguria"
+  },
+  {
+    "type": "location",
+    "value": 4354890,
+    "name": "Finksburg",
+    "fullName": "Finksburg, Maryland"
+  },
+  {
+    "type": "location",
+    "value": 2166675,
+    "name": "Finley",
+    "fullName": "Finley, New South Wales"
+  },
+  {
+    "type": "location",
+    "value": 2517719,
+    "name": "Finestrat",
+    "fullName": "Finestrat, Valencia"
+  },
+  {
+    "type": "location",
+    "value": 2649445,
+    "name": "Finchampstead",
+    "fullName": "Finchampstead, England"
+  },
+  {
+    "type": "location",
+    "value": 4291674,
+    "name": "Finchville",
+    "fullName": "Finchville, Kentucky"
   }
 ]
 
-Autocomplete tag suggestions: ambient, Limit: 10
-------------------------------------------------
+Autocomplete tag suggestions: ambient
+-------------------------------------
 [
-  { type: 'tag', count: 607466, value: 'ambient', name: 'ambient' },
   {
-    type: 'tag',
-    count: 92299,
-    value: 'ambient-electronic',
-    name: 'ambient electronic'
+    "type": "tag",
+    "count": 670848,
+    "value": "ambient",
+    "name": "ambient"
   },
   {
-    type: 'tag',
-    count: 15889,
-    value: 'ambient-rock',
-    name: 'ambient rock'
+    "type": "tag",
+    "count": 107030,
+    "value": "ambient-electronic",
+    "name": "ambient electronic"
   },
   {
-    type: 'tag',
-    count: 10117,
-    value: 'ambient-techno',
-    name: 'ambient techno'
+    "type": "tag",
+    "count": 17925,
+    "value": "ambient-rock",
+    "name": "ambient rock"
   },
   {
-    type: 'tag',
-    count: 6671,
-    value: 'ambient-music',
-    name: 'ambient music'
+    "type": "tag",
+    "count": 12711,
+    "value": "ambient-techno",
+    "name": "ambient techno"
   },
   {
-    type: 'tag',
-    count: 3739,
-    value: 'ambient-drone',
-    name: 'ambient drone'
+    "type": "tag",
+    "count": 10917,
+    "value": "ambient-music",
+    "name": "ambient music"
+  },
+  {
+    "type": "tag",
+    "count": 4695,
+    "value": "ambient-drone",
+    "name": "ambient drone"
+  },
+  {
+    "type": "tag",
+    "count": 4301,
+    "value": "ambient-noise",
+    "name": "ambient noise"
+  },
+  {
+    "type": "tag",
+    "count": 4081,
+    "value": "ambient-black-metal",
+    "name": "ambient black metal"
+  },
+  {
+    "type": "tag",
+    "count": 3647,
+    "value": "ambient-noise-wall",
+    "name": "ambient noise wall"
+  },
+  {
+    "type": "tag",
+    "count": 3580,
+    "value": "ambient-pop",
+    "name": "ambient pop"
+  },
+  {
+    "type": "tag",
+    "count": 3362,
+    "value": "ambient-folk",
+    "name": "Ambient Folk"
+  },
+  {
+    "type": "tag",
+    "count": 2799,
+    "value": "ambient-guitar",
+    "name": "ambient guitar"
+  },
+  {
+    "type": "tag",
+    "count": 2534,
+    "value": "ambient-dub",
+    "name": "ambient dub"
+  },
+  {
+    "type": "tag",
+    "count": 2283,
+    "value": "ambient-house",
+    "name": "ambient house"
+  },
+  {
+    "type": "tag",
+    "count": 2001,
+    "value": "ambiental",
+    "name": "ambiental"
+  },
+  {
+    "type": "tag",
+    "count": 1935,
+    "value": "ambient-electronica",
+    "name": "ambient electronica"
+  },
+  {
+    "type": "tag",
+    "count": 1425,
+    "value": "ambient-glitch",
+    "name": "ambient glitch"
+  },
+  {
+    "type": "tag",
+    "count": 1398,
+    "value": "ambient-metal",
+    "name": "ambient metal"
+  },
+  {
+    "type": "tag",
+    "count": 1295,
+    "value": "ambient-piano",
+    "name": "ambient piano"
+  },
+  {
+    "type": "tag",
+    "count": 1060,
+    "value": "ambient-jazz",
+    "name": "ambient jazz"
+  },
+  {
+    "type": "tag",
+    "count": 776,
+    "value": "ambient-hip-hop",
+    "name": "ambient hip-hop"
   }
 ]
 

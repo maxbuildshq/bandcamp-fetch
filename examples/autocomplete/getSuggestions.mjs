@@ -1,23 +1,22 @@
-import bcfetch, { AutocompleteAPIGetSuggestionsParams, AutocompleteItemType } from '../../';
-import util from 'util';
+import bcfetch, { AutocompleteItemType } from '../../dist/mjs/index.js';
 
 const autocompleteTagParams = {
   itemType: AutocompleteItemType.Tag,
-  query: 'ambient',
-  limit: 10
-} as const;
+  query: 'ambient'
+};
 
 const autocompleteLocationParams = {
   itemType: AutocompleteItemType.Location,
   query: 'Fin',
-  limit: 10
-} as const;
+  limit: 20
+};
 
-function printResults(results: any, params: AutocompleteAPIGetSuggestionsParams) {
-  const title = `Autocomplete ${params.itemType.toLowerCase()} suggestions: ${params.query}, Limit: ${params.limit}`;
+function printResults(results, params) {
+  const limit = params.limit !== undefined ? `, Limit: ${params.limit}` : '';
+  const title = `Autocomplete ${params.itemType.toLowerCase()} suggestions: ${params.query}${limit}`;
   console.log(title);
   console.log('-'.repeat(title.length));
-  console.log(util.inspect(results, false, null, false));
+  console.log(JSON.stringify(results, null, 2));
   console.log('');
 }
 
