@@ -1,6 +1,6 @@
 import Album from '../types/Album.js';
 import Artist from '../types/Artist.js';
-import { DiscoverParams, DiscoverResult } from '../types/Discovery.js';
+import { DiscoverOptions, DiscoverParams, DiscoverResult } from '../types/Discovery.js';
 import { ImageFormat } from '../types/Image.js';
 import { ParseError } from '../utils/Parse.js';
 
@@ -12,54 +12,53 @@ interface DiscoverResultParseOptions {
 
 export default class DiscoverResultParser {
 
-  static parseDiscoverResult(json: any, opts: DiscoverResultParseOptions, resultParams: DiscoverParams): DiscoverResult {
-    if (typeof json === 'object' && Array.isArray(json.items)) {
-      const items = json.items.filter(
-        (item: any) => item.type === 'a').map((item: any) => {
+  static parseDiscoverResult(json: any, opts: DiscoverResultParseOptions, params: DiscoverParams, availableOptions: DiscoverOptions): DiscoverResult {
+    if (typeof json === 'object' && Array.isArray(json.results)) {
+      const items = json.results.filter(
+        (item: any) => item.result_type === 'a').map((item: any) => {
         const artist: Artist = {
           type: 'artist',
-          name: item.secondary_text
+          name: item.album_artist || item.band_name
         };
         const album: Album = {
           type: 'album',
-          name: item.primary_text,
-          genre: item.genre_text,
+          name: item.title,
           artist,
-          location: item.location_text
+          location: item.band_location
         };
+        const genre = item.band_genre_id !== undefined ?
+          availableOptions.genres.find((genre) => item.band_genre_id === genre.id) : null;
+        if (genre?.name) {
+          album.genre = genre.name;
+        }
         if (item.url_hints) {
-          artist.url = `https://${item.url_hints.subdomain}.bandcamp.com`;
+          artist.url = item.band_url;
         }
         if (artist.url) {
-          album.url = `${artist.url}/album/${item.url_hints.slug}`;
+          album.url = item.item_url;
         }
-        if (item.art_id && opts.albumImageFormat) {
-          album.imageUrl = `${opts.imageBaseUrl}/img/a${item.art_id}_${opts.albumImageFormat.id}.jpg`;
+        if (item.item_image_id && opts.albumImageFormat) {
+          album.imageUrl = `${opts.imageBaseUrl}/img/a${item.item_image_id}_${opts.albumImageFormat.id}.jpg`;
         }
         if (item.featured_track) {
           album.featuredTrack = {
             name: item.featured_track.title,
-            duration: item.featured_track.duration,
-            streamUrl: item.featured_track.file?.['mp3-128']
+            streamUrl: item.featured_track.stream_url
           };
-          const streamUrlHQ = item.featured_track.file?.['mp3-v0'];
-          if (streamUrlHQ) {
-            album.featuredTrack.streamUrlHQ = streamUrlHQ;
-          }
         }
-        if (item.bio_image && opts.artistImageFormat) {
-          artist.imageUrl = `${opts.imageBaseUrl}/img/${item.bio_image.image_id}_${opts.artistImageFormat.id}.jpg`;
+        if (item.band_bio_image_id && opts.artistImageFormat) {
+          artist.imageUrl = `${opts.imageBaseUrl}/img/${item.band_bio_image_id}_${opts.artistImageFormat.id}.jpg`;
         }
         return album;
       }) as Album[];
 
       return {
         items,
-        total: json.total_count,
-        params: resultParams
+        total: json.result_count,
+        params
       };
     }
 
-    throw new ParseError('Failed to parse discover results: data is missing or has invalid \'items\' field.', json);
+    throw new ParseError('Failed to parse discover results: data is missing or has invalid \'results\' field.', json);
   }
 }

@@ -1,6 +1,7 @@
 import NameValuePair from '../utils/NameValuePair.js';
 import Album from './Album.js';
 import { ImageFormat } from './Image.js';
+import Tag from './Tag.js';
 
 /**
  * Options and list of values for each option that can be used to formulate {@link DiscoverParams}.
@@ -8,13 +9,13 @@ import { ImageFormat } from './Image.js';
  * @see DiscoveryAPI.getAvailableOptions
  */
 export interface DiscoverOptions {
-  genres: NameValuePair<string>[];
+  categories: (NameValuePair<number> & { slug: string })[];
+  genres: (NameValuePair<string> & { id: number; })[];
+  subgenres: Record<string, (NameValuePair<string> & { id: number; })[]>;
+  customTags: Array<Tag | string>;
   sortBys: NameValuePair<string>[];
-  times: (NameValuePair<number> & { title: string })[];
-  subgenres: Record<string, NameValuePair<string>[]>;
-  locations: NameValuePair<string>[];
-  formats: NameValuePair<string>[];
-  artistRecommendationTypes: NameValuePair<string>[];
+  locations: NameValuePair<number>[];
+  times: (NameValuePair<number> & { slug: string })[];
 }
 
 /**
@@ -24,13 +25,14 @@ export interface DiscoverOptions {
  */
 export interface DiscoverParams {
   genre?: string;
-  sortBy?: string;
-  page?: number;
-  time?: number;
   subgenre?: string;
-  location?: string;
-  format?: string;
-  artistRecommendationType?: string;
+  category?: number;
+  sortBy?: string;
+  location?: number;
+  time?: number;
+  customTags?: string;
+  cursor?: string;
+  size?: number;
   /**
    * Value indicating the image format to adopt when constructing image URLs of discovered albums.
    */
@@ -41,12 +43,14 @@ export interface DiscoverParams {
   artistImageFormat?: string | number | ImageFormat;
 }
 
+export type SanitizedDiscoverParams = DiscoverParams & Required<Pick<DiscoverParams, 'category' | 'sortBy' | 'location' | 'time' | 'cursor' | 'size'>>
+
 /**
  * Results returned by {@link DiscoveryAPI.discover}.
  */
 export interface DiscoverResult {
   /**
-   * List of discovered albums.
+   * List of discovered albums .
    */
   items: Album[];
   /**

@@ -1,5 +1,5 @@
 import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import { DiscoverOptions, DiscoverParams, DiscoverResult } from '../types/Discovery.js';
+import { DiscoverOptions, DiscoverParams, DiscoverResult, SanitizedDiscoverParams } from '../types/Discovery.js';
 import { CacheDataType } from '../utils/Cache.js';
 import { URLS } from '../utils/Constants.js';
 import { FetchMethod } from '../utils/Fetcher.js';
@@ -9,26 +9,26 @@ import DiscoverOptionsParser from './DiscoverOptionsParser.js';
 import DiscoverResultParser from './DiscoverResultParser.js';
 
 interface DiscoverRequestPayload {
-  s: string; // SortyBy
-  p: number; // Page
-  g?: string; // Genre
-  t?: string; // Subgenre
-  gn?: string; // Location
-  f?: string; // Format
-  r?: string; // Artist recommedation type
-  w?: number; // Time
+  category_id: number; // (digital, vinyl, cd, cassetes, shirts)
+  cursor: string; // Page cursor
+  geoname_id: number; // Location
+  include_result_types: string[]; // Always ['a', 's'] ?
+  size: number; // Number of results to get
+  slice: string; // (best-selling, new arrivals, surprise me)
+  tag_norm_names: string[]; // Genres, subgenres, customTags...
+  time_facet_id: number | null; // Time - Note: set to null if -1 (fresh)
 }
 
 export default class DiscoveryAPI extends BaseAPIWithImageSupport {
 
   async getAvailableOptions(): Promise<DiscoverOptions> {
     return this.cache.getOrSet(CacheDataType.Constants, 'discoverOptions', async () => {
-      const html = await this.fetch(URLS.SITE_URL);
+      const html = await this.fetch(URLS.DISCOVER.SITE);
       return DiscoverOptionsParser.parseOptions(html);
     });
   }
 
-  async sanitizeDiscoverParams(params?: DiscoverParams): Promise<DiscoverParams> {
+  async sanitizeDiscoverParams(params?: DiscoverParams) {
     const options = await this.getAvailableOptions();
 
     const _getOptionValue = <T>(optArr: NameValuePair<T>[], value?: T, defaultIndex = 0) => {
@@ -39,35 +39,38 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
         }
       }
       if (optArr) {
-        return optArr[defaultIndex].value;
+        return optArr[defaultIndex]?.value;
       }
 
       return undefined;
-
     };
 
-    const sanitized: DiscoverParams = {
-      genre: _getOptionValue(options.genres, params?.genre),
-      sortBy: _getOptionValue(options.sortBys, params?.sortBy),
-      page: params?.page || 0
-    };
+    const category = _getOptionValue(options.categories, params?.category) || 0;
+    const genre = _getOptionValue(options.genres, params?.genre, -1);
+    const sortBy = _getOptionValue(options.sortBys, params?.sortBy, -1) || 'top';
+    const location = _getOptionValue(options.locations, params?.location) || 0;
+    const time = _getOptionValue(options.times, params?.time) || -1;
 
-    if (sanitized.sortBy !== 'rec' && sanitized.genre) {
-      // Following only available when sortBy is not 'rec' (artist-recommend)
-      const subgenreOptions = options.subgenres[sanitized.genre];
-      if (subgenreOptions) { // `false` if genre is 'all'
-        sanitized.subgenre = _getOptionValue(subgenreOptions, params?.subgenre);
+    const sanitized: SanitizedDiscoverParams = {
+      category,
+      sortBy,
+      location,
+      time,
+      cursor: params?.cursor || '*',
+      size: params?.size || 60
+    };
+    if (genre) {
+      sanitized.genre = genre;
+      const subgenreOptions = options.subgenres[genre];
+      if (subgenreOptions) {
+        const subgenre = _getOptionValue(subgenreOptions, params?.subgenre, -1);
+        if (subgenre) {
+          sanitized.subgenre = subgenre;
+        }
       }
-      // 'Time' option only available when there is effectively no subgenre (e.g. genre is 'all' or subgenre is 'all-metal')
-      const timeAllowed = sanitized.subgenre === undefined || sanitized.subgenre == subgenreOptions[0].value;
-      if (timeAllowed) {
-        sanitized.time = _getOptionValue(options.times, params?.time, 1);
-      }
-      sanitized.location = _getOptionValue(options.locations, params?.location);
-      sanitized.format = _getOptionValue(options.formats, params?.format);
     }
-    else {
-      sanitized.artistRecommendationType = _getOptionValue(options.artistRecommendationTypes, params?.artistRecommendationType);
+    if (params?.customTags) {
+      sanitized.customTags = params.customTags;
     }
 
     return sanitized;
@@ -75,6 +78,7 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
 
   async discover(params?: DiscoverParams): Promise<DiscoverResult> {
     const imageConstants = await this.imageAPI.getConstants();
+    const options = await this.getAvailableOptions();
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
       albumImageFormat: await this.imageAPI.getFormat(params?.albumImageFormat, 9),
@@ -82,50 +86,35 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
     };
 
     const sanitizedParams = await this.sanitizeDiscoverParams(params);
-    const resultParams = { ...sanitizedParams };
-    // Passing an 'all' type subgenre (e.g. 'all-metal') in the discover url
-    // Actually returns far fewer / zero results than without.
-    // The Bandcamp site also does not seem to include it in its discover requests...
-    if (sanitizedParams.time !== undefined) {
-      // If 'time' exists in sanitized params, then we have an 'all' type subgenre
-      // - refer to sanitizeDiscoverParams()
-      delete sanitizedParams.subgenre;
-    }
-
     const payload = DiscoveryAPI.getDiscoverRequestPayload(sanitizedParams);
-    const json = await this.fetch(URLS.DISCOVER_URL, true, FetchMethod.GET, payload);
-    return DiscoverResultParser.parseDiscoverResult(json, opts, resultParams);
+    const json = await this.fetch(URLS.DISCOVER.API, true, FetchMethod.POST, payload);
+    return DiscoverResultParser.parseDiscoverResult(json, opts, sanitizedParams, options);
   }
 
   /**
    * @internal
    */
-  protected static getDiscoverRequestPayload(params: DiscoverParams): DiscoverRequestPayload {
-    const result: DiscoverRequestPayload = {
-      s: params.sortBy || 'top',
-      p: params.page || 0
-    };
+  protected static getDiscoverRequestPayload(params: SanitizedDiscoverParams): DiscoverRequestPayload {
+    const tagNames: string[] = [];
     if (params.genre) {
-      result.g = params.genre;
-
-      if (params.subgenre) {
-        result.t = params.subgenre;
-      }
+      tagNames.push(params.genre);
     }
-    if (params.location !== undefined) {
-      result.gn = params.location;
+    if (params.subgenre) {
+      tagNames.push(params.subgenre);
     }
-    if (params.format) {
-      result.f = params.format;
+    if (params.customTags) {
+      tagNames.push(...params.customTags);
     }
-    if (result.s === 'rec' && params.artistRecommendationType) {
-      result.r = params.artistRecommendationType;
-    }
-    if (params.time !== undefined) {
-      result.w = params.time;
-    }
-
-    return result;
+    return {
+      category_id: params.category,
+      cursor: params.cursor,
+      geoname_id: params.location,
+      include_result_types: [ 'a', 's' ],
+      size: params.size,
+      slice: params.sortBy,
+      tag_norm_names: tagNames,
+      time_facet_id: params.time === -1 ? null : params.time
+    };
   }
 }
 
@@ -142,7 +131,7 @@ export class LimiterDiscoveryAPI extends DiscoveryAPI {
     return this.#limiter.schedule(() => super.getAvailableOptions());
   }
 
-  async sanitizeDiscoverParams(params: DiscoverParams): Promise<DiscoverParams> {
+  async sanitizeDiscoverParams(params: DiscoverParams): Promise<SanitizedDiscoverParams> {
     return this.#limiter.schedule(() => super.sanitizeDiscoverParams(params));
   }
 

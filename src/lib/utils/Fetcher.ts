@@ -80,7 +80,7 @@ export default class Fetcher {
           body: payload ? JSON.stringify(payload) : undefined
         };
         const request = new Request(url);
-        request.headers.set('Content-Type', 'application/x-www-form-urlencoded');
+        request.headers.set('Content-Type', 'application/json');
         if (this.#cookie) {
           request.headers.set('Cookie', this.#cookie);
         }

@@ -14,7 +14,6 @@ import Cache, { CacheDataType } from './utils/Cache.js';
 import Fetcher from './utils/Fetcher.js';
 import Limiter from './utils/Limiter.js';
 import StreamAPI, { LimiterStreamAPI } from './stream/StreamAPI.js';
-
 export interface BandcampFetchParams {
   cookie?: string | null;
 }

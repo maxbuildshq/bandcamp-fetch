@@ -1,5 +1,4 @@
-import bcfetch from '../../';
-import util from 'util';
+import bcfetch from '../../dist/mjs/index.js';
 
 const params = {
   genre: 'ambient',
@@ -8,5 +7,5 @@ const params = {
 };
 
 bcfetch.discovery.discover(params).then((result) => {
-  console.log(util.inspect(result, false, null, false));
+  console.log(JSON.stringify(result, null, 2));
 });

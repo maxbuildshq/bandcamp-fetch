@@ -3,7 +3,11 @@ const API_URL = `${SITE_URL}/api`;
 
 export const URLS = {
   SITE_URL,
-  DISCOVER_URL: `${API_URL}/discover/3/get_web`,
+  DISCOVER: {
+    SITE: `${SITE_URL}/discover`,
+    API: `${API_URL}/discover/1/discover_web`
+  },
+  RELATED_TAGS: `${API_URL}/tag_search/2/related_tags`,
   DIG_DEEPER: `${API_URL}/hub/2/dig_deeper`,
   DAILY: 'https://daily.bandcamp.com',
   SHOWS: `${API_URL}/bcweekly/3/list`,
