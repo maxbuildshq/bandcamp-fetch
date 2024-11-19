@@ -10,5 +10,5 @@
   "followingGenresCount": 45,
   "followingArtistsAndLabelsCount": 76,
   "collectionItemCount": 252,
-  "wishlistItemCount": 0
+  "wishlistItemCount": 37
 }

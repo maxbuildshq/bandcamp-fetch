@@ -1,128 +1,3 @@
-Autocomplete location suggestions: Fin, Limit: 20
--------------------------------------------------
-[
-  {
-    "type": "location",
-    "value": 660013,
-    "name": "Finland",
-    "fullName": "Finland"
-  },
-  {
-    "type": "location",
-    "value": 2186224,
-    "name": "New Zealand",
-    "fullName": "New Zealand"
-  },
-  {
-    "type": "location",
-    "value": 5308655,
-    "name": "Phoenix",
-    "fullName": "Phoenix, Arizona"
-  },
-  {
-    "type": "location",
-    "value": 830685,
-    "name": "Keski-Suomi",
-    "fullName": "Keski-Suomi, Republic of Finland"
-  },
-  {
-    "type": "location",
-    "value": 2139685,
-    "name": "New Caledonia",
-    "fullName": "New Caledonia"
-  },
-  {
-    "type": "location",
-    "value": 5153924,
-    "name": "Findlay",
-    "fullName": "Findlay, Ohio"
-  },
-  {
-    "type": "location",
-    "value": 830708,
-    "name": "Finland Proper",
-    "fullName": "Finland Proper, Republic of Finland"
-  },
-  {
-    "type": "location",
-    "value": 780166,
-    "name": "Finnmark Fylke",
-    "fullName": "Finnmark Fylke, Kingdom of Norway"
-  },
-  {
-    "type": "location",
-    "value": 2714903,
-    "name": "Finspång",
-    "fullName": "Finspång, Östergötland"
-  },
-  {
-    "type": "location",
-    "value": 3176983,
-    "name": "Finale Emilia",
-    "fullName": "Finale Emilia, Emilia-Romagna"
-  },
-  {
-    "type": "location",
-    "value": 5026506,
-    "name": "Finland",
-    "fullName": "Finland, Minnesota"
-  },
-  {
-    "type": "location",
-    "value": 4758750,
-    "name": "Fincastle",
-    "fullName": "Fincastle, Virginia"
-  },
-  {
-    "type": "location",
-    "value": 2926670,
-    "name": "Finsterwalde",
-    "fullName": "Finsterwalde, Brandenburg"
-  },
-  {
-    "type": "location",
-    "value": 2926716,
-    "name": "Finnentrop",
-    "fullName": "Finnentrop, North Rhine-Westphalia"
-  },
-  {
-    "type": "location",
-    "value": 3176982,
-    "name": "Finale Ligure",
-    "fullName": "Finale Ligure, Liguria"
-  },
-  {
-    "type": "location",
-    "value": 4354890,
-    "name": "Finksburg",
-    "fullName": "Finksburg, Maryland"
-  },
-  {
-    "type": "location",
-    "value": 2166675,
-    "name": "Finley",
-    "fullName": "Finley, New South Wales"
-  },
-  {
-    "type": "location",
-    "value": 2517719,
-    "name": "Finestrat",
-    "fullName": "Finestrat, Valencia"
-  },
-  {
-    "type": "location",
-    "value": 2649445,
-    "name": "Finchampstead",
-    "fullName": "Finchampstead, England"
-  },
-  {
-    "type": "location",
-    "value": 4291674,
-    "name": "Finchville",
-    "fullName": "Finchville, Kentucky"
-  }
-]
-
 Autocomplete tag suggestions: ambient
 -------------------------------------
 [
@@ -251,6 +126,131 @@ Autocomplete tag suggestions: ambient
     "count": 776,
     "value": "ambient-hip-hop",
     "name": "ambient hip-hop"
+  }
+]
+
+Autocomplete location suggestions: Fin, Limit: 20
+-------------------------------------------------
+[
+  {
+    "type": "location",
+    "value": 660013,
+    "name": "Finland",
+    "fullName": "Finland"
+  },
+  {
+    "type": "location",
+    "value": 2186224,
+    "name": "New Zealand",
+    "fullName": "New Zealand"
+  },
+  {
+    "type": "location",
+    "value": 5308655,
+    "name": "Phoenix",
+    "fullName": "Phoenix, Arizona"
+  },
+  {
+    "type": "location",
+    "value": 830685,
+    "name": "Keski-Suomi",
+    "fullName": "Keski-Suomi, Republic of Finland"
+  },
+  {
+    "type": "location",
+    "value": 2139685,
+    "name": "New Caledonia",
+    "fullName": "New Caledonia"
+  },
+  {
+    "type": "location",
+    "value": 5153924,
+    "name": "Findlay",
+    "fullName": "Findlay, Ohio"
+  },
+  {
+    "type": "location",
+    "value": 830708,
+    "name": "Finland Proper",
+    "fullName": "Finland Proper, Republic of Finland"
+  },
+  {
+    "type": "location",
+    "value": 780166,
+    "name": "Finnmark Fylke",
+    "fullName": "Finnmark Fylke, Kingdom of Norway"
+  },
+  {
+    "type": "location",
+    "value": 2714903,
+    "name": "Finspång",
+    "fullName": "Finspång, Östergötland"
+  },
+  {
+    "type": "location",
+    "value": 3176983,
+    "name": "Finale Emilia",
+    "fullName": "Finale Emilia, Emilia-Romagna"
+  },
+  {
+    "type": "location",
+    "value": 5026506,
+    "name": "Finland",
+    "fullName": "Finland, Minnesota"
+  },
+  {
+    "type": "location",
+    "value": 4758750,
+    "name": "Fincastle",
+    "fullName": "Fincastle, Virginia"
+  },
+  {
+    "type": "location",
+    "value": 2926670,
+    "name": "Finsterwalde",
+    "fullName": "Finsterwalde, Brandenburg"
+  },
+  {
+    "type": "location",
+    "value": 2926716,
+    "name": "Finnentrop",
+    "fullName": "Finnentrop, North Rhine-Westphalia"
+  },
+  {
+    "type": "location",
+    "value": 3176982,
+    "name": "Finale Ligure",
+    "fullName": "Finale Ligure, Liguria"
+  },
+  {
+    "type": "location",
+    "value": 4354890,
+    "name": "Finksburg",
+    "fullName": "Finksburg, Maryland"
+  },
+  {
+    "type": "location",
+    "value": 2166675,
+    "name": "Finley",
+    "fullName": "Finley, New South Wales"
+  },
+  {
+    "type": "location",
+    "value": 2517719,
+    "name": "Finestrat",
+    "fullName": "Finestrat, Valencia"
+  },
+  {
+    "type": "location",
+    "value": 2649445,
+    "name": "Finchampstead",
+    "fullName": "Finchampstead, England"
+  },
+  {
+    "type": "location",
+    "value": 4291674,
+    "name": "Finchville",
+    "fullName": "Finchville, Kentucky"
   }
 ]
 

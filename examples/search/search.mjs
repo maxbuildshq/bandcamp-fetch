@@ -20,19 +20,15 @@ const searchAlbumsParams = { ...baseParams, query: 'Coeur de pirate' };
 const searchTracksParams = { ...baseParams, query: 'Coeur de pirate' };
 const searchFansParams = { ...baseParams, query: 'merge' };
 
-const searches = [
-  bcfetch.search.all(searchAllParams),
-  bcfetch.search.artistsAndLabels(searchArtistsAndLabelsParams),
-  bcfetch.search.albums(searchAlbumsParams),
-  bcfetch.search.tracks(searchTracksParams),
-  bcfetch.search.fans(searchFansParams)
-];
-
-Promise.all(searches).then((results) => {
-  const [ all, artistsAndLabels, albums, tracks, fans ] = results;
+void (async () => {
+  const all = await bcfetch.search.all(searchAllParams);
+  const artistsAndLabels = await bcfetch.search.artistsAndLabels(searchArtistsAndLabelsParams);
+  const albums = await bcfetch.search.albums(searchAlbumsParams);
+  const tracks = await bcfetch.search.tracks(searchTracksParams);
+  const fans = await bcfetch.search.fans(searchFansParams);
   printResults(all, searchAllParams.query, 'All');
   printResults(artistsAndLabels, searchArtistsAndLabelsParams.query, 'Artists & labels');
   printResults(albums, searchAlbumsParams.query, 'Albums');
   printResults(tracks, searchTracksParams.query, 'Tracks');
   printResults(fans, searchFansParams.query, 'Fans');
-});
+})();

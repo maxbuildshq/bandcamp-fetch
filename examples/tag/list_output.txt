@@ -259,13 +259,13 @@
     },
     {
       "type": "tag",
-      "name": "Florida",
-      "value": "florida"
+      "name": "Berlin",
+      "value": "berlin"
     },
     {
       "type": "tag",
-      "name": "Berlin",
-      "value": "berlin"
+      "name": "Florida",
+      "value": "florida"
     },
     {
       "type": "tag",

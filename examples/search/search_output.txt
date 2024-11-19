@@ -44,7 +44,7 @@ Search query: jazz. Item type: All. 18 results.
       "imageUrl": "https://f4.bcbits.com/img/0034788059_28.jpg",
       "location": "UK",
       "genre": "Hip-Hop/Rap",
-      "tags": "rap, instrumental, underground, Hip-Hop/Rap, hip hop, alternative"
+      "tags": "alternative, rap, instrumental, underground, Hip-Hop/Rap, hip hop"
     },
     {
       "type": "artist",
@@ -53,7 +53,7 @@ Search query: jazz. Item type: All. 18 results.
       "imageUrl": "https://f4.bcbits.com/img/0037178337_28.jpg",
       "location": "England, UK",
       "genre": "Jazz",
-      "tags": "Modern Jazz, Jazz, Jazz Fusion, British Jazz, Jazz Rock"
+      "tags": "Modern Jazz, Jazz, Jazz Fusion, Jazz Rock, British Jazz"
     },
     {
       "type": "label",
@@ -168,7 +168,7 @@ Search query: merge. Item type: Artists & labels. 18 results.
       "imageUrl": "https://f4.bcbits.com/img/0029512726_28.jpg",
       "location": "Germany",
       "genre": "Alternative",
-      "tags": "germany, synthpop, gothic, Alternative, electronic"
+      "tags": "gothic, Alternative, electronic, germany, synthpop"
     },
     {
       "type": "artist",
@@ -186,7 +186,7 @@ Search query: merge. Item type: Artists & labels. 18 results.
       "imageUrl": "https://f4.bcbits.com/img/0011165847_28.jpg",
       "location": "England, UK",
       "genre": "Rock",
-      "tags": "pop, pop rock, alternative rock, Rock"
+      "tags": "alternative rock, Rock, pop, pop rock"
     },
     {
       "type": "artist",
@@ -238,7 +238,7 @@ Search query: merge. Item type: Artists & labels. 18 results.
       "imageUrl": "https://f4.bcbits.com/img/0014637328_28.jpg",
       "location": "Warsaw, Poland",
       "genre": "Rock",
-      "tags": "vintage rock, doom, polish, metal, Hard Rock, Rock"
+      "tags": "vintage rock, doom, metal, polish, Hard Rock, Rock"
     },
     {
       "type": "artist",
@@ -256,7 +256,25 @@ Search query: merge. Item type: Artists & labels. 18 results.
       "imageUrl": "https://f4.bcbits.com/img/0037067437_28.jpg",
       "location": "Brescia, Italy",
       "genre": "Electronic",
-      "tags": "techno, dj tool, Electronic, House, club music"
+      "tags": "dj tool, House, Electronic, club music, techno"
+    },
+    {
+      "type": "artist",
+      "name": "Merge",
+      "url": "https://mergednb.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0002032674_28.jpg",
+      "location": "Leeds, UK",
+      "genre": "Electronic",
+      "tags": "Electronic, Drum & Bass, Jungle"
+    },
+    {
+      "type": "artist",
+      "name": "Merge",
+      "url": "https://merge2.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0000200110_28.jpg",
+      "location": "Chicago, Illinois",
+      "genre": "Alternative",
+      "tags": "Alternative"
     },
     {
       "type": "artist",
@@ -269,46 +287,30 @@ Search query: merge. Item type: Artists & labels. 18 results.
     },
     {
       "type": "artist",
+      "name": "MERGE",
+      "url": "https://mergeonmerge.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0013677342_28.jpg",
+      "location": "Los Angeles, California",
+      "genre": "Hip-Hop/Rap",
+      "tags": "Hip-Hop/Rap, Hip-Hop, Rap, Hip Hop, instrumentals, jazz"
+    },
+    {
+      "type": "artist",
+      "name": "Tiberius Merge",
+      "url": "https://tiberiusmerge.bandcamp.com",
+      "imageUrl": "https://f4.bcbits.com/img/0018900882_28.jpg",
+      "location": "Victoria, British Columbia",
+      "genre": "Metal",
+      "tags": "thrash metal, deathcore, melodic, Metal, death, progressive metal"
+    },
+    {
+      "type": "artist",
       "name": "attenuation circuit",
       "url": "https://emerge.bandcamp.com",
       "imageUrl": "https://f4.bcbits.com/img/0003392229_28.jpg",
       "location": "Augsburg, Germany",
       "genre": "Experimental",
       "tags": "drone, ambient, Experimental, noise"
-    },
-    {
-      "type": "artist",
-      "name": "Merge",
-      "url": "https://mergednb.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0002032674_28.jpg",
-      "location": "Leeds, UK",
-      "genre": "Electronic",
-      "tags": "Electronic, Drum & Bass, Jungle"
-    },
-    {
-      "type": "label",
-      "name": "eMERGENCY heARTS",
-      "url": "https://emergencyhearts.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0033068431_28.jpg",
-      "location": "Austin, Texas"
-    },
-    {
-      "type": "artist",
-      "name": "MERGE",
-      "url": "https://mergeonmerge.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0013677342_28.jpg",
-      "location": "Los Angeles, California",
-      "genre": "Hip-Hop/Rap",
-      "tags": "Hip-Hop/Rap, Hip-Hop, Hip Hop, Rap, jazz, instrumentals"
-    },
-    {
-      "type": "artist",
-      "name": "Merge",
-      "url": "https://merge2.bandcamp.com",
-      "imageUrl": "https://f4.bcbits.com/img/0000200110_28.jpg",
-      "location": "Chicago, Illinois",
-      "genre": "Alternative",
-      "tags": "Alternative"
     }
   ],
   "totalPages": 6
@@ -327,7 +329,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       "numTracks": 12,
       "duration": 1860,
       "releaseDate": "September 16, 2008",
-      "tags": "french, french pop, Montréal, Pop, Canada, piano pop, Québec"
+      "tags": "french pop, french, Montréal, Canada, Pop, Québec, piano pop"
     },
     {
       "type": "album",
@@ -338,7 +340,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       "numTracks": 12,
       "duration": 2160,
       "releaseDate": "November 7, 2011",
-      "tags": "Pop, coeur de pirate, grosse boîte, montreal, amour, piano pop, french, french pop, Canada, Québec, Montréal"
+      "tags": "grosse boîte, Pop, coeur de pirate, montreal, amour, piano pop, french pop, Canada, Montréal, french, Québec"
     },
     {
       "type": "album",
@@ -349,7 +351,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       "numTracks": 12,
       "duration": 2760,
       "releaseDate": "January 14, 2014",
-      "tags": "Montréal, Pop, amy winehouse, piano pop, Canada, Québec, french, trauma, french pop, cover songs, Dare To Care Records"
+      "tags": "Pop, amy winehouse, Montréal, piano pop, Québec, Canada, Dare To Care Records, cover songs, trauma, french pop, french"
     },
     {
       "type": "album",
@@ -360,7 +362,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       "numTracks": 18,
       "duration": 3000,
       "releaseDate": "April 29, 2014",
-      "tags": "french, Canada, piano pop, Pop, video game music, Québec, french pop, instrumental, Montréal"
+      "tags": "Pop, piano pop, Canada, french, Québec, video game music, french pop, instrumental, Montréal"
     },
     {
       "type": "album",
@@ -371,7 +373,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       "numTracks": 11,
       "duration": 2400,
       "releaseDate": "August 28, 2015",
-      "tags": "piano pop, french pop, french, Montréal, Canada, Pop, Québec"
+      "tags": "piano pop, french pop, french, Montréal, Pop, Québec, Canada"
     },
     {
       "type": "album",
@@ -382,7 +384,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       "numTracks": 31,
       "duration": 6600,
       "releaseDate": "November 3, 2017",
-      "tags": "Montreal, orchestre, musique classique, Classical, Canada, Diane Dufresne, Québec, Daniel Bélanger, Montréal, Symphonique, cassical"
+      "tags": "orchestre, Québec, musique classique, Diane Dufresne, Montreal, Daniel Bélanger, Classical, Canada, Montréal, cassical, Symphonique"
     },
     {
       "type": "album",
@@ -393,7 +395,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       "numTracks": 10,
       "duration": 1500,
       "releaseDate": "April 30, 2021",
-      "tags": "french pop, french, Montréal, Pop, Québec, piano pop, Canada"
+      "tags": "french pop, french, Pop, Montréal, piano pop, Québec, Canada"
     },
     {
       "type": "album",
@@ -425,7 +427,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       "numTracks": 3,
       "duration": 600,
       "releaseDate": "December 16, 2016",
-      "tags": "Montréal, Canada, french pop, Québec, piano pop, Christmas, Pop, coeur de pirate, french"
+      "tags": "Montréal, french pop, Canada, piano pop, Québec, Christmas, coeur de pirate, Pop, french"
     },
     {
       "type": "album",
@@ -457,7 +459,7 @@ Search query: Coeur de pirate. Item type: Albums. 14 results.
       "numTracks": 10,
       "duration": 1920,
       "releaseDate": "June 1, 2018",
-      "tags": "french pop, french, Montréal, Pop, Québec, piano pop, Canada"
+      "tags": "french pop, french, Pop, Montréal, Québec, Canada, piano pop"
     },
     {
       "type": "album",
@@ -543,21 +545,21 @@ Search query: Coeur de pirate. Item type: Tracks. 18 results.
     },
     {
       "type": "track",
-      "name": "Francis (Coeur de Pirate cover)",
-      "url": "https://jeneiffel.bandcamp.com/track/francis-coeur-de-pirate-cover",
-      "imageUrl": "https://f4.bcbits.com/img/a0532659386_16.jpg",
-      "artist": "Jen Eiffel",
-      "album": "Covers",
-      "releaseDate": "March 26, 2014"
-    },
-    {
-      "type": "track",
       "name": "Jeter un sort (feat. Coeur de pirate)",
       "url": "https://alexnevsky.bandcamp.com/track/jeter-un-sort-feat-coeur-de-pirate",
       "imageUrl": "https://f4.bcbits.com/img/a3550838341_16.jpg",
       "artist": "Alex Nevsky",
       "album": "Nos Eldorados",
       "releaseDate": "November 11, 2016"
+    },
+    {
+      "type": "track",
+      "name": "Francis (Coeur de Pirate cover)",
+      "url": "https://jeneiffel.bandcamp.com/track/francis-coeur-de-pirate-cover",
+      "imageUrl": "https://f4.bcbits.com/img/a0532659386_16.jpg",
+      "artist": "Jen Eiffel",
+      "album": "Covers",
+      "releaseDate": "March 26, 2014"
     },
     {
       "type": "track",

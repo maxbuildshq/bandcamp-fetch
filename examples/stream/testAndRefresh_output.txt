@@ -1,5 +1,5 @@
 Testing stream URL: https://t4.bcbits.com/stream/a9fab205c6d82ffc4ca4f377d86bd8dd/mp3-128/3535427082?p=0&ts=1698526235&t=3c987d3b75dc4151c931288780eca682ae1d70ac&token=1698526235_35d7ab2f75c60cdb31c68df15cc5d5024368a535
 Stream URL is invalid. Status code: 410. Refreshing...
-Refreshed stream URL: https://t4.bcbits.com/stream/a9fab205c6d82ffc4ca4f377d86bd8dd/mp3-128/3535427082?p=0&ts=1732042781&t=203fe15a3083930d63d11cb5d54031d3a617c1ac&token=1732042781_7bfe2a83783f3808834d1a3c09100faba478b5d1
+Refreshed stream URL: https://t4.bcbits.com/stream/a9fab205c6d82ffc4ca4f377d86bd8dd/mp3-128/3535427082?p=0&ts=1732112830&t=9f9d4407acfbb68bce969c5608192d4e0338bce0&token=1732112830_49441e2dd97a03094636467c7a1ab0a03b3cdf17
 Testing refreshed stream URL...
 Refreshed stream URL is valid.
