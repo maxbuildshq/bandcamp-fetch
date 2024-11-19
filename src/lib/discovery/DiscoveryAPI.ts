@@ -96,7 +96,19 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
       payload = DiscoveryAPI.getDiscoverRequestPayload(sanitizedParams);
     }
     const json = await this.fetch(URLS.DISCOVER.API, true, FetchMethod.POST, payload);
-    return DiscoverResultParser.parseDiscoverResult(json, opts, sanitizedParams, options);
+    const result = DiscoverResultParser.parseDiscoverResult(json, opts, sanitizedParams, options);
+    if (result.continuation) {
+      if (!params?.albumImageFormat) {
+        delete result.continuation.albumImageFormat;
+      }
+      if (!params?.artistImageFormat) {
+        delete result.continuation.artistImageFormat;
+      }
+      if (!params?.merchImageFormat) {
+        delete result.continuation.merchImageFormat;
+      }
+    }
+    return result;
   }
 
   /**
