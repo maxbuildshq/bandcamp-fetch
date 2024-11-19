@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[lib/types/Autocomplete.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Autocomplete.ts#L14)
+[lib/types/Autocomplete.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Autocomplete.ts#L14)
 
 ***
 
@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[lib/types/Autocomplete.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Autocomplete.ts#L3)
+[lib/types/Autocomplete.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Autocomplete.ts#L3)
 
 ***
 
@@ -46,7 +46,7 @@
 
 #### Defined in
 
-[lib/types/Autocomplete.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Autocomplete.ts#L13)
+[lib/types/Autocomplete.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Autocomplete.ts#L13)
 
 ***
 
@@ -56,4 +56,4 @@
 
 #### Defined in
 
-[lib/types/Autocomplete.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Autocomplete.ts#L15)
+[lib/types/Autocomplete.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Autocomplete.ts#L15)

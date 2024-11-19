@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/common/BaseAPI.ts#L7)
+[lib/common/BaseAPI.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/common/BaseAPI.ts#L7)
 
 ***
 
@@ -28,4 +28,4 @@
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/common/BaseAPI.ts#L6)
+[lib/common/BaseAPI.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/common/BaseAPI.ts#L6)

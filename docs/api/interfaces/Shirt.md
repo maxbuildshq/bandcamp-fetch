@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[lib/types/Shirt.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Shirt.ts#L14)
+[lib/types/Shirt.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Shirt.ts#L14)
 
 ***
 
@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[lib/types/Shirt.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Shirt.ts#L9)
+[lib/types/Shirt.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Shirt.ts#L9)
 
 ***
 
@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[lib/types/Shirt.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Shirt.ts#L7)
+[lib/types/Shirt.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Shirt.ts#L7)
 
 ***
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[lib/types/Shirt.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Shirt.ts#L13)
+[lib/types/Shirt.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Shirt.ts#L13)
 
 ***
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-[lib/types/Shirt.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Shirt.ts#L6)
+[lib/types/Shirt.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Shirt.ts#L6)
 
 ***
 
@@ -72,4 +72,4 @@
 
 #### Defined in
 
-[lib/types/Shirt.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Shirt.ts#L8)
+[lib/types/Shirt.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Shirt.ts#L8)

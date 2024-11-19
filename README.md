@@ -94,7 +94,7 @@ const results = await discovery.discover(...);
 <summary><code>discover([params])</code></summary>
 <br />
 
-[**Example**](examples/discovery/discover.ts) ([output](examples/discovery/discover_output.txt))
+[**Example**](examples/discovery/discover.mjs) ([output](examples/discovery/discover_output.txt))
 
 <p>Fetches items through Bandcamp Discover.</p>
 
@@ -140,7 +140,7 @@ if (results.continuation) {
 <summary><code>getAvailableOptions()</code></summary>
 <br />
 
-[**Example**](examples/discovery/getAvailableOptions.ts) ([output](examples/discovery/getAvailableOptions_output.txt))
+[**Example**](examples/discovery/getAvailableOptions.mjs) ([output](examples/discovery/getAvailableOptions_output.txt))
 
 <p>Fetches Bandcamp Discover options that can be used to configure <code>params</code> for passing into <code>discover()</code>.</p>
 
@@ -155,7 +155,7 @@ Promise resolving to [DiscoverOptions](docs/api/interfaces/DiscoverOptions.md).
 <summary><code>sanitizeDiscoverParams([params])</code></summary>
 <br />
 
-[**Example**](examples/discovery/sanitizeDiscoverParams.ts) ([output](examples/discovery/sanitizeDiscoverParams_output.txt))
+[**Example**](examples/discovery/sanitizeDiscoverParams.mjs) ([output](examples/discovery/sanitizeDiscoverParams_output.txt))
 
 <p>Sanitizes <code>params</code> by setting default values for omitted properties and removing irrelevant or inapplicable ones.</p>
 
@@ -191,7 +191,7 @@ const formats = await image.getFormats(ImageFormatFilter.Album);
 <summary><code>getFormats([filter])</code></summary>
 <br />
 
-[**Example**](examples/image/getFormats.ts) ([output](examples/image/getFormats_output.txt))
+[**Example**](examples/image/getFormats.mjs) ([output](examples/image/getFormats_output.txt))
 
 <p>Fetches the list of image formats used in Bandcamp.</p>
 
@@ -245,7 +245,7 @@ const info = await band.getInfo(...);
 <summary><code>getInfo(params)</code></summary>
 <br />
 
-[**Example**](examples/band/getInfo.ts) ([output](examples/band/getInfo_output.txt))
+[**Example**](examples/band/getInfo.mjs) ([output](examples/band/getInfo_output.txt))
 
 <p>Fetches information about an artist or label.</p>
 
@@ -275,7 +275,7 @@ Promise resolving to [Artist](docs/api/interfaces/Artist.md) or [Label](docs/api
 <summary><code>getLabelArtists(params)</code></summary>
 <br />
 
-[**Example**](examples/band/getLabelArtists.ts) ([output](examples/band/getLabelArtists_output.txt))
+[**Example**](examples/band/getLabelArtists.mjs) ([output](examples/band/getLabelArtists_output.txt))
 
 <p>Fetches the list of artists belonging to a label.</p>
 
@@ -296,7 +296,7 @@ Promise resolving to Array<[LabelArtist](docs/api/README.md#labelartist)>.
 <summary><code>getDiscography(params)</code></summary>
 <br />
 
-[**Example**](examples/band/getDiscography.ts) ([output](examples/band/getDiscography_output.txt))
+[**Example**](examples/band/getDiscography.mjs) ([output](examples/band/getDiscography_output.txt))
 
 <p>Fetches the list of albums and standalone tracks belonging to an artist or label.</p>
 
@@ -332,7 +332,7 @@ const info = await album.getInfo(...);
 <summary><code>getInfo(params)</code></summary>
 <br />
 
-[**Example**](examples/album/getInfo.ts) ([output](examples/album/getInfo_output.txt))
+[**Example**](examples/album/getInfo.mjs) ([output](examples/album/getInfo_output.txt))
 
 <p>Fetches info about an album.</p>
 
@@ -371,7 +371,7 @@ const info = await track.getInfo(...);
 <summary><code>getInfo(params)</code></summary>
 <br />
 
-[**Example**](examples/track/getInfo.ts) ([output](examples/track/getInfo_output.txt))
+[**Example**](examples/track/getInfo.mjs) ([output](examples/track/getInfo_output.txt))
 
 <p>Fetches info about a track.</p>
 
@@ -408,13 +408,36 @@ const tags = await bcfetch.tag.list();
 <summary><code>list()</code></summary>
 <br />
 
-[**Example**](examples/tag/list.ts) ([output](examples/tag/list_output.txt))
+[**Example**](examples/tag/list.mjs) ([output](examples/tag/list_output.txt))
 
 <p>Fetches a list of tags.</p>
 
 **Returns**
 
 Promise resolving to [TagList](docs/api/interfaces/TagList.md), which groups results into `tags`(for non-location tags) and `locations` (for location tags).
+
+---
+</details>
+
+<details>
+<summary><code>getRelated(params)</code></summary>
+<br />
+
+[**Example**](examples/tag/getRelated.mjs) ([output](examples/tag/getRelated_output.txt))
+
+**Params**
+
+- `params`: ([TagAPIGetRelatedParams](docs/api/interfaces/TagAPIGetRelatedParams.md))
+    - `tags`: (Array&lt;string&gt;)
+    - `size`: (number) (*optional*)
+
+<p>Fetches the related tags for each value in `tags`, as well as the combined result.</p>
+
+**Returns**
+
+Promise resolving to [RelatedTags](docs/api/interfaces/RelatedTags.md), which has the following properties:
+- `single`: list of related tags for each tag queried
+- `combo`: the combined result of all the related tags
 
 ---
 </details>
@@ -437,7 +460,7 @@ const list = await show.list(...);
 <summary><code>list(params)</code></summary>
 <br />
 
-[**Example**](examples/show/list.ts) ([output](examples/show/list_output.txt))
+[**Example**](examples/show/list.mjs) ([output](examples/show/list_output.txt))
 
 <p>Fetches the full list of Bandcamp shows.</p>
 
@@ -459,7 +482,7 @@ Promise resolving to Array<[Show](docs/api/interfaces/Show.md)>.
 <summary><code>getShow(params)</code></summary>
 <br />
 
-[**Example**](examples/show/getShow.ts) ([output](examples/show/getShow_output.txt))
+[**Example**](examples/show/getShow.mjs) ([output](examples/show/getShow_output.txt))
 
 <p>Fetches full details about the Bandcamp show referred to by <code>params.showUrl</code>.</p>
 
@@ -496,7 +519,7 @@ const list = await article.list(...);
 <summary><code>getCategories()</code></summary>
 <br />
 
-[**Example**](examples/article/getCategories.ts) ([output](examples/article/getCategories_output.txt))
+[**Example**](examples/article/getCategories.mjs) ([output](examples/article/getCategories_output.txt))
 
 <p>Fetches the list of Bandcamp Daily article categories. Categories are grouped into sections.</p>
 
@@ -511,7 +534,7 @@ Promise resolving to Array<[ArticleCategorySection](docs/api/interfaces/ArticleC
 <summary><code>list(params)</code></summary>
 <br />
 
-[**Example**](examples/article/list.ts) ([output](examples/article/list_output.txt))
+[**Example**](examples/article/list.mjs) ([output](examples/article/list_output.txt))
 
 <p>Fetches the list of Bandcamp Daily articles under the category specified by <code>params.categoryUrl</code> (or all categories if not specified).</p>
 
@@ -533,7 +556,7 @@ Promise resolving to [ArticleList](docs/api/interfaces/ArticleList.md).
 <summary><code>getArticle(params)</code></summary>
 <br />
 
-[**Example**](examples/article/getArticle.ts) ([output](examples/article/getArticle_output.txt))
+[**Example**](examples/article/getArticle.mjs) ([output](examples/article/getArticle_output.txt))
 
 <p>Fetches the contents of the Bandcamp Daily article at <code>params.articleUrl</code>.</p>
 
@@ -571,7 +594,7 @@ const collection = await fan.getCollection(...);
 <summary><code>getInfo(params)</code></summary>
 <br />
 
-[**Example**](examples/fan/getInfo.ts) ([output](examples/fan/getInfo_output.txt))
+[**Example**](examples/fan/getInfo.mjs) ([output](examples/fan/getInfo_output.txt))
 
 <p>Fetches info about a fan.</p>
 
@@ -594,7 +617,7 @@ Promise resolving to [Fan](docs/api/interfaces/Fan.md).
 <summary><code>getCollection(params)</code></summary>
 <br />
 
-[**Example**](examples/fan/getCollection.ts) ([output](examples/fan/getCollection_output.txt))
+[**Example**](examples/fan/getCollection.mjs) ([output](examples/fan/getCollection_output.txt))
 
 <p>Fetches the list of albums and tracks in a fan's collection.</p>
 
@@ -617,7 +640,7 @@ Promise resolving to ([FanPageItemsResult](docs/api/interfaces/FanPageItemsResul
 <summary><code>getWishlist(params)</code></summary>
 <br />
 
-[**Example**](examples/fan/getWishlist.ts) ([output](examples/fan/getWishlist_output.txt))
+[**Example**](examples/fan/getWishlist.mjs) ([output](examples/fan/getWishlist_output.txt))
 
 <p>Fetches the list of albums and tracks added to a fan's wishlist.</p>
 
@@ -640,7 +663,7 @@ Promise resolving to ([FanPageItemsResult](docs/api/interfaces/FanPageItemsResul
 <summary><code>getFollowingArtistsAndLabels(params)</code></summary>
 <br />
 
-[**Example**](examples/fan/getFollowingArtistsAndLabels.ts) ([output](examples/fan/getFollowingArtistsAndLabels_output.txt))
+[**Example**](examples/fan/getFollowingArtistsAndLabels.mjs) ([output](examples/fan/getFollowingArtistsAndLabels_output.txt))
 
 <p>Fetches the list of artists and labels followed by a fan.</p>
 
@@ -663,7 +686,7 @@ Promise resolving to ([FanPageItemsResult](docs/api/interfaces/FanPageItemsResul
 <summary><code>getFollowingGenres(params)</code></summary>
 <br />
 
-[**Example**](examples/fan/getFollowingGenres.ts) ([output](examples/fan/getFollowingGenres_output.txt))
+[**Example**](examples/fan/getFollowingGenres.mjs) ([output](examples/fan/getFollowingGenres_output.txt))
 
 <p>Fetches the list of genres followed by a fan.</p>
 
@@ -703,7 +726,7 @@ const all = await search.all(...);
 <summary><code>all(params) / artistsAndLabels(params) / albums(params) / tracks(params) / fans(params)</code></summary>
 <br />
 
-[**Example**](examples/search/search.ts) ([output](examples/search/search_output.txt))
+[**Example**](examples/search/search.mjs) ([output](examples/search/search_output.txt))
 
 - `all(params)`: search all item types
 - `artistsAndLabels(params)`: search artists and labels
@@ -752,7 +775,7 @@ const suggestions = await autocomplete.getSuggestions(...);
 <summary><code>getSuggestions(params)</code></summary>
 <br />
 
-[**Example**](examples/autocomplete/getSuggestions.ts) ([output](examples/autocomplete/getSuggestions_output.txt))
+[**Example**](examples/autocomplete/getSuggestions.mjs) ([output](examples/autocomplete/getSuggestions_output.txt))
 
 <p>Fetches autocomplete suggestions for tags and locations, based on partial and full matches against `params.query`.</p>
 
@@ -799,7 +822,7 @@ if (!testResult.ok) {
 <summary><code>test(url)</code></summary>
 <br />
 
-[**Example**](examples/stream/testAndRefresh.ts) ([output](examples/stream/testAndRefresh_output.txt))
+[**Example**](examples/stream/testAndRefresh.mjs) ([output](examples/stream/testAndRefresh_output.txt))
 
 <p>Tests validity of the stream given by `url`.</p>
 
@@ -820,7 +843,7 @@ Promise resolving to [StreamTestResult](docs/api/interfaces/StreamTestResult.md)
 <summary><code>refresh(url)</code></summary>
 <br />
 
-[**Example**](examples/stream/testAndRefresh.ts) ([output](examples/stream/testAndRefresh_output.txt))
+[**Example**](examples/stream/testAndRefresh.mjs) ([output](examples/stream/testAndRefresh_output.txt))
 
 <p>Refreshes a stream URL.</p>
 
@@ -853,7 +876,7 @@ const albumAPI = bcfetch.album;
 const limiterAlbumAPI = bcfetch.limiter.album;
 ```
 
-[**Example**](examples/limiter/limiter.ts) ([output](examples/limiter/limiter_output.txt))
+[**Example**](examples/limiter/limiter.mjs) ([output](examples/limiter/limiter_output.txt))
 
 The library uses [Bottleneck](https://www.npmjs.com/package/bottleneck) for rate limiting. You can configure the rate limiter like this:
 

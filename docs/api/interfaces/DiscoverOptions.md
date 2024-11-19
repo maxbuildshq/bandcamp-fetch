@@ -20,7 +20,7 @@ DiscoveryAPI.getAvailableOptions
 
 #### Defined in
 
-[lib/types/Discovery.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L13)
+[lib/types/Discovery.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Discovery.ts#L13)
 
 ***
 
@@ -30,7 +30,7 @@ DiscoveryAPI.getAvailableOptions
 
 #### Defined in
 
-[lib/types/Discovery.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L16)
+[lib/types/Discovery.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Discovery.ts#L16)
 
 ***
 
@@ -40,7 +40,7 @@ DiscoveryAPI.getAvailableOptions
 
 #### Defined in
 
-[lib/types/Discovery.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L14)
+[lib/types/Discovery.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Discovery.ts#L14)
 
 ***
 
@@ -50,7 +50,7 @@ DiscoveryAPI.getAvailableOptions
 
 #### Defined in
 
-[lib/types/Discovery.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L18)
+[lib/types/Discovery.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Discovery.ts#L18)
 
 ***
 
@@ -60,7 +60,7 @@ DiscoveryAPI.getAvailableOptions
 
 #### Defined in
 
-[lib/types/Discovery.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L17)
+[lib/types/Discovery.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Discovery.ts#L17)
 
 ***
 
@@ -70,7 +70,7 @@ DiscoveryAPI.getAvailableOptions
 
 #### Defined in
 
-[lib/types/Discovery.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L15)
+[lib/types/Discovery.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Discovery.ts#L15)
 
 ***
 
@@ -80,4 +80,4 @@ DiscoveryAPI.getAvailableOptions
 
 #### Defined in
 
-[lib/types/Discovery.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L19)
+[lib/types/Discovery.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Discovery.ts#L19)
