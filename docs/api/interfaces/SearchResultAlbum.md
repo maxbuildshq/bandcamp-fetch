@@ -1,129 +1,117 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / SearchResultAlbum
 
 # Interface: SearchResultAlbum
 
-## Hierarchy
+## Extends
 
 - [`SearchResultItem`](SearchResultItem.md)
 
-  ↳ **`SearchResultAlbum`**
-
-## Table of contents
-
-### Properties
-
-- [artist](SearchResultAlbum.md#artist)
-- [duration](SearchResultAlbum.md#duration)
-- [imageUrl](SearchResultAlbum.md#imageurl)
-- [name](SearchResultAlbum.md#name)
-- [numTracks](SearchResultAlbum.md#numtracks)
-- [releaseDate](SearchResultAlbum.md#releasedate)
-- [tags](SearchResultAlbum.md#tags)
-- [type](SearchResultAlbum.md#type)
-- [url](SearchResultAlbum.md#url)
-
 ## Properties
 
-### artist
+### artist?
 
-• `Optional` **artist**: `string`
-
-#### Defined in
-
-[lib/types/Search.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Search.ts#L27)
-
-___
-
-### duration
-
-• `Optional` **duration**: `number`
+> `optional` **artist**: `string`
 
 #### Defined in
 
-[lib/types/Search.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Search.ts#L29)
+[lib/types/Search.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Search.ts#L27)
 
-___
+***
 
-### imageUrl
+### duration?
 
-• `Optional` **imageUrl**: `string`
+> `optional` **duration**: `number`
+
+#### Defined in
+
+[lib/types/Search.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Search.ts#L29)
+
+***
+
+### imageUrl?
+
+> `optional` **imageUrl**: `string`
 
 #### Inherited from
 
-[SearchResultItem](SearchResultItem.md).[imageUrl](SearchResultItem.md#imageurl)
+[`SearchResultItem`](SearchResultItem.md).[`imageUrl`](SearchResultItem.md#imageurl)
 
 #### Defined in
 
-[lib/types/Search.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Search.ts#L10)
+[lib/types/Search.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Search.ts#L10)
 
-___
+***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 #### Inherited from
 
-[SearchResultItem](SearchResultItem.md).[name](SearchResultItem.md#name)
+[`SearchResultItem`](SearchResultItem.md).[`name`](SearchResultItem.md#name)
 
 #### Defined in
 
-[lib/types/Search.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Search.ts#L8)
+[lib/types/Search.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Search.ts#L8)
 
-___
+***
 
-### numTracks
+### numTracks?
 
-• `Optional` **numTracks**: `number`
-
-#### Defined in
-
-[lib/types/Search.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Search.ts#L28)
-
-___
-
-### releaseDate
-
-• `Optional` **releaseDate**: `string`
+> `optional` **numTracks**: `number`
 
 #### Defined in
 
-[lib/types/Search.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Search.ts#L30)
+[lib/types/Search.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Search.ts#L28)
 
-___
+***
 
-### tags
+### releaseDate?
 
-• `Optional` **tags**: `string`
+> `optional` **releaseDate**: `string`
 
 #### Defined in
 
-[lib/types/Search.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Search.ts#L31)
+[lib/types/Search.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Search.ts#L30)
 
-___
+***
+
+### tags?
+
+> `optional` **tags**: `string`
+
+#### Defined in
+
+[lib/types/Search.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Search.ts#L31)
+
+***
 
 ### type
 
-• **type**: ``"album"``
+> **type**: `"album"`
 
 #### Overrides
 
-[SearchResultItem](SearchResultItem.md).[type](SearchResultItem.md#type)
+[`SearchResultItem`](SearchResultItem.md).[`type`](SearchResultItem.md#type)
 
 #### Defined in
 
-[lib/types/Search.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Search.ts#L26)
+[lib/types/Search.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Search.ts#L26)
 
-___
+***
 
 ### url
 
-• **url**: `string`
+> **url**: `string`
 
 #### Inherited from
 
-[SearchResultItem](SearchResultItem.md).[url](SearchResultItem.md#url)
+[`SearchResultItem`](SearchResultItem.md).[`url`](SearchResultItem.md#url)
 
 #### Defined in
 
-[lib/types/Search.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Search.ts#L9)
+[lib/types/Search.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Search.ts#L9)

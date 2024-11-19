@@ -1,49 +1,55 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / DiscoverResult
 
 # Interface: DiscoverResult
 
-Results returned by [discover](../classes/DiscoveryAPI.md#discover).
-
-## Table of contents
-
-### Properties
-
-- [items](DiscoverResult.md#items)
-- [params](DiscoverResult.md#params)
-- [total](DiscoverResult.md#total)
+Results returned by [DiscoveryAPI.discover](../classes/DiscoveryAPI.md#discover).
 
 ## Properties
 
-### items
+### continuation?
 
-• **items**: [`Album`](Album.md)[]
-
-List of discovered albums.
+> `optional` **continuation**: [`DiscoverResultContinuation`](DiscoverResultContinuation.md)
 
 #### Defined in
 
-[lib/types/Discovery.ts:51](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L51)
+[lib/types/Discovery.ts:79](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L79)
 
-___
+***
+
+### items
+
+> **items**: ([`Album`](Album.md) \| [`Shirt`](Shirt.md))[]
+
+List of discovered albums .
+
+#### Defined in
+
+[lib/types/Discovery.ts:69](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L69)
+
+***
 
 ### params
 
-• **params**: [`DiscoverParams`](DiscoverParams.md)
+> **params**: [`SanitizedDiscoverParams`](../type-aliases/SanitizedDiscoverParams.md)
 
 Sanitized params used in the discovery request.
 
 #### Defined in
 
-[lib/types/Discovery.ts:59](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L59)
+[lib/types/Discovery.ts:77](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L77)
 
-___
+***
 
 ### total
 
-• **total**: `number`
+> **total**: `number`
 
 Total number of albums discovered.
 
 #### Defined in
 
-[lib/types/Discovery.ts:55](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L55)
+[lib/types/Discovery.ts:73](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L73)

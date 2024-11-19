@@ -1,19 +1,17 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / BandcampFetchParams
 
 # Interface: BandcampFetchParams
 
-## Table of contents
-
-### Properties
-
-- [cookie](BandcampFetchParams.md#cookie)
-
 ## Properties
 
-### cookie
+### cookie?
 
-• `Optional` **cookie**: ``null`` \| `string`
+> `optional` **cookie**: `null` \| `string`
 
 #### Defined in
 
-[lib/BandcampFetch.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/BandcampFetch.ts#L19)
+[lib/BandcampFetch.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/BandcampFetch.ts#L18)

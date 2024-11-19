@@ -1,52 +1,47 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / ArticleAPIGetArticleParams
 
 # Interface: ArticleAPIGetArticleParams
 
-## Table of contents
-
-### Properties
-
-- [albumImageFormat](ArticleAPIGetArticleParams.md#albumimageformat)
-- [articleUrl](ArticleAPIGetArticleParams.md#articleurl)
-- [artistImageFormat](ArticleAPIGetArticleParams.md#artistimageformat)
-- [includeRawData](ArticleAPIGetArticleParams.md#includerawdata)
-
 ## Properties
 
-### albumImageFormat
+### albumImageFormat?
 
-• `Optional` **albumImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> `optional` **albumImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/article/ArticleAPI.ts#L13)
+[lib/article/ArticleAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/article/ArticleAPI.ts#L14)
 
-___
+***
 
 ### articleUrl
 
-• **articleUrl**: `string`
+> **articleUrl**: `string`
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/article/ArticleAPI.ts#L12)
+[lib/article/ArticleAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/article/ArticleAPI.ts#L13)
 
-___
+***
 
-### artistImageFormat
+### artistImageFormat?
 
-• `Optional` **artistImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
-
-#### Defined in
-
-[lib/article/ArticleAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/article/ArticleAPI.ts#L14)
-
-___
-
-### includeRawData
-
-• `Optional` **includeRawData**: `boolean`
+> `optional` **artistImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/article/ArticleAPI.ts#L15)
+[lib/article/ArticleAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/article/ArticleAPI.ts#L15)
+
+***
+
+### includeRawData?
+
+> `optional` **includeRawData**: `boolean`
+
+#### Defined in
+
+[lib/article/ArticleAPI.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/article/ArticleAPI.ts#L16)

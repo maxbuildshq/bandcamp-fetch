@@ -1,63 +1,57 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / AlbumRelease
 
 # Interface: AlbumRelease
 
-## Table of contents
-
-### Properties
-
-- [description](AlbumRelease.md#description)
-- [format](AlbumRelease.md#format)
-- [imageUrl](AlbumRelease.md#imageurl)
-- [name](AlbumRelease.md#name)
-- [url](AlbumRelease.md#url)
-
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> `optional` **description**: `string`
 
 #### Defined in
 
-[lib/types/Album.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Album.ts#L21)
+[lib/types/Album.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Album.ts#L21)
 
-___
+***
 
 ### format
 
-• **format**: `string`
+> **format**: `string`
 
 #### Defined in
 
-[lib/types/Album.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Album.ts#L18)
+[lib/types/Album.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Album.ts#L18)
 
-___
+***
 
-### imageUrl
+### imageUrl?
 
-• `Optional` **imageUrl**: `string`
+> `optional` **imageUrl**: `string`
 
 #### Defined in
 
-[lib/types/Album.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Album.ts#L20)
+[lib/types/Album.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Album.ts#L20)
 
-___
+***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 #### Defined in
 
-[lib/types/Album.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Album.ts#L17)
+[lib/types/Album.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Album.ts#L17)
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> `optional` **url**: `string`
 
 #### Defined in
 
-[lib/types/Album.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Album.ts#L19)
+[lib/types/Album.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Album.ts#L19)

@@ -1,41 +1,37 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / BandAPIGetInfoParams
 
 # Interface: BandAPIGetInfoParams
-
-## Table of contents
-
-### Properties
-
-- [bandUrl](BandAPIGetInfoParams.md#bandurl)
-- [imageFormat](BandAPIGetInfoParams.md#imageformat)
-- [labelId](BandAPIGetInfoParams.md#labelid)
 
 ## Properties
 
 ### bandUrl
 
-• **bandUrl**: `string`
+> **bandUrl**: `string`
 
 #### Defined in
 
-[lib/band/BandAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/band/BandAPI.ts#L19)
+[lib/band/BandAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/band/BandAPI.ts#L20)
 
-___
+***
 
-### imageFormat
+### imageFormat?
 
-• `Optional` **imageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
-
-#### Defined in
-
-[lib/band/BandAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/band/BandAPI.ts#L20)
-
-___
-
-### labelId
-
-• `Optional` **labelId**: `number`
+> `optional` **imageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
 #### Defined in
 
-[lib/band/BandAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/band/BandAPI.ts#L21)
+[lib/band/BandAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/band/BandAPI.ts#L21)
+
+***
+
+### labelId?
+
+> `optional` **labelId**: `number`
+
+#### Defined in
+
+[lib/band/BandAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/band/BandAPI.ts#L22)

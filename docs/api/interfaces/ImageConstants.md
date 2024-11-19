@@ -1,30 +1,27 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / ImageConstants
 
 # Interface: ImageConstants
-
-## Table of contents
-
-### Properties
-
-- [baseUrl](ImageConstants.md#baseurl)
-- [formats](ImageConstants.md#formats)
 
 ## Properties
 
 ### baseUrl
 
-• **baseUrl**: `string`
+> **baseUrl**: `string`
 
 #### Defined in
 
-[lib/types/Image.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Image.ts#L10)
+[lib/types/Image.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Image.ts#L10)
 
-___
+***
 
 ### formats
 
-• **formats**: [`ImageFormat`](ImageFormat.md)[]
+> **formats**: [`ImageFormat`](ImageFormat.md)[]
 
 #### Defined in
 
-[lib/types/Image.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Image.ts#L11)
+[lib/types/Image.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Image.ts#L11)

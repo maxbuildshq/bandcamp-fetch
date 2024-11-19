@@ -1,73 +1,63 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / UserKind
 
 # Interface: UserKind
 
-## Hierarchy
+## Extended by
 
-- **`UserKind`**
-
-  ↳ [`Artist`](Artist.md)
-
-  ↳ [`Fan`](Fan.md)
-
-  ↳ [`Label`](Label.md)
-
-## Table of contents
-
-### Properties
-
-- [description](UserKind.md#description)
-- [imageUrl](UserKind.md#imageurl)
-- [location](UserKind.md#location)
-- [name](UserKind.md#name)
-- [url](UserKind.md#url)
+- [`Artist`](Artist.md)
+- [`Fan`](Fan.md)
+- [`Label`](Label.md)
 
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
-
-#### Defined in
-
-[lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L3)
-
-___
-
-### imageUrl
-
-• `Optional` **imageUrl**: `string`
+> `optional` **description**: `string`
 
 #### Defined in
 
-[lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L5)
+[lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/UserKind.ts#L3)
 
-___
+***
 
-### location
+### imageUrl?
 
-• `Optional` **location**: `string`
+> `optional` **imageUrl**: `string`
 
 #### Defined in
 
-[lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L6)
+[lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/UserKind.ts#L5)
 
-___
+***
+
+### location?
+
+> `optional` **location**: `string`
+
+#### Defined in
+
+[lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/UserKind.ts#L6)
+
+***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 #### Defined in
 
-[lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L2)
+[lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/UserKind.ts#L2)
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> `optional` **url**: `string`
 
 #### Defined in
 
-[lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L4)
+[lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/UserKind.ts#L4)

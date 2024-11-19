@@ -1,63 +1,57 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / TagAPIGetReleasesParams
 
 # Interface: TagAPIGetReleasesParams
 
-## Table of contents
-
-### Properties
-
-- [filters](TagAPIGetReleasesParams.md#filters)
-- [imageFormat](TagAPIGetReleasesParams.md#imageformat)
-- [page](TagAPIGetReleasesParams.md#page)
-- [tagUrl](TagAPIGetReleasesParams.md#tagurl)
-- [useHardcodedDefaultFilters](TagAPIGetReleasesParams.md#usehardcodeddefaultfilters)
-
 ## Properties
 
-### filters
+### filters?
 
-• `Optional` **filters**: `Record`<`string`, `string` \| `number` \| (`string` \| `number`)[]\>
-
-#### Defined in
-
-[lib/tag/TagAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/tag/TagAPI.ts#L22)
-
-___
-
-### imageFormat
-
-• `Optional` **imageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> `optional` **filters**: `Record`\<`string`, `string` \| `number` \| (`string` \| `number`)[]\>
 
 #### Defined in
 
-[lib/tag/TagAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/tag/TagAPI.ts#L20)
+[lib/tag/TagAPI.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/tag/TagAPI.ts#L17)
 
-___
+***
 
-### page
+### imageFormat?
 
-• `Optional` **page**: `number`
+> `optional` **imageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
 #### Defined in
 
-[lib/tag/TagAPI.ts:23](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/tag/TagAPI.ts#L23)
+[lib/tag/TagAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/tag/TagAPI.ts#L15)
 
-___
+***
+
+### page?
+
+> `optional` **page**: `number`
+
+#### Defined in
+
+[lib/tag/TagAPI.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/tag/TagAPI.ts#L18)
+
+***
 
 ### tagUrl
 
-• **tagUrl**: `string`
+> **tagUrl**: `string`
 
 #### Defined in
 
-[lib/tag/TagAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/tag/TagAPI.ts#L19)
+[lib/tag/TagAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/tag/TagAPI.ts#L14)
 
-___
+***
 
-### useHardcodedDefaultFilters
+### useHardcodedDefaultFilters?
 
-• `Optional` **useHardcodedDefaultFilters**: `boolean`
+> `optional` **useHardcodedDefaultFilters**: `boolean`
 
 #### Defined in
 
-[lib/tag/TagAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/tag/TagAPI.ts#L21)
+[lib/tag/TagAPI.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/tag/TagAPI.ts#L16)

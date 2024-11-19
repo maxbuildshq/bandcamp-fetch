@@ -1,30 +1,27 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / FanItemsContinuation
 
 # Interface: FanItemsContinuation
-
-## Table of contents
-
-### Properties
-
-- [fanId](FanItemsContinuation.md#fanid)
-- [token](FanItemsContinuation.md#token)
 
 ## Properties
 
 ### fanId
 
-• **fanId**: `number`
+> **fanId**: `number`
 
 #### Defined in
 
-[lib/types/Fan.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Fan.ts#L14)
+[lib/types/Fan.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Fan.ts#L14)
 
-___
+***
 
 ### token
 
-• **token**: `string`
+> **token**: `string`
 
 #### Defined in
 
-[lib/types/Fan.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Fan.ts#L15)
+[lib/types/Fan.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Fan.ts#L15)

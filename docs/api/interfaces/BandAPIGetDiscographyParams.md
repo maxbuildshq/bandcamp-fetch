@@ -1,30 +1,27 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / BandAPIGetDiscographyParams
 
 # Interface: BandAPIGetDiscographyParams
-
-## Table of contents
-
-### Properties
-
-- [bandUrl](BandAPIGetDiscographyParams.md#bandurl)
-- [imageFormat](BandAPIGetDiscographyParams.md#imageformat)
 
 ## Properties
 
 ### bandUrl
 
-• **bandUrl**: `string`
+> **bandUrl**: `string`
 
 #### Defined in
 
-[lib/band/BandAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/band/BandAPI.ts#L14)
+[lib/band/BandAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/band/BandAPI.ts#L15)
 
-___
+***
 
-### imageFormat
+### imageFormat?
 
-• `Optional` **imageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> `optional` **imageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
 #### Defined in
 
-[lib/band/BandAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/band/BandAPI.ts#L15)
+[lib/band/BandAPI.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/band/BandAPI.ts#L16)

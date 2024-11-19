@@ -1,52 +1,47 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / TrackAPIGetInfoParams
 
 # Interface: TrackAPIGetInfoParams
 
-## Table of contents
-
-### Properties
-
-- [albumImageFormat](TrackAPIGetInfoParams.md#albumimageformat)
-- [artistImageFormat](TrackAPIGetInfoParams.md#artistimageformat)
-- [includeRawData](TrackAPIGetInfoParams.md#includerawdata)
-- [trackUrl](TrackAPIGetInfoParams.md#trackurl)
-
 ## Properties
 
-### albumImageFormat
+### albumImageFormat?
 
-• `Optional` **albumImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
-
-#### Defined in
-
-[lib/track/TrackAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/track/TrackAPI.ts#L9)
-
-___
-
-### artistImageFormat
-
-• `Optional` **artistImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> `optional` **albumImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
 #### Defined in
 
-[lib/track/TrackAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/track/TrackAPI.ts#L10)
+[lib/track/TrackAPI.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/track/TrackAPI.ts#L9)
 
-___
+***
 
-### includeRawData
+### artistImageFormat?
 
-• `Optional` **includeRawData**: `boolean`
+> `optional` **artistImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
 #### Defined in
 
-[lib/track/TrackAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/track/TrackAPI.ts#L11)
+[lib/track/TrackAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/track/TrackAPI.ts#L10)
 
-___
+***
+
+### includeRawData?
+
+> `optional` **includeRawData**: `boolean`
+
+#### Defined in
+
+[lib/track/TrackAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/track/TrackAPI.ts#L11)
+
+***
 
 ### trackUrl
 
-• **trackUrl**: `string`
+> **trackUrl**: `string`
 
 #### Defined in
 
-[lib/track/TrackAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/track/TrackAPI.ts#L8)
+[lib/track/TrackAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/track/TrackAPI.ts#L8)

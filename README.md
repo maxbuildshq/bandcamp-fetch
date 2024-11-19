@@ -96,7 +96,7 @@ const results = await discovery.discover(...);
 
 [**Example**](examples/discovery/discover.ts) ([output](examples/discovery/discover_output.txt))
 
-<p>Fetches albums through Bandcamp Discover.</p>
+<p>Fetches items through Bandcamp Discover.</p>
 
 **Params**
 
@@ -105,18 +105,33 @@ const results = await discovery.discover(...);
     - `subgenre`: (string) only valid when `genre` is set to something other than 'all'.
     - `location`: (string)
     - `sortBy`: (string)
-    - `artistRecommendationType`: (string) only valid when `sortBy` is 'rec' (artist recommended).
-    - `format`: (string)
+    - `category`: (number)
     - `time`: (number)
-    - `page`: (number)
+    - `customTags`: (Array&lt;string&gt;)
+    - `size`: number
     - `albumImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md))
     - `artistImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md))
+    - `merchImageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md))
 
 To see what values can be set in `params`, call `getAvailableOptions()`.
 
 **Returns**
 
 Promise resolving to [DiscoverResult](docs/api/interfaces/DiscoverResult.md).
+
+**Continuation**
+
+Check the `continuation` property of the returned result to see if more results are available. To obtain the next set of results, pass the value of `continuation` to `discover()`:
+
+```
+const results = await discovery.discover(...);
+
+// More results
+if (results.continuation) {
+  const moreResults = await discovery.discover(results.continuation);
+  ...
+}
+```
 
 ---
 </details>
@@ -384,32 +399,10 @@ To access the Tag API:
 ```
 import bcfetch from 'bandcamp-fetch';
 
-const tag = bcfetch.tag;
-
-const info = await tag.getInfo(...);
-const highlights = await tag.getAlbumHighlights(...);
+const tags = await bcfetch.tag.list();
 ```
 
 **Methods:**
-
-<details>
-<summary><code>getInfo(tagUrl)</code></summary>
-<br />
-
-[**Example**](examples/tag/getInfo.ts) ([output](examples/tag/getInfo_output.txt))
-
-<p>Fetches info about a tag.</p>
-
-**Params**
-
-- `tagUrl`: (string)
-
-**Returns**
-
-Promise resolving to [Tag](docs/api/interfaces/Tag.md).
-
----
-</details>
 
 <details>
 <summary><code>list()</code></summary>
@@ -417,90 +410,11 @@ Promise resolving to [Tag](docs/api/interfaces/Tag.md).
 
 [**Example**](examples/tag/list.ts) ([output](examples/tag/list_output.txt))
 
-<p>Fetches the full list of tags.</p>
+<p>Fetches a list of tags.</p>
 
 **Returns**
 
 Promise resolving to [TagList](docs/api/interfaces/TagList.md), which groups results into `tags`(for non-location tags) and `locations` (for location tags).
-
----
-</details>
-
-<details>
-<summary><code>getAlbumHighlights(params)</code></summary>
-<br />
-
-[**Example**](examples/tag/getAlbumHighlights.ts) ([output](examples/tag/getAlbumHighlights_output.txt))
-
-<p>Fetches album highlights for the tag referred to by <code>params.tagUrl</code>.</p>
-
-Albums are placed in groups. Each group corresponds to a highlight category such as 'new and notable' and 'all-time best selling'.
-
-**Params**
-
-- `params`: ([TagAPIGetAlbumHighlightsParams](docs/api/interfaces/TagAPIGetAlbumHighlightsParams.md))
-    - `tagUrl`: (string)
-    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
-
-**Returns**
-
-Promise resolving to Array<[AlbumHighlightsByTag](docs/api/interfaces/AlbumHighlightsByTag.md)>.
-
----
-</details>
-
-<details>
-<summary><code>getReleases(params)</code></summary>
-<br />
-
-[**Example**](examples/tag/getReleases.ts) ([output](examples/tag/getReleases_output.txt))
-
-<p>Fetches releases matching the tag referred to by <code>params.tagUrl</code>.</p>
-
-**Params**
-
-- `params`: ([TagAPIGetReleasesParams](docs/api/interfaces/TagAPIGetReleasesParams.md))
-    - `tagUrl`: (string)
-    - `imageFormat`: (string | number | [ImageFormat](docs/api/interfaces/ImageFormat.md)) (*optional*)
-    - `useHardcodedDefaultFilters`: (boolean) (*optional*) if `true`, use hardcoded default values for filters not specified in `params.filters`. If `false` or unspecified, default filter values will be obtained by calling ``getReleasesAvailableFilters`()` (extra query means slower performance).
-    - `filters`: (object{ string: string | number | Array<string | number >}) (*optional*)
-    - `page`: (number) (*optional*) 1 if omitted.
-
-#### `params.filters`:
-
-Properties of `params.filters` are not strictly defined. As of this documentation, the curent filters available on Bandcamp are:
-
-- `location`: (number)
-- `tags`: (Array&lt;string&gt;) list of tags to match, in addition to the one referred to by `params.tagUrl`.
-- `sort`: (string)
-- `format`: (string)
-
-Omitted properties are populated with default values obtained from `params.tagUrl`. Possible filter values can be obtained by calling `getReleasesAvailableFilters()`. For `location` and `tag` filters, you may look up additional values not returned by `getReleasesAvailableFilters()` through `getSuggestions()` of the [Autocomplete API](#autocomplete-api).
-
-**Returns**
-
-Promise resolving to [ReleasesByTag](docs/api/interfaces/ReleasesByTag-1.md).
-
----
-</details>
-
-<details>
-<summary><code>getReleasesAvailableFilters(tagUrl)</code></summary>
-<br />
-
-[**Example**](examples/tag/getReleasesAvailableFilters.ts) ([output](examples/tag/getReleasesAvailableFilters_output.txt))
-
-<p>Fetches the list of possible filter values for <code>getReleases()</code>.</p>
-
-For `location` and `tag` filters, this method does not return an exhaustive list of values. You may use `getSuggestions()` of the [Autocomplete API](#autocomplete-api) to look up additional values.
-
-**Params**
-
-- `tagUrl`: (string) the URL of the tag for which filter values are to be returned.
-
-**Returns**
-
-Promise resolving to Array<[ReleasesByTag.Filter](docs/api/interfaces/ReleasesByTag.Filter.md)>.
 
 ---
 </details>
@@ -849,7 +763,7 @@ The `value` property of returned suggestions can be used to set the `location` o
 - `params`: ([AutocompleteAPIGetSuggestionsParams](docs/api/interfaces/AutocompleteAPIGetSuggestionsParams.md))
     - `query`: (string)
     - `itemType`: ([AutocompleteItemType](docs/api/enums/AutocompleteItemType.md)) 'Tag' or 'Location'
-    - limit: (number) (*optional*) the maximum number of results to return; 5 if omitted.
+    - `limit`: (number) (*optional*) (only for `ItemType.Location`) the maximum number of results to return; 5 if omitted.
 
 **Returns**
 

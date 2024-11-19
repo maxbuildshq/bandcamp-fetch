@@ -1,91 +1,83 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / DiscoverOptions
 
 # Interface: DiscoverOptions
 
 Options and list of values for each option that can be used to formulate [DiscoverParams](DiscoverParams.md).
 
-**`See`**
+## See
 
 DiscoveryAPI.getAvailableOptions
 
-## Table of contents
-
-### Properties
-
-- [artistRecommendationTypes](DiscoverOptions.md#artistrecommendationtypes)
-- [formats](DiscoverOptions.md#formats)
-- [genres](DiscoverOptions.md#genres)
-- [locations](DiscoverOptions.md#locations)
-- [sortBys](DiscoverOptions.md#sortbys)
-- [subgenres](DiscoverOptions.md#subgenres)
-- [times](DiscoverOptions.md#times)
-
 ## Properties
 
-### artistRecommendationTypes
+### categories
 
-• **artistRecommendationTypes**: [`NameValuePair`](NameValuePair.md)<`string`\>[]
-
-#### Defined in
-
-[lib/types/Discovery.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L17)
-
-___
-
-### formats
-
-• **formats**: [`NameValuePair`](NameValuePair.md)<`string`\>[]
+> **categories**: [`NameValuePair`](NameValuePair.md)\<`number`\> & `object`[]
 
 #### Defined in
 
-[lib/types/Discovery.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L16)
+[lib/types/Discovery.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L13)
 
-___
+***
+
+### customTags
+
+> **customTags**: (`string` \| [`Tag`](Tag.md))[]
+
+#### Defined in
+
+[lib/types/Discovery.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L16)
+
+***
 
 ### genres
 
-• **genres**: [`NameValuePair`](NameValuePair.md)<`string`\>[]
+> **genres**: [`NameValuePair`](NameValuePair.md)\<`string`\> & `object`[]
 
 #### Defined in
 
-[lib/types/Discovery.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L11)
+[lib/types/Discovery.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L14)
 
-___
+***
 
 ### locations
 
-• **locations**: [`NameValuePair`](NameValuePair.md)<`string`\>[]
+> **locations**: [`NameValuePair`](NameValuePair.md)\<`number`\>[]
 
 #### Defined in
 
-[lib/types/Discovery.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L15)
+[lib/types/Discovery.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L18)
 
-___
+***
 
 ### sortBys
 
-• **sortBys**: [`NameValuePair`](NameValuePair.md)<`string`\>[]
+> **sortBys**: [`NameValuePair`](NameValuePair.md)\<`string`\>[]
 
 #### Defined in
 
-[lib/types/Discovery.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L12)
+[lib/types/Discovery.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L17)
 
-___
+***
 
 ### subgenres
 
-• **subgenres**: `Record`<`string`, [`NameValuePair`](NameValuePair.md)<`string`\>[]\>
+> **subgenres**: `Record`\<`string`, [`NameValuePair`](NameValuePair.md)\<`string`\> & `object`[]\>
 
 #### Defined in
 
-[lib/types/Discovery.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L14)
+[lib/types/Discovery.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L15)
 
-___
+***
 
 ### times
 
-• **times**: [`NameValuePair`](NameValuePair.md)<`number`\> & { `title`: `string`  }[]
+> **times**: [`NameValuePair`](NameValuePair.md)\<`number`\> & `object`[]
 
 #### Defined in
 
-[lib/types/Discovery.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L13)
+[lib/types/Discovery.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/e4cb82348d4aab387354625a2433077d57362f73/src/lib/types/Discovery.ts#L19)
