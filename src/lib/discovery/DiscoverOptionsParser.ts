@@ -1,6 +1,6 @@
 import { load as cheerioLoad } from 'cheerio';
 import { ParseError } from '../utils/Parse.js';
-import { DiscoverOptions } from '../types/Discovery.js';
+import { type DiscoverOptions } from '../types/Discovery.js';
 
 export default class DiscoverOptionsParser {
   static parseOptions(html: string): DiscoverOptions {

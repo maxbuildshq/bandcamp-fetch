@@ -1,8 +1,8 @@
-import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import { ImageFormat } from '../types/Image.js';
-import Show from '../types/Show.js';
+import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
+import { type ImageFormat } from '../types/Image.js';
+import type Show from '../types/Show.js';
 import { URLS } from '../utils/Constants.js';
-import Limiter from '../utils/Limiter.js';
+import type Limiter from '../utils/Limiter.js';
 import ShowListParser from './ShowListParser.js';
 import ShowParser from './ShowParser.js';
 
@@ -56,7 +56,7 @@ export class LimiterShowAPI extends ShowAPI {
     return this.#limiter.schedule(() => super.getShow(params));
   }
 
-  async list(params?: ShowAPIListParams | undefined): Promise<Show[]> {
+  async list(params?: ShowAPIListParams  ): Promise<Show[]> {
     return this.#limiter.schedule(() => super.list(params));
   }
 }

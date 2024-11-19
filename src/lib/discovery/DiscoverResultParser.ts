@@ -1,7 +1,7 @@
-import Album from '../types/Album.js';
-import Artist from '../types/Artist.js';
-import { DiscoverOptions, DiscoverResult, SanitizedDiscoverParams } from '../types/Discovery.js';
-import { ImageFormat } from '../types/Image.js';
+import type Album from '../types/Album.js';
+import type Artist from '../types/Artist.js';
+import { type DiscoverOptions, type DiscoverResult, type SanitizedDiscoverParams } from '../types/Discovery.js';
+import { type ImageFormat } from '../types/Image.js';
 import { ParseError } from '../utils/Parse.js';
 
 interface DiscoverResultParseOptions {

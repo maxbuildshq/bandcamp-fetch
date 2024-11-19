@@ -1,5 +1,6 @@
 import { URL } from 'url';
-import Cache, { CacheDataType } from './Cache.js';
+import type Cache from './Cache.js';
+import { CacheDataType } from './Cache.js';
 
 export enum FetchMethod {
   GET = 'GET',

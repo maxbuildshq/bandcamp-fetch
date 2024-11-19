@@ -1,4 +1,4 @@
-import Bottleneck from 'bottleneck';
+import type Bottleneck from 'bottleneck';
 import AlbumAPI, { LimiterAlbumAPI } from './album/AlbumAPI.js';
 import ArticleAPI, { LimiterArticleAPI } from './article/ArticleAPI.js';
 import AutocompleteAPI, { LimiterAutocompleteAPI } from './autocomplete/AutocompleteAPI.js';

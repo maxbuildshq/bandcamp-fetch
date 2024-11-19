@@ -1,5 +1,5 @@
-import { ImageFormat } from '../types/Image.js';
-import Show from '../types/Show.js';
+import { type ImageFormat } from '../types/Image.js';
+import type Show from '../types/Show.js';
 import { URLS } from '../utils/Constants.js';
 
 interface ShowListParseOptions {

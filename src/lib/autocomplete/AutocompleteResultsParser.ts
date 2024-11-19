@@ -1,4 +1,4 @@
-import { AutoCompleteTag, AutocompleteLocation } from '../types/Autocomplete.js';
+import { type AutoCompleteTag, type AutocompleteLocation } from '../types/Autocomplete.js';
 import { ParseError } from '../utils/Parse.js';
 
 export default class AutocompleteResultsParser {

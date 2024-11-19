@@ -1,8 +1,8 @@
 import { load as cheerioLoad } from 'cheerio';
-import { ImageFormat } from '../types/Image.js';
+import { type ImageFormat } from '../types/Image.js';
 import { normalizeUrl, reformatImageUrl, splitUrl } from '../utils/Parse.js';
-import Track from '../types/Track.js';
-import Album from '../types/Album.js';
+import type Track from '../types/Track.js';
+import type Album from '../types/Album.js';
 import TrackInfoParser from '../track/TrackInfoParser.js';
 import AlbumInfoParser from '../album/AlbumInfoParser.js';
 

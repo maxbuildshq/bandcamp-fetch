@@ -1,8 +1,8 @@
-import BaseAPI, { BaseAPIParams } from '../common/BaseAPI.js';
-import { ImageConstants, ImageFormat } from '../types/Image.js';
+import BaseAPI, { type BaseAPIParams } from '../common/BaseAPI.js';
+import { type ImageConstants, type ImageFormat } from '../types/Image.js';
 import { CacheDataType } from '../utils/Cache.js';
 import { URLS } from '../utils/Constants.js';
-import Limiter from '../utils/Limiter.js';
+import type Limiter from '../utils/Limiter.js';
 import ImageParser from './ImageParser.js';
 
 export enum ImageFormatFilter {
@@ -66,11 +66,11 @@ export class LimiterImageAPI extends ImageAPI {
     this.#limiter = params.limiter;
   }
 
-  async getFormats(filter?: ImageFormatFilter | undefined): Promise<ImageFormat[]> {
+  async getFormats(filter?: ImageFormatFilter  ): Promise<ImageFormat[]> {
     return this.#limiter.schedule(() => super.getFormats(filter));
   }
 
-  async getFormat(target?: string | number | ImageFormat | undefined, fallbackId?: number | undefined): Promise<ImageFormat | null> {
+  async getFormat(target?: string | number | ImageFormat  , fallbackId?: number  ): Promise<ImageFormat | null> {
     return this.#limiter.schedule(() => super.getFormat(target, fallbackId));
   }
 }

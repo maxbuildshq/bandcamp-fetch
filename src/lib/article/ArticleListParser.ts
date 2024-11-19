@@ -1,8 +1,8 @@
 import { load as cheerioLoad } from 'cheerio';
-import { ArticleCategory, ArticleList, ArticleListItem } from '../types/Article.js';
+import { type ArticleCategory, type ArticleList, type ArticleListItem } from '../types/Article.js';
 import { URLS } from '../utils/Constants.js';
 import { isAbsoluteUrl, normalizeUrl, reformatImageUrl, stripLineBreaks } from '../utils/Parse.js';
-import { ImageFormat } from '../types/Image.js';
+import { type ImageFormat } from '../types/Image.js';
 
 interface ArticleListParseOptions {
   imageFormat: ImageFormat | null;

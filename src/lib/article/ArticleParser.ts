@@ -1,12 +1,13 @@
-import { load as cheerioLoad } from 'cheerio';
+import { type Cheerio, load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import Article, { ArticleMediaItem, ArticleSection } from '../types/Article.js';
+import {type ArticleMediaItem, type ArticleSection} from '../types/Article.js';
+import type Article from '../types/Article.js';
 import { URLS } from '../utils/Constants.js';
 import { ParseError, brToNewLine, isAbsoluteUrl, normalizeUrl, stripTags } from '../utils/Parse.js';
-import { ImageFormat } from '../types/Image.js';
-import Album from '../types/Album.js';
+import { type ImageFormat } from '../types/Image.js';
+import type Album from '../types/Album.js';
 import { EOL } from 'os';
-import Track from '../types/Track.js';
+import type Track from '../types/Track.js';
 
 interface ArticleParseOptions {
   imageBaseUrl: string;
@@ -140,7 +141,7 @@ export default class ArticleParser {
     }
 
     // Function that returns a section corresponding to a media item
-    const _getSectionByPlayer = (player: any) => {
+    const _getSectionByPlayer = (player: Cheerio<any>) => {
       const section: ArticleSection = {
         html: '',
         text: ''
@@ -148,23 +149,24 @@ export default class ArticleParser {
 
       // Get heading
       const heading = player.prevUntil('bamplayer-art', 'h3, h2').first();
-      if (heading.length > 0) {
+      const headingHTML = heading.html();
+      if (headingHTML) {
         section.heading = {
-          html: heading.html(),
-          text: stripTags(brToNewLine(heading.html())).trim()
+          html: headingHTML,
+          text: stripTags(brToNewLine(headingHTML)).trim()
         };
       }
 
       // Get html and text
       const paragraphs = player.nextUntil('bamplayer-art, h3, h5, article-end', 'p');
-      paragraphs.each((i: number, p: any) => {
-        p = $(p);
-        section.html += (section.html !== '' ? EOL : '') + p.html();
-        section.text += (section.text !== '' ? EOL + EOL : '') + p.text();
+      paragraphs.each((_i, p) => {
+        const _p = $(p);
+        section.html += (section.html !== '' ? EOL : '') + (_p.html() || '');
+        section.text += (section.text !== '' ? EOL + EOL : '') + _p.text();
       });
 
       // Get mediaItemRef
-      const playerIdMatch = player.attr('data-bind').match(/playerMap\["(.+?)"]/);
+      const playerIdMatch = player.attr('data-bind')?.match(/playerMap\["(.+?)"]/);
       if (playerIdMatch?.[1]) {
         section.mediaItemRef = playerIdMatch[1];
       }
@@ -173,7 +175,7 @@ export default class ArticleParser {
     };
 
     // Function that returns the introductory paragraph(s) of the article
-    const _getIntroSection = (articleBody: any) => {
+    const _getIntroSection = (articleBody: Cheerio<any>) => {
       const firstPlayer = articleBody.find('bamplayer-art').first();
       const paragraphs = firstPlayer.length > 0 ? firstPlayer.prevAll('p') : articleBody.find('p');
       if (paragraphs.length > 0) {
@@ -181,10 +183,10 @@ export default class ArticleParser {
           html: '',
           text: ''
         };
-        paragraphs.each((i: number, p: any) => {
-          p = $(p);
-          section.html += (section.html !== '' ? EOL : '') + p.html();
-          section.text += (section.text !== '' ? EOL + EOL : '') + p.text();
+        paragraphs.each((_i, p) => {
+          const _p = $(p);
+          section.html += (section.html !== '' ? EOL : '') + (_p.html() || '');
+          section.text += (section.text !== '' ? EOL + EOL : '') + _p.text();
         });
         return section;
       }

@@ -1,8 +1,8 @@
 import { URLS } from '../utils/Constants.js';
-import { AutoCompleteTag, AutocompleteLocation } from '../types/Autocomplete.js';
+import { type AutoCompleteTag, type AutocompleteLocation } from '../types/Autocomplete.js';
 import AutocompleteResultsParser from './AutocompleteResultsParser.js';
-import Limiter from '../utils/Limiter.js';
-import BaseAPI, { BaseAPIParams } from '../common/BaseAPI.js';
+import type Limiter from '../utils/Limiter.js';
+import BaseAPI, { type BaseAPIParams } from '../common/BaseAPI.js';
 import { FetchMethod } from '../utils/Fetcher.js';
 
 export enum AutocompleteItemType {
