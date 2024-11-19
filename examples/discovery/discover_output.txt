@@ -1998,3 +1998,965 @@ Fetching more by continuation...
     "cursor": "AoMIQOP5CnCu1oLTkgMqYTU2MDYyOTkwMQ=="
   }
 }
+Fetching shirts...
+{
+  "items": [
+    {
+      "type": "shirt",
+      "name": "KRUKOKREST \"Yaroslavl/Moscow\" (T-SHIRT)",
+      "url": "https://obscurantvisions.bandcamp.com/merch/krukokrest-yaroslavl-moscow-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37808606_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37808687_9.jpg"
+      },
+      "releaseDate": "2024-11-18 05:43:53 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "OBSCURANT VISIONS",
+        "url": "https://obscurantvisions.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/20238628_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Ciśnienie Black T-shirt",
+      "url": "https://cisnienie.bandcamp.com/merch/ci-nienie-black-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37795781_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37795792_9.jpg"
+      },
+      "releaseDate": "2024-11-16 18:02:50 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Ciśnienie",
+        "url": "https://cisnienie.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/24163505_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "PAGAN TERROR \"To War\" (T-SHIRT)",
+      "url": "https://obscurantvisions.bandcamp.com/merch/pagan-terror-to-war-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37808540_9.jpg"
+      },
+      "releaseDate": "2024-11-18 05:17:59 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "OBSCURANT VISIONS",
+        "url": "https://obscurantvisions.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/20238628_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Thistlebur. Step softly T-shirt",
+      "url": "https://witchbolt1.bandcamp.com/merch/thistlebur-step-softly-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37807470_9.jpg"
+      },
+      "releaseDate": "2024-11-18 01:30:16 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Witch Bolt",
+        "url": "https://witchbolt1.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/36312241_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "\"The Lion's Wisdom\" Long Sleeve Shirt *Ships 4-6 Weeks*",
+      "url": "https://fief.bandcamp.com/merch/the-lions-wisdom-long-sleeve-shirt-ships-4-6-weeks?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37777175_9.jpg"
+      },
+      "releaseDate": "2024-11-14 20:01:45 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Fief",
+        "url": "https://fief.bandcamp.com?from=discover_page"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "\"The Lion's Wisdom\" T-Shirt *Ships 4-6 Weeks*",
+      "url": "https://fief.bandcamp.com/merch/the-lions-wisdom-t-shirt-ships-4-6-weeks?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37777449_9.jpg"
+      },
+      "releaseDate": "2024-11-14 20:24:09 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Fief",
+        "url": "https://fief.bandcamp.com?from=discover_page"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Preorder: Scherbentour 2024 T-Shirt",
+      "url": "https://ellende.bandcamp.com/merch/preorder-scherbentour-2024-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37427337_9.jpg"
+      },
+      "releaseDate": "2024-10-09 16:32:35 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Ellende",
+        "url": "https://ellende.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/36501622_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "DIMMU BONGIR \"Dark Medieval Hash\" (T-SHIRT)",
+      "url": "https://obscurantvisions.bandcamp.com/merch/dimmu-bongir-dark-medieval-hash-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37808555_9.jpg"
+      },
+      "releaseDate": "2024-11-18 05:21:30 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "OBSCURANT VISIONS",
+        "url": "https://obscurantvisions.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/20238628_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "FIEF \"To Rest in the Shade of Dragon Wings\" T-Shirt [BURNT ORANGE]",
+      "url": "https://fief.bandcamp.com/merch/fief-to-rest-in-the-shade-of-dragon-wings-t-shirt-burnt-orange-2?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37334680_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37334684_9.jpg"
+      },
+      "releaseDate": "2024-10-01 17:56:23 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Fief",
+        "url": "https://fief.bandcamp.com?from=discover_page"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Ciśnienie White T-shirt",
+      "url": "https://cisnienie.bandcamp.com/merch/ci-nienie-white-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37795803_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37795805_9.jpg"
+      },
+      "releaseDate": "2024-11-16 18:07:57 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Ciśnienie",
+        "url": "https://cisnienie.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/24163505_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "'Multiply Your Absurdities' loose T-Shirt",
+      "url": "https://helenahauff.bandcamp.com/merch/multiply-your-absurdities-loose-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37549825_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37549827_9.jpg"
+      },
+      "releaseDate": "2024-10-22 14:37:48 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Helena Hauff",
+        "url": "https://helenahauff.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/13661359_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "DRONE NOT DRONES circle logo t-shirt",
+      "url": "https://drone-not-drones.bandcamp.com/merch/drone-not-drones-circle-logo-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/35246694_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/35246696_9.jpg"
+      },
+      "releaseDate": "2024-02-29 17:53:17 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Drone Not Drones",
+        "url": "https://drone-not-drones.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/12070137_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Buy Limited T-shirt - Full Color",
+      "url": "https://distantdream.bandcamp.com/merch/buy-limited-t-shirt-full-color?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37700222_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37700224_9.jpg"
+      },
+      "releaseDate": "2024-11-06 22:43:40 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Distant Dream",
+        "url": "https://distantdream.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/37687491_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "AUTUMN STRIFE \"Resilience\" (T-SHIRT)",
+      "url": "https://obscurantvisions.bandcamp.com/merch/autumn-strife-resilience-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37808535_9.jpg"
+      },
+      "releaseDate": "2024-11-18 05:14:16 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "OBSCURANT VISIONS",
+        "url": "https://obscurantvisions.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/20238628_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Silken Heart T-shirt PREORDER",
+      "url": "https://silkenheartrecords.bandcamp.com/merch/silken-heart-t-shirt-preorder?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37802969_9.jpg"
+      },
+      "releaseDate": "2024-11-17 15:53:54 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "SILKEN HEART",
+        "url": "https://silkenheartrecords.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/33140721_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "\"Respect Existence\" T-Shirt",
+      "url": "https://tinselcurtain.bandcamp.com/merch/respect-existence-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37562633_9.jpg"
+      },
+      "releaseDate": "2024-10-23 19:13:10 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Tinsel Curtain",
+        "url": "https://tinselcurtain.bandcamp.com?from=discover_page"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Vortex Of The Worlds (Gildan) Black Long Sleeve",
+      "url": "https://labyrinthusstellarum.bandcamp.com/merch/vortex-of-the-worlds-gildan-black-long-sleeve?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/36352917_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/36352918_9.jpg"
+      },
+      "releaseDate": "2024-06-18 18:55:33 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Labyrinthus Stellarum",
+        "url": "https://labyrinthusstellarum.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/31851719_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "FIEF \"III+IV\" Long Sleeve Shirt [ARMY GREEN]",
+      "url": "https://fief.bandcamp.com/merch/fief-iii-iv-long-sleeve-shirt-army-green?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37334815_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37334818_9.jpg"
+      },
+      "releaseDate": "2024-10-01 18:07:57 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Fief",
+        "url": "https://fief.bandcamp.com?from=discover_page"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Esoteric Lounge Music Now Shirt (2 COLOR EDITION)",
+      "url": "https://ruthmascelli.bandcamp.com/merch/esoteric-lounge-music-now-shirt-2-color-edition?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/36814274_9.jpg"
+      },
+      "releaseDate": "2024-08-08 15:20:04 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Ruth Mascelli",
+        "url": "https://ruthmascelli.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/32240532_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "BLACK AW24 Embroidered Heavy Weight Oversize T-Shirt",
+      "url": "https://northernelectronics.bandcamp.com/merch/black-aw24-embroidered-heavy-weight-oversize-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/36821084_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/36821086_9.jpg"
+      },
+      "releaseDate": "2024-08-09 07:11:57 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Northern Electronics",
+        "url": "https://northernelectronics.bandcamp.com?from=discover_page"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Jester M8TRXASCII Poetry T-Shirt *REPRINT* pre-order",
+      "url": "https://orchestroll.bandcamp.com/merch/jester-m8trxascii-poetry-t-shirt-reprint-pre-order?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/35788533_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/35788534_9.jpg"
+      },
+      "releaseDate": "2024-04-22 16:41:08 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Orchestroll",
+        "url": "https://orchestroll.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/35499795_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Sápmi",
+      "url": "https://saiva.bandcamp.com/merch/s-pmi?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/33646071_9.jpg"
+      },
+      "releaseDate": "2023-09-25 16:02:47 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Saiva",
+        "url": "https://saiva.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/8155601_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "'Space As An Instrument' Desert Dust TSHIRT",
+      "url": "https://feliciaatkinson.bandcamp.com/merch/space-as-an-instrument-desert-dust-tshirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/36990124_9.jpg"
+      },
+      "releaseDate": "2024-08-28 07:12:36 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Félicia Atkinson",
+        "url": "https://feliciaatkinson.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/36990856_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Endless Hardcore Summer T-shirt",
+      "url": "https://explitymusic.bandcamp.com/merch/endless-hardcore-summer-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37743692_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37743709_9.jpg"
+      },
+      "releaseDate": "2024-11-11 15:09:11 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Explity Music",
+        "url": "https://explitymusic.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/36608274_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "FIEF \"III+IV\" T-Shirt [ARMY GREEN]",
+      "url": "https://fief.bandcamp.com/merch/fief-iii-iv-t-shirt-army-green?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37334647_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37334648_9.jpg"
+      },
+      "releaseDate": "2024-10-01 17:52:57 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Fief",
+        "url": "https://fief.bandcamp.com?from=discover_page"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "FOGWEAVER purple T-Shirt (2 Sided)",
+      "url": "https://thefogweaver.bandcamp.com/merch/fogweaver-purple-t-shirt-2-sided?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37145548_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37145549_9.jpg"
+      },
+      "releaseDate": "2024-09-11 17:19:11 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Fogweaver",
+        "url": "https://thefogweaver.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/36688799_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Double-Sided ATM Revised T-shirt",
+      "url": "https://kauan.bandcamp.com/merch/double-sided-atm-revised-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/30963497_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/30963499_9.jpg"
+      },
+      "releaseDate": "2023-01-03 17:50:18 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "KAUAN",
+        "url": "https://kauan.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/36619514_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Woe Long Sleeve",
+      "url": "https://anabstractillusion.bandcamp.com/merch/woe-long-sleeve?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/34848920_9.jpg"
+      },
+      "releaseDate": "2024-01-23 19:47:53 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "An Abstract Illusion",
+        "url": "https://anabstractillusion.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/29121081_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "NYX Black Tee",
+      "url": "https://nyx-edc.bandcamp.com/merch/nyx-black-tee?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/35878045_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/35878049_9.jpg"
+      },
+      "releaseDate": "2024-05-01 13:26:13 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "NYX",
+        "url": "https://nyx-edc.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/35747712_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "my love feels all wrong. t-shirt",
+      "url": "https://goreshit.bandcamp.com/merch/my-love-feels-all-wrong-t-shirt-2?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/33190241_9.jpg"
+      },
+      "releaseDate": "2023-08-09 06:31:09 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "goreshit",
+        "url": "https://goreshit.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/26201119_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Black short-sleeve with \"Beyond the Door\" art",
+      "url": "https://secretstairways.bandcamp.com/merch/black-short-sleeve-with-beyond-the-door-art?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37599089_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37599090_9.jpg"
+      },
+      "releaseDate": "2024-10-27 17:30:35 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Secret Stairways",
+        "url": "https://secretstairways.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/26673193_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "2017 China tour shirt",
+      "url": "https://celer.bandcamp.com/merch/2017-china-tour-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37634560_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37634561_9.jpg"
+      },
+      "releaseDate": "2024-10-31 07:08:31 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Celer",
+        "url": "https://celer.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/32279778_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "2013 Europe tour shirt",
+      "url": "https://celer.bandcamp.com/merch/2013-europe-tour-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37634546_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37634547_9.jpg"
+      },
+      "releaseDate": "2024-10-31 07:04:26 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Celer",
+        "url": "https://celer.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/32279778_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Buy Limited T-shirt - White Vector",
+      "url": "https://distantdream.bandcamp.com/merch/buy-limited-t-shirt-white-vector?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37700273_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37700274_9.jpg"
+      },
+      "releaseDate": "2024-11-06 22:46:46 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Distant Dream",
+        "url": "https://distantdream.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/37687491_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Archaic Revival",
+      "url": "https://lussuria.bandcamp.com/merch/archaic-revival?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37711542_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37711451_9.jpg"
+      },
+      "releaseDate": "2024-11-08 01:12:48 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Lussuria",
+        "url": "https://lussuria.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/33164291_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Death Brass (T-Shirt)",
+      "url": "https://ellende.bandcamp.com/merch/death-brass-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/36500803_9.jpg"
+      },
+      "releaseDate": "2024-07-04 10:03:59 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Ellende",
+        "url": "https://ellende.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/36501622_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Home T-shirt",
+      "url": "https://yenisei.bandcamp.com/merch/home-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37590128_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37590129_9.jpg"
+      },
+      "releaseDate": "2024-08-20 15:43:02 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Yenisei",
+        "url": "https://yenisei.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/36512217_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "\"Killdozer\" Shirt",
+      "url": "https://heavenmetal.bandcamp.com/merch/killdozer-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/36280214_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/36280224_9.jpg"
+      },
+      "releaseDate": "2024-06-11 01:06:59 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Midwife",
+        "url": "https://heavenmetal.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/30654261_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "\"A Legend In His Own Mind\" T-shirt (Sizes S thru XL)",
+      "url": "https://jeremysosville.bandcamp.com/merch/a-legend-in-his-own-mind-t-shirt-sizes-s-thru-xl?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37348107_9.jpg"
+      },
+      "releaseDate": "2024-10-02 20:19:11 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Jeremy Sosville",
+        "url": "https://jeremysosville.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/7494996_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "BEAU WANZER SHIRT",
+      "url": "https://beauwanzer.bandcamp.com/merch/beau-wanzer-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37352137_9.jpg"
+      },
+      "releaseDate": "2024-10-03 05:04:34 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "BEAU WANZER",
+        "url": "https://beauwanzer.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/15231983_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "izanami t-shirt ONLY [pre-order]",
+      "url": "https://ameokama.bandcamp.com/merch/izanami-t-shirt-only-pre-order?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37701832_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37701862_9.jpg"
+      },
+      "releaseDate": "2024-11-07 03:30:27 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "ameokama",
+        "url": "https://ameokama.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/37701109_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Official Album T-Shirt",
+      "url": "https://kohlrabenschwarz.bandcamp.com/merch/official-album-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/35902403_9.jpg"
+      },
+      "releaseDate": "2024-05-03 06:28:04 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "KOHLRABENSCHWARZ",
+        "url": "https://kohlrabenschwarz.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/34290001_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "\"Impossible Light\" Longsleeve Shirt",
+      "url": "https://uboa.bandcamp.com/merch/impossible-light-longsleeve-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/36442546_9.jpg"
+      },
+      "releaseDate": "2024-06-27 23:00:52 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Uboa",
+        "url": "https://uboa.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/36445339_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "\"There is No Kingdom...\" 2-sided T-shirt [Black, Comfort Colors]",
+      "url": "https://thefogweaver.bandcamp.com/merch/there-is-no-kingdom-2-sided-t-shirt-black-comfort-colors?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37743032_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37743034_9.jpg"
+      },
+      "releaseDate": "2024-10-19 17:18:47 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Fogweaver",
+        "url": "https://thefogweaver.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/36688799_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Woe Tshirt",
+      "url": "https://anabstractillusion.bandcamp.com/merch/woe-tshirt-2?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/34848850_9.jpg"
+      },
+      "releaseDate": "2024-01-23 19:45:22 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "An Abstract Illusion",
+        "url": "https://anabstractillusion.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/29121081_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Horn - Ox - T-Shirt RED edition (lim. 30)",
+      "url": "https://hornlichterlischt.bandcamp.com/merch/horn-ox-t-shirt-red-edition-lim-30?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37360487_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37360507_9.jpg"
+      },
+      "releaseDate": "2024-10-03 19:41:22 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Horn/Licht Erlischt...",
+        "url": "https://hornlichterlischt.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/35403679_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Roaming Death Shirt",
+      "url": "https://antiqofficial.bandcamp.com/merch/roaming-death-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/36991790_9.jpg"
+      },
+      "releaseDate": "2024-08-28 11:30:54 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Antiq",
+        "url": "https://antiqofficial.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/20141565_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Burial - ANTIDAWN - T-Shirt",
+      "url": "https://burial.bandcamp.com/merch/burial-antidawn-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37057299_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37057303_9.jpg"
+      },
+      "releaseDate": "2024-09-04 10:55:24 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Burial",
+        "url": "https://burial.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/33381238_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "PRE-ORDER Fata Morgana Long Sleeve Shirt",
+      "url": "https://ascalaphabm.bandcamp.com/merch/pre-order-fata-morgana-long-sleeve-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37361999_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37362001_9.jpg"
+      },
+      "releaseDate": "2024-10-03 21:46:11 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "ASCALAPHA",
+        "url": "https://ascalaphabm.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/32642816_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Red Solace - Live at Real World T",
+      "url": "https://heldbytrees.bandcamp.com/merch/red-solace-live-at-real-world-t?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/34868510_9.jpg"
+      },
+      "releaseDate": "2024-01-25 17:00:41 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Held By Trees",
+        "url": "https://heldbytrees.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/33385303_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Vortex Of The Worlds (Gildan) Black T-Shirt",
+      "url": "https://labyrinthusstellarum.bandcamp.com/merch/vortex-of-the-worlds-gildan-black-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/36352754_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/36352755_9.jpg"
+      },
+      "releaseDate": "2024-06-18 18:56:45 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Labyrinthus Stellarum",
+        "url": "https://labyrinthusstellarum.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/31851719_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Horn - Daudswiärk - special shirt, II. edition (lim. 50)",
+      "url": "https://hornlichterlischt.bandcamp.com/merch/horn-daudswi-rk-special-shirt-ii-edition-lim-50?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/36751001_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/35419179_9.jpg"
+      },
+      "releaseDate": "2024-03-17 14:15:55 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Horn/Licht Erlischt...",
+        "url": "https://hornlichterlischt.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/35403679_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Moþir T-shirt (Black)",
+      "url": "https://forndom.bandcamp.com/merch/mo-ir-t-shirt-black?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37491142_9.jpg"
+      },
+      "releaseDate": "2024-10-16 08:51:53 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Forndom",
+        "url": "https://forndom.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/18449695_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Alte Fichte",
+      "url": "https://ellende.bandcamp.com/merch/alte-fichte?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/34030649_9.jpg"
+      },
+      "releaseDate": "2023-11-02 13:56:45 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Ellende",
+        "url": "https://ellende.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/36501622_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "TECHNO IS FOR LOVER T-SHIRT",
+      "url": "https://commedanslesfilms.bandcamp.com/merch/techno-is-for-lover-t-shirt-2?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37434495_9.jpg"
+      },
+      "releaseDate": "2024-10-10 09:28:36 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Comme dans les films",
+        "url": "https://commedanslesfilms.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/36274230_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Toad King T-shirt",
+      "url": "https://darkageproductions.bandcamp.com/merch/toad-king-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/30543209_9.jpg"
+      },
+      "releaseDate": "2022-11-21 18:04:57 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Dark Age Productions",
+        "url": "https://darkageproductions.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/26886947_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Big Yellow T-Shirt",
+      "url": "https://haydenpedigo.bandcamp.com/merch/big-yellow-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/35893987_9.jpg"
+      },
+      "releaseDate": "2024-05-03 04:38:36 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Hayden Pedigo",
+        "url": "https://haydenpedigo.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/32057253_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "Silver Printed Ulwhednar AW23 T-shirt",
+      "url": "https://northernelectronics.bandcamp.com/merch/silver-printed-ulwhednar-aw23-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/34407973_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/34407975_9.jpg"
+      },
+      "releaseDate": "2023-12-08 12:07:39 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Northern Electronics",
+        "url": "https://northernelectronics.bandcamp.com?from=discover_page"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "FREE PALESTINE FOREVER GIL DE RAY",
+      "url": "https://gilderay.bandcamp.com/merch/free-palestine-forever-gil-de-ray?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37724132_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37724137_9.jpg"
+      },
+      "releaseDate": "2024-11-09 10:00:38 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Gil De Ray",
+        "url": "https://gilderay.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/36282363_28.jpg"
+      }
+    },
+    {
+      "type": "shirt",
+      "name": "'Multiply Your Absurdities' Cropped Fitted T-Shirt",
+      "url": "https://helenahauff.bandcamp.com/merch/multiply-your-absurdities-cropped-fitted-t-shirt?from=discover_page",
+      "imageUrl": {
+        "primary": "https://f4.bcbits.com/img/37549769_9.jpg",
+        "secondary": "https://f4.bcbits.com/img/37549772_9.jpg"
+      },
+      "releaseDate": "2024-10-22 14:31:01 UTC",
+      "artist": {
+        "type": "artist",
+        "name": "Helena Hauff",
+        "url": "https://helenahauff.bandcamp.com?from=discover_page",
+        "imageUrl": "https://f4.bcbits.com/img/13661359_28.jpg"
+      }
+    }
+  ],
+  "total": 2229,
+  "params": {
+    "category": 5,
+    "sortBy": "top",
+    "location": 0,
+    "time": -1,
+    "size": 60,
+    "genre": "ambient"
+  },
+  "continuation": {
+    "category": 5,
+    "sortBy": "top",
+    "location": 0,
+    "time": -1,
+    "size": 60,
+    "genre": "ambient",
+    "cursor": "AoMIPcfDDXjI/avskgMrcDEwNjkyNTk1NDE=",
+    "albumImageFormat": {
+      "id": 2,
+      "name": "art_thumb",
+      "width": 350,
+      "height": 350,
+      "fileFormat": "JPEG"
+    },
+    "artistImageFormat": {
+      "id": 28,
+      "name": "bio_featured",
+      "width": 768,
+      "height": 432,
+      "fileFormat": "JPEG"
+    }
+  }
+}

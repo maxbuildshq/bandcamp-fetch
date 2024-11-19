@@ -1,6 +1,7 @@
 import type NameValuePair from '../utils/NameValuePair.js';
 import type Album from './Album.js';
 import { type ImageFormat } from './Image.js';
+import type Shirt from './Shirt.js';
 import type Tag from './Tag.js';
 
 /**
@@ -40,6 +41,10 @@ export interface DiscoverParams {
    * Value indicating the image format to adopt when constructing image URLs of album artists.
    */
   artistImageFormat?: string | number | ImageFormat;
+  /**
+   * Value indicating the image format to adopt when constructing image URLs of merch items.
+   */
+  merchImageFormat?: string | number | ImageFormat;
 }
 
 export type SanitizedDiscoverParams =
@@ -61,7 +66,7 @@ export interface DiscoverResult {
   /**
    * List of discovered albums .
    */
-  items: Album[];
+  items: Array<Album | Shirt>;
   /**
    * Total number of albums discovered.
    */
@@ -78,4 +83,5 @@ export interface DiscoverResultContinuation extends SanitizedDiscoverParams {
   cursor: string;
   albumImageFormat?: ImageFormat;
   artistImageFormat?: ImageFormat;
+  merchImageFormat?: ImageFormat;
 }

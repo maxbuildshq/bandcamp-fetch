@@ -81,7 +81,8 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
     const opts = {
       imageBaseUrl: imageConstants.baseUrl,
       albumImageFormat: await this.imageAPI.getFormat(params?.albumImageFormat, 9),
-      artistImageFormat: await this.imageAPI.getFormat(params?.artistImageFormat, 21)
+      artistImageFormat: await this.imageAPI.getFormat(params?.artistImageFormat, 21),
+      merchImageFormat: await this.imageAPI.getFormat(params?.merchImageFormat, 9)
     };
     let payload: DiscoverRequestPayload;
     let sanitizedParams: SanitizedDiscoverParams;
