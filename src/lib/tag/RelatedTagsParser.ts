@@ -12,7 +12,7 @@ export default class RelatedTagsParser {
       };
       if (json.single_results && Array.isArray(json.single_results)) {
         result.single = (json.single_results as any[]).reduce<RelatedTags['single']>((acc, v) => {
-          if (typeof v === 'object' && v.tag && Array.isArray(v.related_tags)) {
+          if (typeof v === 'object' && v.tag && v.tag.name && v.tag.norm_name && Array.isArray(v.related_tags)) {
             const tag: Tag = {
               type: 'tag',
               name: v.tag.name,
@@ -37,7 +37,7 @@ export default class RelatedTagsParser {
 
   static #parseTags(tags: any[]) {
     return tags.reduce<Tag[]>((result, t) => {
-      if (typeof t === 'object' && t.name) {
+      if (typeof t === 'object' && t.name && t.norm_name) {
         result.push({
           type: 'tag',
           name: t.name,

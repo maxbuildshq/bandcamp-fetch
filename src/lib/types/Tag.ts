@@ -1,7 +1,7 @@
 interface Tag {
   type: 'tag';
   name: string;
-  value?: string;
+  value: string;
   imageUrls?: string[];
 }
 
