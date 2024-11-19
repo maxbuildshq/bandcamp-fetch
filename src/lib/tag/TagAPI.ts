@@ -1,21 +1,15 @@
 import { URLS } from '../utils/Constants.js';
 import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
 import { type ImageFormat } from '../types/Image.js';
-import { type TagList } from '../types/Tag.js';
+import { type RelatedTags, type TagList } from '../types/Tag.js';
 import type Limiter from '../utils/Limiter.js';
 import TagListParser from './TagListParser.js';
+import { FetchMethod } from '../utils/Fetcher.js';
+import RelatedTagsParser from './RelatedTagsParser.js';
 
-export interface TagAPIGetAlbumHighlightsParams {
-  tagUrl: string;
-  imageFormat?: string | number | ImageFormat;
-}
-
-export interface TagAPIGetReleasesParams {
-  tagUrl: string;
-  imageFormat?: string | number | ImageFormat;
-  useHardcodedDefaultFilters?: boolean;
-  filters?: Record<string, string | number | Array<string | number>>;
-  page?: number;
+export interface TagAPIGetRelatedParams {
+  tags: string[];
+  size?: number;
 }
 
 export default class TagAPI extends BaseAPIWithImageSupport {
@@ -23,6 +17,16 @@ export default class TagAPI extends BaseAPIWithImageSupport {
   async list(): Promise<TagList> {
     const html = await this.fetch(URLS.SITE_URL);
     return TagListParser.parseTags(html);
+  }
+
+  async getRelated(params: TagAPIGetRelatedParams): Promise<RelatedTags> {
+    const payload = {
+      combo: true,
+      tag_names: params.tags,
+      size: params.size || 20
+    }
+    const json = await this.fetch(URLS.RELATED_TAGS, true, FetchMethod.POST, payload);
+    return RelatedTagsParser.parseRelatedTags(json);
   }
 }
 
