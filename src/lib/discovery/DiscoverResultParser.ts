@@ -1,6 +1,6 @@
 import Album from '../types/Album.js';
 import Artist from '../types/Artist.js';
-import { DiscoverOptions, DiscoverParams, DiscoverResult } from '../types/Discovery.js';
+import { DiscoverOptions, DiscoverResult, SanitizedDiscoverParams } from '../types/Discovery.js';
 import { ImageFormat } from '../types/Image.js';
 import { ParseError } from '../utils/Parse.js';
 
@@ -12,7 +12,7 @@ interface DiscoverResultParseOptions {
 
 export default class DiscoverResultParser {
 
-  static parseDiscoverResult(json: any, opts: DiscoverResultParseOptions, params: DiscoverParams, availableOptions: DiscoverOptions): DiscoverResult {
+  static parseDiscoverResult(json: any, opts: DiscoverResultParseOptions, params: SanitizedDiscoverParams, availableOptions: DiscoverOptions): DiscoverResult {
     if (typeof json === 'object' && Array.isArray(json.results)) {
       const items = json.results.filter(
         (item: any) => item.result_type === 'a').map((item: any) => {
@@ -52,11 +52,26 @@ export default class DiscoverResultParser {
         return album;
       }) as Album[];
 
-      return {
+      const parsed: DiscoverResult = {
         items,
         total: json.result_count,
         params
       };
+
+      if (json.cursor) {
+        parsed.continuation = {
+          ...params,
+          cursor: json.cursor
+        };
+        if (opts.albumImageFormat) {
+          parsed.continuation.albumImageFormat = opts.albumImageFormat;
+        }
+        if (opts.artistImageFormat) {
+          parsed.continuation.artistImageFormat = opts.artistImageFormat;
+        }
+      }
+
+      return parsed;
     }
 
     throw new ParseError('Failed to parse discover results: data is missing or has invalid \'results\' field.', json);

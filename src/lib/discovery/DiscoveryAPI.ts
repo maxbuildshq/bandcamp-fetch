@@ -1,5 +1,5 @@
 import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import { DiscoverOptions, DiscoverParams, DiscoverResult, SanitizedDiscoverParams } from '../types/Discovery.js';
+import { DiscoverOptions, DiscoverParams, DiscoverResult, DiscoverResultContinuation, SanitizedDiscoverParams } from '../types/Discovery.js';
 import { CacheDataType } from '../utils/Cache.js';
 import { URLS } from '../utils/Constants.js';
 import { FetchMethod } from '../utils/Fetcher.js';
@@ -56,7 +56,6 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
       sortBy,
       location,
       time,
-      cursor: params?.cursor || '*',
       size: params?.size || 60
     };
     if (genre) {
@@ -76,7 +75,7 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
     return sanitized;
   }
 
-  async discover(params?: DiscoverParams): Promise<DiscoverResult> {
+  async discover(params?: DiscoverParams | DiscoverResultContinuation): Promise<DiscoverResult> {
     const imageConstants = await this.imageAPI.getConstants();
     const options = await this.getAvailableOptions();
     const opts = {
@@ -84,9 +83,17 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
       albumImageFormat: await this.imageAPI.getFormat(params?.albumImageFormat, 9),
       artistImageFormat: await this.imageAPI.getFormat(params?.artistImageFormat, 21)
     };
-
-    const sanitizedParams = await this.sanitizeDiscoverParams(params);
-    const payload = DiscoveryAPI.getDiscoverRequestPayload(sanitizedParams);
+    let payload: DiscoverRequestPayload;
+    let sanitizedParams: SanitizedDiscoverParams;
+    if (params && DiscoveryAPI.#isContinuation(params)) {
+      sanitizedParams = { ...params };
+      Reflect.deleteProperty(sanitizedParams, 'cursor');
+      payload = DiscoveryAPI.getDiscoverRequestPayload(params);
+    }
+    else {
+      sanitizedParams = await this.sanitizeDiscoverParams(params);
+      payload = DiscoveryAPI.getDiscoverRequestPayload(sanitizedParams);
+    }
     const json = await this.fetch(URLS.DISCOVER.API, true, FetchMethod.POST, payload);
     return DiscoverResultParser.parseDiscoverResult(json, opts, sanitizedParams, options);
   }
@@ -94,7 +101,7 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
   /**
    * @internal
    */
-  protected static getDiscoverRequestPayload(params: SanitizedDiscoverParams): DiscoverRequestPayload {
+  protected static getDiscoverRequestPayload(params: SanitizedDiscoverParams | DiscoverResultContinuation): DiscoverRequestPayload {
     const tagNames: string[] = [];
     if (params.genre) {
       tagNames.push(params.genre);
@@ -107,7 +114,7 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
     }
     return {
       category_id: params.category,
-      cursor: params.cursor,
+      cursor: this.#isContinuation(params) ? params.cursor : '*',
       geoname_id: params.location,
       include_result_types: [ 'a', 's' ],
       size: params.size,
@@ -115,6 +122,10 @@ export default class DiscoveryAPI extends BaseAPIWithImageSupport {
       tag_norm_names: tagNames,
       time_facet_id: params.time === -1 ? null : params.time
     };
+  }
+
+  static #isContinuation(params: DiscoverParams | DiscoverResultContinuation): params is DiscoverResultContinuation {
+    return Reflect.has(params, 'cursor');
   }
 }
 

@@ -8,7 +8,7 @@
     "build:cjs": "npx tsc -p tsconfig.json",
     "prepare": "rm -rf dist && npm run build:esm && npm run build:cjs && bash fixup.sh",
     "lint": "npx eslint ./src && npx eslint ./examples",
-    "lint:fix": "npx eslint ./src --fix && npx eslint ./examples --fix",
+    "lint:fix": "npx eslint ./src --fix",
     "doc": "npx typedoc",
     "example": "func() { npx ts-node ./examples/${1}.ts; }; func"
   },

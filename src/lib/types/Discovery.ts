@@ -31,7 +31,6 @@ export interface DiscoverParams {
   location?: number;
   time?: number;
   customTags?: string;
-  cursor?: string;
   size?: number;
   /**
    * Value indicating the image format to adopt when constructing image URLs of discovered albums.
@@ -43,7 +42,17 @@ export interface DiscoverParams {
   artistImageFormat?: string | number | ImageFormat;
 }
 
-export type SanitizedDiscoverParams = DiscoverParams & Required<Pick<DiscoverParams, 'category' | 'sortBy' | 'location' | 'time' | 'cursor' | 'size'>>
+export type SanitizedDiscoverParams =
+  Pick<DiscoverParams,
+    'genre' |
+    'subgenre' |
+    'customTags'> &
+  Required<Pick<DiscoverParams,
+    'category' |
+    'sortBy' |
+    'location' |
+    'time' |
+    'size'>>
 
 /**
  * Results returned by {@link DiscoveryAPI.discover}.
@@ -60,5 +69,13 @@ export interface DiscoverResult {
   /**
    * Sanitized params used in the discovery request.
    */
-  params: DiscoverParams;
+  params: SanitizedDiscoverParams;
+
+  continuation?: DiscoverResultContinuation;
+}
+
+export interface DiscoverResultContinuation extends SanitizedDiscoverParams {
+  cursor: string;
+  albumImageFormat?: ImageFormat;
+  artistImageFormat?: ImageFormat;
 }

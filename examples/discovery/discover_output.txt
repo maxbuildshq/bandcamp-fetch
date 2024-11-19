@@ -13,7 +13,38 @@
       "imageUrl": "https://f4.bcbits.com/img/a1663293442_2.jpg",
       "featuredTrack": {
         "name": "Rain in Soho",
-        "streamUrl": "https://t4.bcbits.com/stream/d08f87cd816449533c35176475dcf157/mp3-128/449605?p=0&ts=1732012941&t=9c4952ab78a12a94842ec830b9943c801fd2fda2&token=1732012941_512a99f40cb550831ecdedfa144c2824ec4ba6a9"
+        "streamUrl": "https://t4.bcbits.com/stream/d08f87cd816449533c35176475dcf157/mp3-128/449605?p=0&ts=1732102491&t=a8f6cd3ff2b6cebcc0d95a818bc16bb9def94777&token=1732102491_84d395942d6a5693cfd4d119938cd29f88ac6424"
+      }
+    },
+    {
+      "type": "album",
+      "name": "VI",
+      "artist": {
+        "type": "artist",
+        "name": "Fief"
+      },
+      "location": "Salt Lake City, Utah",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a540973981_2.jpg",
+      "featuredTrack": {
+        "name": "Stained Glass Visions",
+        "streamUrl": "https://t4.bcbits.com/stream/63fb3c740ea44aed5f50d027fab90da4/mp3-128/3000662893?p=0&ts=1732102491&t=eb98ebfb6f1edbf1fcac628349b0844ee06b3bdc&token=1732102491_63276198beb170b195d3cccda7ab8e087b9c1cc3"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Struggles of a King",
+      "artist": {
+        "type": "artist",
+        "name": "Swordlender",
+        "imageUrl": "https://f4.bcbits.com/img/34628415_28.jpg"
+      },
+      "location": "Oregon",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a3202840965_2.jpg",
+      "featuredTrack": {
+        "name": "A Feast for Farewells",
+        "streamUrl": "https://t4.bcbits.com/stream/b6b221ae56e5982e1847c72e54d40329/mp3-128/1368820859?p=0&ts=1732102491&t=a0b1b24ff5686476a60297690d19fc907b1f7c36&token=1732102491_b8bd403243fe634c9725d439700633fc0e697e4c"
       }
     },
     {
@@ -29,22 +60,7 @@
       "imageUrl": "https://f4.bcbits.com/img/a451055148_2.jpg",
       "featuredTrack": {
         "name": "Vortex Immersion Zone",
-        "streamUrl": "https://t4.bcbits.com/stream/6156d46f385d1a79d72507abd7a85f92/mp3-128/1141004546?p=0&ts=1732012941&t=971b7b2982fd6ca4f1304af80d6f79c5956c229e&token=1732012941_124c8c17ecf9baf740a0c07bbe515a115babb2a6"
-      }
-    },
-    {
-      "type": "album",
-      "name": "VI",
-      "artist": {
-        "type": "artist",
-        "name": "Fief"
-      },
-      "location": "Salt Lake City, Utah",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a540973981_2.jpg",
-      "featuredTrack": {
-        "name": "Stained Glass Visions",
-        "streamUrl": "https://t4.bcbits.com/stream/63fb3c740ea44aed5f50d027fab90da4/mp3-128/3000662893?p=0&ts=1732012941&t=13c520d32d5138488453fa45bed2130af141a010&token=1732012941_9d0a9e26f5567a5deab0b54b88af9a9fa353c87c"
+        "streamUrl": "https://t4.bcbits.com/stream/6156d46f385d1a79d72507abd7a85f92/mp3-128/1141004546?p=0&ts=1732102491&t=3afa05f76600f21b4f77a80d95f3fff8f717b8c2&token=1732102491_6da30ce602f5a4e177db88d65b58222fcc2d3dc4"
       }
     },
     {
@@ -60,39 +76,7 @@
       "imageUrl": "https://f4.bcbits.com/img/a383387720_2.jpg",
       "featuredTrack": {
         "name": "Dawn Frost",
-        "streamUrl": "https://t4.bcbits.com/stream/92dc9bf86dbcd4d3da4b968234f69348/mp3-128/3318363585?p=0&ts=1732012941&t=b4b17c84d3c118a530939ddbc4ae8cf18631b176&token=1732012941_6b4e9a31dc0f1d3db6592cdc98ca7077b14fde2e"
-      }
-    },
-    {
-      "type": "album",
-      "name": "A Winter Shore",
-      "artist": {
-        "type": "artist",
-        "name": "Futuregrapher & Gallery Six",
-        "imageUrl": "https://f4.bcbits.com/img/37510002_28.jpg"
-      },
-      "location": "Italy",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a1315221095_2.jpg",
-      "featuredTrack": {
-        "name": "In Germ",
-        "streamUrl": "https://t4.bcbits.com/stream/a365c06cfe97ab8623caf0b54b4e6179/mp3-128/384974307?p=0&ts=1732012941&t=3cceadf2cb43c99773069a7715e80be2783687e7&token=1732012941_6f7a5afdb5acf3693226b37b698eeddaff95afd6"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Music Is Mass",
-      "artist": {
-        "type": "artist",
-        "name": "Tonik Ensemble",
-        "imageUrl": "https://f4.bcbits.com/img/35700923_28.jpg"
-      },
-      "location": "UK",
-      "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a1380296185_2.jpg",
-      "featuredTrack": {
-        "name": "Cut To Scene",
-        "streamUrl": "https://t4.bcbits.com/stream/fa7bfaf49b05bf471f76737cb000061c/mp3-128/2191463788?p=0&ts=1732012941&t=ab623556ca4dac1d6953b3c493ec375de011e131&token=1732012941_411c05a18c09d1e922dc41514c45ad0884822cae"
+        "streamUrl": "https://t4.bcbits.com/stream/92dc9bf86dbcd4d3da4b968234f69348/mp3-128/3318363585?p=0&ts=1732102491&t=a9c18f60710b38dfe12f6a8e2175608499d6f766&token=1732102491_df63719372a543683716e1750e3d14ace47d2978"
       }
     },
     {
@@ -108,166 +92,23 @@
       "imageUrl": "https://f4.bcbits.com/img/a1309353400_2.jpg",
       "featuredTrack": {
         "name": "Urgrund",
-        "streamUrl": "https://t4.bcbits.com/stream/286eff5d9dc4afb3a7ebabdcdd47daaa/mp3-128/2379555865?p=0&ts=1732012941&t=994c866a8f200d38141299fe2959f4915d564471&token=1732012941_5bd4b4745c22f497d76eed36a77f5b33a3200022"
+        "streamUrl": "https://t4.bcbits.com/stream/286eff5d9dc4afb3a7ebabdcdd47daaa/mp3-128/2379555865?p=0&ts=1732102491&t=f7b5c9657c279510ae9f6cc1f0dfd7dfa6c4794b&token=1732102491_10455ed57b3dd8073a007c1be71430713cac7e83"
       }
     },
     {
       "type": "album",
-      "name": "MO_Ambient 4",
+      "name": "A Winter Shore",
       "artist": {
         "type": "artist",
-        "name": "Various",
-        "imageUrl": "https://f4.bcbits.com/img/32632077_28.jpg"
+        "name": "Futuregrapher & Gallery Six",
+        "imageUrl": "https://f4.bcbits.com/img/37510002_28.jpg"
       },
-      "location": "Tálknafjörður, Iceland",
-      "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a705611157_2.jpg",
-      "featuredTrack": {
-        "name": "Divine Intuition Aerial & Mechanical",
-        "streamUrl": "https://t4.bcbits.com/stream/40255a669b660faa3aabac1b756acdbe/mp3-128/3164218431?p=0&ts=1732012941&t=c7fa1ce09445538d63b52cc307b706a597ed936e&token=1732012941_bfb9d42e67345737863854a19d93606f050f131e"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Duet",
-      "artist": {
-        "type": "artist",
-        "name": "Tomoyoshi Date and Bill Seaman",
-        "imageUrl": "https://f4.bcbits.com/img/30993069_28.jpg"
-      },
-      "location": "UK",
+      "location": "Italy",
       "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a1316841838_2.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a1315221095_2.jpg",
       "featuredTrack": {
-        "name": "Duet 1",
-        "streamUrl": "https://t4.bcbits.com/stream/f56ad73f60ebb88285396741cdc11a05/mp3-128/2922480892?p=0&ts=1732012941&t=86885def6423deb5691a290c959f95ce0d029d82&token=1732012941_ad9a4f232e9b2b927e5edbdf3efef722fbdf503e"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Absolute Elsewhere",
-      "artist": {
-        "type": "artist",
-        "name": "Blood Incantation",
-        "imageUrl": "https://f4.bcbits.com/img/16937146_28.jpg"
-      },
-      "location": "Colorado",
-      "genre": "metal",
-      "imageUrl": "https://f4.bcbits.com/img/a4024825693_2.jpg",
-      "featuredTrack": {
-        "name": "The Stargate [Tablet I]",
-        "streamUrl": "https://t4.bcbits.com/stream/6b858f7409257bccbddb6baf44025fb6/mp3-128/203368954?p=0&ts=1732012941&t=12c356b8390dd1beb28334c6ba5fc1352068a807&token=1732012941_bf2f9208ef5424b1272f9df5d1541b0997d63232"
-      }
-    },
-    {
-      "type": "album",
-      "name": "The Ambiguity of Truth",
-      "artist": {
-        "type": "artist",
-        "name": "L A N D S R A A D",
-        "imageUrl": "https://f4.bcbits.com/img/24433782_28.jpg"
-      },
-      "location": "UK",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a1594010691_2.jpg",
-      "featuredTrack": {
-        "name": "Withering in the Blaze of Infinity",
-        "streamUrl": "https://t4.bcbits.com/stream/802fff6591ceec692769fb258d89fe00/mp3-128/2132403601?p=0&ts=1732012941&t=47a39d400f2b8a0cc3e79457b6a7086a00fc1841&token=1732012941_83fb6f63f452f48754dfded77097f70b2022c2ed"
-      }
-    },
-    {
-      "type": "album",
-      "name": "101, MILKY WAY",
-      "artist": {
-        "type": "artist",
-        "name": "Klaus Schulze",
-        "imageUrl": "https://f4.bcbits.com/img/28051675_28.jpg"
-      },
-      "location": "",
-      "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a1569034735_2.jpg",
-      "featuredTrack": {
-        "name": "UNI Pt#1",
-        "streamUrl": "https://t4.bcbits.com/stream/93cbb14e07728620a855aef69d8ade47/mp3-128/707411775?p=0&ts=1732012941&t=032c853e6f201b8257ff503a2e63ef8bc713736f&token=1732012941_7c330ca07ec12f512c212acf546bb4513fe8b10f"
-      }
-    },
-    {
-      "type": "album",
-      "name": "IT067 - Applications",
-      "artist": {
-        "type": "artist",
-        "name": "Shed",
-        "imageUrl": "https://f4.bcbits.com/img/24824945_28.jpg"
-      },
-      "location": "Munich, Germany",
-      "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a792328049_2.jpg",
-      "featuredTrack": {
-        "name": "EMCZ",
-        "streamUrl": "https://t4.bcbits.com/stream/9933f5522273b2bdcfccea808f7c6466/mp3-128/833441414?p=0&ts=1732012941&t=e00f5f2dc2c92bae59b87ad980c4317a3b388acd&token=1732012941_43ad26b4c636c767892e7a8db2c3f9f6902c8907"
-      }
-    },
-    {
-      "type": "album",
-      "name": "SIGNALIS: MEMORIES (Side A)",
-      "artist": {
-        "type": "artist",
-        "name": "1000 Eyes",
-        "imageUrl": "https://f4.bcbits.com/img/37296553_28.jpg"
-      },
-      "location": "",
-      "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a3270851702_2.jpg",
-      "featuredTrack": {
-        "name": "MNHR (Drop to an Ocean)",
-        "streamUrl": "https://t4.bcbits.com/stream/9850070d48a80b84701f7050f8007e5b/mp3-128/2575240215?p=0&ts=1732012941&t=201dea6c749d43c3f1690b052f71bb41e05c2012&token=1732012941_3d3ad0c891a9481ab2ba9f70c08c63d5148be6cd"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Basssik",
-      "artist": {
-        "type": "artist",
-        "name": "MYPD",
-        "imageUrl": "https://f4.bcbits.com/img/37708261_28.jpg"
-      },
-      "location": "",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a429758265_2.jpg",
-      "featuredTrack": {
-        "name": "Basssik Pt 1",
-        "streamUrl": "https://t4.bcbits.com/stream/2c70955f21592b47bb43f2a0a7aa8baf/mp3-128/3504597787?p=0&ts=1732012941&t=e8ba3f7a7d410c82cc6408e040fb12f4f06727a2&token=1732012941_426cc6f575ad8247cff4f91b71d9747aacdd6dff"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Resurrection",
-      "artist": {
-        "type": "artist",
-        "name": "Axess",
-        "imageUrl": "https://f4.bcbits.com/img/26854581_28.jpg"
-      },
-      "location": "Leverkusen, Germany",
-      "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a3914411428_2.jpg",
-      "featuredTrack": {
-        "name": "Ascending souls",
-        "streamUrl": "https://t4.bcbits.com/stream/bf2e62e4faaf77a3afc6a24a81fade9b/mp3-128/3322877966?p=0&ts=1732012941&t=c5a284bd9a31cb1b8f4cdb0875ccd7034d827cf7&token=1732012941_902f392bc5996a452fd5b1c7aad826205792f606"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Pinky Promise",
-      "artist": {
-        "type": "artist",
-        "name": "Blu:sh",
-        "imageUrl": "https://f4.bcbits.com/img/21354341_28.jpg"
-      },
-      "location": "Amsterdam, Netherlands",
-      "imageUrl": "https://f4.bcbits.com/img/a3802740947_2.jpg",
-      "featuredTrack": {
-        "name": "Amor (Digital Only)",
-        "streamUrl": "https://t4.bcbits.com/stream/a9698a245dd9ead790e95689b8be0f10/mp3-128/3202616359?p=0&ts=1732012941&t=efffcf9e7fb27d1e6fb82086ca961b5f514864aa&token=1732012941_ff57233052d93ca4a6ca528c613a34145dc57b8b"
+        "name": "In Germ",
+        "streamUrl": "https://t4.bcbits.com/stream/a365c06cfe97ab8623caf0b54b4e6179/mp3-128/384974307?p=0&ts=1732102491&t=6020a07280ce058651babc22b53aa82064f07bcd&token=1732102491_edd34961e07afd4996326577824ff3e28e990ce5"
       }
     },
     {
@@ -283,103 +124,23 @@
       "imageUrl": "https://f4.bcbits.com/img/a193145772_2.jpg",
       "featuredTrack": {
         "name": "Rafflesia Channel",
-        "streamUrl": "https://t4.bcbits.com/stream/9d14e216c97f7d2cb3eebccf558914e1/mp3-128/674367648?p=0&ts=1732012941&t=422f0d6381b26db0aed337da92e3ec9f81df2950&token=1732012941_1b1e8dd8772695a85787b54f35c318259343a9b5"
+        "streamUrl": "https://t4.bcbits.com/stream/9d14e216c97f7d2cb3eebccf558914e1/mp3-128/674367648?p=0&ts=1732102491&t=2d5e5c0dde7c247b05cd1e42c3445ff91b607877&token=1732102491_8adc6ee7a4b22efe85b4480b9bb2a76bbf7d86ec"
       }
     },
     {
       "type": "album",
-      "name": "tessellations",
+      "name": "Wings Of Desire",
       "artist": {
         "type": "artist",
-        "name": "lovetrip",
-        "imageUrl": "https://f4.bcbits.com/img/36447826_28.jpg"
+        "name": "Not Waving & Romance",
+        "imageUrl": "https://f4.bcbits.com/img/23936866_28.jpg"
       },
-      "location": "Iceland",
-      "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a3601696611_2.jpg",
-      "featuredTrack": {
-        "name": "circulate",
-        "streamUrl": "https://t4.bcbits.com/stream/d0363c142883a07a9fd8d43ce1abcd5d/mp3-128/869302346?p=0&ts=1732012941&t=d52d1684a4c010f24f1a9bd02d9cf94ab0db1b13&token=1732012941_6fa7ff57f2a112f36cdf00675a61acc3fedb4aae"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Exit All The Lights",
-      "artist": {
-        "type": "artist",
-        "name": "36",
-        "imageUrl": "https://f4.bcbits.com/img/33029877_28.jpg"
-      },
-      "location": "UK",
+      "location": "London, UK",
       "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a1015681947_2.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a582492859_2.jpg",
       "featuredTrack": {
-        "name": "Exit All The Lights",
-        "streamUrl": "https://t4.bcbits.com/stream/7cede67882cec02df0efd490d5ccb645/mp3-128/258014679?p=0&ts=1732012941&t=f008c318d02847bef3a646b09419e14f8f480c5b&token=1732012941_dbed6d59fe56eebc30028b9d39e2f6a94a6177ee"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Spring at Home",
-      "artist": {
-        "type": "artist",
-        "name": "Saapato",
-        "imageUrl": "https://f4.bcbits.com/img/35105825_28.jpg"
-      },
-      "location": "Texas",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a2587147890_2.jpg",
-      "featuredTrack": {
-        "name": "Spring at Home",
-        "streamUrl": "https://t4.bcbits.com/stream/4068e08059708acf9c31767dc5ece50d/mp3-128/4289953850?p=0&ts=1732012941&t=63c15b5495fded06386a05c13d5e214e71112d64&token=1732012941_9af46a9b7832285e492acc42775f0f1e3a277400"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Fog Music",
-      "artist": {
-        "type": "artist",
-        "name": "jarguna",
-        "imageUrl": "https://f4.bcbits.com/img/19063774_28.jpg"
-      },
-      "location": "Portland, Oregon",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a3626445439_2.jpg",
-      "featuredTrack": {
-        "name": "Fog Music",
-        "streamUrl": "https://t4.bcbits.com/stream/2835125abc81f9d65f92a2e8679b4d3b/mp3-128/2234622196?p=0&ts=1732012941&t=d1658cace19605f20d8e8456ea4e6e8279c9c4ac&token=1732012941_bb2b6a9f468a09d7a3bd1d471b29a9ce92692082"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Heavy Early & The Creation Of Venus",
-      "artist": {
-        "type": "artist",
-        "name": "Windy & Carl",
-        "imageUrl": "https://f4.bcbits.com/img/15543191_28.jpg"
-      },
-      "location": "Dearborn, Michigan",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a978887313_2.jpg",
-      "featuredTrack": {
-        "name": "Heavy Creation Mix",
-        "streamUrl": "https://t4.bcbits.com/stream/152b84598998df23b45db756210e9e3e/mp3-128/2446918710?p=0&ts=1732012941&t=06548e1ce244273fba829d6121021efb5f116782&token=1732012941_eed70743eedc06fb3ec7c0c4388ddc3afe470519"
-      }
-    },
-    {
-      "type": "album",
-      "name": "ITX035 - MPU105",
-      "artist": {
-        "type": "artist",
-        "name": "MPU101",
-        "imageUrl": "https://f4.bcbits.com/img/24824945_28.jpg"
-      },
-      "location": "Munich, Germany",
-      "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a2089123035_2.jpg",
-      "featuredTrack": {
-        "name": "klubTG33",
-        "streamUrl": "https://t4.bcbits.com/stream/4d9911c0c0cb652e1fd643967dfe8150/mp3-128/3148164021?p=0&ts=1732012941&t=c59c0c91fedf004c130d8e2f8eb3613f8b33533c&token=1732012941_abab8def955cd4d45467f4621ebb23bedcbd315c"
+        "name": "From The Weary Earth To The Sapphire Walls",
+        "streamUrl": "https://t4.bcbits.com/stream/34f2298156ab25656dd972ed20c48836/mp3-128/143595874?p=0&ts=1732102491&t=953e8dc766bb6ff444764f45a60eb5649fb1b1b5&token=1732102491_7b2f5ac90b2f5d4cee144910f2813bd54e2e9922"
       }
     },
     {
@@ -395,87 +156,87 @@
       "imageUrl": "https://f4.bcbits.com/img/a732724686_2.jpg",
       "featuredTrack": {
         "name": "Humanoid Fruit",
-        "streamUrl": "https://t4.bcbits.com/stream/991c871a68ae85d4ffc6c5caa3af387f/mp3-128/2832670132?p=0&ts=1732012941&t=efb3c38acab9451d3829c5fa6c0a44415f5a8947&token=1732012941_497551f9884be39312a389cf8d16b19ab21a193d"
+        "streamUrl": "https://t4.bcbits.com/stream/991c871a68ae85d4ffc6c5caa3af387f/mp3-128/2832670132?p=0&ts=1732102491&t=b37be56c105c21524b28c324529e61c32b21e59e&token=1732102491_684f4d39f868a07ad6f909e451622cb436f7e413"
       }
     },
     {
       "type": "album",
-      "name": "Flint",
+      "name": "MO_Ambient 4",
       "artist": {
         "type": "artist",
-        "name": "From Overseas, James Bernard, zakè",
-        "imageUrl": "https://f4.bcbits.com/img/34908256_28.jpg"
+        "name": "Various",
+        "imageUrl": "https://f4.bcbits.com/img/32632077_28.jpg"
       },
-      "location": "Indianapolis, Indiana",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a3380261268_2.jpg",
-      "featuredTrack": {
-        "name": "Flint",
-        "streamUrl": "https://t4.bcbits.com/stream/f86bb43b986f4c57bd7a45eaec784994/mp3-128/321814313?p=0&ts=1732012941&t=d627d5a1ae9c2dc101de9a4ab5a7bc0d95788879&token=1732012941_9e308cf02360c4600aec6522d2cda2ba0f1c347e"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Twin Color (vol. I)",
-      "artist": {
-        "type": "artist",
-        "name": "Murcof",
-        "imageUrl": "https://f4.bcbits.com/img/23202610_28.jpg"
-      },
-      "location": "Girona, Spain",
+      "location": "Tálknafjörður, Iceland",
       "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a3573478605_2.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a705611157_2.jpg",
       "featuredTrack": {
-        "name": "All These Worlds Part. II",
-        "streamUrl": "https://t4.bcbits.com/stream/ec1587b330e0cd07e7a6dcda1aae96fb/mp3-128/4148774413?p=0&ts=1732012941&t=6f2808f0a801faa8d2279ae745bc9858e961fcd9&token=1732012941_597a8ff9bc906788c204557978e636c70edd3b5a"
+        "name": "Divine Intuition Aerial & Mechanical",
+        "streamUrl": "https://t4.bcbits.com/stream/40255a669b660faa3aabac1b756acdbe/mp3-128/3164218431?p=0&ts=1732102491&t=9449c905fdb0a2bb7d9b441814009187a9fd24a1&token=1732102491_9ca845e59203549b9d47fc0bf08aaa30937c13e7"
       }
     },
     {
       "type": "album",
-      "name": "Eschaton",
+      "name": "Absolute Elsewhere",
       "artist": {
         "type": "artist",
-        "name": "Void Stasis",
-        "imageUrl": "https://f4.bcbits.com/img/37431178_28.jpg"
+        "name": "Blood Incantation",
+        "imageUrl": "https://f4.bcbits.com/img/16937146_28.jpg"
       },
-      "location": "Oregon",
+      "location": "Colorado",
+      "genre": "metal",
+      "imageUrl": "https://f4.bcbits.com/img/a4024825693_2.jpg",
+      "featuredTrack": {
+        "name": "The Stargate [Tablet I]",
+        "streamUrl": "https://t4.bcbits.com/stream/6b858f7409257bccbddb6baf44025fb6/mp3-128/203368954?p=0&ts=1732102491&t=df6ace5d7e6af45e7ea38ee0eb8a22989090f3e4&token=1732102491_7918cd2c912bac6694f6155835530020adaf3846"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Music Is Mass",
+      "artist": {
+        "type": "artist",
+        "name": "Tonik Ensemble",
+        "imageUrl": "https://f4.bcbits.com/img/35700923_28.jpg"
+      },
+      "location": "UK",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a1380296185_2.jpg",
+      "featuredTrack": {
+        "name": "Cut To Scene",
+        "streamUrl": "https://t4.bcbits.com/stream/fa7bfaf49b05bf471f76737cb000061c/mp3-128/2191463788?p=0&ts=1732102491&t=98a9e317e9d7fcdc61f1028df8885633c243a4bd&token=1732102491_f93a07d9cf04f934c63f19845f971b6dca406729"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Resurrection",
+      "artist": {
+        "type": "artist",
+        "name": "Axess",
+        "imageUrl": "https://f4.bcbits.com/img/26854581_28.jpg"
+      },
+      "location": "Leverkusen, Germany",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a3914411428_2.jpg",
+      "featuredTrack": {
+        "name": "Ascending souls",
+        "streamUrl": "https://t4.bcbits.com/stream/bf2e62e4faaf77a3afc6a24a81fade9b/mp3-128/3322877966?p=0&ts=1732102491&t=8568e869b7fec11c319080f275585fc57b4ccbd2&token=1732102491_975ef727a886bc42923d9c337ffd5d25363fb4d8"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Infinite Light",
+      "artist": {
+        "type": "artist",
+        "name": "Not Waving & Romance",
+        "imageUrl": "https://f4.bcbits.com/img/23936866_28.jpg"
+      },
+      "location": "London, UK",
       "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a4172338299_2.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a1593245468_2.jpg",
       "featuredTrack": {
-        "name": "Planetary Genocide",
-        "streamUrl": "https://t4.bcbits.com/stream/bd4bb93f90607dedde1d03c9669cd6c3/mp3-128/546054813?p=0&ts=1732012941&t=eff9b089078a1f211467884d136298135097c74e&token=1732012941_e17afdd3a1982b1fa49f2c7d5b32e716dc2f5afc"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Between The Endless Silence",
-      "artist": {
-        "type": "artist",
-        "name": "Mick Chillage",
-        "imageUrl": "https://f4.bcbits.com/img/20194684_28.jpg"
-      },
-      "location": "Dublin, Ireland",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a2937342873_2.jpg",
-      "featuredTrack": {
-        "name": "Any Place But here",
-        "streamUrl": "https://t4.bcbits.com/stream/eba3c70cf8c966e307ef3bb6a9be27ae/mp3-128/183746024?p=0&ts=1732012941&t=e1f5908af2e446a621b9dbe65bd97ba7fb56b2ff&token=1732012941_4d1d26731af5db839ef6cafe4a22ebd61e7461ac"
-      }
-    },
-    {
-      "type": "album",
-      "name": "ЛЕЯ",
-      "artist": {
-        "type": "artist",
-        "name": "TOKEE",
-        "imageUrl": "https://f4.bcbits.com/img/24406498_28.jpg"
-      },
-      "location": "Bulgaria",
-      "genre": "experimental",
-      "imageUrl": "https://f4.bcbits.com/img/a1846109095_2.jpg",
-      "featuredTrack": {
-        "name": "Путешествие",
-        "streamUrl": "https://t4.bcbits.com/stream/77f4cc8f5774dc0bd3fec724c987c2cd/mp3-128/2828662521?p=0&ts=1732012941&t=b37326422726c595d470020b7b84ecefbd38c391&token=1732012941_0ca65d0ac8ee52d58ee259aa13bea8fda732c051"
+        "name": "Anima Mundana",
+        "streamUrl": "https://t4.bcbits.com/stream/5d45a6966491af5a608b7b23517e74ff/mp3-128/1052760585?p=0&ts=1732102491&t=2330a3fef46ca2192c4ff7bafbdb0bbd53bc3fee&token=1732102491_b3dfdb738a0d06085511b13fd4bd031ad82e14a1"
       }
     },
     {
@@ -491,55 +252,150 @@
       "imageUrl": "https://f4.bcbits.com/img/a3390257927_2.jpg",
       "featuredTrack": {
         "name": "Key",
-        "streamUrl": "https://t4.bcbits.com/stream/e606cae91814a4e7190f639ecc6240b6/mp3-128/1660675500?p=0&ts=1732012941&t=17624a962d036c07bd3032708fe367e34bbba9b8&token=1732012941_a9e59addde9b9d0a49b7a52041cd9b05f48e6712"
+        "streamUrl": "https://t4.bcbits.com/stream/e606cae91814a4e7190f639ecc6240b6/mp3-128/1660675500?p=0&ts=1732102491&t=691d0743c16d14fd8fa68e322bb71265cd1db1ce&token=1732102491_a3b56917346e6e76c6f747cfe7104fe6983490d6"
       }
     },
     {
       "type": "album",
-      "name": "Fenscapes",
+      "name": "Spring at Home",
       "artist": {
         "type": "artist",
-        "name": "Glåsbird",
-        "imageUrl": "https://f4.bcbits.com/img/37476591_28.jpg"
+        "name": "Saapato",
+        "imageUrl": "https://f4.bcbits.com/img/35105825_28.jpg"
       },
-      "location": "England, UK",
+      "location": "Texas",
       "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a3468529604_2.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a2587147890_2.jpg",
       "featuredTrack": {
-        "name": "Timberline",
-        "streamUrl": "https://t4.bcbits.com/stream/76eefccfbfe395cfb0052bb147f6ab06/mp3-128/658101620?p=0&ts=1732012941&t=52728fcb24f76f496264f5d4160fcc9b856717dd&token=1732012941_aefee24d0722df11f6059946b3e366dbb1baf900"
+        "name": "Spring at Home",
+        "streamUrl": "https://t4.bcbits.com/stream/4068e08059708acf9c31767dc5ece50d/mp3-128/4289953850?p=0&ts=1732102491&t=9b1a121415bd85f9bbef8b7b6d8248375ae26b34&token=1732102491_296c141a331c80ad74096b8c48c471d6a0e117aa"
       }
     },
     {
       "type": "album",
-      "name": "OPIA (24bit)",
+      "name": "tessellations",
       "artist": {
         "type": "artist",
-        "name": "Various Artists",
-        "imageUrl": "https://f4.bcbits.com/img/32814460_28.jpg"
+        "name": "lovetrip",
+        "imageUrl": "https://f4.bcbits.com/img/36447826_28.jpg"
       },
-      "location": "Lyon, France",
+      "location": "Iceland",
       "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a4057459327_2.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a3601696611_2.jpg",
       "featuredTrack": {
-        "name": "Unstable Shutter (24bit)",
-        "streamUrl": "https://t4.bcbits.com/stream/11c11f70c11b6386df171e9d8a7da7ed/mp3-128/3989111768?p=0&ts=1732012941&t=3bb795c5ecc2fab08f616febbdde3adfe5b55206&token=1732012941_e9bcb3fd1e25fd8a4a95a4aa2229bd63ce5b39fa"
+        "name": "circulate",
+        "streamUrl": "https://t4.bcbits.com/stream/d0363c142883a07a9fd8d43ce1abcd5d/mp3-128/869302346?p=0&ts=1732102491&t=94a5de256ade6bcc33f23914451020dffda4583a&token=1732102491_3aea18d60b0605374f5b349dac8d0a85c5bd77a3"
       }
     },
     {
       "type": "album",
-      "name": "君がどんどん離れて行く  You Are Leaving My Mind: The \"Mariko\" and \"Dokitto Station!!\" Era",
+      "name": "Duet",
       "artist": {
         "type": "artist",
-        "name": "Maple Fyshh",
-        "imageUrl": "https://f4.bcbits.com/img/33683909_28.jpg"
+        "name": "Tomoyoshi Date and Bill Seaman",
+        "imageUrl": "https://f4.bcbits.com/img/30993069_28.jpg"
       },
-      "location": "Osaka Prefecture, Japan",
-      "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a3161848732_2.jpg",
+      "location": "UK",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a1316841838_2.jpg",
       "featuredTrack": {
-        "name": "The Prelude（序章）",
-        "streamUrl": "https://t4.bcbits.com/stream/f1613458eee7b264f7c4ddfae08a04dc/mp3-128/276825279?p=0&ts=1732012941&t=6ddb84d85a36bc0e5f64cee99db70a8e1ed63956&token=1732012941_5ebefdd8f74de85f2df42c2a193fc981354db8b3"
+        "name": "Duet 1",
+        "streamUrl": "https://t4.bcbits.com/stream/f56ad73f60ebb88285396741cdc11a05/mp3-128/2922480892?p=0&ts=1732102491&t=abe9d492bf57bf13c72ff43f63b2ebf3b20772fe&token=1732102491_07e543a43df27a723e9aff6d94fac339ac0fb04a"
+      }
+    },
+    {
+      "type": "album",
+      "name": "SIGNALIS: MEMORIES (Side A)",
+      "artist": {
+        "type": "artist",
+        "name": "1000 Eyes",
+        "imageUrl": "https://f4.bcbits.com/img/37296553_28.jpg"
+      },
+      "location": "",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a3270851702_2.jpg",
+      "featuredTrack": {
+        "name": "MNHR (Drop to an Ocean)",
+        "streamUrl": "https://t4.bcbits.com/stream/9850070d48a80b84701f7050f8007e5b/mp3-128/2575240215?p=0&ts=1732102491&t=dfadfeae389e366ebb34e5670860e987091e2439&token=1732102491_b6e51527cce92d42baf54eb00257c31f22b40910"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Pinky Promise",
+      "artist": {
+        "type": "artist",
+        "name": "Blu:sh",
+        "imageUrl": "https://f4.bcbits.com/img/21354341_28.jpg"
+      },
+      "location": "Amsterdam, Netherlands",
+      "imageUrl": "https://f4.bcbits.com/img/a3802740947_2.jpg",
+      "featuredTrack": {
+        "name": "Amor (Digital Only)",
+        "streamUrl": "https://t4.bcbits.com/stream/a9698a245dd9ead790e95689b8be0f10/mp3-128/3202616359?p=0&ts=1732102491&t=d50a587b98a057a90b3eafe5fbfa8c7819a72305&token=1732102491_ece0215d8c99051b40fb1fe0e49af59424f79853"
+      }
+    },
+    {
+      "type": "album",
+      "name": "ITX035 - MPU105",
+      "artist": {
+        "type": "artist",
+        "name": "MPU101",
+        "imageUrl": "https://f4.bcbits.com/img/24824945_28.jpg"
+      },
+      "location": "Munich, Germany",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a2089123035_2.jpg",
+      "featuredTrack": {
+        "name": "klubTG33",
+        "streamUrl": "https://t4.bcbits.com/stream/4d9911c0c0cb652e1fd643967dfe8150/mp3-128/3148164021?p=0&ts=1732102491&t=82e47e84b3c58fb2f01eb37eda1f061e8f924702&token=1732102491_3b5139779752f904c76ef5e8cfcdb8543c341e68"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Rhan-Tegoth",
+      "artist": {
+        "type": "artist",
+        "name": "Cryo Chamber Collaboration",
+        "imageUrl": "https://f4.bcbits.com/img/37431178_28.jpg"
+      },
+      "location": "Oregon",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a2059661603_2.jpg",
+      "featuredTrack": {
+        "name": "Rhan-Tegoth 1",
+        "streamUrl": "https://t4.bcbits.com/stream/a3fe90f42e468847cc5f18c8556188c7/mp3-128/3009435321?p=0&ts=1732102491&t=e8b33d25bfedbae20402a3903fe132535a413202&token=1732102491_a0db32449c573cb70beb610175de79a83f0ec3a4"
+      }
+    },
+    {
+      "type": "album",
+      "name": "The Ambiguity of Truth",
+      "artist": {
+        "type": "artist",
+        "name": "L A N D S R A A D",
+        "imageUrl": "https://f4.bcbits.com/img/24433782_28.jpg"
+      },
+      "location": "UK",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a1594010691_2.jpg",
+      "featuredTrack": {
+        "name": "Withering in the Blaze of Infinity",
+        "streamUrl": "https://t4.bcbits.com/stream/802fff6591ceec692769fb258d89fe00/mp3-128/2132403601?p=0&ts=1732102491&t=48d5cb87f8b70b8a60de3ceef786a29a9a2983da&token=1732102491_43de627ff5170bdee4a83523f6c87a7c9cc1e07b"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Eschaton",
+      "artist": {
+        "type": "artist",
+        "name": "Void Stasis",
+        "imageUrl": "https://f4.bcbits.com/img/37431178_28.jpg"
+      },
+      "location": "Oregon",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a4172338299_2.jpg",
+      "featuredTrack": {
+        "name": "Planetary Genocide",
+        "streamUrl": "https://t4.bcbits.com/stream/bd4bb93f90607dedde1d03c9669cd6c3/mp3-128/546054813?p=0&ts=1732102491&t=e9c614e56cb6723bd25fa7803d228733a08880c3&token=1732102491_855d00eea5629149d3100e861dd095ba2aef4766"
       }
     },
     {
@@ -555,134 +411,151 @@
       "imageUrl": "https://f4.bcbits.com/img/a1129667967_2.jpg",
       "featuredTrack": {
         "name": "Old Water",
-        "streamUrl": "https://t4.bcbits.com/stream/3c64edc854942c5e2b5a42f67ebd064e/mp3-128/942529665?p=0&ts=1732012941&t=a2fbf92dcafd3113316d4777f384faf7b57b48b8&token=1732012941_a244a41dbbb466893f77b8657edbf55481fcf18a"
+        "streamUrl": "https://t4.bcbits.com/stream/3c64edc854942c5e2b5a42f67ebd064e/mp3-128/942529665?p=0&ts=1732102491&t=dd7ca45e4bb205a9121c9f6cb85655ffe5c6e2dc&token=1732102491_3118f73bf023db13d4bf19ec4cef7b96132671e2"
       }
     },
     {
       "type": "album",
-      "name": "Nova Lux",
+      "name": "One Day of Forever",
       "artist": {
         "type": "artist",
-        "name": "MGR",
-        "imageUrl": "https://f4.bcbits.com/img/5838054_28.jpg"
+        "name": "Steve Roach",
+        "imageUrl": "https://f4.bcbits.com/img/19063774_28.jpg"
       },
-      "location": "",
+      "location": "Portland, Oregon",
       "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a3227342772_2.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a2218225224_2.jpg",
       "featuredTrack": {
-        "name": "I",
-        "streamUrl": "https://t4.bcbits.com/stream/6a554296bb37621667f13f5e91605ff8/mp3-128/820646418?p=0&ts=1732012941&t=5385a4a34cff56907a59b504de40696d0abb986f&token=1732012941_7c942b39fcfad8e899b09f16bbc42e72ab16e335"
+        "name": "All I Know",
+        "streamUrl": "https://t4.bcbits.com/stream/5c9ae28f1f8d0b1d2699c3dc6cb28905/mp3-128/3420480789?p=0&ts=1732102491&t=6810e618fcb6252854d60699141f884d4fd0de52&token=1732102491_868a7f0148230cedaf7af7c3ec289255fc212676"
       }
     },
     {
       "type": "album",
-      "name": "Beloved Algorithms",
+      "name": "Fog Music",
       "artist": {
         "type": "artist",
-        "name": "Mosaic Tapes",
-        "imageUrl": "https://f4.bcbits.com/img/14016527_28.jpg"
+        "name": "jarguna",
+        "imageUrl": "https://f4.bcbits.com/img/19063774_28.jpg"
       },
-      "location": "Sardinia, Italy",
+      "location": "Portland, Oregon",
       "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a362651950_2.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a3626445439_2.jpg",
       "featuredTrack": {
-        "name": "an old friend",
-        "streamUrl": "https://t4.bcbits.com/stream/3bb56841371ef87710cffcd95f820b4c/mp3-128/75340268?p=0&ts=1732012941&t=d4ea7b1f00c17164dad96d9412bf8ad1c5481428&token=1732012941_cb659a4526d83dd5a0031725f97f121b5a87ba70"
+        "name": "Fog Music",
+        "streamUrl": "https://t4.bcbits.com/stream/2835125abc81f9d65f92a2e8679b4d3b/mp3-128/2234622196?p=0&ts=1732102491&t=8c9d19eb2d6b527f70ed76c1879b79d545cf069b&token=1732102491_bb1c9485b872c874ed47cad3cf73d1207b8ac8a0"
       }
     },
     {
       "type": "album",
-      "name": "Music for Dystopian Concrete Buildings: The Future of Void Corp.",
+      "name": "Fenscapes",
       "artist": {
         "type": "artist",
-        "name": "Fornax Void",
-        "imageUrl": "https://f4.bcbits.com/img/37788266_28.jpg"
+        "name": "Glåsbird",
+        "imageUrl": "https://f4.bcbits.com/img/37476591_28.jpg"
       },
-      "location": "Switzerland",
+      "location": "England, UK",
       "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a523450728_2.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a3468529604_2.jpg",
       "featuredTrack": {
-        "name": "Termination Protocol",
-        "streamUrl": "https://t4.bcbits.com/stream/de9bbc165f475eda2b7d3b51f4864407/mp3-128/3162838384?p=0&ts=1732012941&t=5e278dd66e4cb227a7d82585026e3d054fb7b247&token=1732012941_f99faee72f1b5a05441089ef5cfd9d2faee9ad97"
+        "name": "Timberline",
+        "streamUrl": "https://t4.bcbits.com/stream/76eefccfbfe395cfb0052bb147f6ab06/mp3-128/658101620?p=0&ts=1732102491&t=230547036ee67213d1527a8717b33ed9ce1fc35a&token=1732102491_fe0551f94155392904f0a7c0ee98178f05c1cff2"
       }
     },
     {
       "type": "album",
-      "name": "Home Normal x Broken Chip",
+      "name": "Heavy Early & The Creation Of Venus",
       "artist": {
         "type": "artist",
-        "name": "Home Normal x Broken Chip",
-        "imageUrl": "https://f4.bcbits.com/img/33684714_28.jpg"
+        "name": "Windy & Carl",
+        "imageUrl": "https://f4.bcbits.com/img/15543191_28.jpg"
       },
-      "location": "Brighton And Hove, UK",
+      "location": "Dearborn, Michigan",
       "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a3133156599_2.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a978887313_2.jpg",
       "featuredTrack": {
-        "name": "Home Normal x Broken Chip",
-        "streamUrl": "https://t4.bcbits.com/stream/05f344926cc7294bc2861e2a3724e3bf/mp3-128/827583275?p=0&ts=1732012941&t=85002ed819acd89878147d7f67f1b8fad7db0dc0&token=1732012941_01534639a2e1a64f70373bde4d39cc9d0944a538"
+        "name": "Heavy Creation Mix",
+        "streamUrl": "https://t4.bcbits.com/stream/152b84598998df23b45db756210e9e3e/mp3-128/2446918710?p=0&ts=1732102491&t=1f028271d4879a2245c7c717c0cd54a4f7b561f2&token=1732102491_18fdc08ae63bcab988d9c1ac142ce4fcad81e70f"
       }
     },
     {
       "type": "album",
-      "name": "MINERAL09",
+      "name": "Eleven Stages Of Intervention",
       "artist": {
         "type": "artist",
-        "name": "Stressman, Cle Acklin",
-        "imageUrl": "https://f4.bcbits.com/img/21354341_28.jpg"
+        "name": "Rothko",
+        "imageUrl": "https://f4.bcbits.com/img/8525528_28.jpg"
       },
-      "location": "Amsterdam, Netherlands",
-      "imageUrl": "https://f4.bcbits.com/img/a332084180_2.jpg",
+      "location": "London, UK",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a2711622383_2.jpg",
       "featuredTrack": {
-        "name": "House The Party",
-        "streamUrl": "https://t4.bcbits.com/stream/2de628cf4edadebb1106c7ca55f75377/mp3-128/2301656024?p=0&ts=1732012941&t=800de1d9c555c71562e85e09f8d9e44fcd14ee4d&token=1732012941_50d6940347863c5106e1ec6ef8b66d807927658d"
+        "name": "Place A Star Up In The Sky",
+        "streamUrl": "https://t4.bcbits.com/stream/a3535ab672cc8652bfc86cf1d20607e4/mp3-128/211003066?p=0&ts=1732102491&t=3c73d727bb01549fad6349feed0e4e156038ffe3&token=1732102491_86effde4a18403564988dbf15c60ed99cc617a16"
       }
     },
     {
       "type": "album",
-      "name": "ITDP004 - Maha",
+      "name": "君がどんどん離れて行く  You Are Leaving My Mind: The \"Mariko\" and \"Dokitto Station!!\" Era",
       "artist": {
         "type": "artist",
-        "name": "Stenny",
-        "imageUrl": "https://f4.bcbits.com/img/24824945_28.jpg"
+        "name": "Maple Fyshh",
+        "imageUrl": "https://f4.bcbits.com/img/33683909_28.jpg"
       },
-      "location": "Munich, Germany",
+      "location": "Osaka Prefecture, Japan",
       "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a1611320844_2.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a3161848732_2.jpg",
       "featuredTrack": {
-        "name": "Hazy Grove",
-        "streamUrl": "https://t4.bcbits.com/stream/ec43358927ddbcea96698106a55b61c2/mp3-128/1838693776?p=0&ts=1732012941&t=9bbb7620e8b9a164a51bf329e73646e3561643b2&token=1732012941_ef0ea560f3d3c8ae9ff787d264b57cafa29bc436"
+        "name": "The Prelude（序章）",
+        "streamUrl": "https://t4.bcbits.com/stream/f1613458eee7b264f7c4ddfae08a04dc/mp3-128/276825279?p=0&ts=1732102491&t=e94297efab0c9019258b36504654ab730a6f4da6&token=1732102491_711ba2c7ec951cd17d810983e789ef387f2e8280"
       }
     },
     {
       "type": "album",
-      "name": "Deepfake Fantasy",
+      "name": "Untrue",
       "artist": {
         "type": "artist",
-        "name": "Enraile",
-        "imageUrl": "https://f4.bcbits.com/img/23734503_28.jpg"
+        "name": "Burial",
+        "imageUrl": "https://f4.bcbits.com/img/33381238_28.jpg"
       },
-      "location": "Wales, UK",
+      "location": "London, UK",
       "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a3330573943_2.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a104561231_2.jpg",
       "featuredTrack": {
-        "name": "Lava Flow",
-        "streamUrl": "https://t4.bcbits.com/stream/b61414bce9d73da1dc7f211b6eb61eaa/mp3-128/2414287422?p=0&ts=1732012941&t=cf694ee5e33d9297b7c8fddb82149fbd27348c79&token=1732012941_93bbc56b2d090be89af3f9345f6f7f9b8cdf878f"
+        "name": "Untitled",
+        "streamUrl": "https://t4.bcbits.com/stream/b143ff11ca39667ed71158cda6f457fc/mp3-128/396392350?p=0&ts=1732102491&t=ed219305f6b1d0e0691d2b4b7282ce377659f00f&token=1732102491_fb3dcba4c629abcda4f59c968af464a3a250652a"
       }
     },
     {
       "type": "album",
-      "name": "Dépaysant",
+      "name": "Twin Color (vol. I)",
       "artist": {
         "type": "artist",
-        "name": "Drifts In Autumn",
-        "imageUrl": "https://f4.bcbits.com/img/37510002_28.jpg"
+        "name": "Murcof",
+        "imageUrl": "https://f4.bcbits.com/img/23202610_28.jpg"
       },
-      "location": "Italy",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a3035273834_2.jpg",
+      "location": "Girona, Spain",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a3573478605_2.jpg",
       "featuredTrack": {
-        "name": "Lunar Mist (Rework)",
-        "streamUrl": "https://t4.bcbits.com/stream/ebf320543a9d08a58d8767822cd667d4/mp3-128/3820292935?p=0&ts=1732012941&t=4d4d88dc2502ddad5c50c84f835eaf747a44645f&token=1732012941_89b0e37b8e0930993b99047040f2168562d0b7db"
+        "name": "All These Worlds Part. II",
+        "streamUrl": "https://t4.bcbits.com/stream/ec1587b330e0cd07e7a6dcda1aae96fb/mp3-128/4148774413?p=0&ts=1732102491&t=a18baed35143ea7fe3e99963c59bfd8051b950ca&token=1732102491_375fbd19a4f71e7c6998656508a5fe0806b2b35f"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Volta",
+      "artist": {
+        "type": "artist",
+        "name": "LOULA YORKE",
+        "imageUrl": "https://f4.bcbits.com/img/33667080_28.jpg"
+      },
+      "location": "UK",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a791442790_2.jpg",
+      "featuredTrack": {
+        "name": "It's been decided that if you lay down no-one will die",
+        "streamUrl": "https://t4.bcbits.com/stream/0576f120a460f72d9fd3a298ea900b90/mp3-128/4153230961?p=0&ts=1732102491&t=3df3254968f5aa751bdeefdd1fc7a0b9dd7c8213&token=1732102491_2f59084df5448282585f24e57317676d765d1f08"
       }
     },
     {
@@ -698,183 +571,23 @@
       "imageUrl": "https://f4.bcbits.com/img/a608839220_2.jpg",
       "featuredTrack": {
         "name": "Spotlight (feat. Marco Sfogli)",
-        "streamUrl": "https://t4.bcbits.com/stream/920e38e15ed24135011069579d785cef/mp3-128/2495281438?p=0&ts=1732012941&t=c5b9920e3a5e76b3367d3a2e1eef3b2ac1c0726d&token=1732012941_36cb762cd84523234de5c31ecbcc1a1dea178d8b"
+        "streamUrl": "https://t4.bcbits.com/stream/920e38e15ed24135011069579d785cef/mp3-128/2495281438?p=0&ts=1732102491&t=94ff8ea1ed4158940a6a7e3ca9eaf00b67623ffc&token=1732102491_ae853f9e87dca948dbbade4fdca0ce0d711bd548"
       }
     },
     {
       "type": "album",
-      "name": "Ash",
+      "name": "Home Normal x Broken Chip",
       "artist": {
         "type": "artist",
-        "name": "Taylor Deupree",
-        "imageUrl": "https://f4.bcbits.com/img/22842504_28.jpg"
+        "name": "Home Normal x Broken Chip",
+        "imageUrl": "https://f4.bcbits.com/img/33684714_28.jpg"
       },
-      "location": "New York, New York",
+      "location": "Brighton And Hove, UK",
       "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a30902144_2.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a3133156599_2.jpg",
       "featuredTrack": {
-        "name": "Looming Brittle",
-        "streamUrl": "https://t4.bcbits.com/stream/5e46b9ee25ba15dfc70d8da91742562f/mp3-128/1686994552?p=0&ts=1732012941&t=530185cea85d00c6971d33ec9fcb5fb3f8eedeeb&token=1732012941_a6872ec8e4dd501bd49c9b5e06a17b1a183a3a3b"
-      }
-    },
-    {
-      "type": "album",
-      "name": "星​間​性​交",
-      "artist": {
-        "type": "artist",
-        "name": "t e l e p a t h テレパシー能力者",
-        "imageUrl": "https://f4.bcbits.com/img/34628323_28.jpg"
-      },
-      "location": "Pittsburgh, Pennsylvania",
-      "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a2184325097_2.jpg",
-      "featuredTrack": {
-        "name": "心を入力して",
-        "streamUrl": "https://t4.bcbits.com/stream/f1dec45d028db82f1aae8f8fc4cdfdb6/mp3-128/2155962339?p=0&ts=1732012941&t=335d03e81a0fb1ad7f09e9d8c5e97b600c1e5acf&token=1732012941_21f26842056976b2ddc7fa3a711a2f6e48585113"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Chronicle (DiN89)",
-      "artist": {
-        "type": "artist",
-        "name": "ARC",
-        "imageUrl": "https://f4.bcbits.com/img/212288_28.jpg"
-      },
-      "location": "Sunderland, UK",
-      "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a3693970625_2.jpg",
-      "featuredTrack": {
-        "name": "Fracture",
-        "streamUrl": "https://t4.bcbits.com/stream/312dd164ed1aab991e1817efe43fe10c/mp3-128/2411526924?p=0&ts=1732012941&t=43a752bafff717f4fce1c1d33d8f03ddc537903b&token=1732012941_502128c83e8966ba04d395ac90f34863c5f11881"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Essential Mixtape",
-      "artist": {
-        "type": "artist",
-        "name": "Merely & Malibu",
-        "imageUrl": "https://f4.bcbits.com/img/28905239_28.jpg"
-      },
-      "location": "France",
-      "genre": "alternative",
-      "imageUrl": "https://f4.bcbits.com/img/a2104630648_2.jpg",
-      "featuredTrack": {
-        "name": "starslayyer",
-        "streamUrl": "https://t4.bcbits.com/stream/cf46f12759f0c485a7ada9ae63431949/mp3-128/1108896447?p=0&ts=1732012941&t=d352380859126afff39b9cefffd8e8f766d4bfdf&token=1732012941_f41d649b2df571d533d1c9c65bc4c69b4674e738"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Future Research Journal Entries (Part I)",
-      "artist": {
-        "type": "artist",
-        "name": "Inhmost",
-        "imageUrl": "https://f4.bcbits.com/img/34908256_28.jpg"
-      },
-      "location": "Indianapolis, Indiana",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a3079062283_2.jpg",
-      "featuredTrack": {
-        "name": "Visualisation of Forever",
-        "streamUrl": "https://t4.bcbits.com/stream/7e4f4a4abaa232604cfa1226ac3bb17f/mp3-128/972804579?p=0&ts=1732012941&t=bd95362ec8835b1194de72e6cdff4b5b413d70b3&token=1732012941_a28489e18239cdecb92f18abd2a9a908b68274b1"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Paris",
-      "artist": {
-        "type": "artist",
-        "name": "Nils Frahm",
-        "imageUrl": "https://f4.bcbits.com/img/34702992_28.jpg"
-      },
-      "location": "Berlin, Germany",
-      "genre": "alternative",
-      "imageUrl": "https://f4.bcbits.com/img/a315807581_2.jpg",
-      "featuredTrack": {
-        "name": "Spells (Paris)",
-        "streamUrl": "https://t4.bcbits.com/stream/1895126bc7df5e1f355083e4a7da619f/mp3-128/4036417246?p=0&ts=1732012941&t=1408bef2a23a0c08f7dc0be5d9890c88001825f4&token=1732012941_765bb84bc669ce240a64b59593c10face30ba493"
-      }
-    },
-    {
-      "type": "album",
-      "name": "FAÇADISMS",
-      "artist": {
-        "type": "artist",
-        "name": "Rafael Anton Irisarri",
-        "imageUrl": "https://f4.bcbits.com/img/36698838_28.jpg"
-      },
-      "location": "New York, New York",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a3141221302_2.jpg",
-      "featuredTrack": {
-        "name": "Control Your Soul's Desire for Freedom",
-        "streamUrl": "https://t4.bcbits.com/stream/c0f672ea1b53cdd89b940c9018f792ed/mp3-128/3234844257?p=0&ts=1732012941&t=a3e202dbdd9b06fc164674955e4c89a0bc031401&token=1732012941_84c4560e0af618cf0b4141a7a8bdca660cd112ee"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Orboretum: The Orb Collection",
-      "artist": {
-        "type": "artist",
-        "name": "The Orb",
-        "imageUrl": "https://f4.bcbits.com/img/19389986_28.jpg"
-      },
-      "location": "London, UK",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a1444573513_2.jpg",
-      "featuredTrack": {
-        "name": "Perpetual Dawn (2024 Version)",
-        "streamUrl": "https://t4.bcbits.com/stream/9c2b1b7942aae9b56374821532e8ca1c/mp3-128/2846221509?p=0&ts=1732012941&t=48bf82fb038cb500f0bc1454d7e906813d4f84dd&token=1732012941_4d6d04e9831494b403719bd056cdaeb109cd39f8"
-      }
-    },
-    {
-      "type": "album",
-      "name": "White Sleep",
-      "artist": {
-        "type": "artist",
-        "name": "Motionfield",
-        "imageUrl": "https://f4.bcbits.com/img/28237696_28.jpg"
-      },
-      "location": "Sweden",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a2601611993_2.jpg",
-      "featuredTrack": {
-        "name": "White Sleep 1",
-        "streamUrl": "https://t4.bcbits.com/stream/ae79e7b256ac93240973215c0b09fb3b/mp3-128/3149628942?p=0&ts=1732012941&t=3196f37b46fbaa2888df05ac2d1a100bba1daea7&token=1732012941_b977e32a29b34fcbe9195bb7e1cac4a62fee00af"
-      }
-    },
-    {
-      "type": "album",
-      "name": "Minecraft - Volume Beta",
-      "artist": {
-        "type": "artist",
-        "name": "C418",
-        "imageUrl": "https://f4.bcbits.com/img/25187517_28.jpg"
-      },
-      "location": "Texas",
-      "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a1112985681_2.jpg",
-      "featuredTrack": {
-        "name": "Ki",
-        "streamUrl": "https://t4.bcbits.com/stream/f359d5720948c46b2c316fa875602315/mp3-128/709916271?p=0&ts=1732012941&t=2c365d1904ba53d5782218c50b52b4dc5bc4adb7&token=1732012941_812e11123233b0bbbbb0bd7adb9912de83248621"
-      }
-    },
-    {
-      "type": "album",
-      "name": "One Day of Forever",
-      "artist": {
-        "type": "artist",
-        "name": "Steve Roach",
-        "imageUrl": "https://f4.bcbits.com/img/15138466_28.jpg"
-      },
-      "location": "Tucson, Arizona",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a513742432_2.jpg",
-      "featuredTrack": {
-        "name": "All I Know",
-        "streamUrl": "https://t4.bcbits.com/stream/e95d86aae43ad0d7bc89efc8676a49c8/mp3-128/4146112799?p=0&ts=1732012941&t=2da6cffb68fb609c3b0aa0719b0ba9c0581d717f&token=1732012941_190942dd3440121d04da93953295492d0dc5199f"
+        "name": "Home Normal x Broken Chip",
+        "streamUrl": "https://t4.bcbits.com/stream/05f344926cc7294bc2861e2a3724e3bf/mp3-128/827583275?p=0&ts=1732102491&t=314de3bbabc37f1060c9568e690e30ec9889bcba&token=1732102491_bda87dbee627e097117c4283d8cc209c0868ae12"
       }
     },
     {
@@ -890,39 +603,39 @@
       "imageUrl": "https://f4.bcbits.com/img/a3088440745_2.jpg",
       "featuredTrack": {
         "name": "Fall Out",
-        "streamUrl": "https://t4.bcbits.com/stream/76db1f6d458e17bfda71e86a80c10ee5/mp3-128/864077170?p=0&ts=1732012941&t=646e687914e74453413b97dbca00b33c44f0a23d&token=1732012941_5cddf224328f9c80f82ddb2b8e8cd7c1a31d7d18"
+        "streamUrl": "https://t4.bcbits.com/stream/76db1f6d458e17bfda71e86a80c10ee5/mp3-128/864077170?p=0&ts=1732102491&t=6f1d0a63eb4bab720550383f2f31d2ab9c4ba401&token=1732102491_f8697d79e41713f89750fee73d5772f28335305c"
       }
     },
     {
       "type": "album",
-      "name": "Selected Ambient Works Volume II (Expanded Edition)",
+      "name": "101, MILKY WAY",
       "artist": {
         "type": "artist",
-        "name": "Aphex Twin",
-        "imageUrl": "https://f4.bcbits.com/img/36351072_28.jpg"
+        "name": "Klaus Schulze",
+        "imageUrl": "https://f4.bcbits.com/img/28051675_28.jpg"
       },
-      "location": "UK",
+      "location": "",
       "genre": "electronic",
-      "imageUrl": "https://f4.bcbits.com/img/a497903782_2.jpg",
+      "imageUrl": "https://f4.bcbits.com/img/a1569034735_2.jpg",
       "featuredTrack": {
-        "name": "Rhubarb Orc. 19.53 Rev",
-        "streamUrl": "https://t4.bcbits.com/stream/55a4d4b066abe622aa162181c074f957/mp3-128/2847600022?p=0&ts=1732012941&t=ce8ec208016094738ce7d5257681540b729804c2&token=1732012941_671ed1d50e547cfd20fbb001cd5ac40458832980"
+        "name": "UNI Pt#1",
+        "streamUrl": "https://t4.bcbits.com/stream/93cbb14e07728620a855aef69d8ade47/mp3-128/707411775?p=0&ts=1732102491&t=0fa745c2f3d000276cff2fbe492639257990ef3b&token=1732102491_0eb6eac9f3f9d18d15a425cbcfff56555e09b0cf"
       }
     },
     {
       "type": "album",
-      "name": "Bleed",
+      "name": "IT067 - Applications",
       "artist": {
         "type": "artist",
-        "name": "The Necks",
-        "imageUrl": "https://f4.bcbits.com/img/30702978_28.jpg"
+        "name": "Shed",
+        "imageUrl": "https://f4.bcbits.com/img/24824945_28.jpg"
       },
-      "location": "Australia",
-      "genre": "ambient",
-      "imageUrl": "https://f4.bcbits.com/img/a2352063602_2.jpg",
+      "location": "Munich, Germany",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a792328049_2.jpg",
       "featuredTrack": {
-        "name": "Bleed",
-        "streamUrl": "https://t4.bcbits.com/stream/6becd1ae4b44fb7ed10fc4b4b89ca654/mp3-128/991833878?p=0&ts=1732012941&t=1b699004f791cd7e0b492d0335b998f27f02f279&token=1732012941_e1e0146645a8c32827e6a5055b25f9cfe2042fc6"
+        "name": "EMCZ",
+        "streamUrl": "https://t4.bcbits.com/stream/9933f5522273b2bdcfccea808f7c6466/mp3-128/833441414?p=0&ts=1732102491&t=f573a9e578675352a28a47cd4310dee7f6b44b60&token=1732102491_9f92a8d9f449261d5cd7cd564560512d8f043324"
       }
     },
     {
@@ -938,7 +651,984 @@
       "imageUrl": "https://f4.bcbits.com/img/a914403259_2.jpg",
       "featuredTrack": {
         "name": "Flammes et Destruction",
-        "streamUrl": "https://t4.bcbits.com/stream/54e346bd190712308c7826257f38d317/mp3-128/2170643115?p=0&ts=1732012941&t=6523acb20eb1b47e1802a237a3d7e0e717ab2e1c&token=1732012941_5a153c0870fd20b60aa3e58887f2d9d8153b1926"
+        "streamUrl": "https://t4.bcbits.com/stream/54e346bd190712308c7826257f38d317/mp3-128/2170643115?p=0&ts=1732102491&t=14abecad4c043e640cf011ad9153ac6187692a5c&token=1732102491_5417e4cecca81621783a7370eae1a2832d5c64c6"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Exit All The Lights",
+      "artist": {
+        "type": "artist",
+        "name": "36",
+        "imageUrl": "https://f4.bcbits.com/img/33029877_28.jpg"
+      },
+      "location": "UK",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a1015681947_2.jpg",
+      "featuredTrack": {
+        "name": "Exit All The Lights",
+        "streamUrl": "https://t4.bcbits.com/stream/7cede67882cec02df0efd490d5ccb645/mp3-128/258014679?p=0&ts=1732102491&t=15787f8b08b6f0b0e62bb49e0ce7fd965ba0e409&token=1732102491_6b4b0c57824ff1ae84e054990112c566a6e19e31"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Amor i Ritme: Valencia Relief Fundraiser",
+      "artist": {
+        "type": "artist",
+        "name": "Various Artists",
+        "imageUrl": "https://f4.bcbits.com/img/18639373_28.jpg"
+      },
+      "location": "London, UK",
+      "imageUrl": "https://f4.bcbits.com/img/a1905812959_2.jpg",
+      "featuredTrack": {
+        "name": "Este Ritmo",
+        "streamUrl": "https://t4.bcbits.com/stream/883d41fccc1c5f51793a85afbf331c8c/mp3-128/1041048468?p=0&ts=1732102491&t=527309b307f1071ec178b8c84015ac8b9c12e305&token=1732102491_591b0f3a29b3bc42bbbf182e2d2d3df91d0a10c6"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Essential Mixtape",
+      "artist": {
+        "type": "artist",
+        "name": "Merely & Malibu",
+        "imageUrl": "https://f4.bcbits.com/img/28905239_28.jpg"
+      },
+      "location": "France",
+      "genre": "alternative",
+      "imageUrl": "https://f4.bcbits.com/img/a2104630648_2.jpg",
+      "featuredTrack": {
+        "name": "starslayyer",
+        "streamUrl": "https://t4.bcbits.com/stream/cf46f12759f0c485a7ada9ae63431949/mp3-128/1108896447?p=0&ts=1732102491&t=650a7076e8cbf73a36c0fcf776031e10256e3c18&token=1732102491_2b057b9d0fa9b4581c31f5f57721bbb22deebc5b"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Shadowlorn",
+      "artist": {
+        "type": "artist",
+        "name": "Mountain Realm",
+        "imageUrl": "https://f4.bcbits.com/img/34628415_28.jpg"
+      },
+      "location": "Oregon",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a2769087990_2.jpg",
+      "featuredTrack": {
+        "name": "Leaving Sanctuary",
+        "streamUrl": "https://t4.bcbits.com/stream/6ec3caf5fa5d6a41170010df604359fd/mp3-128/4041370945?p=0&ts=1732102491&t=66e2c1229a00f94aaf510ce2d05f9dfe1465e613&token=1732102491_16b402fced3e0221bed03ba5d6360b406661089d"
+      }
+    },
+    {
+      "type": "album",
+      "name": "__262980hrs Later",
+      "artist": {
+        "type": "artist",
+        "name": "woob",
+        "imageUrl": "https://f4.bcbits.com/img/26172553_28.jpg"
+      },
+      "location": "UK",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a3845297418_2.jpg",
+      "featuredTrack": {
+        "name": "__262980hrs later",
+        "streamUrl": "https://t4.bcbits.com/stream/bcc190d85580ca9c78a1e700e3d361ed/mp3-128/1082436680?p=0&ts=1732102491&t=7223886a66d37b75123cb68e765f4717fb45b2c7&token=1732102491_a7dd47eff36741b1506cd5c032c15b26d4c45e9e"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Deepfake Fantasy",
+      "artist": {
+        "type": "artist",
+        "name": "Enraile",
+        "imageUrl": "https://f4.bcbits.com/img/23734503_28.jpg"
+      },
+      "location": "Wales, UK",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a3330573943_2.jpg",
+      "featuredTrack": {
+        "name": "Lava Flow",
+        "streamUrl": "https://t4.bcbits.com/stream/b61414bce9d73da1dc7f211b6eb61eaa/mp3-128/2414287422?p=0&ts=1732102491&t=b9b3a1db8cb47c5d738833b23aed5ad438ee1b66&token=1732102491_55691a3609a17415acafab5b80c0e42bcd7e7040"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Minecraft - Volume Beta",
+      "artist": {
+        "type": "artist",
+        "name": "C418",
+        "imageUrl": "https://f4.bcbits.com/img/25187517_28.jpg"
+      },
+      "location": "Texas",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a1112985681_2.jpg",
+      "featuredTrack": {
+        "name": "Ki",
+        "streamUrl": "https://t4.bcbits.com/stream/f359d5720948c46b2c316fa875602315/mp3-128/709916271?p=0&ts=1732102491&t=5525c92f6309887d1c04745902e2a22eeb87dc2b&token=1732102491_6ac7a3c8c96cb060696901307c50db1ab8ee5e1d"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Phantasy & Reality",
+      "artist": {
+        "type": "artist",
+        "name": "Lynn Avery & Cole Pulice",
+        "imageUrl": "https://f4.bcbits.com/img/37515500_28.jpg"
+      },
+      "location": "Portland, Oregon",
+      "imageUrl": "https://f4.bcbits.com/img/a1140375068_2.jpg",
+      "featuredTrack": {
+        "name": "All That the Air Allows",
+        "streamUrl": "https://t4.bcbits.com/stream/283f8bd1a09366dc39d2384f9ecfbc60/mp3-128/2932036419?p=0&ts=1732102491&t=73608db2bfc643ec8754386704c757bb416e11bf&token=1732102491_0056d47178bf394d864145eefd70abc10c1ac2ef"
+      }
+    },
+    {
+      "type": "album",
+      "name": "OPIA (24bit)",
+      "artist": {
+        "type": "artist",
+        "name": "Various Artists",
+        "imageUrl": "https://f4.bcbits.com/img/32814460_28.jpg"
+      },
+      "location": "Lyon, France",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a4057459327_2.jpg",
+      "featuredTrack": {
+        "name": "Unstable Shutter (24bit)",
+        "streamUrl": "https://t4.bcbits.com/stream/11c11f70c11b6386df171e9d8a7da7ed/mp3-128/3989111768?p=0&ts=1732102491&t=90de02304741b686409eaddb1ad04e4ed235bea1&token=1732102491_1768ff62122af7c8d855a7e8b76278fba630af4d"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Bandcamp Edits Vol. 1",
+      "artist": {
+        "type": "artist",
+        "name": "Crosstalk",
+        "imageUrl": "https://f4.bcbits.com/img/37633202_28.jpg"
+      },
+      "location": "São Paulo, Brazil",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a3039585388_2.jpg",
+      "featuredTrack": {
+        "name": "Eusexua (Crosstalk Remix)",
+        "streamUrl": "https://t4.bcbits.com/stream/8294060a5e2d5b4bcb45bbbcb70aa017/mp3-128/2986554151?p=0&ts=1732102491&t=7946dd1a7f31edd25488894fc75ab46fe4112316&token=1732102491_739ba94f70809a6b1890b0632e922aa960285d0b"
+      }
+    },
+    {
+      "type": "album",
+      "name": "ITDP004 - Maha",
+      "artist": {
+        "type": "artist",
+        "name": "Stenny",
+        "imageUrl": "https://f4.bcbits.com/img/24824945_28.jpg"
+      },
+      "location": "Munich, Germany",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a1611320844_2.jpg",
+      "featuredTrack": {
+        "name": "Hazy Grove",
+        "streamUrl": "https://t4.bcbits.com/stream/ec43358927ddbcea96698106a55b61c2/mp3-128/1838693776?p=0&ts=1732102491&t=2589f6757c6360a439d4b1c0ef617b8e1ed3ba93&token=1732102491_e4a86a56057c78dbd39b682c7a0c4d9f46b4a39b"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Nova Lux",
+      "artist": {
+        "type": "artist",
+        "name": "MGR",
+        "imageUrl": "https://f4.bcbits.com/img/5838054_28.jpg"
+      },
+      "location": "",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a3227342772_2.jpg",
+      "featuredTrack": {
+        "name": "I",
+        "streamUrl": "https://t4.bcbits.com/stream/6a554296bb37621667f13f5e91605ff8/mp3-128/820646418?p=0&ts=1732102491&t=30d4cef949adbb063be9065e50ca2b3ad3a4d1b0&token=1732102491_5ef6461c1fb9b3b01242bfe7619817373e3db0bd"
+      }
+    },
+    {
+      "type": "album",
+      "name": "MINERAL09",
+      "artist": {
+        "type": "artist",
+        "name": "Stressman, Cle Acklin",
+        "imageUrl": "https://f4.bcbits.com/img/21354341_28.jpg"
+      },
+      "location": "Amsterdam, Netherlands",
+      "imageUrl": "https://f4.bcbits.com/img/a332084180_2.jpg",
+      "featuredTrack": {
+        "name": "House The Party",
+        "streamUrl": "https://t4.bcbits.com/stream/2de628cf4edadebb1106c7ca55f75377/mp3-128/2301656024?p=0&ts=1732102491&t=4622678c63e88b8eae68f94f015db21bd55cb69e&token=1732102491_69104498a0f9435eab49902b5276f35ade46eef6"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Solastalgia",
+      "artist": {
+        "type": "artist",
+        "name": "Erik Wøllo",
+        "imageUrl": "https://f4.bcbits.com/img/19063774_28.jpg"
+      },
+      "location": "Portland, Oregon",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a3592927216_2.jpg",
+      "featuredTrack": {
+        "name": "Disc 1: Aerial",
+        "streamUrl": "https://t4.bcbits.com/stream/5567024fc8ab666c2df896e87ad5d72b/mp3-128/1124442097?p=0&ts=1732102491&t=55a20a1b401f7eec4efe8282ad64da7209f0ae76&token=1732102491_cd1d1c6bcb5564f0bda55173ee39b190d39498b6"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Route 77",
+      "artist": {
+        "type": "artist",
+        "name": "Mirror System",
+        "imageUrl": "https://f4.bcbits.com/img/9217745_28.jpg"
+      },
+      "location": "London, UK",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a3818650705_2.jpg",
+      "featuredTrack": {
+        "name": "Paris Texas",
+        "streamUrl": "https://t4.bcbits.com/stream/f248b09525f58c98576e4fabb8dcb218/mp3-128/3106342760?p=0&ts=1732102491&t=2d6b8952d64149942a43fcc3b57c5d330018de2e&token=1732102491_6bafea0abff2612fc89d30c322fa46435d4f2704"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Aloe vera",
+      "artist": {
+        "type": "artist",
+        "name": "Arctic Alliance",
+        "imageUrl": "https://f4.bcbits.com/img/32632077_28.jpg"
+      },
+      "location": "Tálknafjörður, Iceland",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a3044347049_2.jpg",
+      "featuredTrack": {
+        "name": "Arctic Loon",
+        "streamUrl": "https://t4.bcbits.com/stream/c23f4abc295131153191c44c950301c8/mp3-128/1992692643?p=0&ts=1732102491&t=85ee84ccdc62cd554fbda3aad50edffb8846be35&token=1732102491_787148861a4be009e61a8e87f385f0079afe37df"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Spectral Fields",
+      "artist": {
+        "type": "artist",
+        "name": "Spectral Wanderer",
+        "imageUrl": "https://f4.bcbits.com/img/5308514_28.jpg"
+      },
+      "location": "Los Angeles, California",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a2067509029_2.jpg",
+      "featuredTrack": {
+        "name": "Frequency Drift",
+        "streamUrl": "https://t4.bcbits.com/stream/aa831d7dd52864b4bda57cc1bfa8a954/mp3-128/1543397036?p=0&ts=1732102491&t=3b1d5952707e1a35b289f29bd7b6a32779ee525e&token=1732102491_8af583644936c8330dafadec05888c4a2aba3194"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Long Sleep Plain",
+      "artist": {
+        "type": "artist",
+        "name": "Will-O-The-Wisp",
+        "imageUrl": "https://f4.bcbits.com/img/19220328_28.jpg"
+      },
+      "location": "Greece",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a1414455640_2.jpg",
+      "featuredTrack": {
+        "name": "Long Sleep Plain",
+        "streamUrl": "https://t4.bcbits.com/stream/0bb663e2e56ac72e84d929d01d047e90/mp3-128/3606729602?p=0&ts=1732102491&t=5a935c8f17aea554c6da85b1f165a3abee111fae&token=1732102491_888f8b2fd3c1c7939f297a510e80e9c8681b59ba"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Orboretum: The Orb Collection",
+      "artist": {
+        "type": "artist",
+        "name": "The Orb",
+        "imageUrl": "https://f4.bcbits.com/img/19389986_28.jpg"
+      },
+      "location": "London, UK",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a1444573513_2.jpg",
+      "featuredTrack": {
+        "name": "Perpetual Dawn (2024 Version)",
+        "streamUrl": "https://t4.bcbits.com/stream/9c2b1b7942aae9b56374821532e8ca1c/mp3-128/2846221509?p=0&ts=1732102491&t=158279712d833edff01fe7dc9c126cff2b3c3e85&token=1732102491_777966df54bfbd2abaf6d997c0c10259d0cf23da"
+      }
+    }
+  ],
+  "total": 689392,
+  "params": {
+    "category": 0,
+    "sortBy": "top",
+    "location": 0,
+    "time": -1,
+    "size": 60,
+    "genre": "ambient"
+  },
+  "continuation": {
+    "category": 0,
+    "sortBy": "top",
+    "location": 0,
+    "time": -1,
+    "size": 60,
+    "genre": "ambient",
+    "cursor": "AoMIQTehy3j6uYuBkwMqYTUxNjQ4MDc0Nw==",
+    "albumImageFormat": {
+      "id": 2,
+      "name": "art_thumb",
+      "width": 350,
+      "height": 350,
+      "fileFormat": "JPEG"
+    },
+    "artistImageFormat": {
+      "id": 28,
+      "name": "bio_featured",
+      "width": 768,
+      "height": 432,
+      "fileFormat": "JPEG"
+    }
+  }
+}
+Fetching more by continuation...
+{
+  "items": [
+    {
+      "type": "album",
+      "name": "星​間​性​交",
+      "artist": {
+        "type": "artist",
+        "name": "t e l e p a t h テレパシー能力者",
+        "imageUrl": "https://f4.bcbits.com/img/34628323_28.jpg"
+      },
+      "location": "Pittsburgh, Pennsylvania",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a2184325097_2.jpg",
+      "featuredTrack": {
+        "name": "心を入力して",
+        "streamUrl": "https://t4.bcbits.com/stream/f1dec45d028db82f1aae8f8fc4cdfdb6/mp3-128/2155962339?p=0&ts=1732102599&t=0226575f2395152a7b1b599dce290d3fbec17c18&token=1732102599_f88981c2263b9be527f493d71a34483c2f6ec593"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Tribal Alliance",
+      "artist": {
+        "type": "artist",
+        "name": "Mountain Realm & Tales under the Oak",
+        "imageUrl": "https://f4.bcbits.com/img/34628415_28.jpg"
+      },
+      "location": "Oregon",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a1758229304_2.jpg",
+      "featuredTrack": {
+        "name": "An Invite for the Toad King",
+        "streamUrl": "https://t4.bcbits.com/stream/eb9c3ee6fe04c44856dcd36e0f0e7d32/mp3-128/3819317127?p=0&ts=1732102599&t=e1c073b574640612c274653a5fb3119dd1ef44c8&token=1732102599_428448006c54e9a61e7684cc85887b715a2c1400"
+      }
+    },
+    {
+      "type": "album",
+      "name": "One Day of Forever",
+      "artist": {
+        "type": "artist",
+        "name": "Steve Roach",
+        "imageUrl": "https://f4.bcbits.com/img/15138466_28.jpg"
+      },
+      "location": "Tucson, Arizona",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a513742432_2.jpg",
+      "featuredTrack": {
+        "name": "All I Know",
+        "streamUrl": "https://t4.bcbits.com/stream/e95d86aae43ad0d7bc89efc8676a49c8/mp3-128/4146112799?p=0&ts=1732102599&t=56ab6e1cf3a427625a5922f33e41d7effef69d04&token=1732102599_1bce11080bbb07014121188a2e98940e25a01ca7"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Sleep Deprivation",
+      "artist": {
+        "type": "artist",
+        "name": "The Black Dog",
+        "imageUrl": "https://f4.bcbits.com/img/3600115_28.jpg"
+      },
+      "location": "Sheffield",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a1016805766_2.jpg",
+      "featuredTrack": {
+        "name": "Sleep Deprivation 05: The Slow Cancellation Of The Future",
+        "streamUrl": "https://t4.bcbits.com/stream/65dfb6477ad74304d5638b04a44152b2/mp3-128/808759593?p=0&ts=1732102599&t=e5bc213965c0578f9c245b8242a7a275ac30628f&token=1732102599_1a7300d673e8ee546a1af7a41563be5789aa1315"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Endlessness",
+      "artist": {
+        "type": "artist",
+        "name": "Nala Sinephro",
+        "imageUrl": "https://f4.bcbits.com/img/36631808_28.jpg"
+      },
+      "location": "London, UK",
+      "genre": "jazz",
+      "imageUrl": "https://f4.bcbits.com/img/a3962253974_2.jpg",
+      "featuredTrack": {
+        "name": "Continuum 1",
+        "streamUrl": "https://t4.bcbits.com/stream/dd6f8367b923355eb91b6696bf40adf5/mp3-128/3937879617?p=0&ts=1732102599&t=f18ecccac118e192290d453fab4e58572d863b1c&token=1732102599_17d3a781116fb5ea0a0919d7ef5296acf3d414bd"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Bleed",
+      "artist": {
+        "type": "artist",
+        "name": "The Necks",
+        "imageUrl": "https://f4.bcbits.com/img/30702978_28.jpg"
+      },
+      "location": "Australia",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a2352063602_2.jpg",
+      "featuredTrack": {
+        "name": "Bleed",
+        "streamUrl": "https://t4.bcbits.com/stream/6becd1ae4b44fb7ed10fc4b4b89ca654/mp3-128/991833878?p=0&ts=1732102599&t=49c4efc1e8dac61590fda296bb8dbf68858514ee&token=1732102599_1f65913515833764b7ca40e583b9a0b53498cee9"
+      }
+    },
+    {
+      "type": "album",
+      "name": "White Sleep",
+      "artist": {
+        "type": "artist",
+        "name": "Motionfield",
+        "imageUrl": "https://f4.bcbits.com/img/28237696_28.jpg"
+      },
+      "location": "Sweden",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a2601611993_2.jpg",
+      "featuredTrack": {
+        "name": "White Sleep 1",
+        "streamUrl": "https://t4.bcbits.com/stream/ae79e7b256ac93240973215c0b09fb3b/mp3-128/3149628942?p=0&ts=1732102599&t=ac87b7531c22603a3eb46ea30ea5e24ca7544d87&token=1732102599_91031556657ba5d0d5ac11cefbb4701c62730a0d"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Mosaic",
+      "artist": {
+        "type": "artist",
+        "name": "Fennesz",
+        "imageUrl": "https://f4.bcbits.com/img/10278432_28.jpg"
+      },
+      "location": "Vienna, Austria",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a3606140014_2.jpg",
+      "featuredTrack": {
+        "name": "Heliconia",
+        "streamUrl": "https://t4.bcbits.com/stream/a1becb17e3200e1712038fb6b11dc0fd/mp3-128/4197194163?p=0&ts=1732102599&t=2c78fbf5ba43e2e0d4d0b2c93c4d972b79e3a0e1&token=1732102599_0c86c2848f5ef4f4aa3ef26ebd81b5abe08148ab"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Selected Ambient Works Volume II (Expanded Edition)",
+      "artist": {
+        "type": "artist",
+        "name": "Aphex Twin",
+        "imageUrl": "https://f4.bcbits.com/img/36351072_28.jpg"
+      },
+      "location": "UK",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a497903782_2.jpg",
+      "featuredTrack": {
+        "name": "Rhubarb Orc. 19.53 Rev",
+        "streamUrl": "https://t4.bcbits.com/stream/55a4d4b066abe622aa162181c074f957/mp3-128/2847600022?p=0&ts=1732102599&t=7fc14cc193972e77072cfc5480f8b6b2b35060e2&token=1732102599_6d02c24416eacbf4ee438ad1b9585bf67b2060ac"
+      }
+    },
+    {
+      "type": "album",
+      "name": "ЛЕЯ",
+      "artist": {
+        "type": "artist",
+        "name": "TOKEE",
+        "imageUrl": "https://f4.bcbits.com/img/24406498_28.jpg"
+      },
+      "location": "Bulgaria",
+      "genre": "experimental",
+      "imageUrl": "https://f4.bcbits.com/img/a1846109095_2.jpg",
+      "featuredTrack": {
+        "name": "Путешествие",
+        "streamUrl": "https://t4.bcbits.com/stream/77f4cc8f5774dc0bd3fec724c987c2cd/mp3-128/2828662521?p=0&ts=1732102599&t=ea937c1bd7a665de4737db1e2e381dcdd4f04400&token=1732102599_3e9213a2055f66c376ce803682363f6811e40495"
+      }
+    },
+    {
+      "type": "album",
+      "name": "PowerNerd (24-bit HD audio)",
+      "artist": {
+        "type": "artist",
+        "name": "Devin Townsend",
+        "imageUrl": "https://f4.bcbits.com/img/22535380_28.jpg"
+      },
+      "location": "Vancouver, British Columbia",
+      "genre": "experimental",
+      "imageUrl": "https://f4.bcbits.com/img/a2712238017_2.jpg",
+      "featuredTrack": {
+        "name": "Jainism",
+        "streamUrl": "https://t4.bcbits.com/stream/dcd8fcabb94f5aa91113a897d2f64a1e/mp3-128/2730326007?p=0&ts=1732102599&t=fba081a2e2b92ce6f4f15b5cb81eafd4f4cd4f01&token=1732102599_c77172179425d11937f0ffe86e2b94c20d5363f8"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Between The Endless Silence",
+      "artist": {
+        "type": "artist",
+        "name": "Mick Chillage",
+        "imageUrl": "https://f4.bcbits.com/img/20194684_28.jpg"
+      },
+      "location": "Dublin, Ireland",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a2937342873_2.jpg",
+      "featuredTrack": {
+        "name": "Any Place But here",
+        "streamUrl": "https://t4.bcbits.com/stream/eba3c70cf8c966e307ef3bb6a9be27ae/mp3-128/183746024?p=0&ts=1732102599&t=e4b00cb77a3a65fa37fb2a0afac1de9d7961e988&token=1732102599_0a8b829694394d01a6480073fb921dac827cd030"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Neon Eternity",
+      "artist": {
+        "type": "artist",
+        "name": "Cliffdiver",
+        "imageUrl": "https://f4.bcbits.com/img/31586677_28.jpg"
+      },
+      "location": "Loveland, Colorado",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a2094556929_2.jpg",
+      "featuredTrack": {
+        "name": "Landline (I'm Not Here)",
+        "streamUrl": "https://t4.bcbits.com/stream/057e5d26122dfe5137a7b1ec8926b98f/mp3-128/3520066463?p=0&ts=1732102599&t=7041b9f240068a73ed36105f4bfcff5bcfa995f1&token=1732102599_c6b051a7484d6e78c5977d5d1f45b56e7726d647"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Tsathoggua",
+      "artist": {
+        "type": "artist",
+        "name": "Cryo Chamber Collaboration",
+        "imageUrl": "https://f4.bcbits.com/img/37431178_28.jpg"
+      },
+      "location": "Oregon",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a3004281941_2.jpg",
+      "featuredTrack": {
+        "name": "Tsathoggua 1",
+        "streamUrl": "https://t4.bcbits.com/stream/2c9910f0de422b408a66eaa0131a0338/mp3-128/2899249881?p=0&ts=1732102599&t=9ba4619f3645675fbe021346e9af76e98b341c30&token=1732102599_d672eabd4e735838f5854069222588f9b9bf0d2b"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Paris",
+      "artist": {
+        "type": "artist",
+        "name": "Nils Frahm",
+        "imageUrl": "https://f4.bcbits.com/img/34702992_28.jpg"
+      },
+      "location": "Berlin, Germany",
+      "genre": "alternative",
+      "imageUrl": "https://f4.bcbits.com/img/a315807581_2.jpg",
+      "featuredTrack": {
+        "name": "Spells (Paris)",
+        "streamUrl": "https://t4.bcbits.com/stream/1895126bc7df5e1f355083e4a7da619f/mp3-128/4036417246?p=0&ts=1732102599&t=5e60eab5dbb408592d2f2bc2371351d1681ef6b1&token=1732102599_439912def7cae4ac5370d7c256cd7f7fdb463e65"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Transition",
+      "artist": {
+        "type": "artist",
+        "name": "SBG",
+        "imageUrl": "https://f4.bcbits.com/img/37604298_28.jpg"
+      },
+      "location": "Antarctica",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a779994561_2.jpg",
+      "featuredTrack": {
+        "name": "Transition I",
+        "streamUrl": "https://t4.bcbits.com/stream/d3e114d5ac64c31a20df670bbdccdd82/mp3-128/1197694218?p=0&ts=1732102599&t=148f503bf8feeb587063e51ae9c920eef65b1745&token=1732102599_f85f712912f78d0bba7e34ea4ba111a922c2cfee"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Flower Power",
+      "artist": {
+        "type": "artist",
+        "name": "Kick Bong",
+        "imageUrl": "https://f4.bcbits.com/img/19220328_28.jpg"
+      },
+      "location": "Greece",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a3489552650_2.jpg",
+      "featuredTrack": {
+        "name": "2 Seasons",
+        "streamUrl": "https://t4.bcbits.com/stream/4e7af18ff533a71cce278645508482b6/mp3-128/329578738?p=0&ts=1732102599&t=450e35e773dd1b757d2fb3306028b1028f7a5e6e&token=1732102599_0822191a236b44b6cc4cfe95d45c6bc3bfe592a0"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Ruins",
+      "artist": {
+        "type": "artist",
+        "name": "990x",
+        "imageUrl": "https://f4.bcbits.com/img/29098431_28.jpg"
+      },
+      "location": "Manchester, UK",
+      "imageUrl": "https://f4.bcbits.com/img/a3515952954_2.jpg",
+      "featuredTrack": {
+        "name": "Forest Of Silence",
+        "streamUrl": "https://t4.bcbits.com/stream/bf14c9332dc1db737140d311b5b0b084/mp3-128/2647528766?p=0&ts=1732102599&t=4f6e3bb4800b33d350db21aa42ca5560bb4b2653&token=1732102599_99152196f0ea976a30c2a8ffd97f218a223b1a3c"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Nostalgia",
+      "artist": {
+        "type": "artist",
+        "name": "Hania Rani",
+        "imageUrl": "https://f4.bcbits.com/img/37010353_28.jpg"
+      },
+      "location": "Warsaw, Poland",
+      "genre": "alternative",
+      "imageUrl": "https://f4.bcbits.com/img/a778341239_2.jpg",
+      "featuredTrack": {
+        "name": "It Comes in Waves (Studio 1, Warsaw)",
+        "streamUrl": "https://t4.bcbits.com/stream/16a083a3744135cfc0653a46f15c2c07/mp3-128/1979781205?p=0&ts=1732102599&t=516706b322b9ad2f2c54295abc0e053c1dd86784&token=1732102599_a7f3463776d1a911411c7001450f3f93dd2a4d88"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Dépaysant",
+      "artist": {
+        "type": "artist",
+        "name": "Drifts In Autumn",
+        "imageUrl": "https://f4.bcbits.com/img/37510002_28.jpg"
+      },
+      "location": "Italy",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a3035273834_2.jpg",
+      "featuredTrack": {
+        "name": "Lunar Mist (Rework)",
+        "streamUrl": "https://t4.bcbits.com/stream/ebf320543a9d08a58d8767822cd667d4/mp3-128/3820292935?p=0&ts=1732102599&t=b281d6c027c5452414e107020d8bb5ab0de1e536&token=1732102599_44b9c509799b6d20f92da2a8f248ffe3dba6435c"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Basssik",
+      "artist": {
+        "type": "artist",
+        "name": "MYPD",
+        "imageUrl": "https://f4.bcbits.com/img/37708261_28.jpg"
+      },
+      "location": "",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a429758265_2.jpg",
+      "featuredTrack": {
+        "name": "Basssik Pt 1",
+        "streamUrl": "https://t4.bcbits.com/stream/2c70955f21592b47bb43f2a0a7aa8baf/mp3-128/3504597787?p=0&ts=1732102599&t=49b2b4bc48d21a6796be76c763668b2cec9681be&token=1732102599_7c4f21b9df52e171f234de81d39bb024303bd4b8"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Future Research Journal Entries (Part I)",
+      "artist": {
+        "type": "artist",
+        "name": "Inhmost",
+        "imageUrl": "https://f4.bcbits.com/img/34908256_28.jpg"
+      },
+      "location": "Indianapolis, Indiana",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a3079062283_2.jpg",
+      "featuredTrack": {
+        "name": "Visualisation of Forever",
+        "streamUrl": "https://t4.bcbits.com/stream/7e4f4a4abaa232604cfa1226ac3bb17f/mp3-128/972804579?p=0&ts=1732102599&t=b57626c65dff107632bfc379b454935d68b9adcb&token=1732102599_31d8f20c34234b7559927ce98e93e3fc2e24e42e"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Flint",
+      "artist": {
+        "type": "artist",
+        "name": "From Overseas, James Bernard, zakè",
+        "imageUrl": "https://f4.bcbits.com/img/34908256_28.jpg"
+      },
+      "location": "Indianapolis, Indiana",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a3380261268_2.jpg",
+      "featuredTrack": {
+        "name": "Flint",
+        "streamUrl": "https://t4.bcbits.com/stream/f86bb43b986f4c57bd7a45eaec784994/mp3-128/321814313?p=0&ts=1732102599&t=de3ce92c262024b3903a5439069e2432fe938493&token=1732102599_fe73c5b2d6460e24888fea64b404c3f2600cc06b"
+      }
+    },
+    {
+      "type": "album",
+      "name": "ITLP19 - Resort",
+      "artist": {
+        "type": "artist",
+        "name": "Skee Mask",
+        "imageUrl": "https://f4.bcbits.com/img/24824945_28.jpg"
+      },
+      "location": "Munich, Germany",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a1230128187_2.jpg",
+      "featuredTrack": {
+        "name": "Hedwig Transformation Group",
+        "streamUrl": "https://t4.bcbits.com/stream/39c097f037af5b8b4cdcdb0e6a195542/mp3-128/661437103?p=0&ts=1732102599&t=4a8e7764f9cbc469863595d42131b8328dfc95df&token=1732102599_41db2728d2cbfe672fd7bb25c742e7f9a792ebfe"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Stuttering Music",
+      "artist": {
+        "type": "artist",
+        "name": "Yara Asmar",
+        "imageUrl": "https://f4.bcbits.com/img/29411343_28.jpg"
+      },
+      "location": "Beirut, Lebanon",
+      "genre": "experimental",
+      "imageUrl": "https://f4.bcbits.com/img/a751339016_2.jpg",
+      "featuredTrack": {
+        "name": "i am a terrible mathematician (and an even worse clown)",
+        "streamUrl": "https://t4.bcbits.com/stream/a50d4ab9d2f7df884c196711b5690f63/mp3-128/2417046557?p=0&ts=1732102599&t=3ae61d6f8b4ced3a1f40d3c9b85cfd77623e55be&token=1732102599_957a38dfc498dbdec48da2bf59c1bfc77a891514"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Which Way Is Up",
+      "artist": {
+        "type": "artist",
+        "name": "Pearson Sound",
+        "imageUrl": "https://f4.bcbits.com/img/32896330_28.jpg"
+      },
+      "location": "London, UK",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a2881841056_2.jpg",
+      "featuredTrack": {
+        "name": "Hornet",
+        "streamUrl": "https://t4.bcbits.com/stream/25d0bd58f7436a0f5c8d66bc02fb515e/mp3-128/4232691193?p=0&ts=1732102599&t=552d5d3744c41d6ee1dafcc31f344f156410d392&token=1732102599_b68fbd75315a600f877e16a011557655823781f6"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Chronicle (DiN89)",
+      "artist": {
+        "type": "artist",
+        "name": "ARC",
+        "imageUrl": "https://f4.bcbits.com/img/212288_28.jpg"
+      },
+      "location": "Sunderland, UK",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a3693970625_2.jpg",
+      "featuredTrack": {
+        "name": "Fracture",
+        "streamUrl": "https://t4.bcbits.com/stream/312dd164ed1aab991e1817efe43fe10c/mp3-128/2411526924?p=0&ts=1732102599&t=ca2e788f59eca951565b13f032efcd37b9e405d6&token=1732102599_a59d54b24f6304675956bd5df031a677748fe3b8"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Beloved Algorithms",
+      "artist": {
+        "type": "artist",
+        "name": "Mosaic Tapes",
+        "imageUrl": "https://f4.bcbits.com/img/14016527_28.jpg"
+      },
+      "location": "Sardinia, Italy",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a362651950_2.jpg",
+      "featuredTrack": {
+        "name": "an old friend",
+        "streamUrl": "https://t4.bcbits.com/stream/3bb56841371ef87710cffcd95f820b4c/mp3-128/75340268?p=0&ts=1732102599&t=1af4133627319a6f7260ca7e829c17ef546d7522&token=1732102599_b42ac54b87a3f02818b4da7705275d4d1dee220f"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Mossed Capable Of Being Observant",
+      "artist": {
+        "type": "artist",
+        "name": "Angel R",
+        "imageUrl": "https://f4.bcbits.com/img/10770118_28.jpg"
+      },
+      "location": "Pisgah Forest, North Carolina",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a3532578143_2.jpg",
+      "featuredTrack": {
+        "name": "Together",
+        "streamUrl": "https://t4.bcbits.com/stream/7e2a583eda3015b4fc95ff412bb721d0/mp3-128/2436046352?p=0&ts=1732102599&t=4d7964813ccfbacf6416307043e84c780a604700&token=1732102599_6b4699323fdf3be61b91bbd3dc685b26d94e774d"
+      }
+    },
+    {
+      "type": "album",
+      "name": "永​遠​の​恋​人 (Eternal Lover)",
+      "artist": {
+        "type": "artist",
+        "name": "仮想夢プラザ",
+        "imageUrl": "https://f4.bcbits.com/img/34628323_28.jpg"
+      },
+      "location": "Pittsburgh, Pennsylvania",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a2589697058_2.jpg",
+      "featuredTrack": {
+        "name": "永​遠​の​恋​人 (Eternal Lover)",
+        "streamUrl": "https://t4.bcbits.com/stream/f9d54d019cdcc19bf529c21e2130c2d9/mp3-128/2873052269?p=0&ts=1732102599&t=3af8bed99a346783876eabbf0135b2453b5c89ff&token=1732102599_72fc72e4b5db07e806d3fe70ea5a113e3e94e95a"
+      }
+    },
+    {
+      "type": "album",
+      "name": "The Ways of Yarn",
+      "artist": {
+        "type": "artist",
+        "name": "Purzum",
+        "imageUrl": "https://f4.bcbits.com/img/23137827_28.jpg"
+      },
+      "location": "Nanaimo, British Columbia",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a3331849573_2.jpg",
+      "featuredTrack": {
+        "name": "Fresh Start my Heart",
+        "streamUrl": "https://t4.bcbits.com/stream/46af324bee8dba3bfca2f85488db86e3/mp3-128/2522430241?p=0&ts=1732102599&t=3eb9f03aeab6b2e6ff67ed4a94b731a748a32185&token=1732102599_22d3eac8dda298f19070ddeca7d7ab9222dbfa28"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Gaza Solidarity Fundraiser Vol. I",
+      "artist": {
+        "type": "artist",
+        "name": "Zuflucht",
+        "imageUrl": "https://f4.bcbits.com/img/37502686_28.jpg"
+      },
+      "location": "Mainz, Germany",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a3722633967_2.jpg",
+      "featuredTrack": {
+        "name": "Roza Terenzi - Lyrica 2 Ibiza",
+        "streamUrl": "https://t4.bcbits.com/stream/98a5d29a5df3b2ba4e682e744fa64b38/mp3-128/1783806532?p=0&ts=1732102599&t=72aa14b9b1026525fc7249195ecb3d1f996af5a4&token=1732102599_9a179e596b0137861b10c0ec5263164fd85d468f"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Passing Through All Happy Dreams Like Hallways",
+      "artist": {
+        "type": "artist",
+        "name": "Bug Bus Piano",
+        "imageUrl": "https://f4.bcbits.com/img/36412573_28.jpg"
+      },
+      "location": "Seattle, Washington",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a2048059430_2.jpg",
+      "featuredTrack": {
+        "name": "All Clocks Stopped And The Dream Rewound",
+        "streamUrl": "https://t4.bcbits.com/stream/af4807fabc124cc94acc6c10a969cd00/mp3-128/4025010242?p=0&ts=1732102599&t=e21f0e289cbd874ff54b297e032cf3450f25b9ad&token=1732102599_c1388be1417e97b153f401733b673387a8dae58d"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Dagon",
+      "artist": {
+        "type": "artist",
+        "name": "Cryo Chamber Collaboration",
+        "imageUrl": "https://f4.bcbits.com/img/37431178_28.jpg"
+      },
+      "location": "Oregon",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a2754182906_2.jpg",
+      "featuredTrack": {
+        "name": "Dagon 1",
+        "streamUrl": "https://t4.bcbits.com/stream/d3ad5362742e6da51bc96253be037b40/mp3-128/2401274562?p=0&ts=1732102599&t=0b904cd9e1f7224ecf47e3d9ef8bd3142efcf0d1&token=1732102599_90e580542dde5ee7a89dd97b8477c825c550edc4"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Vėjula",
+      "artist": {
+        "type": "artist",
+        "name": "Merope",
+        "imageUrl": "https://f4.bcbits.com/img/25159466_28.jpg"
+      },
+      "location": "Belgium",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a1768697873_2.jpg",
+      "featuredTrack": {
+        "name": "Koumu Lil",
+        "streamUrl": "https://t4.bcbits.com/stream/c7c1782339826403e378d8ce7709d478/mp3-128/3941837216?p=0&ts=1732102599&t=c89fd1e2d956f67f327ee280656b839e0e051b9c&token=1732102599_d585faea10c383831b3718b32e92cbf54bb63649"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Absolute Elsewhere (24-bit HD audio)",
+      "artist": {
+        "type": "artist",
+        "name": "Blood Incantation",
+        "imageUrl": "https://f4.bcbits.com/img/16937146_28.jpg"
+      },
+      "location": "Colorado",
+      "genre": "metal",
+      "imageUrl": "https://f4.bcbits.com/img/a3113881461_2.jpg",
+      "featuredTrack": {
+        "name": "The Stargate [Tablet I]",
+        "streamUrl": "https://t4.bcbits.com/stream/e3cdd11fbd9e90f9ead043e240613756/mp3-128/1473887281?p=0&ts=1732102599&t=0c505e598455505adfcba9f8712c4ce03ea0f2ab&token=1732102599_70e361035e987efcd21a03121b6bf8a4d2c5833f"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Acid Seduction 4",
+      "artist": {
+        "type": "artist",
+        "name": "Thomas P. Heckmann",
+        "imageUrl": "https://f4.bcbits.com/img/657728_28.jpg"
+      },
+      "location": "Mainz, Germany",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a1749529478_2.jpg",
+      "featuredTrack": {
+        "name": "Acidicted",
+        "streamUrl": "https://t4.bcbits.com/stream/d198228b596301b637eb5ef2894e6319/mp3-128/703586438?p=0&ts=1732102599&t=1be445d8dcf738e3c071c24275c52d4d19c4c3f5&token=1732102599_57a11e9874e9da798a419c67c193af5a140032f0"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Ash",
+      "artist": {
+        "type": "artist",
+        "name": "Taylor Deupree",
+        "imageUrl": "https://f4.bcbits.com/img/22842504_28.jpg"
+      },
+      "location": "New York, New York",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a30902144_2.jpg",
+      "featuredTrack": {
+        "name": "Looming Brittle",
+        "streamUrl": "https://t4.bcbits.com/stream/5e46b9ee25ba15dfc70d8da91742562f/mp3-128/1686994552?p=0&ts=1732102599&t=45fcd3415960a823d3a765cc2aad0e6d3dc36b35&token=1732102599_17f818debc1affd1759ce8b3c4d7ef7749b46e9b"
+      }
+    },
+    {
+      "type": "album",
+      "name": "FAÇADISMS",
+      "artist": {
+        "type": "artist",
+        "name": "Rafael Anton Irisarri",
+        "imageUrl": "https://f4.bcbits.com/img/36698838_28.jpg"
+      },
+      "location": "New York, New York",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a3141221302_2.jpg",
+      "featuredTrack": {
+        "name": "Control Your Soul's Desire for Freedom",
+        "streamUrl": "https://t4.bcbits.com/stream/c0f672ea1b53cdd89b940c9018f792ed/mp3-128/3234844257?p=0&ts=1732102599&t=aa49d88cfdc0ad039bd5d5454be02af21f19393f&token=1732102599_5dd5f951f25f891d2c6090667dc214f06d25690f"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Meaning's Edge",
+      "artist": {
+        "type": "artist",
+        "name": "Djrum",
+        "imageUrl": "https://f4.bcbits.com/img/13711523_28.jpg"
+      },
+      "location": "England, UK",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a2325008570_2.jpg",
+      "featuredTrack": {
+        "name": "Frekm pt. 1",
+        "streamUrl": "https://t4.bcbits.com/stream/61107153044c5d32590f2f384ddeb7ce/mp3-128/1680116225?p=0&ts=1732102599&t=e207a661052e1302df698ea8f0c7a466811bf929&token=1732102599_de93c3b29880c6d5567e9637ee5ed8dcf31e03a3"
       }
     },
     {
@@ -954,18 +1644,357 @@
       "imageUrl": "https://f4.bcbits.com/img/a3261110352_2.jpg",
       "featuredTrack": {
         "name": "Part 1",
-        "streamUrl": "https://t4.bcbits.com/stream/e428c2d5eb6748bb44a0eca8023dc1df/mp3-128/3967050648?p=0&ts=1732012941&t=97eb44a58a04d2c7c2049095fedf54a7b70874b9&token=1732012941_b011a4a901539546235b7ab18e6bcf19298be044"
+        "streamUrl": "https://t4.bcbits.com/stream/e428c2d5eb6748bb44a0eca8023dc1df/mp3-128/3967050648?p=0&ts=1732102599&t=bfcf8ec0cdcd018699e8f3d02fb424b7bfb8031a&token=1732102599_96629614d5092653f40674ed62a2ffec8ba0ffc1"
+      }
+    },
+    {
+      "type": "album",
+      "name": "t​​​ʌ​​​ntrə XXVII",
+      "artist": {
+        "type": "artist",
+        "name": "Various",
+        "imageUrl": "https://f4.bcbits.com/img/37510002_28.jpg"
+      },
+      "location": "Italy",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a3734425126_2.jpg",
+      "featuredTrack": {
+        "name": "Wuurm-Half Remembered Dreams",
+        "streamUrl": "https://t4.bcbits.com/stream/d027cc94c41ebc30b2fcacd81a108b9a/mp3-128/1561714751?p=0&ts=1732102599&t=bb11e1669fc4be2ad7ace2ed50d59fedfe5c3b4c&token=1732102599_32eeef60befc58a6aa5e30813fefd6ab6e587173"
+      }
+    },
+    {
+      "type": "album",
+      "name": "discerned in the fugue of streams",
+      "artist": {
+        "type": "artist",
+        "name": "r beny",
+        "imageUrl": "https://f4.bcbits.com/img/30993069_28.jpg"
+      },
+      "location": "UK",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a1029245296_2.jpg",
+      "featuredTrack": {
+        "name": "braid into chorus",
+        "streamUrl": "https://t4.bcbits.com/stream/73a14df4f0da30bd723ca3f19b63542f/mp3-128/1039532121?p=0&ts=1732102599&t=d0b51e72ebc92412ff6bc57032db04f7c3ebe435&token=1732102599_fe63419d98084afd03d80b20452e13ce496d5e35"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Obsidian Forest",
+      "artist": {
+        "type": "artist",
+        "name": "Phelios",
+        "imageUrl": "https://f4.bcbits.com/img/34225635_28.jpg"
+      },
+      "location": "Wuppertal, Germany",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a437999638_2.jpg",
+      "featuredTrack": {
+        "name": "The Void unbroken",
+        "streamUrl": "https://t4.bcbits.com/stream/6caa7629b6ab36c2305bb8e65b6cb1fc/mp3-128/3077219076?p=0&ts=1732102598&t=b30f06e2514dc6cd8ba045f4be75354f84ceb230&token=1732102598_2c8c0787407f54927f3882e03e3560fd24858cf7"
+      }
+    },
+    {
+      "type": "album",
+      "name": "永​遠​の​接​続 (Eternal Connection)",
+      "artist": {
+        "type": "artist",
+        "name": "仮想夢プラザ",
+        "imageUrl": "https://f4.bcbits.com/img/34628323_28.jpg"
+      },
+      "location": "Pittsburgh, Pennsylvania",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a1707096926_2.jpg",
+      "featuredTrack": {
+        "name": "永​遠​の​視​線 (Eternal Gaze)",
+        "streamUrl": "https://t4.bcbits.com/stream/3900e97b56d36200bd5e2bd219a22d31/mp3-128/1878814640?p=0&ts=1732102599&t=c3b80071739ef462a60d3df12bc3a38954a79ec5&token=1732102599_5831f2a7960fdf64fc8088a529f85e214f262032"
+      }
+    },
+    {
+      "type": "album",
+      "name": "SIGNALIS (ORIGINAL SOUNDTRACK)",
+      "artist": {
+        "type": "artist",
+        "name": "Cicada Sirens & 1000 Eyes",
+        "imageUrl": "https://f4.bcbits.com/img/30246976_28.jpg"
+      },
+      "location": "Tennessee",
+      "genre": "soundtrack",
+      "imageUrl": "https://f4.bcbits.com/img/a510125997_2.jpg",
+      "featuredTrack": {
+        "name": "Die Toteninsel (Emptiness)",
+        "streamUrl": "https://t4.bcbits.com/stream/b162b3188ab9b5dc48704b0515895062/mp3-128/3392523895?p=0&ts=1732102599&t=cb030c4020a7cedf7c6169c8180e574e5a7a7179&token=1732102599_feea09ba7ee680d79145443559d189d938b6c7f9"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Shoreline EP",
+      "artist": {
+        "type": "artist",
+        "name": "speck of dust + caleb coppock",
+        "imageUrl": "https://f4.bcbits.com/img/37553274_28.jpg"
+      },
+      "location": "Washington",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a146925982_2.jpg",
+      "featuredTrack": {
+        "name": "sunset",
+        "streamUrl": "https://t4.bcbits.com/stream/0fd7710d11d06f24a40cb8d101c04faf/mp3-128/3357741056?p=0&ts=1732102599&t=fb2a1d3cb9077c7489be0f7540098ff22e3a5855&token=1732102599_131ebfc61f414675f0fce65a2121d16cca21d3b0"
+      }
+    },
+    {
+      "type": "album",
+      "name": "alien shape",
+      "artist": {
+        "type": "artist",
+        "name": "cosmic lace on broken bones",
+        "imageUrl": "https://f4.bcbits.com/img/36618639_28.jpg"
+      },
+      "location": "Dortmund, Germany",
+      "genre": "ambient",
+      "imageUrl": "https://f4.bcbits.com/img/a2777737533_2.jpg",
+      "featuredTrack": {
+        "name": "alien shape",
+        "streamUrl": "https://t4.bcbits.com/stream/d4c392495cbbac5e32abf55d27d976d3/mp3-128/182936735?p=0&ts=1732102599&t=994d25db0152708dda0c03c4227add9048d60e99&token=1732102599_4bd41c6e8133c3189fafe584e3b4ec80547fc728"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Unreleased II",
+      "artist": {
+        "type": "artist",
+        "name": "Ethel Cain",
+        "imageUrl": "https://f4.bcbits.com/img/29129579_28.jpg"
+      },
+      "location": "Tallahassee, Florida",
+      "genre": "alternative",
+      "imageUrl": "https://f4.bcbits.com/img/a336703729_2.jpg",
+      "featuredTrack": {
+        "name": "Arsony",
+        "streamUrl": "https://t4.bcbits.com/stream/f4e1047206978247bc388fd81e7ac358/mp3-128/537582585?p=0&ts=1732102599&t=7f0b26c54bcb9671ff53c5ffdf2fd43d05513f6f&token=1732102599_a76da1a1bca1a24ce46d2cac53c69c6d23e8fa05"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Tristwch Y Fenywod",
+      "artist": {
+        "type": "artist",
+        "name": "Tristwch Y Fenywod",
+        "imageUrl": "https://f4.bcbits.com/img/4539760_28.jpg"
+      },
+      "location": "Glasgow, UK",
+      "imageUrl": "https://f4.bcbits.com/img/a2144956745_2.jpg",
+      "featuredTrack": {
+        "name": "Ferch Gyda'r Llygaid Du",
+        "streamUrl": "https://t4.bcbits.com/stream/3fc0ae3d49204b23df391068671867ba/mp3-128/3731573491?p=0&ts=1732102599&t=ab0ab88e5bf45059e9a4c43766afe4072305f40f&token=1732102599_2ef45b6170f5254e68d4ee6c89aefbcada3cf40d"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Studio",
+      "artist": {
+        "type": "artist",
+        "name": "Monolake",
+        "imageUrl": "https://f4.bcbits.com/img/19329932_28.jpg"
+      },
+      "location": "Berlin, Germany",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a3456583671_2.jpg",
+      "featuredTrack": {
+        "name": "Global Transport",
+        "streamUrl": "https://t4.bcbits.com/stream/7ada552d9034e549a98ba405a9bd17a6/mp3-128/2798769291?p=0&ts=1732102599&t=f5345b92e07f8bb39b890252f948c9dffa85450f&token=1732102599_f028d60ae4cfc2e5a71fb59a927ec867c5d889ae"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Ultraviolet",
+      "artist": {
+        "type": "artist",
+        "name": "State Azure",
+        "imageUrl": "https://f4.bcbits.com/img/14755242_28.jpg"
+      },
+      "location": "UK",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a2227234804_2.jpg",
+      "featuredTrack": {
+        "name": "Ultraviolet",
+        "streamUrl": "https://t4.bcbits.com/stream/84607f6396456cffd70997dbb43a4679/mp3-128/219152727?p=0&ts=1732102599&t=2ca096755a5faee4c2341ccf056fdbce388a7db1&token=1732102599_0a38ed489722bc102bcbda18c5c5379d4e03fccd"
+      }
+    },
+    {
+      "type": "album",
+      "name": "The Organs of Matter Wheel",
+      "artist": {
+        "type": "artist",
+        "name": "Ozbolt",
+        "imageUrl": "https://f4.bcbits.com/img/12873482_28.jpg"
+      },
+      "location": "Ireland",
+      "genre": "experimental",
+      "imageUrl": "https://f4.bcbits.com/img/a2187321990_2.jpg",
+      "featuredTrack": {
+        "name": "Matter Wheel",
+        "streamUrl": "https://t4.bcbits.com/stream/3a8fb7c9dabe20fcd135781b3d273235/mp3-128/398322947?p=0&ts=1732102599&t=ce56f6f27e3914956b334049ae3ca3ea0367ea5e&token=1732102599_f58288ef7b620e4f56826f22c00d8bcb82e25c64"
+      }
+    },
+    {
+      "type": "album",
+      "name": "TKB - Wasp",
+      "artist": {
+        "type": "artist",
+        "name": "TKB",
+        "imageUrl": "https://f4.bcbits.com/img/34990256_28.jpg"
+      },
+      "location": "Australia",
+      "genre": "experimental",
+      "imageUrl": "https://f4.bcbits.com/img/a1739116551_2.jpg",
+      "featuredTrack": {
+        "name": "Nodding Wasp 1",
+        "streamUrl": "https://t4.bcbits.com/stream/cf6bccfc7f0fb82596cb17829c4c6352/mp3-128/2351761937?p=0&ts=1732102599&t=988eb75c2c94ac6dbaba8bca635f0e0e96e69ca9&token=1732102599_105d94636bc1187f87ffb92feb549eb63eb903c7"
+      }
+    },
+    {
+      "type": "album",
+      "name": "wakonda",
+      "artist": {
+        "type": "artist",
+        "name": "flint glass & ah cama-sotz",
+        "imageUrl": "https://f4.bcbits.com/img/16596746_28.jpg"
+      },
+      "location": "Lappersdorf, Germany",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a2006468504_2.jpg",
+      "featuredTrack": {
+        "name": "pirpkura (remix by RIOTMILOO)",
+        "streamUrl": "https://t4.bcbits.com/stream/2d426774ebccbd449940df778ed061a8/mp3-128/3564354110?p=0&ts=1732102599&t=7f4b80dfb58c005d3b312913a1104340c38365f8&token=1732102599_0cd6e00231319f109062575333acd7f2afba6faa"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Eternal",
+      "artist": {
+        "type": "artist",
+        "name": "Torn",
+        "imageUrl": "https://f4.bcbits.com/img/26830545_28.jpg"
+      },
+      "location": "BW, Germany",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a3944791520_2.jpg",
+      "featuredTrack": {
+        "name": "Torn - Sand Storm",
+        "streamUrl": "https://t4.bcbits.com/stream/1f4d780ea81f873e71c83014b0e9c466/mp3-128/3463007432?p=0&ts=1732102599&t=0a72d77597f3d03a4cd7296be8f72ae00bb4cd81&token=1732102599_d6500893fb5bc6a7977c88436a6cf459aae0976d"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Turn The Page",
+      "artist": {
+        "type": "artist",
+        "name": "Overmono & The Streets",
+        "imageUrl": "https://f4.bcbits.com/img/27979052_28.jpg"
+      },
+      "location": "London, UK",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a3230962872_2.jpg",
+      "featuredTrack": {
+        "name": "Turn The Page",
+        "streamUrl": "https://t4.bcbits.com/stream/c4ba08e5b3283e1dd05f1a41d5747ac1/mp3-128/4174008890?p=0&ts=1732102599&t=af85d0ca14f5396c36133f93140740b2c0190f15&token=1732102599_b0636e9ea413c87e1f572cd9c4e83654e757aab9"
+      }
+    },
+    {
+      "type": "album",
+      "name": "IT066 - Spin",
+      "artist": {
+        "type": "artist",
+        "name": "Fireground",
+        "imageUrl": "https://f4.bcbits.com/img/24824945_28.jpg"
+      },
+      "location": "Munich, Germany",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a1534627787_2.jpg",
+      "featuredTrack": {
+        "name": "Glare",
+        "streamUrl": "https://t4.bcbits.com/stream/baf1a20508948556a6a28fa637d4d479/mp3-128/1349373493?p=0&ts=1732102598&t=59cfe7aa06336388d740fb9cf46761d97596291a&token=1732102598_98013e73cc93dcf7e86ef21056de97e61b33495f"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Bounds",
+      "artist": {
+        "type": "artist",
+        "name": "Craven Faults",
+        "imageUrl": "https://f4.bcbits.com/img/31594781_28.jpg"
+      },
+      "location": "UK",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a2954302819_2.jpg",
+      "featuredTrack": {
+        "name": "Long Stoop",
+        "streamUrl": "https://t4.bcbits.com/stream/6bb65e6571cb4c6c257e5cd7874a3f43/mp3-128/599184362?p=0&ts=1732102599&t=feb6bcb036ac35b209f4fc96c0033bf5259a38d2&token=1732102599_68ae24586635506de770e45f23d5e2ab235fae07"
+      }
+    },
+    {
+      "type": "album",
+      "name": "Power of the tribe",
+      "artist": {
+        "type": "artist",
+        "name": "Vardae | Estrato Aurora",
+        "imageUrl": "https://f4.bcbits.com/img/37594757_28.jpg"
+      },
+      "location": "Norway",
+      "genre": "electronic",
+      "imageUrl": "https://f4.bcbits.com/img/a330914169_2.jpg",
+      "featuredTrack": {
+        "name": "Khori",
+        "streamUrl": "https://t4.bcbits.com/stream/1d5aba41a0abe4c204bd52ca9daff6ca/mp3-128/1904922143?p=0&ts=1732102599&t=cd75af02842892b8c7759364bad798afc88f278d&token=1732102599_d1544e007c1a9f5424abd3af8125ee846d62c601"
       }
     }
   ],
-  "total": 684452,
+  "total": 689392,
   "params": {
     "category": 0,
     "sortBy": "top",
     "location": 0,
     "time": -1,
-    "cursor": "*",
     "size": 60,
-    "genre": "ambient"
+    "genre": "ambient",
+    "albumImageFormat": {
+      "id": 2,
+      "name": "art_thumb",
+      "width": 350,
+      "height": 350,
+      "fileFormat": "JPEG"
+    },
+    "artistImageFormat": {
+      "id": 28,
+      "name": "bio_featured",
+      "width": 768,
+      "height": 432,
+      "fileFormat": "JPEG"
+    }
+  },
+  "continuation": {
+    "category": 0,
+    "sortBy": "top",
+    "location": 0,
+    "time": -1,
+    "size": 60,
+    "genre": "ambient",
+    "albumImageFormat": {
+      "id": 2,
+      "name": "art_thumb",
+      "width": 350,
+      "height": 350,
+      "fileFormat": "JPEG"
+    },
+    "artistImageFormat": {
+      "id": 28,
+      "name": "bio_featured",
+      "width": 768,
+      "height": 432,
+      "fileFormat": "JPEG"
+    },
+    "cursor": "AoMIQOP5CnCu1oLTkgMqYTU2MDYyOTkwMQ=="
   }
 }
