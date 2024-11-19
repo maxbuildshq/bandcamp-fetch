@@ -31,7 +31,7 @@ export interface DiscoverParams {
   sortBy?: string;
   location?: number;
   time?: number;
-  customTags?: string;
+  customTags?: string[];
   size?: number;
   /**
    * Value indicating the image format to adopt when constructing image URLs of discovered albums.

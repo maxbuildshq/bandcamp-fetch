@@ -15,7 +15,15 @@ void (async () => {
     console.log(JSON.stringify(moreResults, null, 2));
   }
   console.log('Fetching shirts...');
-  params.category = 5;
-  const shirtResults = await bcfetch.discovery.discover(params);
+  const shirtResults = await bcfetch.discovery.discover({
+    ...params,
+    category: 5
+  });
   console.log(JSON.stringify(shirtResults, null, 2));
+  console.log('Fetching by custom tags...');
+  const customTagResults = await bcfetch.discovery.discover({
+    ...params,
+    customTags: ['dark-ambient', 'drum-and-bass']
+  });
+  console.log(JSON.stringify(customTagResults, null, 2));
 })();
