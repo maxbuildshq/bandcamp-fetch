@@ -1,3 +1,4 @@
+import { URL } from 'url';
 import type Album from '../types/Album.js';
 import type Artist from '../types/Artist.js';
 import { type DiscoverOptions, type DiscoverResult, type SanitizedDiscoverParams } from '../types/Discovery.js';
@@ -77,11 +78,11 @@ export default class DiscoverResultParser {
     if (genre?.name) {
       album.genre = genre.name;
     }
-    if (item.url_hints) {
-      artist.url = item.band_url;
+    if (item.band_url) {
+      artist.url = this.#stripFromDiscoverPage(item.band_url);
     }
-    if (artist.url) {
-      album.url = item.item_url;
+    if (item.item_url) {
+      album.url = this.#stripFromDiscoverPage(item.item_url);
     }
     if (item.item_image_id && opts.albumImageFormat) {
       album.imageUrl = this.#getImageURL(item.item_image_id, opts.imageBaseUrl, opts.albumImageFormat, 'a');
@@ -95,6 +96,14 @@ export default class DiscoverResultParser {
     if (item.band_bio_image_id && opts.artistImageFormat) {
       artist.imageUrl = this.#getImageURL(item.band_bio_image_id, opts.imageBaseUrl, opts.artistImageFormat);
     }
+    if (item.label_name) {
+      album.label = {
+        name: item.label_name
+      };
+      if (item.label_url) {
+        album.label.url = this.#stripFromDiscoverPage(item.label_url);
+      }
+    }
     return album;
   }
 
@@ -104,7 +113,7 @@ export default class DiscoverResultParser {
       name: item.title,
     };
     if (item.item_url) {
-      shirt.url = item.item_url;
+      shirt.url = this.#stripFromDiscoverPage(item.item_url);
     }
     if (item.item_image_id && opts.merchImageFormat) {
       shirt.imageUrl = {
@@ -123,7 +132,7 @@ export default class DiscoverResultParser {
         name: item.band_name
       };
       if (item.band_url) {
-        artist.url = item.band_url;
+        artist.url = this.#stripFromDiscoverPage(item.band_url);
       }
       if (item.band_bio_image_id && opts.artistImageFormat) {
         artist.imageUrl = this.#getImageURL(item.band_bio_image_id, opts.imageBaseUrl, opts.artistImageFormat);
@@ -135,5 +144,14 @@ export default class DiscoverResultParser {
 
   static #getImageURL(imageId: string, imageBaseUrl: string, format: ImageFormat, prefix = '') {
     return `${imageBaseUrl}/img/${prefix}${imageId}_${format.id}.jpg`;
+  }
+
+  static #stripFromDiscoverPage(url: string) {
+    const urlObj = new URL(url);
+    const fromValue = urlObj.searchParams.get('from')?.trim();
+    if (fromValue === 'discover_page') {
+      urlObj.searchParams.delete('from');
+    }
+    return urlObj.toString();
   }
 }
