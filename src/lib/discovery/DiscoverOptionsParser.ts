@@ -35,7 +35,7 @@ export default class DiscoverOptionsParser {
         result.genres = options.genres.map((genre: any) => ({ name: genre.label, value: genre.slug, id: genre.id }));
       }
       if (Array.isArray(options.categories)) {
-        result.categories = options.categories.map((cat: any) => ({ name: cat.label, value: cat.id }));
+        result.categories = options.categories.map((cat: any) => ({ name: cat.label, value: cat.id, slug: cat.slug }));
       }
       if (Array.isArray(options.slices)) {
         result.sortBys = options.slices.map((s: any) => ({ name: s.label, value: s.slug }));

@@ -2,27 +2,33 @@
   "categories": [
     {
       "name": "all categories",
-      "value": 0
+      "value": 0,
+      "slug": "all"
     },
     {
       "name": "digital",
-      "value": 1
+      "value": 1,
+      "slug": "digital"
     },
     {
       "name": "vinyl",
-      "value": 2
+      "value": 2,
+      "slug": "vinyl"
     },
     {
       "name": "compact discs",
-      "value": 3
+      "value": 3,
+      "slug": "cd"
     },
     {
       "name": "cassettes",
-      "value": 4
+      "value": 4,
+      "slug": "cassette"
     },
     {
       "name": "t-shirts",
-      "value": 5
+      "value": 5,
+      "slug": "tshirt"
     }
   ],
   "genres": [
