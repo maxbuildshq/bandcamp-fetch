@@ -55,6 +55,7 @@ export default class FanWishlistParser extends FanItemsBaseParser {
     }
     const mediaItem: Album | Track = {
       type: mediaItemType,
+      id: data.item_id,
       name: data.item_title,
       url: data.item_url,
       imageUrl: '',
@@ -76,6 +77,7 @@ export default class FanWishlistParser extends FanItemsBaseParser {
       const streamUrlHQ = featuredTrackData.file?.['mp3-v0'];
       if (mediaItemType === 'album') {
         const featuredTrack: Omit<Track, 'type'> = {
+          id: featuredTrackData.id,
           position: featuredTrackData.track_number,
           name: featuredTrackData.title,
           artist: featuredTrackData.artist,

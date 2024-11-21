@@ -54,6 +54,7 @@ export default class AlbumInfoParser {
 
     const album: Album = {
       type: 'album',
+      id: extra.id,
       name: basic.name,
       url: basic['@id'],
       numTracks: basic.numTracks,
@@ -121,6 +122,7 @@ export default class AlbumInfoParser {
       const tracksFromBasicInfo = basic.track?.itemListElement as Array<any>;
       const tracks = extra.trackinfo.map((track: any) => {
         const trackItem: Omit<Track, 'type'> = {
+          id: track.track_id || track.id,
           name: track.title
         };
         if (track.duration !== undefined) {

@@ -92,6 +92,7 @@ export default class ArticleParser {
         if (mediaItemType) {
           const mediaItem: ArticleMediaItem = {
             type: mediaItemType,
+            id: player.parent_tralbum_id,
             name: player.title,
             url: player.tralbum_url,
             imageUrl: '',
@@ -121,6 +122,7 @@ export default class ArticleParser {
           if (mediaItemType === 'album' && Array.isArray(tracklist)) {
             (mediaItem as Album).tracks = tracklist.reduce<Omit<Track, 'type'>[]>((result, trackInfo: any) => {
               const track: Omit<Track, 'type'> = {
+                id: trackInfo.track_id,
                 position: trackInfo.track_number,
                 name: trackInfo.track_title,
                 duration: trackInfo.audio_track_duration,

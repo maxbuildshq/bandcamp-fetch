@@ -61,6 +61,7 @@ export default class ShowParser {
         }
         show.tracks = showInfo.tracks.map((track: any) => {
           const trackItem: Omit<Track, 'type'> = {
+            id: track.track_id,
             name: track.title,
             url: track.track_url,
             seekPosition: track.timecode,
@@ -78,6 +79,7 @@ export default class ShowParser {
           }
           if (track.album_title) {
             trackItem.album = {
+              id: track.album_id,
               name: track.album_title,
               url: track.album_url
             };

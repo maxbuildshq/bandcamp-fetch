@@ -69,6 +69,7 @@ export default class DiscoverResultParser {
     };
     const album: Album = {
       type: 'album',
+      id: item.id,
       name: item.title,
       artist,
       location: item.band_location
@@ -89,6 +90,7 @@ export default class DiscoverResultParser {
     }
     if (item.featured_track) {
       album.featuredTrack = {
+        id: item.featured_track.id,
         name: item.featured_track.title,
         streamUrl: item.featured_track.stream_url
       };

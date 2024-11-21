@@ -15,6 +15,7 @@
   "mediaItems": [
     {
       "type": "album",
+      "id": 1466775653,
       "name": "Aarde",
       "url": "https://somta.bandcamp.com/album/aarde",
       "imageUrl": "https://f4.bcbits.com/img/a2731445950_9.jpg",
@@ -27,100 +28,116 @@
       },
       "tracks": [
         {
+          "id": 3588455251,
           "position": 1,
           "name": "Aiolus",
           "duration": 42,
-          "streamUrl": "https://t4.bcbits.com/stream/bba2dc752e4f02070f3b40b72abfdfda/mp3-128/3588455251?p=0&ts=1732112045&t=7cf0297aa4c92c5903cd4bff82bc2d235534cadf&token=1732112045_a3bd9450f0b85bff989c4bf3ee13db75a857b38b"
+          "streamUrl": "https://t4.bcbits.com/stream/bba2dc752e4f02070f3b40b72abfdfda/mp3-128/3588455251?p=0&ts=1732259316&t=694790464b3640f85df020efb22af0358ad00a1a&token=1732259316_68bf6e954e7f621271c971077595d62ca90df2fc"
         },
         {
+          "id": 2347995441,
           "position": 2,
           "name": "Sophia",
           "duration": 343.521,
-          "streamUrl": "https://t4.bcbits.com/stream/5e904efaf5962cc83f8ed35cc49b6850/mp3-128/2347995441?p=0&ts=1732112045&t=ce6364753044ba7e9d0eaf5a6a26b0cad3a4656d&token=1732112045_2b969ea9156b6fc9c6fc5798b01bf05f80430dc6"
+          "streamUrl": "https://t4.bcbits.com/stream/5e904efaf5962cc83f8ed35cc49b6850/mp3-128/2347995441?p=0&ts=1732259316&t=4bb835c5ee2d80bbebf0f6a6a3eaa35223ec099f&token=1732259316_b582c4daaa65ecdeac03995768308b57d11e1121"
         },
         {
+          "id": 2272710569,
           "position": 3,
           "name": "Khiōn",
           "duration": 226.396,
-          "streamUrl": "https://t4.bcbits.com/stream/4dcfdbfcecdccde6260a12fe37bb4277/mp3-128/2272710569?p=0&ts=1732112045&t=2fe326eaf977845425c794fb4af3e7cbddf71f3f&token=1732112045_78ab5a57949dafda4d2e1e6c63b68660edbf718a"
+          "streamUrl": "https://t4.bcbits.com/stream/4dcfdbfcecdccde6260a12fe37bb4277/mp3-128/2272710569?p=0&ts=1732259316&t=565cd1239ae2bea35e1d585e073710aecac0d102&token=1732259316_af09fa78027d2626ca32d0f6e153811063416ab1"
         },
         {
+          "id": 3685166023,
           "position": 4,
           "name": "Noos",
           "duration": 388.5,
-          "streamUrl": "https://t4.bcbits.com/stream/503e4b6e9d762fd172e36c33a0a5de57/mp3-128/3685166023?p=0&ts=1732112045&t=60acd393c5c788aaad5eaba3b418d58ee0050c9d&token=1732112045_6e14e90f73f0a6592511cb47f4341a89c58f66c2"
+          "streamUrl": "https://t4.bcbits.com/stream/503e4b6e9d762fd172e36c33a0a5de57/mp3-128/3685166023?p=0&ts=1732259316&t=5067a70084ebab38e0923386d73d6f7897dd4375&token=1732259316_4b47b696ff6ef35a9726e43dbf2ee8e90a32b884"
         },
         {
+          "id": 717296085,
           "position": 5,
           "name": "Trogo",
           "duration": 410.083,
-          "streamUrl": "https://t4.bcbits.com/stream/599b32fbe8b66002676cdaf77d3b6b06/mp3-128/717296085?p=0&ts=1732112045&t=680aaaa9b9fc9063490f3d36e98983d49f10591c&token=1732112045_c60f097b250583b331ca72272cc36fd3e804d251"
+          "streamUrl": "https://t4.bcbits.com/stream/599b32fbe8b66002676cdaf77d3b6b06/mp3-128/717296085?p=0&ts=1732259316&t=13095662ed1d4c64b85ab5d9ff536b80ea4413d0&token=1732259316_4fcdb56c9fa2325ef55edfdd01711d2c898db2c2"
         },
         {
+          "id": 3228890418,
           "position": 6,
           "name": "Tuptō",
           "duration": 254.029,
-          "streamUrl": "https://t4.bcbits.com/stream/507d08c0c8edb321660d6305d1b13c5f/mp3-128/3228890418?p=0&ts=1732112045&t=1bf41ed02c5c99752a80a959b78d1daeecf46add&token=1732112045_a99ed83129167296e6039420621cc82f9bc67307"
+          "streamUrl": "https://t4.bcbits.com/stream/507d08c0c8edb321660d6305d1b13c5f/mp3-128/3228890418?p=0&ts=1732259316&t=ddd364bc7a3c1f4fad5ede2bba2b5e8104f87647&token=1732259316_0ad5b989379f0cf3f7da4a64b107d9cac3bcd46a"
         },
         {
+          "id": 3097234822,
           "position": 7,
           "name": "Onos",
           "duration": 98.2833,
-          "streamUrl": "https://t4.bcbits.com/stream/a0b6e9b5d2434bbcd74d6e99ddc2965e/mp3-128/3097234822?p=0&ts=1732112045&t=eb2e6249907d192b671e2f7567d44968ed48f92a&token=1732112045_abc852b5d72f060499cc8add54594d70ce9576d2"
+          "streamUrl": "https://t4.bcbits.com/stream/a0b6e9b5d2434bbcd74d6e99ddc2965e/mp3-128/3097234822?p=0&ts=1732259316&t=13de10d2210154f73837fa14b64193bb0a5db9a2&token=1732259316_3c2c75325e3a73872404b39a59d3bc7447bc3d03"
         },
         {
+          "id": 2952107736,
           "position": 8,
           "name": "Skia",
           "duration": 140.104,
-          "streamUrl": "https://t4.bcbits.com/stream/f5c6320bf16ef3fb8ed3a54121898866/mp3-128/2952107736?p=0&ts=1732112045&t=c998cf9cce826976a4e89017e35faf64d91fea2e&token=1732112045_e3ee5a3bdda3797f21fb9d4a4d0bfa24b78df9c5"
+          "streamUrl": "https://t4.bcbits.com/stream/f5c6320bf16ef3fb8ed3a54121898866/mp3-128/2952107736?p=0&ts=1732259316&t=c225465573ff4e08e85462b7b8794edb30613d65&token=1732259316_c9d0b78623e068a6ae7f07c7bca190fe6b1a70ae"
         },
         {
+          "id": 743360394,
           "position": 9,
           "name": "Hulē",
           "duration": 183.999,
-          "streamUrl": "https://t4.bcbits.com/stream/a61bb342e975ab95117826eb15dbea76/mp3-128/743360394?p=0&ts=1732112045&t=bbd1bb712618cfccb66cff3c73069d29e6d31db8&token=1732112045_ed9d2da68057aeae44b479600b34ece59749e019"
+          "streamUrl": "https://t4.bcbits.com/stream/a61bb342e975ab95117826eb15dbea76/mp3-128/743360394?p=0&ts=1732259316&t=1146087ed8e98c172f0527ed497e39ae1a771e51&token=1732259316_ccfe2e009f305500332ebba85080a32902dcb542"
         },
         {
+          "id": 3511494308,
           "position": 10,
           "name": "Ganos",
           "duration": 423,
-          "streamUrl": "https://t4.bcbits.com/stream/2a200eed7fd2b130b64dcf0bdc6783c5/mp3-128/3511494308?p=0&ts=1732112045&t=c718642e0fc39703ce8709ff7b0e1b80c76b3d54&token=1732112045_8063a006ee0fdc79a21a809bdb275afea0899a2e"
+          "streamUrl": "https://t4.bcbits.com/stream/2a200eed7fd2b130b64dcf0bdc6783c5/mp3-128/3511494308?p=0&ts=1732259316&t=26648fe02b0ec800162b8f78f39b56f43155ff4c&token=1732259316_a628b0c974cc75e28d10112e5762e49b72bff293"
         },
         {
+          "id": 3723435045,
           "position": 11,
           "name": "Polos",
           "duration": 414,
-          "streamUrl": "https://t4.bcbits.com/stream/87ba803b563488675ee32fd7f281a70a/mp3-128/3723435045?p=0&ts=1732112045&t=ea7a4555710886d94cf33b57d5ac89ff58f6c437&token=1732112045_5f987ec2d703340a3193905e37d8fd0659d0380a"
+          "streamUrl": "https://t4.bcbits.com/stream/87ba803b563488675ee32fd7f281a70a/mp3-128/3723435045?p=0&ts=1732259316&t=d268177a64eef79981d690ff25670c73bf151cf9&token=1732259316_03958d727100ad31bf057f348af28d7dd415b742"
         },
         {
+          "id": 1373210950,
           "position": 12,
           "name": "Zophos",
           "duration": 91.0833,
-          "streamUrl": "https://t4.bcbits.com/stream/9ae9dc4469ca3b328ef96b7775589eaa/mp3-128/1373210950?p=0&ts=1732112045&t=f7b16a7fe4fb6a5c6f1756ffef2420c5420e936d&token=1732112045_005f9b368df78fc27e25d59ab692c92c9cec1ad7"
+          "streamUrl": "https://t4.bcbits.com/stream/9ae9dc4469ca3b328ef96b7775589eaa/mp3-128/1373210950?p=0&ts=1732259316&t=774a27f480471d5de2b19568319f6fcba4c1cab3&token=1732259316_70337eb99d80545e191c382f251f5c0a1826069b"
         },
         {
+          "id": 3200879908,
           "position": 13,
           "name": "Kruos",
           "duration": 308.729,
-          "streamUrl": "https://t4.bcbits.com/stream/85ac0ff689dcd7112a431d096d9d11c0/mp3-128/3200879908?p=0&ts=1732112045&t=260bf52fcb70e711124fb65299bca5eb6eab5607&token=1732112045_1fca9252ee37c1ec5e240ace4b7971e8fdbad6ac"
+          "streamUrl": "https://t4.bcbits.com/stream/85ac0ff689dcd7112a431d096d9d11c0/mp3-128/3200879908?p=0&ts=1732259316&t=a5e6f195b8c13f99859e8c8fe5ae12f02c5528f9&token=1732259316_10446f4b4449dba3cae8dd3e4dab37f157ccd414"
         },
         {
+          "id": 575691204,
           "position": 14,
           "name": "Phōs",
           "duration": 188.271,
-          "streamUrl": "https://t4.bcbits.com/stream/bcdde2e8a7d8adb0d140804b9fbef632/mp3-128/575691204?p=0&ts=1732112045&t=7dfd0414c8a67e007fcbb7a1cfad326b8d2c56aa&token=1732112045_7418c3cd41980d7ab53c44285b28e786578905ba"
+          "streamUrl": "https://t4.bcbits.com/stream/bcdde2e8a7d8adb0d140804b9fbef632/mp3-128/575691204?p=0&ts=1732259316&t=4ef47db68846a20b1aab5d1581540bc2157322dc&token=1732259316_4ee90a02c4f0509ea79a1bf82e6bca4895b5d61d"
         },
         {
+          "id": 2863705519,
           "position": 15,
           "name": "Arktos",
           "duration": 188,
-          "streamUrl": "https://t4.bcbits.com/stream/d0016651f3368112bed9367294db5c45/mp3-128/2863705519?p=0&ts=1732112045&t=56ac53263c66126ec279d696237f6c22cbcca7c8&token=1732112045_8d043031fdab9d34d1bd83b0a2e26c3bb7241012"
+          "streamUrl": "https://t4.bcbits.com/stream/d0016651f3368112bed9367294db5c45/mp3-128/2863705519?p=0&ts=1732259316&t=c1326f4aa90c0f68efa58ec6a3d7617e22ea26a6&token=1732259316_68082a99c2c86edf0ad42d95dc0a4ff15ef29b9d"
         }
       ],
       "mediaItemRef": "t2272710569"
     },
     {
       "type": "album",
+      "id": 454040844,
       "name": "music for snow days",
       "url": "https://damecook.bandcamp.com/album/music-for-snow-days",
       "imageUrl": "https://f4.bcbits.com/img/a2627798194_9.jpg",
@@ -133,34 +150,39 @@
       },
       "tracks": [
         {
+          "id": 1986717137,
           "position": 1,
           "name": "glacial drift",
           "duration": 165.517,
-          "streamUrl": "https://t4.bcbits.com/stream/8fe55af7408165869c29c1dacd3438ef/mp3-128/1986717137?p=0&ts=1732112045&t=33f7b4b5993418251d399caaafcc8d52d94ac3ae&token=1732112045_22207d89a483acdce7b22c598d57e56c775b7b9d"
+          "streamUrl": "https://t4.bcbits.com/stream/8fe55af7408165869c29c1dacd3438ef/mp3-128/1986717137?p=0&ts=1732259316&t=d273ee5e538dffbc3d3b5f94e466cc2ab845e50e&token=1732259316_4340c17a95cf66bfe18f73395426931b4752e0ad"
         },
         {
+          "id": 1139371646,
           "position": 2,
           "name": "frosted panes",
           "duration": 128,
-          "streamUrl": "https://t4.bcbits.com/stream/0c79a983698347a100b5927208b7de6b/mp3-128/1139371646?p=0&ts=1732112045&t=79481d893b29281e2274557dae4064520f498f6a&token=1732112045_189dd12c90697eb7a9bb1832ad76587ca8761305"
+          "streamUrl": "https://t4.bcbits.com/stream/0c79a983698347a100b5927208b7de6b/mp3-128/1139371646?p=0&ts=1732259316&t=9af0dba87fb5926f3ada97709bb4783f8b05f37b&token=1732259316_d5c7a02c3279d73af3fa6853c31133d48c1b1593"
         },
         {
+          "id": 2086342140,
           "position": 3,
           "name": "under the glass",
           "duration": 180,
-          "streamUrl": "https://t4.bcbits.com/stream/8fbcc9f3bdf66b067fa92f479840289f/mp3-128/2086342140?p=0&ts=1732112045&t=81f6181a975eef1f83d338333d3e40a5cc5f46c9&token=1732112045_221d6e4b59252ff58cf16a8a3027d20e0087763c"
+          "streamUrl": "https://t4.bcbits.com/stream/8fbcc9f3bdf66b067fa92f479840289f/mp3-128/2086342140?p=0&ts=1732259316&t=29b5ac7fd0273cef951d28b69cc09779ae9f5e7f&token=1732259316_790a1f6c48c67fba7a30aa0a43bd3f504aeb2243"
         },
         {
+          "id": 3789770489,
           "position": 4,
           "name": "alpine train track",
           "duration": 188.723,
-          "streamUrl": "https://t4.bcbits.com/stream/c3fe330ef0d7081bcfdb1861746ce799/mp3-128/3789770489?p=0&ts=1732112045&t=a8a0ec151d6c703c5620022aa541ba7eb9c546d6&token=1732112045_761c7571f6e858edd64ce5fd54a36ea18b543921"
+          "streamUrl": "https://t4.bcbits.com/stream/c3fe330ef0d7081bcfdb1861746ce799/mp3-128/3789770489?p=0&ts=1732259316&t=15b68baed2a6d55e35c98399abbbef432d55a6f3&token=1732259316_4196ee0f6f4d1395cc141a6c7dbff0c3cf4398cf"
         }
       ],
       "mediaItemRef": "a454040844"
     },
     {
       "type": "album",
+      "id": 3834281211,
       "name": "Music for Nine Post Cards",
       "url": "https://hiroshiyoshimura.bandcamp.com/album/music-for-nine-post-cards",
       "imageUrl": "https://f4.bcbits.com/img/a1329705853_9.jpg",
@@ -173,64 +195,74 @@
       },
       "tracks": [
         {
+          "id": 2862079336,
           "position": 1,
           "name": "Water Copy",
           "duration": 371.867,
-          "streamUrl": "https://t4.bcbits.com/stream/9ccc3a98463b14603e64163f367e40c5/mp3-128/2862079336?p=0&ts=1732112045&t=b9c7f101a349ada41bf79204b417dcb7ce2eefea&token=1732112045_e71f39a8ae28b8acfa07d5de5a4a04ed2c67e292"
+          "streamUrl": "https://t4.bcbits.com/stream/9ccc3a98463b14603e64163f367e40c5/mp3-128/2862079336?p=0&ts=1732259316&t=46440e3d40b80fe3539b835f98505cfdadc2da46&token=1732259316_2e3639b03f0e6a6f41ecfae3fb0c6aa2933f6cf6"
         },
         {
+          "id": 1445700587,
           "position": 2,
           "name": "Clouds",
           "duration": 354.693,
-          "streamUrl": "https://t4.bcbits.com/stream/0479a3b6fb0905034221425f3bcada0a/mp3-128/1445700587?p=0&ts=1732112045&t=dd2846f51ceba912ce65c6070c7e07be562723f8&token=1732112045_469bb071412aaa43b451e5d11214f8bd70ee9d1a"
+          "streamUrl": "https://t4.bcbits.com/stream/0479a3b6fb0905034221425f3bcada0a/mp3-128/1445700587?p=0&ts=1732259316&t=d15eddd0fe8dc62040814277b7822c834bbdc4cb&token=1732259316_4390b2ea2e0917fe963bbd70f01747c29ccb6a21"
         },
         {
+          "id": 3323651202,
           "position": 3,
           "name": "Blink",
           "duration": 282.013,
-          "streamUrl": "https://t4.bcbits.com/stream/0dbe234ebedd6ddd469b09a05ef317c0/mp3-128/3323651202?p=0&ts=1732112045&t=43b7c6cbe5127c99117d3d1bd61561ecefd7dd63&token=1732112045_0db711b13e85fd403994a1784734112534305650"
+          "streamUrl": "https://t4.bcbits.com/stream/0dbe234ebedd6ddd469b09a05ef317c0/mp3-128/3323651202?p=0&ts=1732259316&t=0f1463a024df531045947f2eb1f2d0b2912136ce&token=1732259316_f2d589b59ec4a86b7808e4de83104ac5e12a5c95"
         },
         {
+          "id": 1063072521,
           "position": 4,
           "name": "Dance PM",
           "duration": 392.32,
-          "streamUrl": "https://t4.bcbits.com/stream/07aae56284ad785d1bd1a5b8373dae6a/mp3-128/1063072521?p=0&ts=1732112045&t=f1298a2186993379934a743dfadddfde0834cb9c&token=1732112045_2c41b228182b9a9bcc3897eea8a43d87d4955fac"
+          "streamUrl": "https://t4.bcbits.com/stream/07aae56284ad785d1bd1a5b8373dae6a/mp3-128/1063072521?p=0&ts=1732259316&t=9bb3b1e8acdd4a2701812ea8555cc31281a05ab8&token=1732259316_3cc9f16d22f87adddd0c32f64088f6e5ceb63277"
         },
         {
+          "id": 2066333379,
           "position": 5,
           "name": "Ice Copy",
           "duration": 175.773,
-          "streamUrl": "https://t4.bcbits.com/stream/f496d40c5475e90e3ddd5fb07373211c/mp3-128/2066333379?p=0&ts=1732112045&t=5864ef8cce6e7c57b7c8fa20a92991e1218852c9&token=1732112045_567a9a5a4d69e18a86f93cef643f72fc4bf37d25"
+          "streamUrl": "https://t4.bcbits.com/stream/f496d40c5475e90e3ddd5fb07373211c/mp3-128/2066333379?p=0&ts=1732259316&t=e5418428821d1ac8c25e00d7a51a27955f0bb870&token=1732259316_ba42ae513b3c118aaf6d244a8cc2005c9544db03"
         },
         {
+          "id": 3414351773,
           "position": 6,
           "name": "Soto Wa Ame - Rain Out Of Window",
           "duration": 276.707,
-          "streamUrl": "https://t4.bcbits.com/stream/7279637e86f60e8f24815a41908cfe7b/mp3-128/3414351773?p=0&ts=1732112045&t=fc66a741e1676db76529e0b726ca9dca7f965269&token=1732112045_632a113c191c06a8623aaccf2d0e661ed86ddfe8"
+          "streamUrl": "https://t4.bcbits.com/stream/7279637e86f60e8f24815a41908cfe7b/mp3-128/3414351773?p=0&ts=1732259316&t=e4e6a3f3c95c5bd5a683de82e9524581d2417b67&token=1732259316_c6c73427adcb6b65cd20214acaab955503082d58"
         },
         {
+          "id": 546874861,
           "position": 7,
           "name": "View From My Window",
           "duration": 375.6,
-          "streamUrl": "https://t4.bcbits.com/stream/2caffd8268ef49a7d174ee3f8ce67ae9/mp3-128/546874861?p=0&ts=1732112045&t=d31b8eff03644c21e910e0ec6f8d77d1dc312306&token=1732112045_ca6815de2a439b7cdaa262fff7d091e821ecf0a1"
+          "streamUrl": "https://t4.bcbits.com/stream/2caffd8268ef49a7d174ee3f8ce67ae9/mp3-128/546874861?p=0&ts=1732259316&t=370b9121153137d2e5bc13dde8fe849d03dd90ad&token=1732259316_3b83132962d3a163ecdf795b0b7e893c9bb71553"
         },
         {
+          "id": 2047145341,
           "position": 8,
           "name": "Urban Snow",
           "duration": 285.773,
-          "streamUrl": "https://t4.bcbits.com/stream/9c2fa2599479ac941b7a2cd2a646c458/mp3-128/2047145341?p=0&ts=1732112045&t=855517618ab607f32e1c2479893360c4a569f45c&token=1732112045_fc6335d68342afeee6b07859159f4440bf4c5b40"
+          "streamUrl": "https://t4.bcbits.com/stream/9c2fa2599479ac941b7a2cd2a646c458/mp3-128/2047145341?p=0&ts=1732259316&t=b6dbe8485778f8d2def37d2814aa5a63b3ab395c&token=1732259316_1f5fbb09e11d988bf10e6aee27792e525deca7a3"
         },
         {
+          "id": 1844238301,
           "position": 9,
           "name": "Dream",
           "duration": 334.96,
-          "streamUrl": "https://t4.bcbits.com/stream/59654dbc1a3856016056ecb713de2279/mp3-128/1844238301?p=0&ts=1732112045&t=9903ef11b02f837e9df57d76f21ac1f792b18030&token=1732112045_95d34433de3e076a571386fcefa9d149578cf67c"
+          "streamUrl": "https://t4.bcbits.com/stream/59654dbc1a3856016056ecb713de2279/mp3-128/1844238301?p=0&ts=1732259316&t=7dd644ca63cea31ca7760bc6091306f474c502ec&token=1732259316_5e47ac414f854565a0d15cc254b1588742aa1086"
         }
       ],
       "mediaItemRef": "a3834281211"
     },
     {
       "type": "album",
+      "id": 612750820,
       "name": "The Greys",
       "url": "https://ilurecords.bandcamp.com/album/the-greys",
       "imageUrl": "https://f4.bcbits.com/img/a2451461387_9.jpg",
@@ -243,148 +275,172 @@
       },
       "tracks": [
         {
+          "id": 1849746451,
           "position": 1,
           "name": "Don't Remember a Thing",
           "duration": 71.1318,
-          "streamUrl": "https://t4.bcbits.com/stream/9a1d8da36f4c48850e47ad5766fad27c/mp3-128/1849746451?p=0&ts=1732112045&t=9d5001944bab54343e80702550d30006e5dbfbf2&token=1732112045_4b534d8416a74924cf06ddbdd3eb108bf4008b55"
+          "streamUrl": "https://t4.bcbits.com/stream/9a1d8da36f4c48850e47ad5766fad27c/mp3-128/1849746451?p=0&ts=1732259316&t=ea4c6c5255161480198c1976eaf7bd028d929b99&token=1732259316_de1450ee2ea3ca49d164d62113b9941f7e2ede11"
         },
         {
+          "id": 1737948375,
           "position": 2,
           "name": "Analog Man",
           "duration": 45.2042,
-          "streamUrl": "https://t4.bcbits.com/stream/57c460c29443951cd10cd0d908b0a394/mp3-128/1737948375?p=0&ts=1732112045&t=5247f18d315e3d5c71259f2c45d961f368035c74&token=1732112045_e5b798f405a781b74c5c77b8111bb6c1252babab"
+          "streamUrl": "https://t4.bcbits.com/stream/57c460c29443951cd10cd0d908b0a394/mp3-128/1737948375?p=0&ts=1732259316&t=4c070bc9f08ea466cd7c3cddf7def114258cc534&token=1732259316_119846ee47f55579dbe8e30db8a120cda17a0dae"
         },
         {
+          "id": 3268827724,
           "position": 3,
           "name": "Coughing Death",
           "duration": 136.558,
-          "streamUrl": "https://t4.bcbits.com/stream/054ff3c71138117e95d9d2f442c7ba2f/mp3-128/3268827724?p=0&ts=1732112045&t=c4e2c200ae7ce925da93bb4111b490b50e9b431d&token=1732112045_4c9a8c3b2662863ee39f1bd919561bf5ec20873c"
+          "streamUrl": "https://t4.bcbits.com/stream/054ff3c71138117e95d9d2f442c7ba2f/mp3-128/3268827724?p=0&ts=1732259316&t=d3035eb7885a99908a35a4cc43b4bd03463eac29&token=1732259316_a4a8c0a95d2adacae35dd17fbad99f75fc2674cd"
         },
         {
+          "id": 3557485835,
           "position": 4,
           "name": "Don't Go in the Woods Alone",
           "duration": 48.7698,
-          "streamUrl": "https://t4.bcbits.com/stream/b67e617c74892efde0bd9579d364e473/mp3-128/3557485835?p=0&ts=1732112045&t=774bc51c48dc995d0cdd4eeebaaf4d0389bf3179&token=1732112045_57bff3f950613462c47eee9a9e275561990d52ac"
+          "streamUrl": "https://t4.bcbits.com/stream/b67e617c74892efde0bd9579d364e473/mp3-128/3557485835?p=0&ts=1732259316&t=a7bb7227e4cc62cc54aacbe3b533c7cc5b7d5fdc&token=1732259316_a88409a42ab822b90b3687d8fefb901290a1aa66"
         },
         {
+          "id": 1079329015,
           "position": 5,
           "name": "Fairy_Fungi",
           "duration": 148.588,
-          "streamUrl": "https://t4.bcbits.com/stream/bb6759be8fe535515d3d1e8a92cd8bcf/mp3-128/1079329015?p=0&ts=1732112045&t=7d3d63615284d0967c9197c3076da9216061c07e&token=1732112045_adf4d8283664e6f05279c5182705751bd4192f99"
+          "streamUrl": "https://t4.bcbits.com/stream/bb6759be8fe535515d3d1e8a92cd8bcf/mp3-128/1079329015?p=0&ts=1732259316&t=f3bbdf92d04ddab673f40f382a9fd24ab18c0921&token=1732259316_a58acb000b16f88855623c85c3b5f0725f0319e9"
         },
         {
+          "id": 2836999478,
           "position": 6,
           "name": "Gray Ghosts",
           "duration": 56.1875,
-          "streamUrl": "https://t4.bcbits.com/stream/f949c20042a6d42671f587f761095503/mp3-128/2836999478?p=0&ts=1732112045&t=16c03de3c615c33b6a688fa7c336b12513d773b2&token=1732112045_2f39d29e27fcda2cb7ea45fca3d6021f44c125d3"
+          "streamUrl": "https://t4.bcbits.com/stream/f949c20042a6d42671f587f761095503/mp3-128/2836999478?p=0&ts=1732259316&t=845cdec710bbe249a4d8c82ecbf7a093aabbd55e&token=1732259316_798413062c7f3530b096069dc4c7717fb8552ab1"
         },
         {
+          "id": 1187225203,
           "position": 7,
           "name": "Lost",
           "duration": 31.1641,
-          "streamUrl": "https://t4.bcbits.com/stream/4f2bbf6289460c0d1108f79b9dc49c11/mp3-128/1187225203?p=0&ts=1732112045&t=84f0cb5379ff1c96e122ec84861b8149e38a3e03&token=1732112045_5b0c2b60ab2b4cc02e3acc48b11afb9f84b2394c"
+          "streamUrl": "https://t4.bcbits.com/stream/4f2bbf6289460c0d1108f79b9dc49c11/mp3-128/1187225203?p=0&ts=1732259316&t=19f239a98334dce0cf3e6762d6366b02fdb065a9&token=1732259316_d229090e306cba1fca4d3508ba49b07082811267"
         },
         {
+          "id": 2296333718,
           "position": 8,
           "name": "Melted Snow",
           "duration": 116.221,
-          "streamUrl": "https://t4.bcbits.com/stream/4ec3e010ad2a46e6b8b29f1f3b66f545/mp3-128/2296333718?p=0&ts=1732112045&t=6ba44abf2c0f6df2408360c14f3ba84d9fd9c928&token=1732112045_5521973c7053969f44c27a4b2ab363fe44b2c8b6"
+          "streamUrl": "https://t4.bcbits.com/stream/4ec3e010ad2a46e6b8b29f1f3b66f545/mp3-128/2296333718?p=0&ts=1732259316&t=de8d4eb05782dffe4dc51d3368302be86c21db8b&token=1732259316_0ed5341d0b8f1894b95c27625717934816eff9f5"
         },
         {
+          "id": 1800262023,
           "position": 9,
           "name": "UUmox (vers. II)",
           "duration": 106.548,
-          "streamUrl": "https://t4.bcbits.com/stream/41d8070603d9957a54c47aac4b5efdf2/mp3-128/1800262023?p=0&ts=1732112045&t=5a7ab7d6c6200428158e94c0375b17db75f26f0b&token=1732112045_3da1c23f19db31b72f34c9f42fffcb1167505a78"
+          "streamUrl": "https://t4.bcbits.com/stream/41d8070603d9957a54c47aac4b5efdf2/mp3-128/1800262023?p=0&ts=1732259316&t=ee6e3ba0d1ead1966acde24bd41741d7a31f06ae&token=1732259316_6b1abe6c44517155728f58198d0292823367a00b"
         },
         {
+          "id": 1335292332,
           "position": 10,
           "name": "White Ghosts",
           "duration": 93.9719,
-          "streamUrl": "https://t4.bcbits.com/stream/b2ae77e2ff74d6bac0873c0acf3622a7/mp3-128/1335292332?p=0&ts=1732112045&t=50adb0983221768a47887e329895c9188ca60595&token=1732112045_48568c88828cda65a9d3e4ea8738191e56661eac"
+          "streamUrl": "https://t4.bcbits.com/stream/b2ae77e2ff74d6bac0873c0acf3622a7/mp3-128/1335292332?p=0&ts=1732259316&t=87016284e4adc867f6ce06b157950ad7d974090c&token=1732259316_b02433bf5abe6df5546140c3ac2de134d5186933"
         },
         {
+          "id": 180645096,
           "position": 11,
           "name": "Warp Day",
           "duration": 33.8125,
-          "streamUrl": "https://t4.bcbits.com/stream/7d70e3b721d731c859ad39461a8d6351/mp3-128/180645096?p=0&ts=1732112045&t=da2d629b1cbb0323d0158864aad0e7ceb6e1e1af&token=1732112045_d29f74ca37580099b38f11c1e7faa9e9a462fcca"
+          "streamUrl": "https://t4.bcbits.com/stream/7d70e3b721d731c859ad39461a8d6351/mp3-128/180645096?p=0&ts=1732259316&t=32005339937b836559c8bc813a9a0155e6c0a1a2&token=1732259316_bd370e2fa3174c51cd7cc8f94b2113dea6f32e11"
         },
         {
+          "id": 2286068125,
           "position": 12,
           "name": "Old M.m.",
           "duration": 152.208,
-          "streamUrl": "https://t4.bcbits.com/stream/61015621f32f12a4afe23f2619c6d9b0/mp3-128/2286068125?p=0&ts=1732112045&t=01b7aa09baf89939cf24ced299af48beec2c0341&token=1732112045_5313438592620aeca387fd8ee2ed77dc35747b6e"
+          "streamUrl": "https://t4.bcbits.com/stream/61015621f32f12a4afe23f2619c6d9b0/mp3-128/2286068125?p=0&ts=1732259316&t=0ca8bf99df9cdf590a4a8faa69347405ab20635f&token=1732259316_69c6bebb5ca8c34b883fe8b58606da436da9a7eb"
         },
         {
+          "id": 2325111113,
           "position": 13,
           "name": "You Can be Lonely",
           "duration": 101.327,
-          "streamUrl": "https://t4.bcbits.com/stream/d9d5dd4f031f0a48f97bac056f405253/mp3-128/2325111113?p=0&ts=1732112045&t=0c7ccf364d39548f671ab2d026b72492ec69ab26&token=1732112045_ad74318b8da501c39271ce7d11c07d9e84b3b393"
+          "streamUrl": "https://t4.bcbits.com/stream/d9d5dd4f031f0a48f97bac056f405253/mp3-128/2325111113?p=0&ts=1732259316&t=ecfd67165f721076647e56bd276192f718b0bfd5&token=1732259316_3119e11957f82a1d919195c721c2c7ad2f7c68a6"
         },
         {
+          "id": 2054627365,
           "position": 14,
           "name": "Eyelid Smiles",
           "duration": 57.1423,
-          "streamUrl": "https://t4.bcbits.com/stream/2268e0c0f289573fb4d9741543f6245f/mp3-128/2054627365?p=0&ts=1732112045&t=f6d7e8f397395544a37d6620dc1baa65e78d452b&token=1732112045_585f2597b828143386b87101d0f2903d4f1323f3"
+          "streamUrl": "https://t4.bcbits.com/stream/2268e0c0f289573fb4d9741543f6245f/mp3-128/2054627365?p=0&ts=1732259316&t=f575dd38195e2e23baa9971724e86fe85b7025e0&token=1732259316_9706f04304d02c8fe9b26e6879eb80595b04b3b3"
         },
         {
+          "id": 82283410,
           "position": 15,
           "name": "Saying Goodbye",
           "duration": 70.6005,
-          "streamUrl": "https://t4.bcbits.com/stream/088e77b99529ab2048218c3da8bf842b/mp3-128/82283410?p=0&ts=1732112045&t=8c2ab514fed44e793f5c71251ff90ece6b4dc4b2&token=1732112045_2e43f7ae96701e9e2501586a92f830231f12bc86"
+          "streamUrl": "https://t4.bcbits.com/stream/088e77b99529ab2048218c3da8bf842b/mp3-128/82283410?p=0&ts=1732259316&t=f72b97343be21748f63d90a21ca9182b9f046a04&token=1732259316_d7fb92818ea7c2bdddf65ed353c4295a130c1554"
         },
         {
+          "id": 3760493673,
           "position": 16,
           "name": "How is Your Day Going",
           "duration": 49.0354,
-          "streamUrl": "https://t4.bcbits.com/stream/18d8fc3015352bd76b5478f36dc9d23b/mp3-128/3760493673?p=0&ts=1732112045&t=925105fbf267fde4180367571fbd7352ef83eb78&token=1732112045_5fdd1136ca4c9945fd6a1f30145b9e673570a0b9"
+          "streamUrl": "https://t4.bcbits.com/stream/18d8fc3015352bd76b5478f36dc9d23b/mp3-128/3760493673?p=0&ts=1732259316&t=1637173b973324471ec2c899e5cf8f1cfcefb890&token=1732259316_794729622ce1cab346157aa570bfbea1a5c09425"
         },
         {
+          "id": 1780688429,
           "position": 17,
           "name": "Granular Loop",
           "duration": 66.7917,
-          "streamUrl": "https://t4.bcbits.com/stream/53db5fe0b0f85c17afb2d730c8ad993f/mp3-128/1780688429?p=0&ts=1732112045&t=2999e60ab04cae2d650b1c0b2fdb94c388e2e533&token=1732112045_28df3ab081a1ae4892afbc6e8a7dea757f0c089c"
+          "streamUrl": "https://t4.bcbits.com/stream/53db5fe0b0f85c17afb2d730c8ad993f/mp3-128/1780688429?p=0&ts=1732259316&t=3f2c270471d733fd173378ca2f5309e15b2ca770&token=1732259316_d2a7d66c690e2ea5144cfd638a7a02d2b0d0fc95"
         },
         {
+          "id": 4275310931,
           "position": 18,
           "name": "Shadow Faces",
           "duration": 90.4234,
-          "streamUrl": "https://t4.bcbits.com/stream/4fcd1b502498b33194683f099565e754/mp3-128/4275310931?p=0&ts=1732112045&t=3e1789636210d6453e9a6e06631dfa9ff7c508aa&token=1732112045_9c483d270d2811b02296a2ffcd84bd6f028815f1"
+          "streamUrl": "https://t4.bcbits.com/stream/4fcd1b502498b33194683f099565e754/mp3-128/4275310931?p=0&ts=1732259316&t=b5553d90bf369d354fb2cbeebcf200bfec87638f&token=1732259316_317c14beebff8a49340f27557bd914c003c24647"
         },
         {
+          "id": 3364736689,
           "position": 19,
           "name": "The Greys",
           "duration": 67.9607,
-          "streamUrl": "https://t4.bcbits.com/stream/199e8a672421d7429b2fb1673917c0b1/mp3-128/3364736689?p=0&ts=1732112045&t=778153f469adedc196aa84838c03060bdc835f12&token=1732112045_f5545838ca797ee884b85efc961edba8fb559f34"
+          "streamUrl": "https://t4.bcbits.com/stream/199e8a672421d7429b2fb1673917c0b1/mp3-128/3364736689?p=0&ts=1732259316&t=4f5f079d9fb30ad3215be8a1983a6b2113f760e3&token=1732259316_990fecfc5cddb079f404db8f14a3762c0fd524eb"
         },
         {
+          "id": 3121980470,
           "position": 20,
           "name": "Fragmented Loop",
           "duration": 24.0135,
-          "streamUrl": "https://t4.bcbits.com/stream/d0345a94b9fc6ceb4f895fd5fc6fc1b6/mp3-128/3121980470?p=0&ts=1732112045&t=6cebb912cd9779b5dc326a7db524269d57ad994e&token=1732112045_4edda58af75625dfb1384dc41e99806c8888c72a"
+          "streamUrl": "https://t4.bcbits.com/stream/d0345a94b9fc6ceb4f895fd5fc6fc1b6/mp3-128/3121980470?p=0&ts=1732259316&t=c0d825adba5978ef9c855f9bd8829bc9425d6ed4&token=1732259316_ceb8d901d0a1ee09c2cd7b15609253c68de9bbe9"
         },
         {
+          "id": 411868333,
           "position": 21,
           "name": "Who Goes There",
           "duration": 33.0828,
-          "streamUrl": "https://t4.bcbits.com/stream/e65fbe773c8a05cce5fe657dc28b76c8/mp3-128/411868333?p=0&ts=1732112045&t=8da580ffa6a1f2bb2596f2ae69732b1090f64eb1&token=1732112045_de1a1e8b2ebe494b96c7ea40adf2d42a48e48615"
+          "streamUrl": "https://t4.bcbits.com/stream/e65fbe773c8a05cce5fe657dc28b76c8/mp3-128/411868333?p=0&ts=1732259316&t=11b62c737ec39696b174e023fb8624d0dc91c6c7&token=1732259316_a7499efc09cf9552a46a005bc7ed02d3664e1cf1"
         },
         {
+          "id": 2821042097,
           "position": 22,
           "name": "Two Lost Years",
           "duration": 568.698,
-          "streamUrl": "https://t4.bcbits.com/stream/7467ea7fd5fb544c20b50a561928f9da/mp3-128/2821042097?p=0&ts=1732112045&t=9e3c77126bc79144dc9acd124163880a8d6e5b96&token=1732112045_321404f914d1064741dd68de05ce55ba033f266b"
+          "streamUrl": "https://t4.bcbits.com/stream/7467ea7fd5fb544c20b50a561928f9da/mp3-128/2821042097?p=0&ts=1732259316&t=522452cfb66df0352336f36a38654d5633453e85&token=1732259316_a12f86b05117c172075b0125f93f012f62bb80dc"
         },
         {
+          "id": 617262569,
           "position": 23,
           "name": "What is Song",
           "duration": 21.6526,
-          "streamUrl": "https://t4.bcbits.com/stream/4772122bb7d1c83daf16300738af3553/mp3-128/617262569?p=0&ts=1732112045&t=201743a1db91af060b07641fd57daf26da6148f6&token=1732112045_ed884ce6cb9f493b90f93ef92859cc610166e100"
+          "streamUrl": "https://t4.bcbits.com/stream/4772122bb7d1c83daf16300738af3553/mp3-128/617262569?p=0&ts=1732259316&t=21dc886a480ccf34aafc2adf3bff1f2fde2f94d2&token=1732259316_0de8db8be9358677c7ed413518a59eaf7f38cdef"
         }
       ],
       "mediaItemRef": "a612750820"
     },
     {
       "type": "album",
+      "id": 42342034,
       "name": "Cold Ubiquity",
       "url": "https://lahautdanslocean.bandcamp.com/album/cold-ubiquity",
       "imageUrl": "https://f4.bcbits.com/img/a837598593_9.jpg",
@@ -397,76 +453,88 @@
       },
       "tracks": [
         {
+          "id": 130351574,
           "position": 1,
           "name": "Tentation d'Ubiquité",
           "duration": 523.234,
-          "streamUrl": "https://t4.bcbits.com/stream/dd36a520ba2cb3a40b9e8e8abe85503a/mp3-128/130351574?p=0&ts=1732112045&t=60ea99c1835bcd5246a50658fe914fe48fce27b0&token=1732112045_33509bd4ff1c467d527a6ff88143b04f46cbd2c4"
+          "streamUrl": "https://t4.bcbits.com/stream/dd36a520ba2cb3a40b9e8e8abe85503a/mp3-128/130351574?p=0&ts=1732259316&t=4ad018d2e8570ad53351727cc67d2cd61f670a96&token=1732259316_3363fad61fb352bc5d43b9dde956770d8d723a4e"
         },
         {
+          "id": 1707109576,
           "position": 2,
           "name": "Ambifidus",
           "duration": 243.438,
-          "streamUrl": "https://t4.bcbits.com/stream/86de9fd0403b65068f193ef61188472b/mp3-128/1707109576?p=0&ts=1732112045&t=6167395f03a3919991e775f574a9dde1c63fb2f1&token=1732112045_a1549babfe4da1ce2b528ee38477088b403f2ac7"
+          "streamUrl": "https://t4.bcbits.com/stream/86de9fd0403b65068f193ef61188472b/mp3-128/1707109576?p=0&ts=1732259316&t=14fe57c195f4eee6fe7b1fadae0d127344436612&token=1732259316_404446005d12d1b6c000158d1486c7622a0216d5"
         },
         {
+          "id": 136062705,
           "position": 3,
           "name": "Snow Bird",
           "duration": 248.527,
-          "streamUrl": "https://t4.bcbits.com/stream/e2af6f01452e374ddf48e7c46bb41489/mp3-128/136062705?p=0&ts=1732112045&t=d02a72a134f240d180550aeb0d631de489ce2d20&token=1732112045_df95746515a69e993dbbd0ccdd357c37eef734ba"
+          "streamUrl": "https://t4.bcbits.com/stream/e2af6f01452e374ddf48e7c46bb41489/mp3-128/136062705?p=0&ts=1732259316&t=04ad7f8d851fcb82a01764dd57ba408b9534a7a4&token=1732259316_c9e631bf53228db41f3db437cd5644074662a263"
         },
         {
+          "id": 573634003,
           "position": 4,
           "name": "Fake Seagulls and Fulfillment",
           "duration": 292.912,
-          "streamUrl": "https://t4.bcbits.com/stream/3ed2e54d7285d00da313befb72ed4c7d/mp3-128/573634003?p=0&ts=1732112045&t=f7b86967f484a63c24a149593af299e9f81abd12&token=1732112045_5f7cc69231bbd0feaa563e6cf46fdc1d5a0cfc23"
+          "streamUrl": "https://t4.bcbits.com/stream/3ed2e54d7285d00da313befb72ed4c7d/mp3-128/573634003?p=0&ts=1732259316&t=26da493339bfb6c911cbee02e6c30c2eef2a93d3&token=1732259316_0718d91c910c885b8fd78c2a17b122cd90b3278c"
         },
         {
+          "id": 1466403206,
           "position": 5,
           "name": "Birds Coalition For My Apartment Cat",
           "duration": 340,
-          "streamUrl": "https://t4.bcbits.com/stream/6508dd8760542d30418021b7802ecb9c/mp3-128/1466403206?p=0&ts=1732112045&t=e4b61b81b26deb7da82560a7c57e43ac707efb9e&token=1732112045_0418bf2e1adba956442c86989c58f09a71fb4445"
+          "streamUrl": "https://t4.bcbits.com/stream/6508dd8760542d30418021b7802ecb9c/mp3-128/1466403206?p=0&ts=1732259316&t=77300490e8c1c99d017812962a7c7194ad53f8c3&token=1732259316_cdc56bbad7ce2a537c594e611ee3722fdd28fde9"
         },
         {
+          "id": 2764710200,
           "position": 6,
           "name": "My Heart Play On The Lake",
           "duration": 429.978,
-          "streamUrl": "https://t4.bcbits.com/stream/6e3eb7b756bdf444930ffa576717fe5f/mp3-128/2764710200?p=0&ts=1732112045&t=1040b4573938581d6a3705739f1f6ea6578e642a&token=1732112045_c6ec3cebe32f2020fe1eed5c58604d848d753066"
+          "streamUrl": "https://t4.bcbits.com/stream/6e3eb7b756bdf444930ffa576717fe5f/mp3-128/2764710200?p=0&ts=1732259316&t=202896a94f7710e2de5e046ff9c72b4af8fd8b33&token=1732259316_a3843f68c4ad4252ac3b253656669975f1ce5056"
         },
         {
+          "id": 3158881070,
           "position": 7,
           "name": "Riley Net Data",
           "duration": 232.441,
-          "streamUrl": "https://t4.bcbits.com/stream/ae9892a7be6390f426f787cf5ef0140b/mp3-128/3158881070?p=0&ts=1732112045&t=37ae4199ff1d6a02c83e4cef8b86446be313519c&token=1732112045_c7ee421601f626604a2aa0de30ffe5e12ddf6de2"
+          "streamUrl": "https://t4.bcbits.com/stream/ae9892a7be6390f426f787cf5ef0140b/mp3-128/3158881070?p=0&ts=1732259316&t=4fa666b065675258310cf6dda9574a655e8b134c&token=1732259316_47fe87f4f702eaa2748ab9023dd17f7e64b6edf4"
         },
         {
+          "id": 3414841372,
           "position": 8,
           "name": "Deepor Radiator Swamp",
           "duration": 327.733,
-          "streamUrl": "https://t4.bcbits.com/stream/c3a49f2d6b0c8d6bff69367956f0c5f6/mp3-128/3414841372?p=0&ts=1732112045&t=f0455744d63808b15be32106dbe48202e6ba8d24&token=1732112045_a0de310cae6a15b2fbde2901e3ab15ffc602e0ce"
+          "streamUrl": "https://t4.bcbits.com/stream/c3a49f2d6b0c8d6bff69367956f0c5f6/mp3-128/3414841372?p=0&ts=1732259316&t=07751596225d255064a03db83f90f015e4092b52&token=1732259316_c5b17c7d39e353715f2f98d945b04b9a4cfe0f42"
         },
         {
+          "id": 1563033969,
           "position": 9,
           "name": "Far Cold Away",
           "duration": 98.5972,
-          "streamUrl": "https://t4.bcbits.com/stream/57d74642b683fcd05ba062fc908045b9/mp3-128/1563033969?p=0&ts=1732112045&t=12de22a8c7fce1925d2f9d0fea7bc23d70bbb204&token=1732112045_722431e1609d1149a8c3045938269ec6d294cb08"
+          "streamUrl": "https://t4.bcbits.com/stream/57d74642b683fcd05ba062fc908045b9/mp3-128/1563033969?p=0&ts=1732259316&t=6aa076bb141db34f40de4ebff6721518546216ea&token=1732259316_1573bc2e163b924129a600cc6e8b6d38334c0c5d"
         },
         {
+          "id": 2851363235,
           "position": 10,
           "name": "Muages",
           "duration": 304.83,
-          "streamUrl": "https://t4.bcbits.com/stream/5108a71efc1eb4aeecbad4a18ea595e4/mp3-128/2851363235?p=0&ts=1732112045&t=66642ba2b6dd66bed3ce6717fade9fdb740e3fb3&token=1732112045_07a539683af56aba596f130213ff4559f6af3ce1"
+          "streamUrl": "https://t4.bcbits.com/stream/5108a71efc1eb4aeecbad4a18ea595e4/mp3-128/2851363235?p=0&ts=1732259316&t=44282a5cffc4c9431f94165493d541c146e98cb8&token=1732259316_d692adce7bfe72ac13477f161e32bca3d6ec4385"
         },
         {
+          "id": 1650176642,
           "position": 11,
           "name": "Thunder The Ocean",
           "duration": 436.336,
-          "streamUrl": "https://t4.bcbits.com/stream/aa7c27bf7f052098de0535adf3604aba/mp3-128/1650176642?p=0&ts=1732112045&t=08e8608f74b66b1c0a6b315fbaf0c2dff16d69a8&token=1732112045_e336a025ccdfaad9949309c655e7d19730498f4d"
+          "streamUrl": "https://t4.bcbits.com/stream/aa7c27bf7f052098de0535adf3604aba/mp3-128/1650176642?p=0&ts=1732259316&t=83fc9f62821fdfda9a04a6c5701e69fc851f4e57&token=1732259316_abe052a3cbfc9ad8597e1d2c8055a4efa8c1dc58"
         },
         {
+          "id": 104707931,
           "position": 12,
           "name": "Mermaids",
           "duration": 352.662,
-          "streamUrl": "https://t4.bcbits.com/stream/c4b8764c805124986b4f97e49f96af13/mp3-128/104707931?p=0&ts=1732112045&t=158cc28f4a920b9de42d8e23ca6a97a0f737efd1&token=1732112045_dcd86ee6408e942af427270bcbc28034065a9edf"
+          "streamUrl": "https://t4.bcbits.com/stream/c4b8764c805124986b4f97e49f96af13/mp3-128/104707931?p=0&ts=1732259316&t=39cd40268540bd3496df1ca957474c230e544e24&token=1732259316_9af3bb3753cd506a07975182a227974a012cc827"
         }
       ],
       "mediaItemRef": "a42342034"
