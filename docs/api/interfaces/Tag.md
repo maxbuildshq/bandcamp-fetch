@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[lib/types/Tag.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Tag.ts#L5)
+[lib/types/Tag.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Tag.ts#L5)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[lib/types/Tag.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Tag.ts#L3)
+[lib/types/Tag.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Tag.ts#L3)
 
 ***
 
@@ -34,14 +34,14 @@
 
 #### Defined in
 
-[lib/types/Tag.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Tag.ts#L2)
+[lib/types/Tag.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Tag.ts#L2)
 
 ***
 
-### value?
+### value
 
-> `optional` **value**: `string`
+> **value**: `string`
 
 #### Defined in
 
-[lib/types/Tag.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/types/Tag.ts#L4)
+[lib/types/Tag.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Tag.ts#L4)

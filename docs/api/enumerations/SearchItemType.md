@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[lib/search/SearchAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/search/SearchAPI.ts#L12)
+[lib/search/SearchAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/search/SearchAPI.ts#L12)
 
 ***
 
@@ -24,7 +24,7 @@
 
 #### Defined in
 
-[lib/search/SearchAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/search/SearchAPI.ts#L10)
+[lib/search/SearchAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/search/SearchAPI.ts#L10)
 
 ***
 
@@ -34,7 +34,7 @@
 
 #### Defined in
 
-[lib/search/SearchAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/search/SearchAPI.ts#L11)
+[lib/search/SearchAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/search/SearchAPI.ts#L11)
 
 ***
 
@@ -44,7 +44,7 @@
 
 #### Defined in
 
-[lib/search/SearchAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/search/SearchAPI.ts#L14)
+[lib/search/SearchAPI.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/search/SearchAPI.ts#L14)
 
 ***
 
@@ -54,4 +54,4 @@
 
 #### Defined in
 
-[lib/search/SearchAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/search/SearchAPI.ts#L13)
+[lib/search/SearchAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/search/SearchAPI.ts#L13)

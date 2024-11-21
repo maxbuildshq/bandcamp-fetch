@@ -18,7 +18,7 @@
 
 #### Defined in
 
-[lib/utils/Limiter.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/utils/Limiter.ts#L7)
+[lib/utils/Limiter.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Limiter.ts#L7)
 
 ## Methods
 
@@ -40,7 +40,7 @@
 
 #### Defined in
 
-[lib/utils/Limiter.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/utils/Limiter.ts#L18)
+[lib/utils/Limiter.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Limiter.ts#L18)
 
 ***
 
@@ -58,4 +58,4 @@
 
 #### Defined in
 
-[lib/utils/Limiter.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/utils/Limiter.ts#L14)
+[lib/utils/Limiter.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Limiter.ts#L14)

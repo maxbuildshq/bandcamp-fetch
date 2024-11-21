@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[lib/utils/Cache.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/utils/Cache.ts#L5)
+[lib/utils/Cache.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Cache.ts#L5)
 
 ***
 
@@ -24,4 +24,4 @@
 
 #### Defined in
 
-[lib/utils/Cache.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/utils/Cache.ts#L4)
+[lib/utils/Cache.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Cache.ts#L4)

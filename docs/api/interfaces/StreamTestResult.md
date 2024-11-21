@@ -14,7 +14,7 @@
 
 #### Defined in
 
-[lib/stream/StreamAPI.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/stream/StreamAPI.ts#L7)
+[lib/stream/StreamAPI.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/stream/StreamAPI.ts#L7)
 
 ***
 
@@ -24,4 +24,4 @@
 
 #### Defined in
 
-[lib/stream/StreamAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/d7908af6ae5080a27ddea05f2631b8fc5129d64d/src/lib/stream/StreamAPI.ts#L8)
+[lib/stream/StreamAPI.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/stream/StreamAPI.ts#L8)
