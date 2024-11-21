@@ -1,8 +1,9 @@
-import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import Article, { ArticleCategorySection, ArticleList } from '../types/Article.js';
-import { ImageFormat } from '../types/Image.js';
+import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
+import {type ArticleCategorySection, type ArticleList} from '../types/Article.js';
+import type Article from '../types/Article.js';
+import { type ImageFormat } from '../types/Image.js';
 import { URLS } from '../utils/Constants.js';
-import Limiter from '../utils/Limiter.js';
+import type Limiter from '../utils/Limiter.js';
 import { normalizeUrl } from '../utils/Parse.js';
 import ArticleCategoryParser from './ArticleCategoryParser.js';
 import ArticleListParser from './ArticleListParser.js';

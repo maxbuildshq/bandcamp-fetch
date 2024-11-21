@@ -1,6 +1,8 @@
-import NameValuePair from '../utils/NameValuePair.js';
-import Album from './Album.js';
-import { ImageFormat } from './Image.js';
+import type NameValuePair from '../utils/NameValuePair.js';
+import type Album from './Album.js';
+import { type ImageFormat } from './Image.js';
+import type Shirt from './Shirt.js';
+import type Tag from './Tag.js';
 
 /**
  * Options and list of values for each option that can be used to formulate {@link DiscoverParams}.
@@ -8,13 +10,13 @@ import { ImageFormat } from './Image.js';
  * @see DiscoveryAPI.getAvailableOptions
  */
 export interface DiscoverOptions {
-  genres: NameValuePair<string>[];
+  categories: (NameValuePair<number> & { slug: string })[];
+  genres: (NameValuePair<string> & { id: number; })[];
+  subgenres: Record<string, (NameValuePair<string> & { id: number; })[]>;
+  customTags: Array<Tag | string>;
   sortBys: NameValuePair<string>[];
-  times: (NameValuePair<number> & { title: string })[];
-  subgenres: Record<string, NameValuePair<string>[]>;
-  locations: NameValuePair<string>[];
-  formats: NameValuePair<string>[];
-  artistRecommendationTypes: NameValuePair<string>[];
+  locations: NameValuePair<number>[];
+  times: (NameValuePair<number> & { slug: string })[];
 }
 
 /**
@@ -24,13 +26,13 @@ export interface DiscoverOptions {
  */
 export interface DiscoverParams {
   genre?: string;
-  sortBy?: string;
-  page?: number;
-  time?: number;
   subgenre?: string;
-  location?: string;
-  format?: string;
-  artistRecommendationType?: string;
+  category?: number;
+  sortBy?: string;
+  location?: number;
+  time?: number;
+  customTags?: string[];
+  size?: number;
   /**
    * Value indicating the image format to adopt when constructing image URLs of discovered albums.
    */
@@ -39,16 +41,32 @@ export interface DiscoverParams {
    * Value indicating the image format to adopt when constructing image URLs of album artists.
    */
   artistImageFormat?: string | number | ImageFormat;
+  /**
+   * Value indicating the image format to adopt when constructing image URLs of merch items.
+   */
+  merchImageFormat?: string | number | ImageFormat;
 }
+
+export type SanitizedDiscoverParams =
+  Pick<DiscoverParams,
+    'genre' |
+    'subgenre' |
+    'customTags'> &
+  Required<Pick<DiscoverParams,
+    'category' |
+    'sortBy' |
+    'location' |
+    'time' |
+    'size'>>
 
 /**
  * Results returned by {@link DiscoveryAPI.discover}.
  */
 export interface DiscoverResult {
   /**
-   * List of discovered albums.
+   * List of discovered albums .
    */
-  items: Album[];
+  items: Array<Album | Shirt>;
   /**
    * Total number of albums discovered.
    */
@@ -56,5 +74,14 @@ export interface DiscoverResult {
   /**
    * Sanitized params used in the discovery request.
    */
-  params: DiscoverParams;
+  params: SanitizedDiscoverParams;
+
+  continuation?: DiscoverResultContinuation;
+}
+
+export interface DiscoverResultContinuation extends SanitizedDiscoverParams {
+  cursor: string;
+  albumImageFormat?: ImageFormat;
+  artistImageFormat?: ImageFormat;
+  merchImageFormat?: ImageFormat;
 }

@@ -1,30 +1,27 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / TagList
 
 # Interface: TagList
-
-## Table of contents
-
-### Properties
-
-- [locations](TagList.md#locations)
-- [tags](TagList.md#tags)
 
 ## Properties
 
 ### locations
 
-• **locations**: `Omit`<[`Tag`](Tag.md), ``"type"``\>[]
+> **locations**: [`Tag`](Tag.md)[]
 
 #### Defined in
 
-[lib/types/Tag.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Tag.ts#L17)
+[lib/types/Tag.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Tag.ts#L10)
 
-___
+***
 
 ### tags
 
-• **tags**: `Omit`<[`Tag`](Tag.md), ``"type"``\>[]
+> **tags**: [`Tag`](Tag.md)[]
 
 #### Defined in
 
-[lib/types/Tag.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Tag.ts#L16)
+[lib/types/Tag.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Tag.ts#L9)

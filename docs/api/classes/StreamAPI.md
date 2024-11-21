@@ -1,178 +1,183 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / StreamAPI
 
 # Class: StreamAPI
 
-## Hierarchy
+## Extends
 
 - [`BaseAPI`](BaseAPI.md)
 
-  ↳ **`StreamAPI`**
+## Extended by
 
-  ↳↳ [`LimiterStreamAPI`](LimiterStreamAPI.md)
-
-## Table of contents
-
-### Constructors
-
-- [constructor](StreamAPI.md#constructor)
-
-### Accessors
-
-- [cache](StreamAPI.md#cache)
-
-### Methods
-
-- [fetch](StreamAPI.md#fetch)
-- [refresh](StreamAPI.md#refresh)
-- [test](StreamAPI.md#test)
+- [`LimiterStreamAPI`](LimiterStreamAPI.md)
 
 ## Constructors
 
-### constructor
+### new StreamAPI()
 
-• **new StreamAPI**(`params`)
+> **new StreamAPI**(`params`): [`StreamAPI`](StreamAPI.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `params` | [`BaseAPIParams`](../interfaces/BaseAPIParams.md) |
+• **params**: [`BaseAPIParams`](../interfaces/BaseAPIParams.md)
+
+#### Returns
+
+[`StreamAPI`](StreamAPI.md)
 
 #### Inherited from
 
-[BaseAPI](BaseAPI.md).[constructor](BaseAPI.md#constructor)
+[`BaseAPI`](BaseAPI.md).[`constructor`](BaseAPI.md#constructors)
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L15)
+[lib/common/BaseAPI.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L15)
 
 ## Accessors
 
 ### cache
 
-• `Protected` `get` **cache**(): [`Cache`](Cache.md)
+#### Get Signature
 
-#### Returns
+> **get** `protected` **cache**(): [`Cache`](Cache.md)
+
+##### Returns
 
 [`Cache`](Cache.md)
 
 #### Inherited from
 
-BaseAPI.cache
+[`BaseAPI`](BaseAPI.md).[`cache`](BaseAPI.md#cache)
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L27)
+[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L27)
 
 ## Methods
 
-### fetch
+### fetch()
 
-▸ `Protected` **fetch**(`url`, `jsonResponse`, `method`, `payload?`): `Promise`<`Response`\>
+#### fetch(url, jsonResponse, method, payload)
 
-#### Parameters
+> `protected` **fetch**(`url`, `jsonResponse`, `method`, `payload`?): `Promise`\<`object`\>
 
-| Name | Type |
-| :------ | :------ |
-| `url` | `string` |
-| `jsonResponse` | ``false`` |
-| `method` | [`HEAD`](../enums/FetchMethod.md#head) |
-| `payload?` | `undefined` |
+##### Parameters
 
-#### Returns
+• **url**: `string`
 
-`Promise`<`Response`\>
+• **jsonResponse**: `false`
 
-#### Inherited from
+• **method**: [`HEAD`](../enumerations/FetchMethod.md#head)
 
-[BaseAPI](BaseAPI.md).[fetch](BaseAPI.md#fetch)
+• **payload?**: `undefined`
 
-#### Defined in
+##### Returns
 
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L20)
+`Promise`\<`object`\>
 
-▸ `Protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`): `Promise`<`any`\>
+###### ok
 
-#### Parameters
+> **ok**: `boolean`
 
-| Name | Type |
-| :------ | :------ |
-| `url` | `string` |
-| `jsonResponse` | ``true`` |
-| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
-| `payload?` | `Record`<`string`, `any`\> |
+###### status
 
-#### Returns
+> **status**: `number`
 
-`Promise`<`any`\>
+##### Inherited from
 
-#### Inherited from
+[`BaseAPI`](BaseAPI.md).[`fetch`](BaseAPI.md#fetch)
 
-[BaseAPI](BaseAPI.md).[fetch](BaseAPI.md#fetch)
+##### Defined in
 
-#### Defined in
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L20)
 
-[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L21)
+#### fetch(url, jsonResponse, method, payload)
 
-▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
+> `protected` **fetch**(`url`, `jsonResponse`, `method`?, `payload`?): `Promise`\<`any`\>
 
-#### Parameters
+##### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `url` | `string` |
-| `jsonResponse?` | `boolean` |
-| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
-| `payload?` | `Record`<`string`, `any`\> |
+• **url**: `string`
 
-#### Returns
+• **jsonResponse**: `true`
 
-`Promise`<`string`\>
+• **method?**: [`FetchMethod`](../enumerations/FetchMethod.md)
 
-#### Inherited from
+• **payload?**: `Record`\<`string`, `any`\>
 
-[BaseAPI](BaseAPI.md).[fetch](BaseAPI.md#fetch)
+##### Returns
 
-#### Defined in
+`Promise`\<`any`\>
 
-[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L22)
+##### Inherited from
 
-___
+[`BaseAPI`](BaseAPI.md).[`fetch`](BaseAPI.md#fetch)
 
-### refresh
+##### Defined in
 
-▸ **refresh**(`url`): `Promise`<``null`` \| `string`\>
+[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L21)
 
-#### Parameters
+#### fetch(url, jsonResponse, method, payload)
 
-| Name | Type |
-| :------ | :------ |
-| `url` | `string` |
+> `protected` **fetch**(`url`, `jsonResponse`?, `method`?, `payload`?): `Promise`\<`string`\>
 
-#### Returns
+##### Parameters
 
-`Promise`<``null`` \| `string`\>
+• **url**: `string`
 
-#### Defined in
+• **jsonResponse?**: `boolean`
 
-[lib/stream/StreamAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/stream/StreamAPI.ts#L21)
+• **method?**: [`FetchMethod`](../enumerations/FetchMethod.md)
 
-___
+• **payload?**: `Record`\<`string`, `any`\>
 
-### test
+##### Returns
 
-▸ **test**(`url`): `Promise`<[`StreamTestResult`](../interfaces/StreamTestResult.md)\>
+`Promise`\<`string`\>
+
+##### Inherited from
+
+[`BaseAPI`](BaseAPI.md).[`fetch`](BaseAPI.md#fetch)
+
+##### Defined in
+
+[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L22)
+
+***
+
+### refresh()
+
+> **refresh**(`url`): `Promise`\<`null` \| `string`\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `url` | `string` |
+• **url**: `string`
 
 #### Returns
 
-`Promise`<[`StreamTestResult`](../interfaces/StreamTestResult.md)\>
+`Promise`\<`null` \| `string`\>
 
 #### Defined in
 
-[lib/stream/StreamAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/stream/StreamAPI.ts#L13)
+[lib/stream/StreamAPI.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/stream/StreamAPI.ts#L17)
+
+***
+
+### test()
+
+> **test**(`url`): `Promise`\<[`StreamTestResult`](../interfaces/StreamTestResult.md)\>
+
+#### Parameters
+
+• **url**: `string`
+
+#### Returns
+
+`Promise`\<[`StreamTestResult`](../interfaces/StreamTestResult.md)\>
+
+#### Defined in
+
+[lib/stream/StreamAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/stream/StreamAPI.ts#L13)

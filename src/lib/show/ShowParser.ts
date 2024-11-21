@@ -1,10 +1,10 @@
 import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import { ImageFormat } from '../types/Image.js';
-import Show from '../types/Show.js';
+import { type ImageFormat } from '../types/Image.js';
+import type Show from '../types/Show.js';
 import { ParseError, splitUrl } from '../utils/Parse.js';
 import { URLS } from '../utils/Constants.js';
-import Track from '../types/Track.js';
+import type Track from '../types/Track.js';
 
 interface ShowParseOptions {
   showUrl: string,
@@ -61,6 +61,7 @@ export default class ShowParser {
         }
         show.tracks = showInfo.tracks.map((track: any) => {
           const trackItem: Omit<Track, 'type'> = {
+            id: track.track_id,
             name: track.title,
             url: track.track_url,
             seekPosition: track.timecode,
@@ -78,6 +79,7 @@ export default class ShowParser {
           }
           if (track.album_title) {
             trackItem.album = {
+              id: track.album_id,
               name: track.album_title,
               url: track.album_url
             };

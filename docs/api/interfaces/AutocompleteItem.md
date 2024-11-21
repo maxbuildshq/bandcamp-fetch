@@ -1,38 +1,32 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / AutocompleteItem
 
 # Interface: AutocompleteItem
 
-## Hierarchy
+## Extended by
 
-- **`AutocompleteItem`**
-
-  ↳ [`AutoCompleteTag`](AutoCompleteTag.md)
-
-  ↳ [`AutocompleteLocation`](AutocompleteLocation.md)
-
-## Table of contents
-
-### Properties
-
-- [name](AutocompleteItem.md#name)
-- [type](AutocompleteItem.md#type)
+- [`AutoCompleteTag`](AutoCompleteTag.md)
+- [`AutocompleteLocation`](AutocompleteLocation.md)
 
 ## Properties
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 #### Defined in
 
-[lib/types/Autocomplete.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Autocomplete.ts#L3)
+[lib/types/Autocomplete.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Autocomplete.ts#L3)
 
-___
+***
 
 ### type
 
-• **type**: ``"location"`` \| ``"tag"``
+> **type**: `"location"` \| `"tag"`
 
 #### Defined in
 
-[lib/types/Autocomplete.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Autocomplete.ts#L2)
+[lib/types/Autocomplete.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Autocomplete.ts#L2)

@@ -1,41 +1,37 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / ArticleAPIListParams
 
 # Interface: ArticleAPIListParams
 
-## Table of contents
-
-### Properties
-
-- [categoryUrl](ArticleAPIListParams.md#categoryurl)
-- [imageFormat](ArticleAPIListParams.md#imageformat)
-- [page](ArticleAPIListParams.md#page)
-
 ## Properties
 
-### categoryUrl
+### categoryUrl?
 
-• `Optional` **categoryUrl**: `string`
-
-#### Defined in
-
-[lib/article/ArticleAPI.ts:19](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/article/ArticleAPI.ts#L19)
-
-___
-
-### imageFormat
-
-• `Optional` **imageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> `optional` **categoryUrl**: `string`
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/article/ArticleAPI.ts#L20)
+[lib/article/ArticleAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/article/ArticleAPI.ts#L20)
 
-___
+***
 
-### page
+### imageFormat?
 
-• `Optional` **page**: `number`
+> `optional` **imageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/article/ArticleAPI.ts#L21)
+[lib/article/ArticleAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/article/ArticleAPI.ts#L21)
+
+***
+
+### page?
+
+> `optional` **page**: `number`
+
+#### Defined in
+
+[lib/article/ArticleAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/article/ArticleAPI.ts#L22)

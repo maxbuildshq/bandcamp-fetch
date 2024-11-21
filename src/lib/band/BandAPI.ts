@@ -1,10 +1,11 @@
-import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import Album from '../types/Album.js';
-import Artist from '../types/Artist.js';
-import { ImageFormat } from '../types/Image.js';
-import Label, { LabelArtist } from '../types/Label.js';
-import Track from '../types/Track.js';
-import Limiter from '../utils/Limiter.js';
+import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
+import type Album from '../types/Album.js';
+import type Artist from '../types/Artist.js';
+import { type ImageFormat } from '../types/Image.js';
+import {type LabelArtist} from '../types/Label.js';
+import type Label from '../types/Label.js';
+import type Track from '../types/Track.js';
+import type Limiter from '../utils/Limiter.js';
 import { normalizeUrl } from '../utils/Parse.js';
 import BandInfoParser from './BandInfoParser.js';
 import DiscographyParser from './DiscographyParser.js';

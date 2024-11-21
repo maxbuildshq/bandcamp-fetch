@@ -1,6 +1,6 @@
 import { URL } from 'url';
-import fetch, { Request, RequestInit } from 'node-fetch';
-import Cache, { CacheDataType } from './Cache.js';
+import type Cache from './Cache.js';
+import { CacheDataType } from './Cache.js';
 
 export enum FetchMethod {
   GET = 'GET',
@@ -80,7 +80,7 @@ export default class Fetcher {
           body: payload ? JSON.stringify(payload) : undefined
         };
         const request = new Request(url);
-        request.headers.set('Content-Type', 'application/x-www-form-urlencoded');
+        request.headers.set('Content-Type', 'application/json');
         if (this.#cookie) {
           request.headers.set('Cookie', this.#cookie);
         }

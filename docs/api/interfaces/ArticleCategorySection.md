@@ -1,52 +1,47 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / ArticleCategorySection
 
 # Interface: ArticleCategorySection
 
-## Table of contents
-
-### Properties
-
-- [categories](ArticleCategorySection.md#categories)
-- [name](ArticleCategorySection.md#name)
-- [sections](ArticleCategorySection.md#sections)
-- [title](ArticleCategorySection.md#title)
-
 ## Properties
 
-### categories
+### categories?
 
-• `Optional` **categories**: [`ArticleCategory`](ArticleCategory.md)[]
+> `optional` **categories**: [`ArticleCategory`](ArticleCategory.md)[]
 
 #### Defined in
 
-[lib/types/Article.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L38)
+[lib/types/Article.ts:38](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Article.ts#L38)
 
-___
+***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 #### Defined in
 
-[lib/types/Article.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L35)
+[lib/types/Article.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Article.ts#L35)
 
-___
+***
 
-### sections
+### sections?
 
-• `Optional` **sections**: [`ArticleCategorySection`](ArticleCategorySection.md)[]
-
-#### Defined in
-
-[lib/types/Article.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L37)
-
-___
-
-### title
-
-• `Optional` **title**: `string`
+> `optional` **sections**: [`ArticleCategorySection`](ArticleCategorySection.md)[]
 
 #### Defined in
 
-[lib/types/Article.ts:36](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Article.ts#L36)
+[lib/types/Article.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Article.ts#L37)
+
+***
+
+### title?
+
+> `optional` **title**: `string`
+
+#### Defined in
+
+[lib/types/Article.ts:36](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Article.ts#L36)

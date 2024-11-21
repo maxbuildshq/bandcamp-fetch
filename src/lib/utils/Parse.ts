@@ -1,8 +1,8 @@
-import { load as cheerioLoad } from 'cheerio';
-import Label from '../types/Label.js';
+import { type load as cheerioLoad } from 'cheerio';
+import type Label from '../types/Label.js';
 import { URLS } from './Constants.js';
-import UserKind from '../types/UserKind.js';
-import { ImageFormat } from '../types/Image.js';
+import type UserKind from '../types/UserKind.js';
+import { type ImageFormat } from '../types/Image.js';
 
 export interface BackToLabel {
   text: string | null;
@@ -84,7 +84,7 @@ export function normalizeUrl(url?: string, baseUrl?: string): string | null {
   return new URL(url, baseUrl).toString();
 }
 
-export function getAdditionalPropertyValue<T = string>(o: Record<string, any>, propName: string): T | undefined {
+export function getAdditionalPropertyValue(o: Record<string, any>, propName: string): string | undefined {
   if (Array.isArray(o.additionalProperty)) {
     const p = o.additionalProperty.find((prop) => prop.name === propName);
     if (p?.value !== undefined) {

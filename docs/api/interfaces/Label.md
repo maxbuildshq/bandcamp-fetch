@@ -1,111 +1,101 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / Label
 
 # Interface: Label
 
-## Hierarchy
+## Extends
 
 - [`UserKind`](UserKind.md)
 
-  ↳ **`Label`**
-
-## Table of contents
-
-### Properties
-
-- [description](Label.md#description)
-- [imageUrl](Label.md#imageurl)
-- [labelId](Label.md#labelid)
-- [location](Label.md#location)
-- [name](Label.md#name)
-- [type](Label.md#type)
-- [url](Label.md#url)
-
 ## Properties
 
-### description
+### description?
 
-• `Optional` **description**: `string`
-
-#### Inherited from
-
-[UserKind](UserKind.md).[description](UserKind.md#description)
-
-#### Defined in
-
-[lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L3)
-
-___
-
-### imageUrl
-
-• `Optional` **imageUrl**: `string`
+> `optional` **description**: `string`
 
 #### Inherited from
 
-[UserKind](UserKind.md).[imageUrl](UserKind.md#imageurl)
+[`UserKind`](UserKind.md).[`description`](UserKind.md#description)
 
 #### Defined in
 
-[lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L5)
+[lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/UserKind.ts#L3)
 
-___
+***
 
-### labelId
+### imageUrl?
 
-• `Optional` **labelId**: `number`
-
-#### Defined in
-
-[lib/types/Label.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Label.ts#L6)
-
-___
-
-### location
-
-• `Optional` **location**: `string`
+> `optional` **imageUrl**: `string`
 
 #### Inherited from
 
-[UserKind](UserKind.md).[location](UserKind.md#location)
+[`UserKind`](UserKind.md).[`imageUrl`](UserKind.md#imageurl)
 
 #### Defined in
 
-[lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L6)
+[lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/UserKind.ts#L5)
 
-___
+***
+
+### labelId?
+
+> `optional` **labelId**: `number`
+
+#### Defined in
+
+[lib/types/Label.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Label.ts#L6)
+
+***
+
+### location?
+
+> `optional` **location**: `string`
+
+#### Inherited from
+
+[`UserKind`](UserKind.md).[`location`](UserKind.md#location)
+
+#### Defined in
+
+[lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/UserKind.ts#L6)
+
+***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 #### Inherited from
 
-[UserKind](UserKind.md).[name](UserKind.md#name)
+[`UserKind`](UserKind.md).[`name`](UserKind.md#name)
 
 #### Defined in
 
-[lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L2)
+[lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/UserKind.ts#L2)
 
-___
+***
 
 ### type
 
-• **type**: ``"label"``
+> **type**: `"label"`
 
 #### Defined in
 
-[lib/types/Label.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Label.ts#L5)
+[lib/types/Label.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Label.ts#L5)
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> `optional` **url**: `string`
 
 #### Inherited from
 
-[UserKind](UserKind.md).[url](UserKind.md#url)
+[`UserKind`](UserKind.md).[`url`](UserKind.md#url)
 
 #### Defined in
 
-[lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L4)
+[lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/UserKind.ts#L4)

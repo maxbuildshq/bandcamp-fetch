@@ -1,4 +1,4 @@
-import Track from './Track.js';
+import type Track from './Track.js';
 
 interface Show {
   type: 'show';

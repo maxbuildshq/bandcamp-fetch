@@ -36,10 +36,12 @@ export default class Cache {
     return this.#maxEntries[type] !== undefined ? this.#maxEntries[type] : -1;
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
   get<T>(type: CacheDataType, key: string): T | undefined {
     return this.#cache.get(this.#getCacheKey(type, key));
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unnecessary-type-parameters
   put<T>(type: CacheDataType, key: string, value: T) {
     const maxEntries = this.getMaxEntries(type);
     if (maxEntries === 0) {

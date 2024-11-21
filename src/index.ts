@@ -32,6 +32,7 @@ export * from './lib/autocomplete/AutocompleteAPI.js';
 export * from './lib/stream/StreamAPI.js';
 
 export * from './lib/types/Album.js';
+export * from './lib/types/Shirt.js';
 export * from './lib/types/Article.js';
 export * from './lib/types/Artist.js';
 export * from './lib/types/Discovery.js';
@@ -53,6 +54,7 @@ export * from './lib/utils/Fetcher.js';
 export { default as Limiter } from './lib/utils/Limiter.js';
 
 export { default as Album } from './lib/types/Album.js';
+export { default as Shirt } from './lib/types/Shirt.js';
 export { default as Article } from './lib/types/Article.js';
 export { default as Artist } from './lib/types/Artist.js';
 export { default as Fan } from './lib/types/Fan.js';

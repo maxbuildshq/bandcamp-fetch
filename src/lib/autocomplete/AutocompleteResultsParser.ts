@@ -1,16 +1,15 @@
-import { AutoCompleteTag, AutocompleteLocation } from '../types/Autocomplete.js';
+import { type AutoCompleteTag, type AutocompleteLocation } from '../types/Autocomplete.js';
 import { ParseError } from '../utils/Parse.js';
 
 export default class AutocompleteResultsParser {
 
   static parseTags(json: any): AutoCompleteTag[] {
-    if (Array.isArray(json?.matching_tags)) {
-      const arr = json.matching_tags as Array<any>;
-      return arr.map<AutoCompleteTag>((tagData: any) => ({
+    if (Array.isArray(json)) {
+      return json.map<AutoCompleteTag>((tagData: any) => ({
         type: 'tag',
         count: tagData.count,
-        value: tagData.tag_norm_name,
-        name: tagData.tag_name
+        value: tagData.norm_name,
+        name: tagData.display_name
       }));
     }
     throw new ParseError('Failed to parse autocomplete tags: JSON invalid or missing \'matching_tags\'.', json);

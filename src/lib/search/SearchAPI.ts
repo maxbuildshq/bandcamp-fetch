@@ -1,10 +1,10 @@
 import { URL } from 'url';
-import { ImageFormat } from '../types/Image.js';
+import { type ImageFormat } from '../types/Image.js';
 import { URLS } from '../utils/Constants.js';
 import SearchResultsParser from './SearchResultsParser.js';
-import { SearchResultAlbum, SearchResultAny, SearchResultArtist, SearchResultFan, SearchResultLabel, SearchResultTrack, SearchResults } from '../types/Search.js';
-import Limiter from '../utils/Limiter.js';
-import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
+import { type SearchResultAlbum, type SearchResultAny, type SearchResultArtist, type SearchResultFan, type SearchResultLabel, type SearchResultTrack, type SearchResults } from '../types/Search.js';
+import type Limiter from '../utils/Limiter.js';
+import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
 
 export enum SearchItemType {
   All = 'All',

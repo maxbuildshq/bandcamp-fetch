@@ -1,30 +1,27 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / FanAPIGetInfoParams
 
 # Interface: FanAPIGetInfoParams
-
-## Table of contents
-
-### Properties
-
-- [imageFormat](FanAPIGetInfoParams.md#imageformat)
-- [username](FanAPIGetInfoParams.md#username)
 
 ## Properties
 
 ### imageFormat
 
-• **imageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> **imageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
 #### Defined in
 
-[lib/fan/FanAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/fan/FanAPI.ts#L21)
+[lib/fan/FanAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/fan/FanAPI.ts#L22)
 
-___
+***
 
-### username
+### username?
 
-• `Optional` **username**: `string`
+> `optional` **username**: `string`
 
 #### Defined in
 
-[lib/fan/FanAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/fan/FanAPI.ts#L20)
+[lib/fan/FanAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/fan/FanAPI.ts#L21)

@@ -1,9 +1,10 @@
 import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import Album, { AlbumRelease } from '../types/Album.js';
-import { ImageFormat } from '../types/Image.js';
+import {type AlbumRelease} from '../types/Album.js';
+import type Album from '../types/Album.js';
+import { type ImageFormat } from '../types/Image.js';
 import { ParseError, getAdditionalPropertyValue, normalizeUrl, parseLabelFromBackToLabelLink, parsePublisher, reformatImageUrl } from '../utils/Parse.js';
-import Track from '../types/Track.js';
+import type Track from '../types/Track.js';
 
 interface AlbumInfoParseOptions {
   imageBaseUrl: string;
@@ -53,6 +54,7 @@ export default class AlbumInfoParser {
 
     const album: Album = {
       type: 'album',
+      id: extra.id,
       name: basic.name,
       url: basic['@id'],
       numTracks: basic.numTracks,
@@ -120,6 +122,7 @@ export default class AlbumInfoParser {
       const tracksFromBasicInfo = basic.track?.itemListElement as Array<any>;
       const tracks = extra.trackinfo.map((track: any) => {
         const trackItem: Omit<Track, 'type'> = {
+          id: track.track_id || track.id,
           name: track.title
         };
         if (track.duration !== undefined) {
@@ -137,15 +140,19 @@ export default class AlbumInfoParser {
           trackItem.position = track.track_num;
         }
         const trackUrl = normalizeUrl(track.title_link, album.url);
+        const trackFromBasic = tracksFromBasicInfo.find((el: any) => el?.position === trackItem.position);
         if (trackUrl) {
           trackItem.url = trackUrl;
         }
         else if (trackItem.position !== undefined) {
-          const trackFromBasic = tracksFromBasicInfo.find((el: any) => el?.position === trackItem.position);
           const trackUrlFromBasic = trackFromBasic?.item?.['@id'];
           if (trackUrlFromBasic) {
             trackItem.url = trackUrlFromBasic;
           }
+        }
+        const lyrics = trackFromBasic?.item?.recordingOf?.lyrics?.text;
+        if (lyrics !== undefined) {
+          trackItem.lyrics = lyrics;
         }
         return trackItem;
       }) as Track[];

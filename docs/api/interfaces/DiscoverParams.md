@@ -1,128 +1,129 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / DiscoverParams
 
 # Interface: DiscoverParams
 
 Params used in discovery requests.
 
-**`See`**
+## See
 
 DiscoveryAPI.discover
 
-## Table of contents
-
-### Properties
-
-- [albumImageFormat](DiscoverParams.md#albumimageformat)
-- [artistImageFormat](DiscoverParams.md#artistimageformat)
-- [artistRecommendationType](DiscoverParams.md#artistrecommendationtype)
-- [format](DiscoverParams.md#format)
-- [genre](DiscoverParams.md#genre)
-- [location](DiscoverParams.md#location)
-- [page](DiscoverParams.md#page)
-- [sortBy](DiscoverParams.md#sortby)
-- [subgenre](DiscoverParams.md#subgenre)
-- [time](DiscoverParams.md#time)
-
 ## Properties
 
-### albumImageFormat
+### albumImageFormat?
 
-• `Optional` **albumImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> `optional` **albumImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
 Value indicating the image format to adopt when constructing image URLs of discovered albums.
 
 #### Defined in
 
-[lib/types/Discovery.ts:37](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L37)
+[lib/types/Discovery.ts:39](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L39)
 
-___
+***
 
-### artistImageFormat
+### artistImageFormat?
 
-• `Optional` **artistImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> `optional` **artistImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
 Value indicating the image format to adopt when constructing image URLs of album artists.
 
 #### Defined in
 
-[lib/types/Discovery.ts:41](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L41)
+[lib/types/Discovery.ts:43](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L43)
 
-___
+***
 
-### artistRecommendationType
+### category?
 
-• `Optional` **artistRecommendationType**: `string`
-
-#### Defined in
-
-[lib/types/Discovery.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L33)
-
-___
-
-### format
-
-• `Optional` **format**: `string`
+> `optional` **category**: `number`
 
 #### Defined in
 
-[lib/types/Discovery.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L32)
+[lib/types/Discovery.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L30)
 
-___
+***
 
-### genre
+### customTags?
 
-• `Optional` **genre**: `string`
-
-#### Defined in
-
-[lib/types/Discovery.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L26)
-
-___
-
-### location
-
-• `Optional` **location**: `string`
+> `optional` **customTags**: `string`[]
 
 #### Defined in
 
-[lib/types/Discovery.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L31)
+[lib/types/Discovery.ts:34](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L34)
 
-___
+***
 
-### page
+### genre?
 
-• `Optional` **page**: `number`
-
-#### Defined in
-
-[lib/types/Discovery.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L28)
-
-___
-
-### sortBy
-
-• `Optional` **sortBy**: `string`
+> `optional` **genre**: `string`
 
 #### Defined in
 
-[lib/types/Discovery.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L27)
+[lib/types/Discovery.ts:28](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L28)
 
-___
+***
 
-### subgenre
+### location?
 
-• `Optional` **subgenre**: `string`
-
-#### Defined in
-
-[lib/types/Discovery.ts:30](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L30)
-
-___
-
-### time
-
-• `Optional` **time**: `number`
+> `optional` **location**: `number`
 
 #### Defined in
 
-[lib/types/Discovery.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Discovery.ts#L29)
+[lib/types/Discovery.ts:32](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L32)
+
+***
+
+### merchImageFormat?
+
+> `optional` **merchImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+
+Value indicating the image format to adopt when constructing image URLs of merch items.
+
+#### Defined in
+
+[lib/types/Discovery.ts:47](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L47)
+
+***
+
+### size?
+
+> `optional` **size**: `number`
+
+#### Defined in
+
+[lib/types/Discovery.ts:35](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L35)
+
+***
+
+### sortBy?
+
+> `optional` **sortBy**: `string`
+
+#### Defined in
+
+[lib/types/Discovery.ts:31](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L31)
+
+***
+
+### subgenre?
+
+> `optional` **subgenre**: `string`
+
+#### Defined in
+
+[lib/types/Discovery.ts:29](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L29)
+
+***
+
+### time?
+
+> `optional` **time**: `number`
+
+#### Defined in
+
+[lib/types/Discovery.ts:33](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Discovery.ts#L33)

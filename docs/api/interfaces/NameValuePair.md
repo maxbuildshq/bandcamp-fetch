@@ -1,42 +1,31 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / NameValuePair
 
-# Interface: NameValuePair<T\>
+# Interface: NameValuePair\<T\>
 
-## Type parameters
+## Type Parameters
 
-| Name |
-| :------ |
-| `T` |
-
-## Hierarchy
-
-- **`NameValuePair`**
-
-  ↳ [`FilterOption`](ReleasesByTag.FilterOption.md)
-
-## Table of contents
-
-### Properties
-
-- [name](NameValuePair.md#name)
-- [value](NameValuePair.md#value)
+• **T**
 
 ## Properties
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 #### Defined in
 
-[lib/utils/NameValuePair.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/NameValuePair.ts#L2)
+[lib/utils/NameValuePair.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/NameValuePair.ts#L2)
 
-___
+***
 
 ### value
 
-• **value**: `T`
+> **value**: `T`
 
 #### Defined in
 
-[lib/utils/NameValuePair.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/NameValuePair.ts#L3)
+[lib/utils/NameValuePair.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/NameValuePair.ts#L3)

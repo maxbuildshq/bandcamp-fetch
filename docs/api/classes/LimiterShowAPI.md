@@ -1,203 +1,207 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / LimiterShowAPI
 
 # Class: LimiterShowAPI
 
-## Hierarchy
+## Extends
 
 - [`ShowAPI`](ShowAPI.md)
 
-  ↳ **`LimiterShowAPI`**
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LimiterShowAPI.md#constructor)
-
-### Accessors
-
-- [cache](LimiterShowAPI.md#cache)
-- [imageAPI](LimiterShowAPI.md#imageapi)
-
-### Methods
-
-- [fetch](LimiterShowAPI.md#fetch)
-- [getShow](LimiterShowAPI.md#getshow)
-- [list](LimiterShowAPI.md#list)
-
 ## Constructors
 
-### constructor
+### new LimiterShowAPI()
 
-• **new LimiterShowAPI**(`params`)
+> **new LimiterShowAPI**(`params`): [`LimiterShowAPI`](LimiterShowAPI.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `params` | [`BaseAPIWithImageSupportParams`](../interfaces/BaseAPIWithImageSupportParams.md) & { `limiter`: [`Limiter`](Limiter.md)  } |
+• **params**: [`BaseAPIWithImageSupportParams`](../interfaces/BaseAPIWithImageSupportParams.md) & `object`
+
+#### Returns
+
+[`LimiterShowAPI`](LimiterShowAPI.md)
 
 #### Overrides
 
-[ShowAPI](ShowAPI.md).[constructor](ShowAPI.md#constructor)
+[`ShowAPI`](ShowAPI.md).[`constructor`](ShowAPI.md#constructors)
 
 #### Defined in
 
-[lib/show/ShowAPI.ts:50](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/show/ShowAPI.ts#L50)
+[lib/show/ShowAPI.ts:50](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/show/ShowAPI.ts#L50)
 
 ## Accessors
 
 ### cache
 
-• `Protected` `get` **cache**(): [`Cache`](Cache.md)
+#### Get Signature
 
-#### Returns
+> **get** `protected` **cache**(): [`Cache`](Cache.md)
+
+##### Returns
 
 [`Cache`](Cache.md)
 
 #### Inherited from
 
-ShowAPI.cache
+[`ShowAPI`](ShowAPI.md).[`cache`](ShowAPI.md#cache)
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L27)
+[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L27)
 
-___
+***
 
 ### imageAPI
 
-• `get` **imageAPI**(): [`ImageAPI`](ImageAPI.md)
+#### Get Signature
 
-#### Returns
+> **get** **imageAPI**(): [`ImageAPI`](ImageAPI.md)
+
+##### Returns
 
 [`ImageAPI`](ImageAPI.md)
 
 #### Inherited from
 
-ShowAPI.imageAPI
+[`ShowAPI`](ShowAPI.md).[`imageAPI`](ShowAPI.md#imageapi)
 
 #### Defined in
 
-[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPIWithImageSupport.ts#L17)
+[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPIWithImageSupport.ts#L17)
 
 ## Methods
 
-### fetch
+### fetch()
 
-▸ `Protected` **fetch**(`url`, `jsonResponse`, `method`, `payload?`): `Promise`<`Response`\>
+#### fetch(url, jsonResponse, method, payload)
+
+> `protected` **fetch**(`url`, `jsonResponse`, `method`, `payload`?): `Promise`\<`object`\>
+
+##### Parameters
+
+• **url**: `string`
+
+• **jsonResponse**: `false`
+
+• **method**: [`HEAD`](../enumerations/FetchMethod.md#head)
+
+• **payload?**: `undefined`
+
+##### Returns
+
+`Promise`\<`object`\>
+
+###### ok
+
+> **ok**: `boolean`
+
+###### status
+
+> **status**: `number`
+
+##### Inherited from
+
+[`ShowAPI`](ShowAPI.md).[`fetch`](ShowAPI.md#fetch)
+
+##### Defined in
+
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L20)
+
+#### fetch(url, jsonResponse, method, payload)
+
+> `protected` **fetch**(`url`, `jsonResponse`, `method`?, `payload`?): `Promise`\<`any`\>
+
+##### Parameters
+
+• **url**: `string`
+
+• **jsonResponse**: `true`
+
+• **method?**: [`FetchMethod`](../enumerations/FetchMethod.md)
+
+• **payload?**: `Record`\<`string`, `any`\>
+
+##### Returns
+
+`Promise`\<`any`\>
+
+##### Inherited from
+
+[`ShowAPI`](ShowAPI.md).[`fetch`](ShowAPI.md#fetch)
+
+##### Defined in
+
+[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L21)
+
+#### fetch(url, jsonResponse, method, payload)
+
+> `protected` **fetch**(`url`, `jsonResponse`?, `method`?, `payload`?): `Promise`\<`string`\>
+
+##### Parameters
+
+• **url**: `string`
+
+• **jsonResponse?**: `boolean`
+
+• **method?**: [`FetchMethod`](../enumerations/FetchMethod.md)
+
+• **payload?**: `Record`\<`string`, `any`\>
+
+##### Returns
+
+`Promise`\<`string`\>
+
+##### Inherited from
+
+[`ShowAPI`](ShowAPI.md).[`fetch`](ShowAPI.md#fetch)
+
+##### Defined in
+
+[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L22)
+
+***
+
+### getShow()
+
+> **getShow**(`params`): `Promise`\<[`Show`](../interfaces/Show.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `url` | `string` |
-| `jsonResponse` | ``false`` |
-| `method` | [`HEAD`](../enums/FetchMethod.md#head) |
-| `payload?` | `undefined` |
+• **params**: [`ShowAPIGetShowParams`](../interfaces/ShowAPIGetShowParams.md)
 
 #### Returns
 
-`Promise`<`Response`\>
-
-#### Inherited from
-
-[ShowAPI](ShowAPI.md).[fetch](ShowAPI.md#fetch)
-
-#### Defined in
-
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L20)
-
-▸ `Protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`): `Promise`<`any`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `url` | `string` |
-| `jsonResponse` | ``true`` |
-| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
-| `payload?` | `Record`<`string`, `any`\> |
-
-#### Returns
-
-`Promise`<`any`\>
-
-#### Inherited from
-
-[ShowAPI](ShowAPI.md).[fetch](ShowAPI.md#fetch)
-
-#### Defined in
-
-[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L21)
-
-▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `url` | `string` |
-| `jsonResponse?` | `boolean` |
-| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
-| `payload?` | `Record`<`string`, `any`\> |
-
-#### Returns
-
-`Promise`<`string`\>
-
-#### Inherited from
-
-[ShowAPI](ShowAPI.md).[fetch](ShowAPI.md#fetch)
-
-#### Defined in
-
-[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L22)
-
-___
-
-### getShow
-
-▸ **getShow**(`params`): `Promise`<[`Show`](../interfaces/Show.md)\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `params` | [`ShowAPIGetShowParams`](../interfaces/ShowAPIGetShowParams.md) |
-
-#### Returns
-
-`Promise`<[`Show`](../interfaces/Show.md)\>
+`Promise`\<[`Show`](../interfaces/Show.md)\>
 
 #### Overrides
 
-[ShowAPI](ShowAPI.md).[getShow](ShowAPI.md#getshow)
+[`ShowAPI`](ShowAPI.md).[`getShow`](ShowAPI.md#getshow)
 
 #### Defined in
 
-[lib/show/ShowAPI.ts:55](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/show/ShowAPI.ts#L55)
+[lib/show/ShowAPI.ts:55](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/show/ShowAPI.ts#L55)
 
-___
+***
 
-### list
+### list()
 
-▸ **list**(`params?`): `Promise`<[`Show`](../interfaces/Show.md)[]\>
+> **list**(`params`?): `Promise`\<[`Show`](../interfaces/Show.md)[]\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `params?` | [`ShowAPIListParams`](../interfaces/ShowAPIListParams.md) |
+• **params?**: [`ShowAPIListParams`](../interfaces/ShowAPIListParams.md)
 
 #### Returns
 
-`Promise`<[`Show`](../interfaces/Show.md)[]\>
+`Promise`\<[`Show`](../interfaces/Show.md)[]\>
 
 #### Overrides
 
-[ShowAPI](ShowAPI.md).[list](ShowAPI.md#list)
+[`ShowAPI`](ShowAPI.md).[`list`](ShowAPI.md#list)
 
 #### Defined in
 
-[lib/show/ShowAPI.ts:59](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/show/ShowAPI.ts#L59)
+[lib/show/ShowAPI.ts:59](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/show/ShowAPI.ts#L59)

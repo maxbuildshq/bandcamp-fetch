@@ -1,47 +1,41 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / FanPageItemsResult
 
-# Interface: FanPageItemsResult<T\>
+# Interface: FanPageItemsResult\<T\>
 
-## Type parameters
+## Type Parameters
 
-| Name |
-| :------ |
-| `T` |
-
-## Table of contents
-
-### Properties
-
-- [continuation](FanPageItemsResult.md#continuation)
-- [items](FanPageItemsResult.md#items)
-- [total](FanPageItemsResult.md#total)
+• **T**
 
 ## Properties
 
 ### continuation
 
-• **continuation**: ``null`` \| [`FanItemsContinuation`](FanItemsContinuation.md)
+> **continuation**: `null` \| [`FanItemsContinuation`](FanItemsContinuation.md)
 
 #### Defined in
 
-[lib/fan/FanItemsBaseParser.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/fan/FanItemsBaseParser.ts#L17)
+[lib/fan/FanItemsBaseParser.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/fan/FanItemsBaseParser.ts#L17)
 
-___
+***
 
 ### items
 
-• **items**: `T`[]
+> **items**: `T`[]
 
 #### Defined in
 
-[lib/fan/FanItemsBaseParser.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/fan/FanItemsBaseParser.ts#L15)
+[lib/fan/FanItemsBaseParser.ts:15](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/fan/FanItemsBaseParser.ts#L15)
 
-___
+***
 
 ### total
 
-• **total**: `number`
+> **total**: `number`
 
 #### Defined in
 
-[lib/fan/FanItemsBaseParser.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/fan/FanItemsBaseParser.ts#L16)
+[lib/fan/FanItemsBaseParser.ts:16](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/fan/FanItemsBaseParser.ts#L16)

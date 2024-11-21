@@ -1,7 +1,7 @@
-import { FanItemsContinuation } from '../types/Fan.js';
-import Tag from '../types/Tag.js';
-import UserKind from '../types/UserKind.js';
-import FanItemsBaseParser, { FanItemParseOptions } from './FanItemsBaseParser.js';
+import { type FanItemsContinuation } from '../types/Fan.js';
+import type Tag from '../types/Tag.js';
+import type UserKind from '../types/UserKind.js';
+import FanItemsBaseParser, { type FanItemParseOptions } from './FanItemsBaseParser.js';
 
 export default class FanFollowingParser extends FanItemsBaseParser {
 
@@ -64,8 +64,7 @@ export default class FanFollowingParser extends FanItemsBaseParser {
     const genre: Tag = {
       type: 'tag',
       name: data.display_name,
-      value: data.token,
-      url: data.tag_page_url
+      value: data.token
     };
     if (Array.isArray(data.art_ids) && opts.imageFormat?.id) {
       genre.imageUrls = data.art_ids.map((artId: number) => `${opts.imageBaseUrl}/img/a${artId}_${opts.imageFormat?.id}.jpg`);

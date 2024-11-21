@@ -1,5 +1,5 @@
 import { load as cheerioLoad } from 'cheerio';
-import { ArticleCategorySection } from '../types/Article.js';
+import { type ArticleCategorySection } from '../types/Article.js';
 import { URLS } from '../utils/Constants.js';
 import { isAbsoluteUrl, normalizeUrl } from '../utils/Parse.js';
 

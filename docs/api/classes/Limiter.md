@@ -1,65 +1,56 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / Limiter
 
 # Class: Limiter
 
-## Table of contents
-
-### Constructors
-
-- [constructor](Limiter.md#constructor)
-
-### Methods
-
-- [schedule](Limiter.md#schedule)
-- [updateSettings](Limiter.md#updatesettings)
-
 ## Constructors
 
-### constructor
+### new Limiter()
 
-• **new Limiter**()
-
-#### Defined in
-
-[lib/utils/Limiter.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/Limiter.ts#L7)
-
-## Methods
-
-### schedule
-
-▸ **schedule**<`R`\>(`fn`): `Promise`<`R`\>
-
-#### Type parameters
-
-| Name |
-| :------ |
-| `R` |
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `fn` | () => `PromiseLike`<`R`\> |
+> **new Limiter**(): [`Limiter`](Limiter.md)
 
 #### Returns
 
-`Promise`<`R`\>
+[`Limiter`](Limiter.md)
 
 #### Defined in
 
-[lib/utils/Limiter.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/Limiter.ts#L18)
+[lib/utils/Limiter.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Limiter.ts#L7)
 
-___
+## Methods
 
-### updateSettings
+### schedule()
 
-▸ **updateSettings**(`options?`): `void`
+> **schedule**\<`R`\>(`fn`): `Promise`\<`R`\>
+
+#### Type Parameters
+
+• **R**
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `options?` | `ConstructorOptions` |
+• **fn**
+
+#### Returns
+
+`Promise`\<`R`\>
+
+#### Defined in
+
+[lib/utils/Limiter.ts:18](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Limiter.ts#L18)
+
+***
+
+### updateSettings()
+
+> **updateSettings**(`options`?): `void`
+
+#### Parameters
+
+• **options?**: `ConstructorOptions`
 
 #### Returns
 
@@ -67,4 +58,4 @@ ___
 
 #### Defined in
 
-[lib/utils/Limiter.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/Limiter.ts#L14)
+[lib/utils/Limiter.ts:14](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Limiter.ts#L14)

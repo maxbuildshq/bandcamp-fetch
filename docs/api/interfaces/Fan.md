@@ -1,166 +1,151 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / Fan
 
 # Interface: Fan
 
-## Hierarchy
+## Extends
 
 - [`UserKind`](UserKind.md)
-
-  ↳ **`Fan`**
-
-## Table of contents
-
-### Properties
-
-- [collectionItemCount](Fan.md#collectionitemcount)
-- [description](Fan.md#description)
-- [followingArtistsAndLabelsCount](Fan.md#followingartistsandlabelscount)
-- [followingGenresCount](Fan.md#followinggenrescount)
-- [imageUrl](Fan.md#imageurl)
-- [location](Fan.md#location)
-- [name](Fan.md#name)
-- [type](Fan.md#type)
-- [url](Fan.md#url)
-- [username](Fan.md#username)
-- [websiteUrl](Fan.md#websiteurl)
-- [wishlistItemCount](Fan.md#wishlistitemcount)
 
 ## Properties
 
 ### collectionItemCount
 
-• **collectionItemCount**: `number`
+> **collectionItemCount**: `number`
 
 #### Defined in
 
-[lib/types/Fan.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Fan.ts#L10)
+[lib/types/Fan.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Fan.ts#L10)
 
-___
+***
 
-### description
+### description?
 
-• `Optional` **description**: `string`
+> `optional` **description**: `string`
 
 #### Inherited from
 
-[UserKind](UserKind.md).[description](UserKind.md#description)
+[`UserKind`](UserKind.md).[`description`](UserKind.md#description)
 
 #### Defined in
 
-[lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L3)
+[lib/types/UserKind.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/UserKind.ts#L3)
 
-___
+***
 
 ### followingArtistsAndLabelsCount
 
-• **followingArtistsAndLabelsCount**: `number`
+> **followingArtistsAndLabelsCount**: `number`
 
 #### Defined in
 
-[lib/types/Fan.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Fan.ts#L8)
+[lib/types/Fan.ts:8](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Fan.ts#L8)
 
-___
+***
 
 ### followingGenresCount
 
-• **followingGenresCount**: `number`
+> **followingGenresCount**: `number`
 
 #### Defined in
 
-[lib/types/Fan.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Fan.ts#L7)
+[lib/types/Fan.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Fan.ts#L7)
 
-___
+***
 
-### imageUrl
+### imageUrl?
 
-• `Optional` **imageUrl**: `string`
+> `optional` **imageUrl**: `string`
 
 #### Inherited from
 
-[UserKind](UserKind.md).[imageUrl](UserKind.md#imageurl)
+[`UserKind`](UserKind.md).[`imageUrl`](UserKind.md#imageurl)
 
 #### Defined in
 
-[lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L5)
+[lib/types/UserKind.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/UserKind.ts#L5)
 
-___
+***
 
-### location
+### location?
 
-• `Optional` **location**: `string`
+> `optional` **location**: `string`
 
 #### Inherited from
 
-[UserKind](UserKind.md).[location](UserKind.md#location)
+[`UserKind`](UserKind.md).[`location`](UserKind.md#location)
 
 #### Defined in
 
-[lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L6)
+[lib/types/UserKind.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/UserKind.ts#L6)
 
-___
+***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 #### Inherited from
 
-[UserKind](UserKind.md).[name](UserKind.md#name)
+[`UserKind`](UserKind.md).[`name`](UserKind.md#name)
 
 #### Defined in
 
-[lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L2)
+[lib/types/UserKind.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/UserKind.ts#L2)
 
-___
+***
 
 ### type
 
-• **type**: ``"fan"``
+> **type**: `"fan"`
 
 #### Defined in
 
-[lib/types/Fan.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Fan.ts#L4)
+[lib/types/Fan.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Fan.ts#L4)
 
-___
+***
 
-### url
+### url?
 
-• `Optional` **url**: `string`
+> `optional` **url**: `string`
 
 #### Inherited from
 
-[UserKind](UserKind.md).[url](UserKind.md#url)
+[`UserKind`](UserKind.md).[`url`](UserKind.md#url)
 
 #### Defined in
 
-[lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/UserKind.ts#L4)
+[lib/types/UserKind.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/UserKind.ts#L4)
 
-___
+***
 
 ### username
 
-• **username**: `string`
+> **username**: `string`
 
 #### Defined in
 
-[lib/types/Fan.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Fan.ts#L5)
+[lib/types/Fan.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Fan.ts#L5)
 
-___
+***
 
 ### websiteUrl
 
-• **websiteUrl**: `string`
+> **websiteUrl**: `string`
 
 #### Defined in
 
-[lib/types/Fan.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Fan.ts#L6)
+[lib/types/Fan.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Fan.ts#L6)
 
-___
+***
 
 ### wishlistItemCount
 
-• **wishlistItemCount**: `number`
+> **wishlistItemCount**: `number`
 
 #### Defined in
 
-[lib/types/Fan.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Fan.ts#L9)
+[lib/types/Fan.ts:9](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Fan.ts#L9)

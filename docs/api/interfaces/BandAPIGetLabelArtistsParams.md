@@ -1,30 +1,27 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / BandAPIGetLabelArtistsParams
 
 # Interface: BandAPIGetLabelArtistsParams
 
-## Table of contents
-
-### Properties
-
-- [imageFormat](BandAPIGetLabelArtistsParams.md#imageformat)
-- [labelUrl](BandAPIGetLabelArtistsParams.md#labelurl)
-
 ## Properties
 
-### imageFormat
+### imageFormat?
 
-• `Optional` **imageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> `optional` **imageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
 #### Defined in
 
-[lib/band/BandAPI.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/band/BandAPI.ts#L26)
+[lib/band/BandAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/band/BandAPI.ts#L27)
 
-___
+***
 
 ### labelUrl
 
-• **labelUrl**: `string`
+> **labelUrl**: `string`
 
 #### Defined in
 
-[lib/band/BandAPI.ts:25](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/band/BandAPI.ts#L25)
+[lib/band/BandAPI.ts:26](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/band/BandAPI.ts#L26)

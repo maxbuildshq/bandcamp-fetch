@@ -1,8 +1,8 @@
 import { URLS } from '../utils/Constants.js';
-import { AutoCompleteTag, AutocompleteLocation } from '../types/Autocomplete.js';
+import { type AutoCompleteTag, type AutocompleteLocation } from '../types/Autocomplete.js';
 import AutocompleteResultsParser from './AutocompleteResultsParser.js';
-import Limiter from '../utils/Limiter.js';
-import BaseAPI, { BaseAPIParams } from '../common/BaseAPI.js';
+import type Limiter from '../utils/Limiter.js';
+import BaseAPI, { type BaseAPIParams } from '../common/BaseAPI.js';
 import { FetchMethod } from '../utils/Fetcher.js';
 
 export enum AutocompleteItemType {
@@ -10,11 +10,14 @@ export enum AutocompleteItemType {
   Location = 'Location'
 }
 
-export interface AutocompleteAPIGetSuggestionsParams {
+export type AutocompleteAPIGetSuggestionsParams = {
   query: string;
-  itemType: AutocompleteItemType;
+  itemType: AutocompleteItemType.Location;
   limit?: number;
-}
+} | {
+  query: string;
+  itemType: AutocompleteItemType.Tag;
+};
 
 export default class AutocompleteAPI extends BaseAPI {
 
@@ -32,10 +35,9 @@ export default class AutocompleteAPI extends BaseAPI {
   /**
    * @internal
    */
-  protected async getAutocompleteTags(params: AutocompleteAPIGetSuggestionsParams) {
+  protected async getAutocompleteTags(params: AutocompleteAPIGetSuggestionsParams & { itemType: AutocompleteItemType.Tag }) {
     const payload = {
-      search_term: params.query,
-      count: params.limit || 5
+      prefix: params.query
     };
 
     const json = await this.fetch(URLS.AUTOCOMPLETE.TAG, true, FetchMethod.POST, payload);
@@ -45,7 +47,7 @@ export default class AutocompleteAPI extends BaseAPI {
   /**
    * @internal
    */
-  protected async getAutocompleteLocations(params: AutocompleteAPIGetSuggestionsParams) {
+  protected async getAutocompleteLocations(params: AutocompleteAPIGetSuggestionsParams & { itemType: AutocompleteItemType.Location }) {
     const payload = {
       q: params.query,
       n: params.limit || 5,

@@ -1,8 +1,9 @@
-import Artist from './Artist.js';
-import Label from './Label.js';
-import UserKind from './UserKind.js';
+import type Artist from './Artist.js';
+import type Label from './Label.js';
+import type UserKind from './UserKind.js';
 
 interface MediaKind {
+  id?: number;
   name: string;
   url?: string;
   imageUrl?: string;

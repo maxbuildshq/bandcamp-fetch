@@ -1,7 +1,7 @@
-import BaseAPIWithImageSupport, { BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import { ImageFormat } from '../types/Image.js';
-import Track from '../types/Track.js';
-import Limiter from '../utils/Limiter.js';
+import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
+import { type ImageFormat } from '../types/Image.js';
+import type Track from '../types/Track.js';
+import type Limiter from '../utils/Limiter.js';
 import TrackInfoParser from './TrackInfoParser.js';
 
 export interface TrackAPIGetInfoParams {

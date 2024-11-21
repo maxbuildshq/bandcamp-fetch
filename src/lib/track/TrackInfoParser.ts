@@ -1,8 +1,8 @@
 import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import { ImageFormat } from '../types/Image.js';
-import Track from '../types/Track.js';
-import { ParseError, parseLabelFromBackToLabelLink, parsePublisher, reformatImageUrl, splitUrl } from '../utils/Parse.js';
+import { type ImageFormat } from '../types/Image.js';
+import type Track from '../types/Track.js';
+import { getAdditionalPropertyValue, ParseError, parseLabelFromBackToLabelLink, parsePublisher, reformatImageUrl, splitUrl } from '../utils/Parse.js';
 import AlbumInfoParser from '../album/AlbumInfoParser.js';
 
 interface TrackInfoParseOptions {
@@ -65,6 +65,11 @@ export default class TrackInfoParser {
       name: basic.name,
       url: basic['@id']
     };
+
+    const trackId = getAdditionalPropertyValue(basic, 'track_id');
+    if (trackId !== undefined && !isNaN(trackId as any)) {
+      track.id = Number(trackId);
+    }
 
     const imageUrl = reformatImageUrl(basic.image, opts.albumImageFormat);
     if (imageUrl) {
@@ -132,6 +137,10 @@ export default class TrackInfoParser {
       track.releaseDate = extra.album_release_date;
     }
 
+    if (basic.recordingOf?.lyrics?.text !== undefined) {
+      track.lyrics = basic.recordingOf?.lyrics?.text;
+    }
+
     if (opts.includeRawData) {
       track.raw = { basic, extra };
     }
@@ -145,6 +154,7 @@ export default class TrackInfoParser {
     if (trackData) {
       const track: Track = {
         type: 'track',
+        id: trackData.id,
         name: trackData.name,
         url: trackData.url,
         imageUrl: album.imageUrl,
@@ -154,6 +164,7 @@ export default class TrackInfoParser {
         publisher: album.publisher,
         label: album.label,
         album: {
+          id: album.id,
           name: album.name,
           url: album.url,
           releaseDate: album.releaseDate

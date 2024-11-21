@@ -1,52 +1,47 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / ShowAPIGetShowParams
 
 # Interface: ShowAPIGetShowParams
 
-## Table of contents
-
-### Properties
-
-- [albumImageFormat](ShowAPIGetShowParams.md#albumimageformat)
-- [artistImageFormat](ShowAPIGetShowParams.md#artistimageformat)
-- [showImageFormat](ShowAPIGetShowParams.md#showimageformat)
-- [showUrl](ShowAPIGetShowParams.md#showurl)
-
 ## Properties
 
-### albumImageFormat
+### albumImageFormat?
 
-• `Optional` **albumImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
-
-#### Defined in
-
-[lib/show/ShowAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/show/ShowAPI.ts#L11)
-
-___
-
-### artistImageFormat
-
-• `Optional` **artistImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> `optional` **albumImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
 #### Defined in
 
-[lib/show/ShowAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/show/ShowAPI.ts#L12)
+[lib/show/ShowAPI.ts:11](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/show/ShowAPI.ts#L11)
 
-___
+***
 
-### showImageFormat
+### artistImageFormat?
 
-• `Optional` **showImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+> `optional` **artistImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
 
 #### Defined in
 
-[lib/show/ShowAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/show/ShowAPI.ts#L13)
+[lib/show/ShowAPI.ts:12](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/show/ShowAPI.ts#L12)
 
-___
+***
+
+### showImageFormat?
+
+> `optional` **showImageFormat**: `string` \| `number` \| [`ImageFormat`](ImageFormat.md)
+
+#### Defined in
+
+[lib/show/ShowAPI.ts:13](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/show/ShowAPI.ts#L13)
+
+***
 
 ### showUrl
 
-• **showUrl**: `string`
+> **showUrl**: `string`
 
 #### Defined in
 
-[lib/show/ShowAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/show/ShowAPI.ts#L10)
+[lib/show/ShowAPI.ts:10](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/show/ShowAPI.ts#L10)

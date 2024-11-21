@@ -1,49 +1,43 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / FetchError
 
 # Class: FetchError
 
-## Hierarchy
+## Extends
 
 - `Error`
 
-  ↳ **`FetchError`**
-
-## Table of contents
-
-### Constructors
-
-- [constructor](FetchError.md#constructor)
-
-### Properties
-
-- [code](FetchError.md#code)
-
 ## Constructors
 
-### constructor
+### new FetchError()
 
-• **new FetchError**(`payload`)
+> **new FetchError**(`payload`): [`FetchError`](FetchError.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `payload` | `any` |
+• **payload**: `any`
+
+#### Returns
+
+[`FetchError`](FetchError.md)
 
 #### Overrides
 
-Error.constructor
+`Error.constructor`
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:113](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/Fetcher.ts#L113)
+[lib/utils/Fetcher.ts:117](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Fetcher.ts#L117)
 
 ## Properties
 
-### code
+### code?
 
-• `Optional` **code**: `number`
+> `optional` **code**: `number`
 
 #### Defined in
 
-[lib/utils/Fetcher.ts:111](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/utils/Fetcher.ts#L111)
+[lib/utils/Fetcher.ts:115](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/utils/Fetcher.ts#L115)

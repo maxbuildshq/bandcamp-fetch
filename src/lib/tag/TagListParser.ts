@@ -1,38 +1,38 @@
 import { load as cheerioLoad } from 'cheerio';
-import Tag, { TagList } from '../types/Tag.js';
-import { normalizeUrl } from '../utils/Parse.js';
+import {type TagList} from '../types/Tag.js';
+import type Tag from '../types/Tag.js';
 
 export default class TagListParser {
   static parseTags(html: string): TagList {
     const $ = cheerioLoad(html);
 
-    const _findTag = (tagUrl: string, tagName: string, tags: Omit<Tag, 'type'>[]) => {
-      return tags.find((t) => t.url === tagUrl && t.name === tagName);
+    const _findTag = (value: string, name: string, tags: Omit<Tag, 'type'>[]) => {
+      return tags.find((t) => t.value === value && t.name === name);
     };
 
-    const _parseCloud = (id: string) => {
-      const cloud = $(`#${id}`);
-      const tagsInCloud: Omit<Tag, 'type'>[] = [];
-      cloud.find('a.tag').each((index, link) => {
+    const _parseCloud = (selector: string) => {
+      const cloud = $(selector);
+      const tagsInCloud: Tag[] = [];
+      cloud.find('a.g-pill').each((_index, link) => {
         const linkEl = $(link);
         const name = linkEl.text().trim();
         const href = linkEl.attr('href');
-        if (href) {
-          const url = normalizeUrl(href);
-          if (name && href !== '/tag/' && !_findTag(url, name, tagsInCloud)) { // Skip blank or repeating tags
-            tagsInCloud.push({
-              name,
-              url
-            });
-          }
+        const match = href ? (/\/discover\/(.+)\?/).exec(href) : null;
+        const value = match && match[1] ? match[1] : null;
+        if (value && !_findTag(value, name, tagsInCloud)) { // Skip blank or repeating tags
+          tagsInCloud.push({
+            type: 'tag',
+            name,
+            value
+          });
         }
       });
       return tagsInCloud;
     };
 
     return {
-      tags: _parseCloud('tags_cloud'),
-      locations: _parseCloud('locations_cloud')
+      tags: _parseCloud('.discover-tags-pills .discover-tags-group'),
+      locations: _parseCloud('.discover-locations-pills .discover-locations-group')
     };
   }
 }

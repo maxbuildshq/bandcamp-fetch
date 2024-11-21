@@ -1,50 +1,24 @@
-import NameValuePair from '../utils/NameValuePair.js';
-import Album from './Album.js';
-import Track from './Track.js';
-
 interface Tag {
-  type: 'tag' | string;
+  type: 'tag';
   name: string;
-  url: string;
-  value?: string;
-  related?: Tag[];
-  isLocation?: boolean;
+  value: string;
   imageUrls?: string[];
 }
 
 export interface TagList {
-  tags: Omit<Tag, 'type'>[];
-  locations: Omit<Tag, 'type'>[];
+  tags: Tag[];
+  locations: Tag[];
 }
 
-export interface AlbumHighlightsByTag {
-  name: string;
-  title: string;
-  items: Album[];
-}
-
-// eslint-disable-next-line @typescript-eslint/no-namespace
-export namespace ReleasesByTag {
-
-  export interface FilterValueNames {
-    [k: string]: Record<string, string | number>;
-  }
-
-  export interface FilterOption extends NameValuePair<string | number> {
-    default?: boolean;
-    selected?: boolean;
-  }
-
-  export interface Filter {
-    name: string;
-    options: FilterOption[];
-  }
-}
-
-export interface ReleasesByTag {
-  items: Array<Album | Track>;
-  hasMore: boolean;
-  filters: Record<string, string | number | Array<string | number>>;
+export interface RelatedTags {
+  /**
+   * List of tags and the related tags for each entry.
+   */
+  single: Array<{ tag: Tag, related: Tag[] }>;
+  /**
+   * The combined related tags if there are multiple tags involved.
+   */
+  combo: Tag[];
 }
 
 export default Tag;

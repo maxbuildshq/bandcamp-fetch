@@ -1,55 +1,49 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / BaseAPIWithImageSupportParams
 
 # Interface: BaseAPIWithImageSupportParams
 
-## Hierarchy
+## Extends
 
 - [`BaseAPIParams`](BaseAPIParams.md)
-
-  ↳ **`BaseAPIWithImageSupportParams`**
-
-## Table of contents
-
-### Properties
-
-- [cache](BaseAPIWithImageSupportParams.md#cache)
-- [fetcher](BaseAPIWithImageSupportParams.md#fetcher)
-- [imageAPI](BaseAPIWithImageSupportParams.md#imageapi)
 
 ## Properties
 
 ### cache
 
-• **cache**: [`Cache`](../classes/Cache.md)
+> **cache**: [`Cache`](../classes/Cache.md)
 
 #### Inherited from
 
-[BaseAPIParams](BaseAPIParams.md).[cache](BaseAPIParams.md#cache)
+[`BaseAPIParams`](BaseAPIParams.md).[`cache`](BaseAPIParams.md#cache)
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L7)
+[lib/common/BaseAPI.ts:7](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L7)
 
-___
+***
 
 ### fetcher
 
-• **fetcher**: [`Fetcher`](../classes/Fetcher.md)
+> **fetcher**: [`Fetcher`](../classes/Fetcher.md)
 
 #### Inherited from
 
-[BaseAPIParams](BaseAPIParams.md).[fetcher](BaseAPIParams.md#fetcher)
+[`BaseAPIParams`](BaseAPIParams.md).[`fetcher`](BaseAPIParams.md#fetcher)
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L6)
+[lib/common/BaseAPI.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L6)
 
-___
+***
 
 ### imageAPI
 
-• **imageAPI**: [`ImageAPI`](../classes/ImageAPI.md)
+> **imageAPI**: [`ImageAPI`](../classes/ImageAPI.md)
 
 #### Defined in
 
-[lib/common/BaseAPIWithImageSupport.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPIWithImageSupport.ts#L5)
+[lib/common/BaseAPIWithImageSupport.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPIWithImageSupport.ts#L5)

@@ -1,222 +1,225 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / LimiterArticleAPI
 
 # Class: LimiterArticleAPI
 
-## Hierarchy
+## Extends
 
 - [`ArticleAPI`](ArticleAPI.md)
 
-  ↳ **`LimiterArticleAPI`**
-
-## Table of contents
-
-### Constructors
-
-- [constructor](LimiterArticleAPI.md#constructor)
-
-### Accessors
-
-- [cache](LimiterArticleAPI.md#cache)
-- [imageAPI](LimiterArticleAPI.md#imageapi)
-
-### Methods
-
-- [fetch](LimiterArticleAPI.md#fetch)
-- [getArticle](LimiterArticleAPI.md#getarticle)
-- [getCategories](LimiterArticleAPI.md#getcategories)
-- [list](LimiterArticleAPI.md#list)
-
 ## Constructors
 
-### constructor
+### new LimiterArticleAPI()
 
-• **new LimiterArticleAPI**(`params`)
+> **new LimiterArticleAPI**(`params`): [`LimiterArticleAPI`](LimiterArticleAPI.md)
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `params` | [`BaseAPIWithImageSupportParams`](../interfaces/BaseAPIWithImageSupportParams.md) & { `limiter`: [`Limiter`](Limiter.md)  } |
+• **params**: [`BaseAPIWithImageSupportParams`](../interfaces/BaseAPIWithImageSupportParams.md) & `object`
+
+#### Returns
+
+[`LimiterArticleAPI`](LimiterArticleAPI.md)
 
 #### Overrides
 
-[ArticleAPI](ArticleAPI.md).[constructor](ArticleAPI.md#constructor)
+[`ArticleAPI`](ArticleAPI.md).[`constructor`](ArticleAPI.md#constructors)
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:60](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/article/ArticleAPI.ts#L60)
+[lib/article/ArticleAPI.ts:61](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/article/ArticleAPI.ts#L61)
 
 ## Accessors
 
 ### cache
 
-• `Protected` `get` **cache**(): [`Cache`](Cache.md)
+#### Get Signature
 
-#### Returns
+> **get** `protected` **cache**(): [`Cache`](Cache.md)
+
+##### Returns
 
 [`Cache`](Cache.md)
 
 #### Inherited from
 
-ArticleAPI.cache
+[`ArticleAPI`](ArticleAPI.md).[`cache`](ArticleAPI.md#cache)
 
 #### Defined in
 
-[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L27)
+[lib/common/BaseAPI.ts:27](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L27)
 
-___
+***
 
 ### imageAPI
 
-• `get` **imageAPI**(): [`ImageAPI`](ImageAPI.md)
+#### Get Signature
 
-#### Returns
+> **get** **imageAPI**(): [`ImageAPI`](ImageAPI.md)
+
+##### Returns
 
 [`ImageAPI`](ImageAPI.md)
 
 #### Inherited from
 
-ArticleAPI.imageAPI
+[`ArticleAPI`](ArticleAPI.md).[`imageAPI`](ArticleAPI.md#imageapi)
 
 #### Defined in
 
-[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPIWithImageSupport.ts#L17)
+[lib/common/BaseAPIWithImageSupport.ts:17](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPIWithImageSupport.ts#L17)
 
 ## Methods
 
-### fetch
+### fetch()
 
-▸ `Protected` **fetch**(`url`, `jsonResponse`, `method`, `payload?`): `Promise`<`Response`\>
+#### fetch(url, jsonResponse, method, payload)
+
+> `protected` **fetch**(`url`, `jsonResponse`, `method`, `payload`?): `Promise`\<`object`\>
+
+##### Parameters
+
+• **url**: `string`
+
+• **jsonResponse**: `false`
+
+• **method**: [`HEAD`](../enumerations/FetchMethod.md#head)
+
+• **payload?**: `undefined`
+
+##### Returns
+
+`Promise`\<`object`\>
+
+###### ok
+
+> **ok**: `boolean`
+
+###### status
+
+> **status**: `number`
+
+##### Inherited from
+
+[`ArticleAPI`](ArticleAPI.md).[`fetch`](ArticleAPI.md#fetch)
+
+##### Defined in
+
+[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L20)
+
+#### fetch(url, jsonResponse, method, payload)
+
+> `protected` **fetch**(`url`, `jsonResponse`, `method`?, `payload`?): `Promise`\<`any`\>
+
+##### Parameters
+
+• **url**: `string`
+
+• **jsonResponse**: `true`
+
+• **method?**: [`FetchMethod`](../enumerations/FetchMethod.md)
+
+• **payload?**: `Record`\<`string`, `any`\>
+
+##### Returns
+
+`Promise`\<`any`\>
+
+##### Inherited from
+
+[`ArticleAPI`](ArticleAPI.md).[`fetch`](ArticleAPI.md#fetch)
+
+##### Defined in
+
+[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L21)
+
+#### fetch(url, jsonResponse, method, payload)
+
+> `protected` **fetch**(`url`, `jsonResponse`?, `method`?, `payload`?): `Promise`\<`string`\>
+
+##### Parameters
+
+• **url**: `string`
+
+• **jsonResponse?**: `boolean`
+
+• **method?**: [`FetchMethod`](../enumerations/FetchMethod.md)
+
+• **payload?**: `Record`\<`string`, `any`\>
+
+##### Returns
+
+`Promise`\<`string`\>
+
+##### Inherited from
+
+[`ArticleAPI`](ArticleAPI.md).[`fetch`](ArticleAPI.md#fetch)
+
+##### Defined in
+
+[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/common/BaseAPI.ts#L22)
+
+***
+
+### getArticle()
+
+> **getArticle**(`params`): `Promise`\<[`Article`](../interfaces/Article.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `url` | `string` |
-| `jsonResponse` | ``false`` |
-| `method` | [`HEAD`](../enums/FetchMethod.md#head) |
-| `payload?` | `undefined` |
+• **params**: [`ArticleAPIGetArticleParams`](../interfaces/ArticleAPIGetArticleParams.md)
 
 #### Returns
 
-`Promise`<`Response`\>
-
-#### Inherited from
-
-[ArticleAPI](ArticleAPI.md).[fetch](ArticleAPI.md#fetch)
-
-#### Defined in
-
-[lib/common/BaseAPI.ts:20](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L20)
-
-▸ `Protected` **fetch**(`url`, `jsonResponse`, `method?`, `payload?`): `Promise`<`any`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `url` | `string` |
-| `jsonResponse` | ``true`` |
-| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
-| `payload?` | `Record`<`string`, `any`\> |
-
-#### Returns
-
-`Promise`<`any`\>
-
-#### Inherited from
-
-[ArticleAPI](ArticleAPI.md).[fetch](ArticleAPI.md#fetch)
-
-#### Defined in
-
-[lib/common/BaseAPI.ts:21](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L21)
-
-▸ `Protected` **fetch**(`url`, `jsonResponse?`, `method?`, `payload?`): `Promise`<`string`\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `url` | `string` |
-| `jsonResponse?` | `boolean` |
-| `method?` | [`FetchMethod`](../enums/FetchMethod.md) |
-| `payload?` | `Record`<`string`, `any`\> |
-
-#### Returns
-
-`Promise`<`string`\>
-
-#### Inherited from
-
-[ArticleAPI](ArticleAPI.md).[fetch](ArticleAPI.md#fetch)
-
-#### Defined in
-
-[lib/common/BaseAPI.ts:22](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/common/BaseAPI.ts#L22)
-
-___
-
-### getArticle
-
-▸ **getArticle**(`params`): `Promise`<[`Article`](../interfaces/Article.md)\>
-
-#### Parameters
-
-| Name | Type |
-| :------ | :------ |
-| `params` | [`ArticleAPIGetArticleParams`](../interfaces/ArticleAPIGetArticleParams.md) |
-
-#### Returns
-
-`Promise`<[`Article`](../interfaces/Article.md)\>
+`Promise`\<[`Article`](../interfaces/Article.md)\>
 
 #### Overrides
 
-[ArticleAPI](ArticleAPI.md).[getArticle](ArticleAPI.md#getarticle)
+[`ArticleAPI`](ArticleAPI.md).[`getArticle`](ArticleAPI.md#getarticle)
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:69](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/article/ArticleAPI.ts#L69)
+[lib/article/ArticleAPI.ts:70](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/article/ArticleAPI.ts#L70)
 
-___
+***
 
-### getCategories
+### getCategories()
 
-▸ **getCategories**(): `Promise`<[`ArticleCategorySection`](../interfaces/ArticleCategorySection.md)[]\>
+> **getCategories**(): `Promise`\<[`ArticleCategorySection`](../interfaces/ArticleCategorySection.md)[]\>
 
 #### Returns
 
-`Promise`<[`ArticleCategorySection`](../interfaces/ArticleCategorySection.md)[]\>
+`Promise`\<[`ArticleCategorySection`](../interfaces/ArticleCategorySection.md)[]\>
 
 #### Overrides
 
-[ArticleAPI](ArticleAPI.md).[getCategories](ArticleAPI.md#getcategories)
+[`ArticleAPI`](ArticleAPI.md).[`getCategories`](ArticleAPI.md#getcategories)
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:65](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/article/ArticleAPI.ts#L65)
+[lib/article/ArticleAPI.ts:66](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/article/ArticleAPI.ts#L66)
 
-___
+***
 
-### list
+### list()
 
-▸ **list**(`params?`): `Promise`<[`ArticleList`](../interfaces/ArticleList.md)\>
+> **list**(`params`?): `Promise`\<[`ArticleList`](../interfaces/ArticleList.md)\>
 
 #### Parameters
 
-| Name | Type |
-| :------ | :------ |
-| `params?` | [`ArticleAPIListParams`](../interfaces/ArticleAPIListParams.md) |
+• **params?**: [`ArticleAPIListParams`](../interfaces/ArticleAPIListParams.md)
 
 #### Returns
 
-`Promise`<[`ArticleList`](../interfaces/ArticleList.md)\>
+`Promise`\<[`ArticleList`](../interfaces/ArticleList.md)\>
 
 #### Inherited from
 
-[ArticleAPI](ArticleAPI.md).[list](ArticleAPI.md#list)
+[`ArticleAPI`](ArticleAPI.md).[`list`](ArticleAPI.md#list)
 
 #### Defined in
 
-[lib/article/ArticleAPI.ts:43](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/article/ArticleAPI.ts#L43)
+[lib/article/ArticleAPI.ts:44](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/article/ArticleAPI.ts#L44)

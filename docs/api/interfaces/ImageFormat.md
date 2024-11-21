@@ -1,63 +1,57 @@
+[**bandcamp-fetch**](../README.md) • **Docs**
+
+***
+
 [bandcamp-fetch](../README.md) / ImageFormat
 
 # Interface: ImageFormat
-
-## Table of contents
-
-### Properties
-
-- [fileFormat](ImageFormat.md#fileformat)
-- [height](ImageFormat.md#height)
-- [id](ImageFormat.md#id)
-- [name](ImageFormat.md#name)
-- [width](ImageFormat.md#width)
 
 ## Properties
 
 ### fileFormat
 
-• **fileFormat**: `string`
+> **fileFormat**: `string`
 
 #### Defined in
 
-[lib/types/Image.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Image.ts#L6)
+[lib/types/Image.ts:6](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Image.ts#L6)
 
-___
+***
 
 ### height
 
-• **height**: `number`
+> **height**: `number`
 
 #### Defined in
 
-[lib/types/Image.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Image.ts#L5)
+[lib/types/Image.ts:5](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Image.ts#L5)
 
-___
+***
 
 ### id
 
-• **id**: `number`
+> **id**: `number`
 
 #### Defined in
 
-[lib/types/Image.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Image.ts#L2)
+[lib/types/Image.ts:2](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Image.ts#L2)
 
-___
+***
 
 ### name
 
-• **name**: `string`
+> **name**: `string`
 
 #### Defined in
 
-[lib/types/Image.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Image.ts#L3)
+[lib/types/Image.ts:3](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Image.ts#L3)
 
-___
+***
 
 ### width
 
-• **width**: `number`
+> **width**: `number`
 
 #### Defined in
 
-[lib/types/Image.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/7bb1899/src/lib/types/Image.ts#L4)
+[lib/types/Image.ts:4](https://github.com/patrickkfkan/bandcamp-fetch/blob/be622bf87b8ac66e98b356306b6a650b7972970c/src/lib/types/Image.ts#L4)
