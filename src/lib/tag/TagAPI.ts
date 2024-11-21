@@ -42,4 +42,8 @@ export class LimiterTagAPI extends TagAPI {
   async list(): Promise<TagList> {
     return this.#limiter.schedule(() => super.list());
   }
+
+  async getRelated(params: TagAPIGetRelatedParams): Promise<RelatedTags> {
+    return this.#limiter.schedule(() => super.getRelated(params));
+  }
 }
