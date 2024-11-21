@@ -5,6 +5,7 @@ import type Track from '../types/Track.js';
 import type Album from '../types/Album.js';
 import TrackInfoParser from '../track/TrackInfoParser.js';
 import AlbumInfoParser from '../album/AlbumInfoParser.js';
+import { decode } from 'html-entities';
 
 interface DiscographyParseOptions {
   imageBaseUrl: string;
@@ -130,6 +131,14 @@ export default class DiscographyParser {
         if (img.length > 0 && title.length > 0) {
           items[url].name = linkEl.text().trim();
         }
+
+        const idStr = linkEl.parent('li').attr('data-item-id');
+        if (idStr) {
+          const idMatch = /(?:album|track)-(\d+)$/g.exec(idStr);
+          if (idMatch && idMatch[1]) {
+            items[url].id = Number(idMatch[1]);
+          }
+        }
       }
     });
     const results = [];
@@ -138,6 +147,7 @@ export default class DiscographyParser {
         const item: Album | Track = {
           url,
           type: props.type,
+          id: props.id,
           name: props.name,
           artist: props.artist || {
             name: defaultArtistName
@@ -148,6 +158,37 @@ export default class DiscographyParser {
         }
         results.push(item);
       }
+    }
+
+    const rawExtra = decode($('ol[data-client-items]').attr('data-client-items'));
+    let extra;
+    try {
+      extra = JSON.parse(rawExtra);
+    }
+    catch (error: any) {
+      extra = null;
+    }
+    if (Array.isArray(extra)) {
+      const extraItems = extra.reduce<Array<Album | Track>>((acc, itemData) => {
+        if (itemData.type === 'album' || itemData.type === 'track') {
+          const item: Album | Track = {
+            url: normalizeUrl(itemData.page_url),
+            type: itemData.type,
+            id: itemData.id,
+            name: itemData.title,
+            artist: {
+              name: itemData.artist
+            }
+          };
+          if (itemData.art_id && opts.imageFormat?.id) {
+            item.imageUrl = `${opts.imageBaseUrl}/img/a${itemData.art_id}_${opts.imageFormat.id}.jpg`;
+          }
+          acc.push(item);
+        }
+        return acc;
+      }, []);
+
+      results.push(...extraItems);
     }
 
     return results;
