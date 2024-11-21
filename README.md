@@ -951,6 +951,13 @@ cache.setTTL(CacheDataType.Page, 500);
 
 # Changelog
 
+2.0.0 ([breaking changes](docs/changes-1.x-2.x.md)!)
+- Revise API to reflect Bandcamp changes
+- Add `lyrics` property to `Track`
+- Add `id` property to `Album` and `Track`
+- Add `slug` property to categories returned by `DiscoveryAPI.getAvailableOptions()`
+- Parse missing discog items ([#8](https://github.com/patrickkfkan/bandcamp-fetch/issues/8))
+
 1.2.1
 - Fix `duration` not returned in result of `TrackAPI::getInfo()` ([#7](https://github.com/patrickkfkan/bandcamp-fetch/issues/7))
 
