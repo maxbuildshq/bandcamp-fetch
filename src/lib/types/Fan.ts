@@ -1,6 +1,6 @@
-import type UserKind from './UserKind.js';
+import type UserKind from './UserKind.ts';
 
-interface Fan extends UserKind {
+export default interface Fan extends UserKind {
   type: 'fan';
   username: string;
   websiteUrl: string;
@@ -15,4 +15,4 @@ export interface FanItemsContinuation {
   token: string;
 }
 
-export default Fan;
+//export default Fan;

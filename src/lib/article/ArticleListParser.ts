@@ -1,8 +1,8 @@
-import { load as cheerioLoad } from 'cheerio';
-import { type ArticleCategory, type ArticleList, type ArticleListItem } from '../types/Article.js';
-import { URLS } from '../utils/Constants.js';
-import { isAbsoluteUrl, normalizeUrl, reformatImageUrl, stripLineBreaks } from '../utils/Parse.js';
-import { type ImageFormat } from '../types/Image.js';
+import { load as cheerioLoad } from 'https://esm.sh/cheerio@1.0.0';
+import { type ArticleCategory, type ArticleList, type ArticleListItem } from '../types/Article.ts';
+import { URLS } from '../utils/Constants.ts';
+import { isAbsoluteUrl, normalizeUrl, reformatImageUrl, stripLineBreaks } from '../utils/Parse.ts';
+import { type ImageFormat } from '../types/Image.ts';
 
 interface ArticleListParseOptions {
   imageFormat: ImageFormat | null;

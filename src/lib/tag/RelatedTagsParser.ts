@@ -1,6 +1,6 @@
-import {type RelatedTags} from "../types/Tag.js";
-import type Tag from "../types/Tag.js";
-import { ParseError } from "../utils/Parse.js";
+import {type RelatedTags} from "../types/Tag.ts";
+import type Tag from "../types/Tag.ts";
+import { ParseError } from "../utils/Parse.ts";
 
 export default class RelatedTagsParser {
 

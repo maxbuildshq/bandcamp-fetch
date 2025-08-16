@@ -1,4 +1,4 @@
-interface Tag {
+export default interface Tag {
   type: 'tag';
   name: string;
   value: string;
@@ -21,4 +21,4 @@ export interface RelatedTags {
   combo: Tag[];
 }
 
-export default Tag;
+//export default Tag;

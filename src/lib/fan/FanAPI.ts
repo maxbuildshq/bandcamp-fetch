@@ -1,21 +1,21 @@
-import {type FanItemsContinuation} from '../types/Fan.js';
-import type Fan from '../types/Fan.js';
-import { type ImageFormat } from '../types/Image.js';
-import { URLS } from '../utils/Constants.js';
-import { FetchError, FetchMethod } from '../utils/Fetcher.js';
-import { FanContinuationItemsResult, type FanItemParseOptions, FanPageItemsResult } from './FanItemsBaseParser.js';
-import FanCollectionParser from './FanCollectionParser.js';
-import FanFollowingParser from './FanFollowingParser.js';
-import FanInfoParser from './FanInfoParser.js';
-import FanWishlistParser from './FanWishlistParser.js';
-import type Album from '../types/Album.js';
-import type Track from '../types/Track.js';
-import type UserKind from '../types/UserKind.js';
-import type Tag from '../types/Tag.js';
-import type Limiter from '../utils/Limiter.js';
-import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
+import {type FanItemsContinuation} from '../types/Fan.ts';
+import type Fan from '../types/Fan.ts';
+import { type ImageFormat } from '../types/Image.ts';
+import { URLS } from '../utils/Constants.ts';
+import { FetchError, FetchMethod } from '../utils/Fetcher.ts';
+import { type FanContinuationItemsResult, type FanItemParseOptions, type FanPageItemsResult } from './FanItemsBaseParser.ts';
+import FanCollectionParser from './FanCollectionParser.ts';
+import FanFollowingParser from './FanFollowingParser.ts';
+import FanInfoParser from './FanInfoParser.ts';
+import FanWishlistParser from './FanWishlistParser.ts';
+import type Album from '../types/Album.ts';
+import type Track from '../types/Track.ts';
+import type UserKind from '../types/UserKind.ts';
+import type Tag from '../types/Tag.ts';
+import type Limiter from '../utils/Limiter.ts';
+import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.ts';
 
-export { FanPageItemsResult, FanContinuationItemsResult };
+export type { FanPageItemsResult, FanContinuationItemsResult };
 
 export interface FanAPIGetInfoParams {
   username?: string;

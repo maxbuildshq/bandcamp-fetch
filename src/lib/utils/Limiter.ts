@@ -1,4 +1,4 @@
-import Bottleneck from 'bottleneck';
+import Bottleneck from 'https://esm.sh/bottleneck@2.19.5';
 
 export default class Limiter {
 

@@ -1,11 +1,11 @@
-import type Artist from './Artist.js';
-import type UserKind from './UserKind.js';
+import type Artist from './Artist.ts';
+import type UserKind from './UserKind.ts';
 
-interface Label extends UserKind {
+export default interface Label extends UserKind {
   type: 'label';
   labelId?: number;
 }
 
 export type LabelArtist = Omit<Artist, 'type'>;
 
-export default Label;
+//export default Label;

@@ -1,10 +1,10 @@
-import { load as cheerioLoad } from 'cheerio';
-import { decode } from 'html-entities';
-import { type ImageFormat } from '../types/Image.js';
-import type Show from '../types/Show.js';
-import { ParseError, splitUrl } from '../utils/Parse.js';
-import { URLS } from '../utils/Constants.js';
-import type Track from '../types/Track.js';
+import { load as cheerioLoad } from 'https://esm.sh/cheerio@1.0.0';
+import { decode } from 'https://esm.sh/html-entities@2.5.2';
+import { type ImageFormat } from '../types/Image.ts';
+import type Show from '../types/Show.ts';
+import { ParseError, splitUrl } from '../utils/Parse.ts';
+import { URLS } from '../utils/Constants.ts';
+import type Track from '../types/Track.ts';
 
 interface ShowParseOptions {
   showUrl: string,

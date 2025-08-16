@@ -1,8 +1,8 @@
-import type Artist from './Artist.js';
-import type Label from './Label.js';
-import type UserKind from './UserKind.js';
+import type Artist from './Artist.ts';
+import type Label from './Label.ts';
+import type UserKind from './UserKind.ts';
 
-interface Shirt {
+export default interface Shirt {
   type: 'shirt';
   name: string;
   url?: string;
@@ -14,4 +14,4 @@ interface Shirt {
   artist?: Omit<Artist, 'type'>;
 }
 
-export default Shirt;
+//export default Shirt;

@@ -1,8 +1,8 @@
-import type NameValuePair from '../utils/NameValuePair.js';
-import type Album from './Album.js';
-import { type ImageFormat } from './Image.js';
-import type Shirt from './Shirt.js';
-import type Tag from './Tag.js';
+import type NameValuePair from '../utils/NameValuePair.ts';
+import type Album from './Album.ts';
+import { type ImageFormat } from './Image.ts';
+import type Shirt from './Shirt.ts';
+import type Tag from './Tag.ts';
 
 /**
  * Options and list of values for each option that can be used to formulate {@link DiscoverParams}.

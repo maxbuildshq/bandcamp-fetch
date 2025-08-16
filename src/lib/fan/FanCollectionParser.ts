@@ -1,6 +1,6 @@
-import { type FanItemsContinuation } from '../types/Fan.js';
-import FanItemsBaseParser, { type FanItemParseOptions } from './FanItemsBaseParser.js';
-import FanWishlistParser from './FanWishlistParser.js';
+import { type FanItemsContinuation } from '../types/Fan.ts';
+import FanItemsBaseParser, { type FanItemParseOptions } from './FanItemsBaseParser.ts';
+import FanWishlistParser from './FanWishlistParser.ts';
 
 export default class FanCollectionParser extends FanItemsBaseParser {
 

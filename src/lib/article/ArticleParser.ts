@@ -1,13 +1,12 @@
-import { type Cheerio, load as cheerioLoad } from 'cheerio';
-import { decode } from 'html-entities';
-import {type ArticleMediaItem, type ArticleSection} from '../types/Article.js';
-import type Article from '../types/Article.js';
-import { URLS } from '../utils/Constants.js';
-import { ParseError, brToNewLine, isAbsoluteUrl, normalizeUrl, stripTags } from '../utils/Parse.js';
-import { type ImageFormat } from '../types/Image.js';
-import type Album from '../types/Album.js';
-import { EOL } from 'os';
-import type Track from '../types/Track.js';
+import { type Cheerio, load as cheerioLoad } from 'https://esm.sh/cheerio@1.0.0';
+import { decode } from 'https://esm.sh/html-entities@2.5.2';
+import {type ArticleMediaItem, type ArticleSection} from '../types/Article.ts';
+import type Article from '../types/Article.ts';
+import { URLS } from '../utils/Constants.ts';
+import { ParseError, brToNewLine, isAbsoluteUrl, normalizeUrl, stripTags } from '../utils/Parse.ts';
+import { type ImageFormat } from '../types/Image.ts';
+import type Album from '../types/Album.ts';
+import type Track from '../types/Track.ts';
 
 interface ArticleParseOptions {
   imageBaseUrl: string;
@@ -163,8 +162,8 @@ export default class ArticleParser {
       const paragraphs = player.nextUntil('bamplayer-art, h3, h5, article-end', 'p');
       paragraphs.each((_i, p) => {
         const _p = $(p);
-        section.html += (section.html !== '' ? EOL : '') + (_p.html() || '');
-        section.text += (section.text !== '' ? EOL + EOL : '') + _p.text();
+        section.html += (section.html !== '' ? '\n' : '') + (_p.html() || '');
+        section.text += (section.text !== '' ? '\n' + '\n' : '') + _p.text();
       });
 
       // Get mediaItemRef
@@ -187,8 +186,8 @@ export default class ArticleParser {
         };
         paragraphs.each((_i, p) => {
           const _p = $(p);
-          section.html += (section.html !== '' ? EOL : '') + (_p.html() || '');
-          section.text += (section.text !== '' ? EOL + EOL : '') + _p.text();
+          section.html += (section.html !== '' ? '\n' : '') + (_p.html() || '');
+          section.text += (section.text !== '' ? '\n' + '\n' : '') + _p.text();
         });
         return section;
       }

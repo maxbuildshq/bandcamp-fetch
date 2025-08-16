@@ -1,7 +1,7 @@
-import type Album from './Album.js';
-import type Track from './Track.js';
+import type Album from './Album.ts';
+import type Track from './Track.ts';
 
-interface Article {
+export default interface Article {
   title: string;
   description: string;
   url: string;
@@ -68,4 +68,4 @@ export interface ArticleListItem {
   imageUrl?: string;
 }
 
-export default Article;
+//export default Article;

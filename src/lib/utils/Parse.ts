@@ -1,8 +1,8 @@
-import { type load as cheerioLoad } from 'cheerio';
-import type Label from '../types/Label.js';
-import { URLS } from './Constants.js';
-import type UserKind from '../types/UserKind.js';
-import { type ImageFormat } from '../types/Image.js';
+import { type load as cheerioLoad } from 'https://esm.sh/cheerio@1.0.0';
+import type Label from '../types/Label.ts';
+import { URLS } from './Constants.ts';
+import type UserKind from '../types/UserKind.ts';
+import { type ImageFormat } from '../types/Image.ts';
 
 export interface BackToLabel {
   text: string | null;

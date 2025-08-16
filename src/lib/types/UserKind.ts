@@ -1,4 +1,4 @@
-interface UserKind {
+export default interface UserKind {
   name: string;
   description?: string;
   url?: string;
@@ -6,4 +6,4 @@ interface UserKind {
   location?: string;
 }
 
-export default UserKind;
+//export default UserKind;

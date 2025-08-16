@@ -1,12 +1,12 @@
-import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import { type DiscoverOptions, type DiscoverParams, type DiscoverResult, type DiscoverResultContinuation, type SanitizedDiscoverParams } from '../types/Discovery.js';
-import { CacheDataType } from '../utils/Cache.js';
-import { URLS } from '../utils/Constants.js';
-import { FetchMethod } from '../utils/Fetcher.js';
-import type Limiter from '../utils/Limiter.js';
-import type NameValuePair from '../utils/NameValuePair.js';
-import DiscoverOptionsParser from './DiscoverOptionsParser.js';
-import DiscoverResultParser from './DiscoverResultParser.js';
+import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.ts';
+import { type DiscoverOptions, type DiscoverParams, type DiscoverResult, type DiscoverResultContinuation, type SanitizedDiscoverParams } from '../types/Discovery.ts';
+import { CacheDataType } from '../utils/Cache.ts';
+import { URLS } from '../utils/Constants.ts';
+import { FetchMethod } from '../utils/Fetcher.ts';
+import type Limiter from '../utils/Limiter.ts';
+import type NameValuePair from '../utils/NameValuePair.ts';
+import DiscoverOptionsParser from './DiscoverOptionsParser.ts';
+import DiscoverResultParser from './DiscoverResultParser.ts';
 
 interface DiscoverRequestPayload {
   category_id: number; // (digital, vinyl, cd, cassetes, shirts)

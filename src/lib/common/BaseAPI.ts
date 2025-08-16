@@ -1,6 +1,6 @@
-import type Cache from '../utils/Cache.js';
-import {type FetchMethod} from '../utils/Fetcher.js';
-import type Fetcher from '../utils/Fetcher.js';
+import type Cache from '../utils/Cache.ts';
+import {type FetchMethod} from '../utils/Fetcher.ts';
+import type Fetcher from '../utils/Fetcher.ts';
 
 export interface BaseAPIParams {
   fetcher: Fetcher;

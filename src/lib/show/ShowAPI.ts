@@ -1,10 +1,10 @@
-import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import { type ImageFormat } from '../types/Image.js';
-import type Show from '../types/Show.js';
-import { URLS } from '../utils/Constants.js';
-import type Limiter from '../utils/Limiter.js';
-import ShowListParser from './ShowListParser.js';
-import ShowParser from './ShowParser.js';
+import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.ts';
+import { type ImageFormat } from '../types/Image.ts';
+import type Show from '../types/Show.ts';
+import { URLS } from '../utils/Constants.ts';
+import type Limiter from '../utils/Limiter.ts';
+import ShowListParser from './ShowListParser.ts';
+import ShowParser from './ShowParser.ts';
 
 export interface ShowAPIGetShowParams {
   showUrl: string,
