@@ -6,7 +6,6 @@ import { URLS } from '../utils/Constants.ts';
 import { ParseError, brToNewLine, isAbsoluteUrl, normalizeUrl, stripTags } from '../utils/Parse.ts';
 import { type ImageFormat } from '../types/Image.ts';
 import type Album from '../types/Album.ts';
-import { EOL } from 'https://deno.land/std@0.208.0/node/os.ts';
 import type Track from '../types/Track.ts';
 
 interface ArticleParseOptions {
@@ -163,8 +162,8 @@ export default class ArticleParser {
       const paragraphs = player.nextUntil('bamplayer-art, h3, h5, article-end', 'p');
       paragraphs.each((_i, p) => {
         const _p = $(p);
-        section.html += (section.html !== '' ? EOL : '') + (_p.html() || '');
-        section.text += (section.text !== '' ? EOL + EOL : '') + _p.text();
+        section.html += (section.html !== '' ? '\n' : '') + (_p.html() || '');
+        section.text += (section.text !== '' ? '\n' + '\n' : '') + _p.text();
       });
 
       // Get mediaItemRef
@@ -187,8 +186,8 @@ export default class ArticleParser {
         };
         paragraphs.each((_i, p) => {
           const _p = $(p);
-          section.html += (section.html !== '' ? EOL : '') + (_p.html() || '');
-          section.text += (section.text !== '' ? EOL + EOL : '') + _p.text();
+          section.html += (section.html !== '' ? '\n' : '') + (_p.html() || '');
+          section.text += (section.text !== '' ? '\n' + '\n' : '') + _p.text();
         });
         return section;
       }
