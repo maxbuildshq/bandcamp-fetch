@@ -1,15 +1,15 @@
-import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import type Album from '../types/Album.js';
-import type Artist from '../types/Artist.js';
-import { type ImageFormat } from '../types/Image.js';
-import {type LabelArtist} from '../types/Label.js';
-import type Label from '../types/Label.js';
-import type Track from '../types/Track.js';
-import type Limiter from '../utils/Limiter.js';
-import { normalizeUrl } from '../utils/Parse.js';
-import BandInfoParser from './BandInfoParser.js';
-import DiscographyParser from './DiscographyParser.js';
-import LabelArtistsParser from './LabelArtistsParser.js';
+import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.ts';
+import type Album from '../types/Album.ts';
+import type Artist from '../types/Artist.ts';
+import { type ImageFormat } from '../types/Image.ts';
+import {type LabelArtist} from '../types/Label.ts';
+import type Label from '../types/Label.ts';
+import type Track from '../types/Track.ts';
+import type Limiter from '../utils/Limiter.ts';
+import { normalizeUrl } from '../utils/Parse.ts';
+import BandInfoParser from './BandInfoParser.ts';
+import DiscographyParser from './DiscographyParser.ts';
+import LabelArtistsParser from './LabelArtistsParser.ts';
 
 export interface BandAPIGetDiscographyParams {
   bandUrl: string;

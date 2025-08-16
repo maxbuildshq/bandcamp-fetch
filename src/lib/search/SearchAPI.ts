@@ -1,11 +1,11 @@
 import { URL } from 'url';
-import { type ImageFormat } from '../types/Image.js';
-import { URLS } from '../utils/Constants.js';
-import SearchResultsParser from './SearchResultsParser.js';
-import { type SearchResultAlbum, type SearchResultAny, type SearchResultArtist, type SearchResultFan, type SearchResultLabel, type SearchResultTrack, type SearchResults } from '../types/Search.js';
-import type Limiter from '../utils/Limiter.js';
-import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import { CacheDataType } from '../utils/Cache.js';
+import { type ImageFormat } from '../types/Image.ts';
+import { URLS } from '../utils/Constants.ts';
+import SearchResultsParser from './SearchResultsParser.ts';
+import { type SearchResultAlbum, type SearchResultAny, type SearchResultArtist, type SearchResultFan, type SearchResultLabel, type SearchResultTrack, type SearchResults } from '../types/Search.ts';
+import type Limiter from '../utils/Limiter.ts';
+import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.ts';
+import { CacheDataType } from '../utils/Cache.ts';
 
 export enum SearchItemType {
   All = 'All',

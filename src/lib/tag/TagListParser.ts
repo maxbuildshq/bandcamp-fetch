@@ -1,6 +1,6 @@
 import { load as cheerioLoad } from 'cheerio';
-import {type TagList} from '../types/Tag.js';
-import type Tag from '../types/Tag.js';
+import {type TagList} from '../types/Tag.ts';
+import type Tag from '../types/Tag.ts';
 
 export default class TagListParser {
   static parseTags(html: string): TagList {

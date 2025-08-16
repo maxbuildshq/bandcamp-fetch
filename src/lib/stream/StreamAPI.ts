@@ -1,7 +1,7 @@
-import BaseAPI, { type BaseAPIParams } from '../common/BaseAPI.js';
-import { URLS } from '../utils/Constants.js';
-import { FetchMethod } from '../utils/Fetcher.js';
-import type Limiter from '../utils/Limiter.js';
+import BaseAPI, { type BaseAPIParams } from '../common/BaseAPI.ts';
+import { URLS } from '../utils/Constants.ts';
+import { FetchMethod } from '../utils/Fetcher.ts';
+import type Limiter from '../utils/Limiter.ts';
 
 export interface StreamTestResult {
   ok: boolean;

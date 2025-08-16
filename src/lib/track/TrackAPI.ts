@@ -1,9 +1,9 @@
-import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import { type ImageFormat } from '../types/Image.js';
-import type Track from '../types/Track.js';
-import type Limiter from '../utils/Limiter.js';
-import TrackInfoParser from './TrackInfoParser.js';
-import { CacheDataType } from '../utils/Cache.js';
+import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.ts';
+import { type ImageFormat } from '../types/Image.ts';
+import type Track from '../types/Track.ts';
+import type Limiter from '../utils/Limiter.ts';
+import TrackInfoParser from './TrackInfoParser.ts';
+import { CacheDataType } from '../utils/Cache.ts';
 
 export interface TrackAPIGetInfoParams {
   trackUrl: string;

@@ -1,5 +1,5 @@
-import type ImageAPI from '../image/ImageAPI.js';
-import BaseAPI, { type BaseAPIParams } from './BaseAPI.js';
+import type ImageAPI from '../image/ImageAPI.ts';
+import BaseAPI, { type BaseAPIParams } from './BaseAPI.ts';
 
 export interface BaseAPIWithImageSupportParams extends BaseAPIParams {
   imageAPI: ImageAPI;

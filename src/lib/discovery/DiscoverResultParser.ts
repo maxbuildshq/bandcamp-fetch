@@ -1,10 +1,10 @@
 import { URL } from 'url';
-import type Album from '../types/Album.js';
-import type Artist from '../types/Artist.js';
-import { type DiscoverOptions, type DiscoverResult, type SanitizedDiscoverParams } from '../types/Discovery.js';
-import { type ImageFormat } from '../types/Image.js';
-import type Shirt from '../types/Shirt.js';
-import { ParseError } from '../utils/Parse.js';
+import type Album from '../types/Album.ts';
+import type Artist from '../types/Artist.ts';
+import { type DiscoverOptions, type DiscoverResult, type SanitizedDiscoverParams } from '../types/Discovery.ts';
+import { type ImageFormat } from '../types/Image.ts';
+import type Shirt from '../types/Shirt.ts';
+import { ParseError } from '../utils/Parse.ts';
 
 interface DiscoverResultParseOptions {
   imageBaseUrl: string;

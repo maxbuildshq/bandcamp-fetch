@@ -1,11 +1,11 @@
-import { URLS } from '../utils/Constants.js';
-import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.js';
-import { type ImageFormat } from '../types/Image.js';
-import { type RelatedTags, type TagList } from '../types/Tag.js';
-import type Limiter from '../utils/Limiter.js';
-import TagListParser from './TagListParser.js';
-import { FetchMethod } from '../utils/Fetcher.js';
-import RelatedTagsParser from './RelatedTagsParser.js';
+import { URLS } from '../utils/Constants.ts';
+import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.ts';
+import { type ImageFormat } from '../types/Image.ts';
+import { type RelatedTags, type TagList } from '../types/Tag.ts';
+import type Limiter from '../utils/Limiter.ts';
+import TagListParser from './TagListParser.ts';
+import { FetchMethod } from '../utils/Fetcher.ts';
+import RelatedTagsParser from './RelatedTagsParser.ts';
 
 export interface TagAPIGetRelatedParams {
   tags: string[];

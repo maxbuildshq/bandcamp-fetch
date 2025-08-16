@@ -1,7 +1,7 @@
 import { load as cheerioLoad } from 'cheerio';
-import { type ImageFormat } from '../types/Image.js';
-import { reformatImageUrl, splitUrl } from '../utils/Parse.js';
-import { type LabelArtist } from '../types/Label.js';
+import { type ImageFormat } from '../types/Image.ts';
+import { reformatImageUrl, splitUrl } from '../utils/Parse.ts';
+import { type LabelArtist } from '../types/Label.ts';
 
 interface LabelArtistsParseOptions {
   labelUrl: string;

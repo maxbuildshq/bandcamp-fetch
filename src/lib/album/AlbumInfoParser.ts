@@ -1,10 +1,10 @@
 import { load as cheerioLoad } from 'cheerio';
 import { decode } from 'html-entities';
-import {type AlbumRelease} from '../types/Album.js';
-import type Album from '../types/Album.js';
-import { type ImageFormat } from '../types/Image.js';
-import { ParseError, getAdditionalPropertyValue, normalizeUrl, parseLabelFromBackToLabelLink, parsePublisher, reformatImageUrl } from '../utils/Parse.js';
-import type Track from '../types/Track.js';
+import {type AlbumRelease} from '../types/Album.ts';
+import type Album from '../types/Album.ts';
+import { type ImageFormat } from '../types/Image.ts';
+import { ParseError, getAdditionalPropertyValue, normalizeUrl, parseLabelFromBackToLabelLink, parsePublisher, reformatImageUrl } from '../utils/Parse.ts';
+import type Track from '../types/Track.ts';
 
 interface AlbumInfoParseOptions {
   imageBaseUrl: string;

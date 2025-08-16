@@ -10,6 +10,7 @@
     "inlineSources": true,
     "strict": true,
     "strictPropertyInitialization": false,
+    "allowImportingTsExtensions": true,
     "typeRoots": [
       "src/typings",
       "node_modules/@types"

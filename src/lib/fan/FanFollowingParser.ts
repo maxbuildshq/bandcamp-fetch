@@ -1,7 +1,7 @@
-import { type FanItemsContinuation } from '../types/Fan.js';
-import type Tag from '../types/Tag.js';
-import type UserKind from '../types/UserKind.js';
-import FanItemsBaseParser, { type FanItemParseOptions } from './FanItemsBaseParser.js';
+import { type FanItemsContinuation } from '../types/Fan.ts';
+import type Tag from '../types/Tag.ts';
+import type UserKind from '../types/UserKind.ts';
+import FanItemsBaseParser, { type FanItemParseOptions } from './FanItemsBaseParser.ts';
 
 export default class FanFollowingParser extends FanItemsBaseParser {
 
