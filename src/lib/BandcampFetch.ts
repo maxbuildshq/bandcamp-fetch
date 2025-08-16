@@ -1,19 +1,19 @@
 import type Bottleneck from 'bottleneck';
-import AlbumAPI, { LimiterAlbumAPI } from './album/AlbumAPI.js';
-import ArticleAPI, { LimiterArticleAPI } from './article/ArticleAPI.js';
-import AutocompleteAPI, { LimiterAutocompleteAPI } from './autocomplete/AutocompleteAPI.js';
-import BandAPI, { LimiterBandAPI } from './band/BandAPI.js';
-import DiscoveryAPI, { LimiterDiscoveryAPI } from './discovery/DiscoveryAPI.js';
-import FanAPI, { LimiterFanAPI } from './fan/FanAPI.js';
-import ImageAPI, { LimiterImageAPI } from './image/ImageAPI.js';
-import SearchAPI, { LimiterSearchAPI } from './search/SearchAPI.js';
-import ShowAPI, { LimiterShowAPI } from './show/ShowAPI.js';
-import TagAPI, { LimiterTagAPI } from './tag/TagAPI.js';
-import TrackAPI, { LimiterTrackAPI } from './track/TrackAPI.js';
-import Cache, { CacheDataType } from './utils/Cache.js';
-import Fetcher from './utils/Fetcher.js';
-import Limiter from './utils/Limiter.js';
-import StreamAPI, { LimiterStreamAPI } from './stream/StreamAPI.js';
+import AlbumAPI, { LimiterAlbumAPI } from './album/AlbumAPI.ts';
+import ArticleAPI, { LimiterArticleAPI } from './article/ArticleAPI.ts';
+import AutocompleteAPI, { LimiterAutocompleteAPI } from './autocomplete/AutocompleteAPI.ts';
+import BandAPI, { LimiterBandAPI } from './band/BandAPI.ts';
+import DiscoveryAPI, { LimiterDiscoveryAPI } from './discovery/DiscoveryAPI.ts';
+import FanAPI, { LimiterFanAPI } from './fan/FanAPI.ts';
+import ImageAPI, { LimiterImageAPI } from './image/ImageAPI.ts';
+import SearchAPI, { LimiterSearchAPI } from './search/SearchAPI.ts';
+import ShowAPI, { LimiterShowAPI } from './show/ShowAPI.ts';
+import TagAPI, { LimiterTagAPI } from './tag/TagAPI.ts';
+import TrackAPI, { LimiterTrackAPI } from './track/TrackAPI.ts';
+import Cache, { CacheDataType } from './utils/Cache.ts';
+import Fetcher from './utils/Fetcher.ts';
+import Limiter from './utils/Limiter.ts';
+import StreamAPI, { LimiterStreamAPI } from './stream/StreamAPI.ts';
 export interface BandcampFetchParams {
   cookie?: string | null;
 }

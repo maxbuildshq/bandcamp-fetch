@@ -1,4 +1,4 @@
-import BandcampFetch from './lib/BandcampFetch.js';
+import BandcampFetch from './lib/BandcampFetch.ts';
 
 export { default as BaseAPI } from './lib/common/BaseAPI.js';
 export { default as BaseAPIWithImageSupport } from './lib/common/BaseAPIWithImageSupport.js';
