@@ -1,4 +1,4 @@
-import { load as cheerioLoad } from 'cheerio';
+import { load as cheerioLoad } from 'https://esm.sh/cheerio@1.0.0';
 import { ParseError } from '../utils/Parse.ts';
 import { type DiscoverOptions } from '../types/Discovery.ts';
 

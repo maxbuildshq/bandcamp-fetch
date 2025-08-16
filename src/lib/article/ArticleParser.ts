@@ -1,12 +1,12 @@
-import { type Cheerio, load as cheerioLoad } from 'cheerio';
-import { decode } from 'html-entities';
+import { type Cheerio, load as cheerioLoad } from 'https://esm.sh/cheerio@1.0.0';
+import { decode } from 'https://esm.sh/html-entities@2.5.2';
 import {type ArticleMediaItem, type ArticleSection} from '../types/Article.ts';
 import type Article from '../types/Article.ts';
 import { URLS } from '../utils/Constants.ts';
 import { ParseError, brToNewLine, isAbsoluteUrl, normalizeUrl, stripTags } from '../utils/Parse.ts';
 import { type ImageFormat } from '../types/Image.ts';
 import type Album from '../types/Album.ts';
-import { EOL } from 'os';
+import { EOL } from 'https://deno.land/std@0.208.0/node/os.ts';
 import type Track from '../types/Track.ts';
 
 interface ArticleParseOptions {

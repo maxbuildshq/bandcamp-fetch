@@ -1,4 +1,4 @@
-import { load as cheerioLoad } from 'cheerio';
+import { load as cheerioLoad } from 'https://esm.sh/cheerio@1.0.0';
 import { type ArticleCategorySection } from '../types/Article.ts';
 import { URLS } from '../utils/Constants.ts';
 import { isAbsoluteUrl, normalizeUrl } from '../utils/Parse.ts';

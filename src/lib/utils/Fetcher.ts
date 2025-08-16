@@ -1,4 +1,4 @@
-import { URL } from 'url';
+import { URL } from 'https://deno.land/std@0.208.0/node/url.ts';
 import type Cache from './Cache.ts';
 import { CacheDataType } from './Cache.ts';
 

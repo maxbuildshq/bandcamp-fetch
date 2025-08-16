@@ -1,4 +1,4 @@
-import { load as cheerioLoad } from 'cheerio';
+import { load as cheerioLoad } from 'https://esm.sh/cheerio@1.0.0';
 import { type ImageFormat } from '../types/Image.ts';
 import { reformatImageUrl, stripLineBreaks, stripMultipleWhitespaces, substrAfter, substrBefore } from '../utils/Parse.ts';
 import { type SearchResultAlbum, type SearchResultAny, type SearchResultArtist, type SearchResultFan, type SearchResultLabel, type SearchResultTrack, type SearchResults } from '../types/Search.ts';

@@ -1,4 +1,4 @@
-import { load as cheerioLoad } from 'cheerio';
+import { load as cheerioLoad } from 'https://esm.sh/cheerio@1.0.0';
 import { type ImageFormat } from '../types/Image.ts';
 import { reformatImageUrl, splitUrl } from '../utils/Parse.ts';
 import { type LabelArtist } from '../types/Label.ts';

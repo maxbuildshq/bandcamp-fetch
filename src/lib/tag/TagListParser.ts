@@ -1,4 +1,4 @@
-import { load as cheerioLoad } from 'cheerio';
+import { load as cheerioLoad } from 'https://esm.sh/cheerio@1.0.0';
 import {type TagList} from '../types/Tag.ts';
 import type Tag from '../types/Tag.ts';
 

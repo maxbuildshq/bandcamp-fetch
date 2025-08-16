@@ -1,4 +1,4 @@
-import type Bottleneck from 'bottleneck';
+import type Bottleneck from 'https://esm.sh/bottleneck@2.19.5';
 import AlbumAPI, { LimiterAlbumAPI } from './album/AlbumAPI.ts';
 import ArticleAPI, { LimiterArticleAPI } from './article/ArticleAPI.ts';
 import AutocompleteAPI, { LimiterAutocompleteAPI } from './autocomplete/AutocompleteAPI.ts';

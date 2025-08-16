@@ -1,4 +1,4 @@
-import NodeCache from 'node-cache';
+import NodeCache from 'https://esm.sh/node-cache@5.1.2';
 
 export enum CacheDataType {
   Page = 'Page',
