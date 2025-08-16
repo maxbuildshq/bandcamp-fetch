@@ -24,6 +24,15 @@ export default class ImageAPI extends BaseAPI {
     });
   }
 
+  /**
+   * @internal
+   * Parse image constants from any HTML content (e.g., track or search page)
+   * This allows fallback when home page parsing fails
+   */
+  async getConstantsFromHtml(html: string): Promise<ImageConstants> {
+    return ImageParser.parseImageConstants(html);
+  }
+
   async getFormat(target?: string | number | ImageFormat, fallbackId?: number): Promise<ImageFormat | null> {
     if (target && typeof target === 'object' && target.id !== undefined && target.name) {
       return target;

@@ -53,12 +53,33 @@ export default class SearchAPI extends BaseAPIWithImageSupport {
   protected async search(params: SearchAPISearchParams & { itemType: SearchItemType.Fans }): Promise<SearchResults<SearchResultFan>>;
   protected async search(params: SearchAPISearchParams & { itemType: SearchItemType.All }): Promise<SearchResults<SearchResultAny>>;
   protected async search(params: SearchAPISearchParams & { itemType: SearchItemType }): Promise<any> {
+    // Fetch HTML first
+    const html = await this.fetch(SearchAPI.getSearchUrl(params));
+
+    let albumImageFormat;
+    try {
+      albumImageFormat = await this.imageAPI.getFormat(params.albumImageFormat, 9);
+    } catch (error) {
+      console.warn('Failed to get album image format, parsing constants from search page.', error);
+      const imageConstants = await this.imageAPI.getConstantsFromHtml(html);
+      this.cache.put(CacheDataType.Constants, 'imageConstants', imageConstants);
+      albumImageFormat = await this.imageAPI.getFormat(params.albumImageFormat, 9);
+    }
+
+    let artistImageFormat;
+    try {
+      artistImageFormat = await this.imageAPI.getFormat(params.artistImageFormat, 21);
+    } catch (error) {
+      console.warn('Failed to get artist image format, using cached constants from search page.', error);
+      artistImageFormat = await this.imageAPI.getFormat(params.artistImageFormat, 21);
+    }
+
     const opts = {
       itemType: params.itemType || SearchItemType.All,
-      albumImageFormat: await this.imageAPI.getFormat(params.albumImageFormat, 9),
-      artistImageFormat: await this.imageAPI.getFormat(params.artistImageFormat, 21)
+      albumImageFormat,
+      artistImageFormat
     };
-    const html = await this.fetch(SearchAPI.getSearchUrl(params));
+
     return SearchResultsParser.parseResults(html, opts);
   }
 
