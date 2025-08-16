@@ -1,4 +1,4 @@
-import { URL } from 'https://deno.land/std@0.208.0/node/url.ts';
+import { URL } from 'https://esm.sh/url';
 import { type ImageFormat } from '../types/Image.ts';
 import { URLS } from '../utils/Constants.ts';
 import SearchResultsParser from './SearchResultsParser.ts';
