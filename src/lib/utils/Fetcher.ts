@@ -1,4 +1,4 @@
-import { URL } from 'https://esm.sh/url';
+//import { URL } from 'https://esm.sh/url';
 import type Cache from './Cache.ts';
 import { CacheDataType } from './Cache.ts';
 
