@@ -3,6 +3,7 @@ import { type ImageFormat } from '../types/Image.js';
 import type Track from '../types/Track.js';
 import type Limiter from '../utils/Limiter.js';
 import TrackInfoParser from './TrackInfoParser.js';
+import { CacheDataType } from '../utils/Cache.js';
 
 export interface TrackAPIGetInfoParams {
   trackUrl: string;
@@ -13,7 +14,19 @@ export interface TrackAPIGetInfoParams {
 
 export default class TrackAPI extends BaseAPIWithImageSupport {
   async getInfo(params: TrackAPIGetInfoParams): Promise<Track> {
-    const imageConstants = await this.imageAPI.getConstants();
+    // Fetch HTML first
+    const html = await this.fetch(params.trackUrl);
+
+    let imageConstants;
+    try {
+      imageConstants = await this.imageAPI.getConstants();
+    } catch (error) {
+      console.warn('Failed to fetch constants from home page, parsing from track page instead.', error);
+      imageConstants = await this.imageAPI.getConstantsFromHtml(html);
+      // Cache for other calls (e.g., if search follows)
+      this.cache.put(CacheDataType.Constants, 'imageConstants', imageConstants);
+    }
+
     const opts = {
       trackUrl: params.trackUrl,
       imageBaseUrl: imageConstants.baseUrl,
@@ -21,7 +34,6 @@ export default class TrackAPI extends BaseAPIWithImageSupport {
       artistImageFormat: await this.imageAPI.getFormat(params.artistImageFormat, 21),
       includeRawData: params.includeRawData !== undefined ? params.includeRawData : false
     };
-    const html = await this.fetch(params.trackUrl);
     return TrackInfoParser.parseInfo(html, opts);
   }
 }
