@@ -1,7 +1,7 @@
 import type Track from './Track.ts';
 import type MediaKind from './MediaKind.ts';
 
-interface Album extends MediaKind {
+export default interface Album extends MediaKind {
   type: 'album';
   numTracks?: number;
   keywords?: string[];
@@ -21,4 +21,4 @@ export interface AlbumRelease {
   description?: string;
 }
 
-export default Album;
+//export default Album;

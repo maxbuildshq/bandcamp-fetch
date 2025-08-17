@@ -31,7 +31,7 @@ export * from './lib/search/SearchAPI.ts';
 export * from './lib/autocomplete/AutocompleteAPI.ts';
 export * from './lib/stream/StreamAPI.ts';
 
-export * from './lib/types/Album.ts';
+export type * from './lib/types/Album.ts';
 export * from './lib/types/Shirt.ts';
 export * from './lib/types/Article.ts';
 export * from './lib/types/Artist.ts';
@@ -53,7 +53,7 @@ export { default as Fetcher } from './lib/utils/Fetcher.ts';
 export * from './lib/utils/Fetcher.ts';
 export { default as Limiter } from './lib/utils/Limiter.ts';
 
-export { default as Album } from './lib/types/Album.ts';
+export type { default as Album } from './lib/types/Album.ts';
 export { default as Shirt } from './lib/types/Shirt.ts';
 export { default as Article } from './lib/types/Article.ts';
 export { default as Artist } from './lib/types/Artist.ts';
