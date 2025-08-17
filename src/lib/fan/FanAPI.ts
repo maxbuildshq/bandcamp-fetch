@@ -3,7 +3,7 @@ import type Fan from '../types/Fan.ts';
 import { type ImageFormat } from '../types/Image.ts';
 import { URLS } from '../utils/Constants.ts';
 import { FetchError, FetchMethod } from '../utils/Fetcher.ts';
-import { FanContinuationItemsResult, type FanItemParseOptions, FanPageItemsResult } from './FanItemsBaseParser.ts';
+import { type FanContinuationItemsResult, type FanItemParseOptions, type FanPageItemsResult } from './FanItemsBaseParser.ts';
 import FanCollectionParser from './FanCollectionParser.ts';
 import FanFollowingParser from './FanFollowingParser.ts';
 import FanInfoParser from './FanInfoParser.ts';
@@ -15,7 +15,7 @@ import type Tag from '../types/Tag.ts';
 import type Limiter from '../utils/Limiter.ts';
 import BaseAPIWithImageSupport, { type BaseAPIWithImageSupportParams } from '../common/BaseAPIWithImageSupport.ts';
 
-export { FanPageItemsResult, FanContinuationItemsResult };
+export type { FanPageItemsResult, FanContinuationItemsResult };
 
 export interface FanAPIGetInfoParams {
   username?: string;
