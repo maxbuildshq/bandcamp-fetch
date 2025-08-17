@@ -32,9 +32,9 @@ export * from './lib/autocomplete/AutocompleteAPI.ts';
 export * from './lib/stream/StreamAPI.ts';
 
 export type * from './lib/types/Album.ts';
-export * from './lib/types/Shirt.ts';
-export * from './lib/types/Article.ts';
-export * from './lib/types/Artist.ts';
+export type * from './lib/types/Shirt.ts';
+export type * from './lib/types/Article.ts';
+export type * from './lib/types/Artist.ts';
 export * from './lib/types/Discovery.ts';
 export * from './lib/types/Fan.ts';
 export * from './lib/types/Image.ts';
@@ -54,9 +54,9 @@ export * from './lib/utils/Fetcher.ts';
 export { default as Limiter } from './lib/utils/Limiter.ts';
 
 export type { default as Album } from './lib/types/Album.ts';
-export { default as Shirt } from './lib/types/Shirt.ts';
-export { default as Article } from './lib/types/Article.ts';
-export { default as Artist } from './lib/types/Artist.ts';
+export type { default as Shirt } from './lib/types/Shirt.ts';
+export type { default as Article } from './lib/types/Article.ts';
+export type { default as Artist } from './lib/types/Artist.ts';
 export { default as Fan } from './lib/types/Fan.ts';
 export { default as Label } from './lib/types/Label.ts';
 export { default as MediaKind } from './lib/types/MediaKind.ts';
