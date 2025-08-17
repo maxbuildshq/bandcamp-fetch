@@ -1,6 +1,6 @@
-interface NameValuePair<T> {
+export default interface NameValuePair<T> {
   name: string;
   value: T;
 }
 
-export default NameValuePair;
+//export default NameValuePair;

@@ -64,7 +64,7 @@ export type { default as Show } from './lib/types/Show.ts';
 export type { default as Tag } from './lib/types/Tag.ts';
 export type { default as Track } from './lib/types/Track.ts';
 export type { default as UserKind } from './lib/types/UserKind.ts';
-export { default as NameValuePair } from './lib/utils/NameValuePair.ts';
+export type { default as NameValuePair } from './lib/utils/NameValuePair.ts';
 
 export { default as BandcampFetch } from './lib/BandcampFetch.ts';
 export * from './lib/BandcampFetch.ts';
