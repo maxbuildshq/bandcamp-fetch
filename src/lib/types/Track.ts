@@ -1,7 +1,7 @@
 import type Album from './Album.ts';
 import type MediaKind from './MediaKind.ts';
 
-interface Track extends MediaKind {
+export default interface Track extends MediaKind {
   type: 'track';
   duration?: number;
   seekPosition?: number;
@@ -12,4 +12,4 @@ interface Track extends MediaKind {
   lyrics?: string;
 }
 
-export default Track;
+//export default Track;

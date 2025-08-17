@@ -1,6 +1,6 @@
 import type Track from './Track.ts';
 
-interface Show {
+export default interface Show {
   type: 'show';
   name: string;
   url: string;
@@ -19,4 +19,4 @@ interface Show {
   screenImageUrl: string;
 }
 
-export default Show;
+//export default Show;
